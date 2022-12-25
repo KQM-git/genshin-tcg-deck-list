@@ -3,7 +3,7 @@
         <div class="grid grid-cols-2 gap-5">
             <div class="flex flex-col gap-5">
                 <div class="rounded-xl p-5 bg-[#2D282F] border-2 border-[#584F65] flex flex-row justify-between">
-                    <img v-for="character of deck.characters" :key="character" :src="require(`~/assets/cards/${character}.png`)" class="h-32 w-32 object-cover rounded-full">
+                    <card-component v-for="(character, i) in deck.characters" :key="i" :name="character" class="h-32 w-32 rounded-full" />
                 </div>
 
                 <div class="rounded-xl p-5 bg-[#2D282F] border-2 border-[#584F65] flex flex-col justify-between gap-2">
@@ -14,18 +14,24 @@
                         <div
                             v-for="(amount, card) of deck.deck_list"
                             :key="card"
-                            class="card-list h-14 flex flex-row items-center rounded-xl bg-cover bg-center"
-                            :style="{ backgroundImage: `linear-gradient(to right, black, transparent), url(&quot;${require(`~/assets/cards/${card.replace(/[:!]/g, '')}.png`)}&quot;)` }"
+                            class="h-14 relative"
                         >
-                            <p class="font-genshin p-3">
-                                0
-                            </p>
-                            <p class="w-full">
-                                {{ card }}
-                            </p>
-                            <p class="font-genshin p-3">
-                                {{ amount }}
-                            </p>
+                            <div class="absolute h-full w-full flex flex-row items-center z-10 pointer-events-none">
+                                <p class="font-genshin p-3">
+                                    0
+                                </p>
+                                <p class="w-full">
+                                    {{ card }}
+                                </p>
+                                <p class="font-genshin p-3">
+                                    {{ amount }}
+                                </p>
+                            </div>
+                            <card-component
+                                class="h-full w-full rounded-xl"
+                                :name="card"
+                                :gradient="true"
+                            />
                         </div>
                     </div>
                 </div>
@@ -58,13 +64,13 @@
                         </p>
                         <div class="grid grid-cols-3 gap-5">
                             <div v-for="(_deck, i) in deck.good_against" :key="i" class="w-full h-16 relative">
-                                <img
+                                <card-component
                                     v-for="(character, j) in _deck"
                                     :key="j"
-                                    :src="require(`~/assets/cards/${character}.png`)"
-                                    class="w-16 h-16 object-cover rounded-full absolute"
+                                    :name="character"
+                                    class="w-16 h-16 rounded-full absolute"
                                     :style="{ left: `${j * 100 / 3}px` }"
-                                >
+                                />
                             </div>
                         </div>
                     </div>
@@ -74,13 +80,13 @@
                         </p>
                         <div class="grid grid-cols-3 gap-5">
                             <div v-for="(_deck, i) in deck.bad_against" :key="i" class="w-full h-16 relative">
-                                <img
+                                <card-component
                                     v-for="(character, j) in _deck"
                                     :key="j"
-                                    :src="require(`~/assets/cards/${character}.png`)"
-                                    class="w-16 h-16 object-cover rounded-full absolute"
+                                    :name="character"
+                                    class="w-16 h-16 rounded-full absolute"
                                     :style="{ left: `${j * 100 / 3}px` }"
-                                >
+                                />
                             </div>
                         </div>
                     </div>

@@ -1,0 +1,10 @@
+name: Strategize
+id: 332004
+tags: []
+skills:
+- name: Description
+  description: <p>Draw 2 cards.</p>
+  points:
+  - point_type: white
+    point_count: 1
+source: <p>Default Deck</p><p>Purchased at the Card Shop</p>

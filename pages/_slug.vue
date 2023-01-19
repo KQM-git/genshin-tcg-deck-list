@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col m-5">
+    <div class="flex flex-col m-5 gap-5">
         <div class="grid grid-cols-2 gap-5">
             <div class="flex flex-col gap-5">
                 <div class="rounded-xl p-5 bg-[#2D282F] border-2 border-[#584F65] flex flex-row justify-between">
@@ -42,23 +42,20 @@
                         <p class="font-genshin text-3xl">
                             {{ deck.name }}
                         </p>
-                        <div
+                        <tag-bar
                             v-for="tag of deck.tags"
                             :key="tag"
-                            :class="({
-                                'Easy': 'bg-green-400',
-                                'Medium': 'bg-yellow-400',
-                                'Hard': 'bg-red-400',
-                                'Very Hard': 'bg-red-600'
-                            }[tag] || 'bg-kqm-purple') + ' py-2 px-4 rounded-lg text-lg font-bold'"
-                        >
-                            {{ tag }}
-                        </div>
+                            :tag="tag"
+                            class="py-2 px-4 rounded-lg text-lg font-bold"
+                        />
                     </div>
                     <p class="text-lg font-genshin">
                         {{ deck.description }}
                     </p>
-                    <div class="w-full">
+                    <div
+                        v-if="deck.good_against"
+                        class="w-full"
+                    >
                         <p class="text-2xl font-genshin">
                             Good Against
                         </p>
@@ -74,7 +71,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-full">
+                    <div
+                        v-if="deck.bad_against"
+                        class="w-full"
+                    >
                         <p class="text-2xl font-genshin">
                             Bad Against
                         </p>
@@ -104,6 +104,14 @@
                 </div>
             </div>
         </div>
+        <div
+            v-for="(section, index) in mainSections"
+            :key="index"
+            class="px-5 pt-5 pb-2 border-2 border-[#584F65] rounded-xl font-genshin text-lg"
+            :class="(section[0].tag === 'h2' ? 'bg-[#2D282F]' : 'bg-[#423745] -mt-6 rounded-t-none') + ((mainSections[index + 1] ?? [])[0]?.tag === 'h3' ? ' rounded-b-none' : '')"
+        >
+            <nuxt-content :document="{ body: { children : section } }" />
+        </div>
     </div>
 </template>
 
@@ -129,7 +137,23 @@ export default Vue.extend({
         }
         deck.deck_list = deckList
 
-        return { deck }
+        const mainSections = []
+        let currentSection = []
+        for (let i = 0; i < deck.body.children.length; i++) {
+            const children = deck.body.children[i]
+            if (['h2', 'h3'].includes(children.tag) && i !== 0) {
+                mainSections.push(currentSection)
+                currentSection = []
+                currentSection.push(children)
+            } else if (i === deck.body.children.length - 1) {
+                currentSection.push(children)
+                mainSections.push(currentSection)
+            } else {
+                currentSection.push(children)
+            }
+        }
+
+        return { deck, mainSections }
     },
     data () {
         return {
@@ -138,3 +162,12 @@ export default Vue.extend({
     }
 })
 </script>
+
+<style lang="postcss" scoped>
+::v-deep .nuxt-content h2 {
+    @apply font-bold text-4xl pb-2
+}
+::v-deep .nuxt-content h3 {
+    @apply font-bold text-2xl pb-1
+}
+</style>

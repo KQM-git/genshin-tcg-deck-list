@@ -1,0 +1,19 @@
+name: Exile's Circlet
+id: 312006
+tags: []
+skills:
+- name: Description
+  description: '<p><span style="color: #FFFFFF">After this character uses an Elemental
+    Burst</span>: All your characters on standby gain 1 <span style="color: #FFFFFF">Energy</span>.
+    (Once per Round)</p><p>(A character can equip a maximum of 1 Artifact)</p>'
+  points:
+  - point_type: black
+    point_count: 2
+- name: Detailed Rules
+  description: '<p><strong><span style="color: #ECE5D8">Energy</span></strong></p><p>Character
+    must consume Energy to use their Elemental Bursts.</p><p>When characters use an
+    Elemental Skill or a Normal Attack, they will gain 1 Energy.</p>'
+  points:
+  - point_type: black
+    point_count: 2
+source: <p>Purchased at the Card Shop</p>

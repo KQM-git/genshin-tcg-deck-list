@@ -1,0 +1,62 @@
+name: Abyssal Summons
+id: 332015
+tags: []
+skills:
+- name: Description
+  description: '<p>Summon 1 <span style="color: rgb(255, 255, 255)">Random Hilichurl
+    Summon</span>!</p><p>(You must have at least 2 Monster characters in your deck
+    to add this card to your deck.)</p><p></p><p><strong><span style="color: rgb(236,
+    229, 216)">Random Hilichurl Summon</span></strong></p><p>There are 4 kinds of
+    Hilichurl Summons in total:</p><p><span style="color: rgb(255, 255, 255)">Cryo
+    Hilichurl Shooter</span>: Deal 1 <span style="color: rgb(153, 255, 255)">Cryo
+    DMG</span> at the End Phase, can be used 2 times.</p><p><span style="color: rgb(255,
+    255, 255)">Hydro Samachurl</span>: Deal 1 <span style="color: rgb(128, 192, 255)">Hydro
+    DMG</span> at the End Phase, can be used 2 times.</p><p><span style="color: rgb(255,
+    255, 255)">Hilichurl Berserker</span>: Deal 1 <span style="color: rgb(255, 153,
+    153)">Pyro DMG</span> at the End Phase, can be used 2 times.</p><p><span style="color:
+    rgb(255, 255, 255)">Electro Hilichurl Shooter</span>: Deal 1 <span style="color:
+    rgb(255, 172, 255)">Electro DMG</span> at the End Phase, can be used 2 times.</p>'
+  points:
+  - point_type: ''
+    point_count: 0
+- name: Cryo Hilichurl Shooter
+  description: '<p><span style="color: rgb(255, 215, 128)">Summons</span></p><p><span
+    style="color: rgb(255, 255, 255)">End Phase</span>: Deal 1 <span style="color:
+    rgb(153, 255, 255)">Cryo DMG</span>.</p><p><span style="color: rgb(255, 255, 255)">Usage(s):
+    2</span></p>'
+  points:
+  - point_type: ''
+    point_count: 0
+- name: Hydro Samachurl
+  description: '<p><span style="color: rgb(255, 215, 128)">Summons</span></p><p><span
+    style="color: rgb(255, 255, 255)">End Phase</span>: Deal 1 <span style="color:
+    rgb(128, 192, 255)">Hydro DMG</span>.</p><p><span style="color: rgb(255, 255,
+    255)">Usage(s): 2</span></p>'
+  points:
+  - point_type: ''
+    point_count: 0
+- name: Hilichurl Berserker
+  description: '<p><span style="color: rgb(255, 215, 128)">Summons</span></p><p><span
+    style="color: rgb(255, 255, 255)">End Phase</span>: Deal 1 <span style="color:
+    rgb(255, 153, 153)">Pyro DMG</span>.</p><p><span style="color: rgb(255, 255, 255)">Usage(s):
+    2</span></p>'
+  points:
+  - point_type: ''
+    point_count: 0
+- name: Electro Hilichurl Shooter
+  description: '<p><span style="color: rgb(255, 215, 128)">Summons</span></p><p><span
+    style="color: rgb(255, 255, 255)">End Phase</span>: Deal 1 <span style="color:
+    rgb(255, 172, 255)">Electro DMG</span>.</p><p><span style="color: rgb(255, 255,
+    255)">Usage(s): 2</span></p>'
+  points:
+  - point_type: ''
+    point_count: 0
+- name: Detailed Rules
+  description: '<p><strong><span style="color: rgb(236, 229, 216)">Usage(s)</span></strong></p><p>After
+    this card''s effect is triggered, 1 <span style="color: rgb(255, 255, 255)">Usage
+    </span>of it will be consumed.</p><p>This card will be discarded immediately once
+    it has 0 <span style="color: rgb(255, 255, 255)">Usages </span>remaining.</p>'
+  points:
+  - point_type: ''
+    point_count: 0
+source: <p>Purchased at the Card Shop</p>

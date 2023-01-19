@@ -1,0 +1,22 @@
+name: Timmie
+id: 322007
+tags: []
+skills:
+- name: Description
+  description: "<p><span style=\"color: #FFFFFF\">Triggers automatically once per\
+    \ Round</span>: This card gains<span style=\"color: #FFFFFF\"> 1 Pigeon</span>.</p><p>When\
+    \ this card gains <span style=\"color: #FFFFFF\">3 Pigeons</span>, discard this\
+    \ card, then draw 1 card and create <span style=\"color: #FFFFFF\">Omni Element</span>\
+    \ \xD71.</p>"
+  points:
+  - point_type: white
+    point_count: 0
+- name: Detailed Rules
+  description: '<p><strong><span style="color: rgb(236, 229, 216)">Omni Element</span></strong></p><p>The
+    Omni Element can be considered as any kind of element, and can be used to pay
+    for costs of various kinds.</p>'
+  points:
+  - point_type: ''
+    point_count: 0
+source: <p>Reward for accepting Timmie's Adventure Challenge in the open world and
+  achieving all corresponding challenge objectives</p><p>Purchased at the Card Shop</p>

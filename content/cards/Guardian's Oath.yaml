@@ -1,0 +1,10 @@
+name: Guardian's Oath
+id: 332014
+tags: []
+skills:
+- name: Description
+  description: <p>Destroy all Summons. (Affects both you and your opponent!)</p>
+  points:
+  - point_type: white
+    point_count: 4
+source: <p>Default Deck</p><p>Purchased at the Card Shop</p>

@@ -1,0 +1,12 @@
+name: Knights of Favonius Library
+id: 321002
+tags: []
+skills:
+- name: Description
+  description: '<p><span style="color: #FFFFFF">When played</span>: Select any Elemental
+    Dice to reroll.</p><p><span style="color: #FFFFFF">Roll Phase</span>: Gain another
+    chance to reroll.</p>'
+  points:
+  - point_type: white
+    point_count: 1
+source: <p>Purchased at the Card Shop</p>

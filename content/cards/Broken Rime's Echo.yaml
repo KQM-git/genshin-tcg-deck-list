@@ -1,0 +1,12 @@
+name: Broken Rime's Echo
+id: 312101
+tags: []
+skills:
+- name: Description
+  description: '<p><span style="color: #FFFFFF">When a character uses a Skill or equips
+    a Talent</span>: Spend 1 less <span style="color: #99FFFF">Cryo Die</span>. (Once
+    per Round)</p><p>(A character can equip a maximum of 1 Artifact)</p>'
+  points:
+  - point_type: white
+    point_count: 2
+source: <p>Default Deck</p><p>Purchased at the Card Shop</p>

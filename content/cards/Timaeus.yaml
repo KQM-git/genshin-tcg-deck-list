@@ -1,0 +1,15 @@
+name: Timaeus
+id: 322003
+tags: []
+skills:
+- name: Description
+  description: '<p>Comes with 2 Transmutation Materials when played.</p><p><span style="color:
+    #FFFFFF">End Phase</span>: Gain 1 Transmutation Material.</p><p><span style="color:
+    #FFFFFF">When playing an Artifact Card</span>: If possible, spend Transmutation
+    Materials equal to the total cost of the Artifact and equip this Artifact for
+    free. (Once per Round)</p>'
+  points:
+  - point_type: white
+    point_count: 2
+source: <p>Reward for accepting Timaeus's Adventure Challenge in the open world and
+  achieving all corresponding challenge objectives</p><p>Purchased at the Card Shop</p>

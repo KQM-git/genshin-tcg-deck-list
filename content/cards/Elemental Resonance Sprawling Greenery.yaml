@@ -1,0 +1,46 @@
+name: 'Elemental Resonance: Sprawling Greenery'
+id: 331702
+tags: []
+skills:
+- name: Description
+  description: '<p><span style="color: rgba(255, 255, 255, 0.45)">During this round,
+    the next Elemental Reaction your active character triggers deals +2 DMG. Your
+    </span><span style="color: rgb(255, 255, 255)">Burning Flame</span><span style="color:
+    rgba(255, 255, 255, 0.45)">, </span><span style="color: rgb(255, 255, 255)">Dendro
+    Core</span><span style="color: rgba(255, 255, 255, 0.45)">, and </span><span style="color:
+    rgb(255, 255, 255)">Catalyzing Field</span><span style="color: rgba(255, 255,
+    255, 0.45)"> gain +1 </span><span style="color: rgb(255, 255, 255)">Usage(s)</span><span
+    style="color: rgba(255, 255, 255, 0.45)">.</span></p><p><span style="color: rgba(255,
+    255, 255, 0.45)">(You must have at least 2 </span><span style="color: rgb(153,
+    255, 136)">Dendro </span><span style="color: rgba(255, 255, 255, 0.45)">characters
+    in your deck to add this card to your deck.)</span></p>'
+  points:
+  - point_type: dendro
+    point_count: 1
+- name: Detailed Rules
+  description: '<p><strong><span style="color: rgb(236, 229, 216)">Burning Flame</span></strong></p><p><span
+    style="color: rgb(255, 215, 128)">Summon</span></p><p><span style="color: rgb(255,
+    255, 255)">End Phase</span>: Deal 1 <span style="color: rgb(255, 153, 153)">Pyro
+    DMG</span>.</p><p><span style="color: rgb(255, 255, 255)">Usage(s): 1</span> (Can
+    stack, Max 2 stacks.)</p><p></p><p><strong><span style="color: rgb(236, 229, 216)">Dendro
+    Core</span></strong></p><p><span style="color: rgb(255, 215, 128)">Combat Status</span></p><p><span
+    style="color: rgb(255, 255, 255)">When you deal </span><span style="color: rgb(255,
+    153, 153)">Pyro DMG</span><span style="color: rgb(255, 255, 255)"> or </span><span
+    style="color: rgb(255, 172, 255)">Electro DMG</span><span style="color: rgb(255,
+    255, 255)"> to an opposing active character, </span>DMG dealt +2.</p><p><span
+    style="color: rgb(255, 255, 255)">Usage(s): 1</span></p><p></p><p><strong><span
+    style="color: rgb(236, 229, 216)">Catalyzing Field</span></strong></p><p><span
+    style="color: rgb(255, 215, 128)">Combat Status</span></p><p><span style="color:
+    rgb(255, 255, 255)">When you deal </span><span style="color: rgb(255, 172, 255)">Electro
+    DMG</span><span style="color: rgb(255, 255, 255)"> or </span><span style="color:
+    rgb(153, 255, 136)">Dendro DMG</span><span style="color: rgb(255, 255, 255)">
+    to an opposing active character, </span>DMG dealt +1.</p><p><span style="color:
+    rgb(255, 255, 255)">Usage(s): 3</span></p><p></p><p><strong><span style="color:
+    rgb(236, 229, 216)">Usage(s)</span></strong></p><p>After this card''s effect is
+    triggered. 1 <span style="color: rgb(255, 255, 255)">Usage </span>of it will be
+    consumed.</p><p>This card will be discarded immediately once it has 0 <span style="color:
+    rgb(255, 255, 255)">Usages </span>remainig.</p>'
+  points:
+  - point_type: ''
+    point_count: 0
+source: <p>Purchased at the Card Shop</p>

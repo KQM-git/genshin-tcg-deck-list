@@ -1,0 +1,13 @@
+name: Instructor's Cap
+id: 312005
+tags: []
+skills:
+- name: Description
+  description: "<p><span style=\"color: #FFFFFF\">After this character triggers an\
+    \ Elemental Reaction</span>: Create 1 Elemental Dice that matches this Character\u2019\
+    s Elemental Type. (Max 3 times per Round)</p><p>(A character can equip a maximum\
+    \ of 1 Artifact)</p>"
+  points:
+  - point_type: black
+    point_count: 2
+source: <p>Purchased at the Card Shop</p>

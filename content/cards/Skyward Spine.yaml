@@ -1,0 +1,13 @@
+name: Skyward Spine
+id: 311403
+tags: []
+skills:
+- name: Description
+  description: '<p><span style="color: rgb(255, 255, 255)">The character deals +1
+    DMG</span>.</p><p>Once per Round: This character''s Normal Attacks deal +1 additional
+    DMG.</p><p>(<span style="color: rgb(255, 255, 255)">Only Polearm Characters</span>
+    can equip this. A Character can equip a maximum of 1 Weapon.)</p>'
+  points:
+  - point_type: white
+    point_count: 3
+source: <p>Purchased at the Card Shop</p>

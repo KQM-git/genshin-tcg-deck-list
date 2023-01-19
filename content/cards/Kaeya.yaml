@@ -1,0 +1,70 @@
+name: Kaeya
+id: 1103
+tags:
+- Cryo
+- Sword
+- Mondstadt
+type: Character Card
+hp: '10'
+energy: '2'
+element: Cryo
+weapon: Sword
+skills:
+- name: Ceremonial Bladework
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><p>Deals
+    2 <span style="color: #FFFFFF">Physical DMG</span>.</p>'
+  points:
+  - point_type: cryo
+    point_count: 1
+  - point_type: black
+    point_count: 2
+  tag: Normal Attack
+- name: Frostgnaw
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p>Deals
+    3 <span style="color: #99FFFF">Cryo DMG.</span></p><p></p>'
+  points:
+  - point_type: cryo
+    point_count: 3
+  tag: Elemental Skill
+- name: Glacial Waltz
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p>Deals
+    1 <span style="color: rgb(153, 255, 255)">Cryo DMG</span>, creates 1 <span style="color:
+    rgb(255, 255, 255)">Icicle</span>.</p><p></p><p><strong><span style="color: rgb(236,
+    229, 216)">Icicle</span></strong></p><p><span style="color: rgb(255, 215, 128)">Combat
+    Status</span></p><p><span style="color: rgb(255, 255, 255)">After you switch characters</span>:
+    Deal 2<span style="color: rgb(153, 255, 255)"> Cryo DMG</span>.</p><p><span style="color:
+    rgb(255, 255, 255)">Usage(s): 3</span></p>'
+  points:
+  - point_type: cryo
+    point_count: 4
+  - point_type: recharge
+    point_count: 2
+  tag: Elemental Burst
+- name: Cryo DMG
+  description: '<p>Applies Cryo and can trigger the following Elemental Reactions:</p><p><span
+    style="color: rgb(255, 255, 255)">[</span><span style="color: rgb(153, 255, 255)">Cryo
+    </span>+ <span style="color: rgb(255, 153, 153)">Pyro</span><span style="color:
+    rgb(255, 255, 255)">]</span><span style="color: rgb(255, 153, 153)"> </span><span
+    style="color: rgb(255, 255, 255)">Melt</span>: DMG +2 for this instance</p><p><span
+    style="color: rgb(255, 255, 255)">[</span><span style="color: rgb(153, 255, 255)">Cryo
+    </span>+ <span style="color: rgb(255, 172, 255)">Electro</span><span style="color:
+    rgb(255, 255, 255)">]</span><span style="color: rgb(255, 172, 255)"> </span><span
+    style="color: rgb(255, 255, 255)">Superconduct</span>: DMG+1 for this instance,
+    deal 1 Piercing DMG to all opposing characters except the target</p><p><span style="color:
+    rgb(255, 255, 255)">[</span><span style="color: rgb(153, 255, 255)">Cryo </span>+
+    <span style="color: rgb(128, 192, 255)">Hydro</span><span style="color: rgb(255,
+    255, 255)">]</span><span style="color: rgb(128, 192, 255)"> </span><span style="color:
+    rgb(255, 255, 255)">Frozen</span>: DMG +1 for this instance, the target is unable
+    to perform any Actions this Round (Can be removed in advance after the target
+    receives physical or Pyro DMG, in which case they will take +2 DMG)</p>'
+  points:
+  - point_type: ''
+    point_count: 0
+- name: Detailed Rules
+  description: '<p><strong><span style="color: rgb(236, 229, 216)">Physical DMG</span></strong></p><p>Physical
+    DMG will not apply any Elements, nor can it engage in Elemental Reactions.</p>'
+  points:
+  - point_type: ''
+    point_count: 0
+talent_card: Cold-Blooded Strike
+source: <p>Default Deck</p>

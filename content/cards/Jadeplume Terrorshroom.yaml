@@ -1,0 +1,84 @@
+name: Jadeplume Terrorshroom
+id: 2701
+tags:
+- Dendro
+- Other Weapons
+- Monster
+type: Character Card
+hp: '10'
+energy: '2'
+element: Dendro
+weapon: Other Weapons
+skills:
+- name: Majestic Dance
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><p>Deals
+    2 <span style="color: #FFFFFF">Physical DMG</span>.</p>'
+  points:
+  - point_type: dendro
+    point_count: 1
+  - point_type: black
+    point_count: 2
+  tag: Normal Attack
+- name: Volatile Spore Cloud
+  description: '<p><span style="color: #FFD780">Elemental Skill</span></p><p>Deals
+    3 <span style="color: #99FF88">Dendro DMG</span>.</p>'
+  points:
+  - point_type: dendro
+    point_count: 3
+  tag: Elemental Skill
+- name: Feather Spreading
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p>Deals
+    4 <span style="color: rgb(153, 255, 136)">Dendro DMG</span>, then consumes all<span
+    style="color: rgb(255, 255, 255)"> Radical Vitality</span> stacks. For each stack
+    consumed, this instance deals +1 DMG.</p><p></p><p><strong><span style="color:
+    rgb(236, 229, 216)">Radical Vitality</span></strong></p><p><span style="color:
+    rgb(255, 215, 128)">Status</span><br>When this character deals or takes Elemental
+    DMG: Gain 1 stack of Radical Vitality. (Max 3 stacks)<br><span style="color: rgb(255,
+    255, 255)">End Phase</span>: If Radical Vitality stacks reach maximum, they will
+    be cleared and the character will lose all Energy.</p>'
+  points:
+  - point_type: dendro
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+  tag: Elemental Burst
+- name: Radical Vitality
+  description: '<p><span style="color: rgb(255, 215, 128)">Passive Skill</span></p><p>(Passive)
+    When the battle begins, this character gains <span style="color: rgb(255, 255,
+    255)">Radical Vitality</span>.</p><p></p><p><strong><span style="color: rgb(236,
+    229, 216)">Radical Vitality</span></strong></p><p><span style="color: rgb(255,
+    215, 128)">Status</span><br>When this character deals or takes Elemental DMG:
+    Gain 1 stack of Radical Vitality. (Max 3 stacks)<br><span style="color: rgb(255,
+    255, 255)">End Phase</span>: If Radical Vitality stacks reach maximum, they will
+    be cleared and the character will lose all Energy.</p>'
+  points:
+  - point_type: ''
+    point_count: 0
+  tag: Passive Skill
+- name: Dendro DMG
+  description: '<p>Applies Dendro and can trigger the following Elemental Reactions:</p><p>[<span
+    style="color: rgb(153, 255, 136)">Dendro </span>+ <span style="color: rgb(128,
+    192, 255)">Hydro </span>] <span style="color: rgb(255, 255, 255)">Bloom</span>:
+    DMG +1 for this instance, creates a [<span style="color: rgb(255, 255, 255)">Dendro
+    Core</span>] that greants +2 DMG to the next instance of Pyro/Electro DMG</p><p>[<span
+    style="color: rgb(153, 255, 136)">Dendro </span>+ <span style="color: rgb(255,
+    153, 153)">Pyro</span>] <span style="color: rgb(255, 255, 255)">Burning</span>:
+    DMG +1 for this instance, creates a [<span style="color: rgb(255, 255, 255)">Burning
+    Flame</span>] that will deal 1 Pyro DMG at the end of the Round (Takes effect
+    once, max 2 stacks)</p><p>[<span style="color: rgb(153, 255, 136)">Dendro </span>+
+    <span style="color: rgb(255, 172, 255)">Electro</span>] <span style="color: rgb(255,
+    255, 255)">Quicken</span>: DMG +1 for this instance, creates a [<span style="color:
+    rgb(255, 255, 255)">Catalyzing Field</span>] that grants +1 DMG to the next 3
+    instances of Dendro/Electro DMG</p>'
+  points:
+  - point_type: ''
+    point_count: 0
+- name: Detailed Rules
+  description: '<p><strong><span style="color: rgb(236, 229, 216)">Physical DMG</span></strong></p><p>Physical
+    DMG will not apply any Elements, nor can it engage in Elemental Reactions.</p>'
+  points:
+  - point_type: ''
+    point_count: 0
+talent_card: Proliferating Spores
+source: <p>Reward for accepting the Tavern Challenge at The Cat's Tail and claiming
+  victory in a Friendly Fracas with Jadeplume Terrorshroom</p>

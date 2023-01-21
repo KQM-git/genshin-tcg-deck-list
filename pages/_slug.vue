@@ -127,15 +127,6 @@ export default Vue.extend({
     },
     async asyncData ({ $content, params }) {
         const deck = await $content('decks', params.slug).fetch() as any
-        const deckList: any = {}
-        for (const card of deck.deck_list) {
-            if (deckList[card]) {
-                deckList[card]++
-            } else {
-                deckList[card] = 1
-            }
-        }
-        deck.deck_list = deckList
 
         const mainSections = []
         let currentSection = []
@@ -153,12 +144,19 @@ export default Vue.extend({
             }
         }
 
-        return { deck, mainSections }
-    },
-    data () {
-        return {
-            deck: [] as any
+        const codeMapping: { [key: string]: string} = {}
+        const cardcodes = await $content('cardcodes').fetch() as any
+        for (const entry of cardcodes.body) {
+            codeMapping[entry.Code] = entry.Card
         }
+        const cards = deck.deck_code.replace(/[!=?]/g, '').match(/\.?.{2}/g)
+        deck.characters = cards.slice(0, 3).map((code: string) => codeMapping[code])
+        deck.deck_list = {}
+        for (const card of cards.slice(3)) {
+            deck.deck_list[codeMapping[card.replace('.', '')]] = card.includes('.') ? 2 : 1
+        }
+
+        return { deck, mainSections }
     }
 })
 </script>

@@ -40,13 +40,25 @@ import CardComponent from '~/components/CardComponent.vue'
 export default Vue.extend({
     name: 'IndexPage',
     components: { CardComponent },
-    data () {
-        return {
-            decks: [] as any[]
+    async asyncData ({ $content }) {
+        const codeMapping: { [key: string]: string} = {}
+        const cardcodes = await $content('cardcodes').fetch() as any
+        for (const entry of cardcodes.body) {
+            codeMapping[entry.Code] = entry.Card
         }
-    },
-    async fetch () {
-        this.decks = await this.$content('decks').fetch() as any[]
+
+        const decks = (await $content('decks').fetch() as any[]).map((deck) => {
+            const cards = deck.deck_code.replace(/[!=?]/g, '').match(/\.?.{2}/g)
+            deck.characters = cards.slice(0, 3).map((code: string) => codeMapping[code])
+            deck.deck_list = {}
+            for (const card of cards.slice(3)) {
+                deck.deck_list[codeMapping[card.replace('.', '')]] = card.includes('.') ? 2 : 1
+            }
+
+            return deck
+        })
+
+        return { decks }
     }
 })
 </script>

@@ -1,0 +1,12 @@
+name: Mushroom Pizza
+id: 333007
+tags: []
+skills:
+- name: Description
+  description: <p>Heal the target character for 1 HP. For the next two Rounds, heal
+    this character for 1 HP again at the End Phase.</p><p>(A character can consume
+    at most 1 Food per Round)</p>
+  points:
+  - point_type: white
+    point_count: 1
+source: <p>Purchased at the Card Shop</p>

@@ -1,0 +1,18 @@
+name: Starsigns
+id: 332008
+tags: []
+skills:
+- name: Description
+  description: '<p>Your current Active Character <span style="color: #FFFFFF">gains
+    1 Energy</span>.</p>'
+  points:
+  - point_type: black
+    point_count: 2
+- name: Detailed Rules
+  description: '<p><strong><span style="color: #ECE5D8">Energy</span></strong></p><p>Characters
+    must consume Energy to use their Elemental Bursts.</p><p>When characters use an
+    Elemental Skill or a Normal Attack, they will gain 1 Energy.</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+source: <p>Default Deck</p><p>Purchased at the Card Shop</p>

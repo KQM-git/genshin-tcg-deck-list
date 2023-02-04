@@ -1,0 +1,24 @@
+name: Leave It to Me!
+id: 332006
+tags: []
+skills:
+- name: Description
+  description: '<p><span style="color: #FFFFFF">The next time you perform "Switch
+    Character"</span>: This switch will be considered a <span style="color: rgb(255,
+    255, 255)">Fast Action</span> instead of a <span style="color: rgb(255, 255, 255)">Combat
+    Action</span>.</p>'
+  points:
+  - point_type: white
+    point_count: 0
+- name: Detailed Rules
+  description: '<p><strong><span style="color: #ECE5D8">Fast Action</span></strong></p><p>You
+    can continue with other actions after conducing 1 Fast Action.</p><p>Only after
+    conducting 1 Combat Action will the turn pass over to your opponent.</p><p></p><p><strong><span
+    style="color: #ECE5D8">Combat Action</span></strong></p><p>After you finish 1
+    Combat Action, it will be your opponent''s turn.</p><p><span style="color: #FFFFFF">Playing
+    a card from your Hand with this rule is also a Combat Action rather than a Fast
+    Action</span>.</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+source: <p>Default Deck</p><p>Purchased at the Card Shop</p>

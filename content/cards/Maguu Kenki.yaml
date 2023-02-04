@@ -1,0 +1,119 @@
+name: Maguu Kenki
+id: 2501
+tags:
+- Anemo
+- Other Weapons
+- Monster
+type: Character Card
+hp: '10'
+energy: '3'
+element: '<span style="color: rgba(255, 255, 255, 0.65)">Anemo</span>'
+weapon: Other Weapons
+skills:
+- name: Ichimonji
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><p><span
+    style="color: rgba(255, 255, 255, 0.45)">Deals 2 </span><span style="color: #FFFFFF">Physical
+    DMG</span><span style="color: rgba(255, 255, 255, 0.45)">.</span></p>'
+  points:
+  - point_type: anemo
+    point_count: 1
+  - point_type: black
+    point_count: 2
+  tag: Normal Attack
+- name: Blustering Blade
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span style="color: rgba(255, 255, 255, 0.45)">Summons 1 </span><span
+    style="color: #FFFFFF">Shadowsword: Lone Gale</span><span style="color: rgba(255,
+    255, 255, 0.45)">.</span></p>'
+  points:
+  - point_type: anemo
+    point_count: 3
+  tag: Elemental Skill
+- name: Frosty Assault
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span style="color: rgba(255, 255, 255, 0.45)">Summons 1 </span><span
+    style="color: #FFFFFF">Shadowsword: Galloping Frost</span><span style="color:
+    rgb(255, 255, 255)">.</span></p>'
+  points:
+  - point_type: anemo
+    point_count: 3
+  tag: Elemental Skill
+- name: Pseudo Tengu Sweeper
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p><span
+    style="color: rgba(255, 255, 255, 0.45)">Deals 4 </span><span style="color: rgb(128,
+    255, 215)">Anemo DMG</span><span style="color: rgba(255, 255, 255, 0.45)">, triggers
+    the effect(s) of all your </span><span style="color: rgb(255, 255, 255)">Shadowsword
+    </span><span style="color: rgba(255, 255, 255, 0.45)">Summon(s). (Does not consume
+    their Usages)</span></p>'
+  points:
+  - point_type: anemo
+    point_count: 3
+  - point_type: recharge
+    point_count: 3
+  tag: Elemental Burst
+- name: 'Shadowsword: Lone Gale'
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span><br><span
+    style="color: rgb(255, 255, 255)">End Phase</span>: Deal 1 <span style="color:
+    rgb(128, 255, 215)">Anemo DMG</span>.<br><span style="color: rgb(255, 255, 255)">Usage(s):
+    2</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Summon
+- name: 'Shadowsword: Galloping Frost'
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span><br><span
+    style="color: rgb(255, 255, 255)">End Phase</span>: Deal 1 <span style="color:
+    rgb(153, 255, 255)">Cryo DMG</span>.<br><span style="color: rgb(255, 255, 255)">Usage(s):
+    2</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Summon
+- name: Anemo DMG
+  description: '<p>Reacts with Elements if they are already applied:<br>[<span style="color:
+    rgb(128, 255, 215)">Anemo </span>+ <span style="color: rgb(153, 255, 255)">Cryo</span>]
+    <span style="color: rgb(255, 255, 255)">Cryo Swirl</span>: Deals 1 Cryo DMG to
+    all opposing chracters except the target<br>[<span style="color: rgb(128, 255,
+    215)">Anemo </span>+ <span style="color: rgb(128, 192, 255)">Hydro</span>] <span
+    style="color: rgb(255, 255, 255)">Hydro Swirl</span>: Deals 1 Hydro DMG to all
+    opposing characters except the target<br>[<span style="color: rgb(128, 255, 215)">Anemo
+    </span>+ <span style="color: rgb(255, 153, 153)">Pyro</span>] <span style="color:
+    rgb(255, 255, 255)">Pyro Swirl</span>: Deals 1 Pyro DMG to all opposing characters
+    except the target<br>[<span style="color: rgb(128, 255, 215)">Anemo </span>+ <span
+    style="color: rgb(255, 172, 255)">Electro</span>] <span style="color: rgb(255,
+    255, 255)">Electro Swirl</span>: Deals 1 Electro DMG to all opposing characters
+    except the target</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Cryo DMG
+  description: '<p>Applies Cryo and can trigger the following Elemental Reactions:</p><p><span
+    style="color: rgb(255, 255, 255)">[</span><span style="color: rgb(153, 255, 255)">Cryo
+    </span>+ <span style="color: rgb(255, 153, 153)">Pyro</span><span style="color:
+    rgb(255, 255, 255)">]</span><span style="color: rgb(255, 153, 153)"> </span><span
+    style="color: rgb(255, 255, 255)">Melt</span>: DMG +2 for this instance</p><p><span
+    style="color: rgb(255, 255, 255)">[</span><span style="color: rgb(153, 255, 255)">Cryo
+    </span>+ <span style="color: rgb(255, 172, 255)">Electro</span><span style="color:
+    rgb(255, 255, 255)">]</span><span style="color: rgb(255, 172, 255)"> </span><span
+    style="color: rgb(255, 255, 255)">Superconduct</span>: DMG+1 for this instance,
+    deal 1 Piercing DMG to all opposing characters except the target</p><p><span style="color:
+    rgb(255, 255, 255)">[</span><span style="color: rgb(153, 255, 255)">Cryo </span>+
+    <span style="color: rgb(128, 192, 255)">Hydro</span><span style="color: rgb(255,
+    255, 255)">]</span><span style="color: rgb(128, 192, 255)"> </span><span style="color:
+    rgb(255, 255, 255)">Frozen</span>: DMG +1 for this instance, the target is unable
+    to perform any Actions this Round (Can be removed in advance after the target
+    receives physical or Pyro DMG, in which case they will take +2 DMG)</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Detailed Rules
+  description: '<p><strong><span style="color: rgb(236, 229, 216)">Physical DMG</span></strong></p><p>Physical
+    DMG will not apply any Elements, nor can it engage in Elemental Reactions.</p><p></p><p><strong><span
+    style="color: rgb(236, 229, 216)">Usage(s)</span></strong></p><p>After this card''s
+    effect is triggered, 1 <span style="color: rgb(255, 255, 255)">Usage </span>of
+    it will be consumed.</p><p>This card will be discarded immediately once it has
+    0 <span style="color: rgb(255, 255, 255)">Usages </span>remaining.</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+talent_card: Transcendent Automaton
+source: <p>Reward for accepting the Tavern Challenge at The Cat's Tail and claiming
+  victory in a Friendly Fracas with Maguu Kenki</p>

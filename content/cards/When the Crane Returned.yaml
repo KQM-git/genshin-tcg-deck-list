@@ -1,0 +1,11 @@
+name: When the Crane Returned
+id: 332007
+tags: []
+skills:
+- name: Description
+  description: '<p><span style="color: #FFFFFF">The next time you use a Skill</span>:
+    Switch your next character in to be the active character.</p>'
+  points:
+  - point_type: white
+    point_count: 1
+source: <p>Default Deck</p><p>Purchased at the Card Shop</p>

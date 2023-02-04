@@ -1,0 +1,67 @@
+name: Streaming Surge
+id: 222011
+tags: []
+skills:
+- name: Description
+  description: '<p><span style="color: #FFFFFF">Combat Action</span>: When your active
+    character is <span style="color: #FFFFFF">Rhodeia of Loch</span>, equip this card.</p><p>After
+    Rhodeia of Loch equips this card, immediately use <span style="color: #FFD780">Tide
+    and Torrent</span> once.</p><p>When your Rhodeia of Loch, who has this card equipped,
+    uses <span style="color: #FFFFFF">Tide and Torrent</span>, all of your Summon(s)
+    gain +1 <span style="color: #FFFFFF">Usage(s)</span>.</p><p>(You must have Rhodeia
+    of Loch in your deck to add this card to your deck.)</p>'
+  points:
+  - point_type: hydro
+    point_count: 4
+  - point_type: recharge
+    point_count: 3
+- name: Tide and Torrent
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p><span
+    style="color: rgba(255, 255, 255, 0.45)">Deals 2 </span><span style="color: rgb(128,
+    192, 255)">Hydro DMG</span><span style="color: rgba(255, 255, 255, 0.45)">. For
+    each friendly Summon on the field, deals +2 additional DMG.</span></p>'
+  points:
+  - point_type: hydro
+    point_count: 3
+  - point_type: recharge
+    point_count: 3
+  tag: Elemental Burst
+- name: Hydro DMG
+  description: '<p>Applies Hydro and can trigger the following Elemental Reactions:</p><p><span
+    style="color: rgb(255, 255, 255)">[</span><span style="color: rgb(128, 192, 255)">Hydro</span><span
+    style="color: rgb(255, 255, 255)"> + </span><span style="color: rgb(255, 153,
+    153)">Pyro</span><span style="color: rgb(255, 255, 255)">] Vaporize</span>: DMG
+    +2 for this instance</p><p><span style="color: rgb(255, 255, 255)">[</span><span
+    style="color: rgb(128, 192, 255)">Hydro</span><span style="color: rgb(255, 255,
+    255)"> + </span><span style="color: rgb(255, 172, 255)">Electro</span><span style="color:
+    rgb(255, 255, 255)">] Electro-Charged</span>: DMG +1 for this instance, deal 1
+    Piercing DMG to all opposing characters except the target</p><p><span style="color:
+    rgb(255, 255, 255)">[</span><span style="color: rgb(128, 192, 255)">Hydro</span><span
+    style="color: rgb(255, 255, 255)"> + </span><span style="color: rgb(153, 255,
+    255)">Cryo</span><span style="color: rgb(255, 255, 255)">] Frozen</span>: DMG
+    +1 for this instance, the target is unable to perform any Actions this Round (Can
+    be removed in advance after the target receives +2 Physical or Pyro DMG)</p><p><span
+    style="color: rgb(255, 255, 255)">[</span><span style="color: rgb(128, 192, 255)">Hydro</span><span
+    style="color: rgb(255, 255, 255)"> + </span><span style="color: rgb(153, 255,
+    136)">Dendro</span><span style="color: rgb(255, 255, 255)">] Bloom</span>: DMG+1
+    for this instance, creates a [Dendro Core] the grants +2 DMG to the next instance
+    of Pyro/Electro DMG</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Detailed Rules
+  description: '<p><strong><span style="color: rgb(236, 229, 216)">Combat Action</span></strong></p><p>After
+    you finish 1 Combat Action, it will be your opponent''s turn.</p><p><span style="color:
+    rgb(255, 255, 255)">Playing a card from your Hand with this rule is also a Combat
+    Action rather than a Fast Action.</span></p><p></p><p><strong><span style="color:
+    rgb(236, 229, 216)">Usage(s)</span></strong></p><p>After this card''s effect is
+    triggered, 1 <span style="color: rgb(255, 255, 255)">Usage </span>of it will be
+    consumed.</p><p>This card will be discarded immediately once it has 0 <span style="color:
+    rgb(255, 255, 255)">Usages </span>remaining.</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+related_character: Rhodeia of Loch
+source: <p>Reward from Character Proficiency</p><p>Reward for accepting the Tavern
+  Challenge against Rhodeia of Loch at The Cat's Tail and achieving all corresponding
+  challenge objectives in a Friendly Fracas</p>

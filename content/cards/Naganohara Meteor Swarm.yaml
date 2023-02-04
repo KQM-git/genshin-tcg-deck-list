@@ -1,0 +1,72 @@
+name: Naganohara Meteor Swarm
+id: 213051
+tags: []
+skills:
+- name: Description
+  description: '<p><span style="color: #FFFFFF">Combat Action</span>: When your active
+    character is <span style="color: #FFFFFF">Yoimiya</span>, equip this card.</p><p>After
+    Yoimiya equips this card, immediately use <span style="color: #FFD780">Niwabi
+    Fire-Dance</span> once.</p><p>After your Yoimiya, who has this card equipped,
+    triggers <span style="color: #FFFFFF">Niwabi Enshou</span>: Deal 1 additional
+    <span style="color: #FF9999">Pyro DMG</span>.</p><p>(You must have Yoimiya in
+    your deck to add this card to your deck.)</p>'
+  points:
+  - point_type: pyro
+    point_count: 2
+- name: Niwabi Fire-Dance
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p>This
+    character gains <span style="color: rgb(255, 255, 255)">Niwabi Enshou</span>.
+    (This Skill does not grant Energy)</p><p></p><p><strong><span style="color: rgb(236,
+    229, 216)">Niwabi Enshou</span></strong></p><p><span style="color: rgb(255, 215,
+    128)">Status</span><br>The character to which this is attached has their <span
+    style="color: rgb(255, 255, 255)">Normal Attacks</span> deal +1 DMG, and their
+    <span style="color: rgb(255, 255, 255)">Physical DMG</span> dealt converted to<span
+    style="color: rgba(255, 255, 255, 0.85)"> </span><span style="color: rgb(255,
+    153, 153)">Pyro DMG</span><span style="color: rgba(255, 255, 255, 0.85)">. </span><br><span
+    style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
+  points:
+  - point_type: pyro
+    point_count: 1
+  tag: Elemental Skill
+- name: Pyro DMG
+  description: '<p>Applies Pyro and can trigger the following Elemental Reactions:</p><p><span
+    style="color: rgb(255, 255, 255)">[</span><span style="color: rgb(255, 153, 153)">Pyro</span><span
+    style="color: rgb(153, 255, 255)"> </span>+ <span style="color: rgb(153, 255,
+    255)">Cryo</span><span style="color: rgb(255, 255, 255)">]</span><span style="color:
+    rgb(255, 153, 153)"> </span><span style="color: rgb(255, 255, 255)">Melt</span>:
+    DMG +2 for this instance</p><p><span style="color: rgb(255, 255, 255)">[</span><span
+    style="color: rgb(255, 153, 153)">Pyro</span><span style="color: rgb(153, 255,
+    255)"> </span>+ <span style="color: rgb(128, 192, 255)">Hydro</span><span style="color:
+    rgb(255, 255, 255)">]</span><span style="color: rgb(255, 172, 255)"> </span><span
+    style="color: rgb(255, 255, 255)">Vaporize</span>: DMG +2 for this instance</p><p><span
+    style="color: rgb(255, 255, 255)">[</span><span style="color: rgb(255, 153, 153)">Pyro</span><span
+    style="color: rgb(153, 255, 255)"> </span>+ <span style="color: rgb(255, 172,
+    255)">Electro</span><span style="color: rgb(255, 255, 255)">]</span><span style="color:
+    rgb(128, 192, 255)"> </span><span style="color: rgb(255, 255, 255)">Overloaded</span>:
+    DMG +2 for this instance, the target is forcibly switched to the next character</p><p><span
+    style="color: rgb(255, 255, 255)">[</span><span style="color: rgb(255, 153, 153)">Pyro</span><span
+    style="color: rgb(153, 255, 255)"> </span>+ <span style="color: rgb(153, 255,
+    136)">Dendro</span><span style="color: rgb(255, 255, 255)">]</span><span style="color:
+    rgb(128, 192, 255)"> </span><span style="color: rgb(255, 255, 255)">Burning</span>:
+    DMG +1 for this instance, creates a [Burning Flame] that will deal 1 Pyro DMG
+    at the end of the Round (Takes effect once, max 2 stacks)</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Detailed Rules
+  description: '<p><strong><span style="color: rgb(236, 229, 216)">Combat Action</span></strong></p><p>After
+    you finish 1 Combat Action, it will be your opponent''s turn.</p><p><span style="color:
+    rgb(255, 255, 255)">Playing a card from your Hand with this rule is also a Combat
+    Action rather than a Fast Action.</span></p><p></p><p><strong><span style="color:
+    rgb(236, 229, 216)">Physical DMG</span></strong></p><p>Physical DMG will not apply
+    any Elements, nor can it engage in Elemental Reactions.</p><p></p><p><strong><span
+    style="color: rgb(236, 229, 216)">Usage(s)</span></strong></p><p>After this card''s
+    effect is triggered, 1 <span style="color: rgb(255, 255, 255)">Usage </span>of
+    it will be consumed.</p><p>This card will be discarded immediately once it has
+    0 <span style="color: rgb(255, 255, 255)">Usages </span>remaining.</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+related_character: Yoimiya
+source: <p>Reward from Character Proficiency</p><p>Reward for inviting Yoimiya to
+  a duel at The Cat's Tail and achieving all corresponding challenge objectives</p>

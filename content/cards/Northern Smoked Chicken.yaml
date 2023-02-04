@@ -1,0 +1,18 @@
+name: Northern Smoked Chicken
+id: 333004
+tags: []
+skills:
+- name: Description
+  description: '<p>During this Round, the target character''s next <span style="color:
+    #FFFFFF">Normal Attack</span> costs 1 less <span style="color: #FFFFFF">Unaligned
+    Element</span>.</p><p>(A character can consume at most 1 Food per Round)</p>'
+  points:
+  - point_type: white
+    point_count: 0
+- name: Detailed Rules
+  description: '<p><strong><span style="color: #ECE5D8">Unaligned Element</span></strong></p><p>You
+    may use Elemental Dice of any element to pay this type of cost.</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+source: <p>Purchased at the Card Shop</p>

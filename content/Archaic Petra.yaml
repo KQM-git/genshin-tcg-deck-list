@@ -1,0 +1,14 @@
+name: Archaic Petra
+id: 312602
+tags: []
+skills:
+- name: Description
+  description: '<p><span style="color: #FFFFFF">When a character uses a Skill or equips
+    a Talent</span>: Spend 1 less <span style="color: #FFE699">Geo Die</span>. (Once
+    per Round)</p><p><span style="color: #FFFFFF">Roll Phase</span>: 2 of the starting
+    Elemental Dice you roll are always guaranteed to be <span style="color: #FFE699">Geo
+    Dice</span>.</p><p>(A character can equip a maximum of 1 Artifact)</p>'
+  points:
+  - point_type: white
+    point_count: 3
+source: <p>Purchased at the Card Shop</p>

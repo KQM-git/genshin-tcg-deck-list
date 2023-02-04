@@ -1,0 +1,15 @@
+name: 'Elemental Resonance: Woven Stone'
+id: 331601
+tags: []
+skills:
+- name: Description
+  description: '<p><span style="color: rgba(255, 255, 255, 0.45)">Create 1 </span><span
+    style="color: rgb(255, 230, 153)">Geo Die</span><span style="color: rgba(255,
+    255, 255, 0.45)">.</span></p><p><span style="color: rgba(255, 255, 255, 0.45)">(You
+    must have at least 2 </span><span style="color: rgb(255, 230, 153)">Geo </span><span
+    style="color: rgba(255, 255, 255, 0.45)">characters in your deck to add this card
+    to your deck.)</span></p>'
+  points:
+  - point_type: white
+    point_count: 0
+source: <p>Purchased at the Card Shop</p>

@@ -1,0 +1,12 @@
+name: 'Elemental Resonance: Woven Waters'
+id: 331201
+tags: []
+skills:
+- name: Description
+  description: '<p>Create 1 <span style="color: #80C0FF">Hydro Die</span>.</p><p>(You
+    must have at least 2 <span style="color: #80C0FF">Hydro </span>characters in your
+    deck to add this card to your deck.)</p>'
+  points:
+  - point_type: white
+    point_count: 0
+source: <p>Purchased at the Card Shop</p>

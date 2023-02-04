@@ -1,0 +1,11 @@
+name: Toss-Up
+id: 332003
+tags: []
+skills:
+- name: Description
+  description: '<p>Select any Elemental Die to <span style="color: #FFFFFF">reroll</span>.
+    Can reroll 2 times.</p>'
+  points:
+  - point_type: white
+    point_count: 0
+source: <p>Reward for meeting the Player Manual's requirements</p>

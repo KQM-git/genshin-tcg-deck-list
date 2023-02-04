@@ -1,0 +1,86 @@
+name: Transcendent Automaton
+id: 225011
+tags: []
+skills:
+- name: Description
+  description: '<p><span style="color: #FFFFFF">Combat Action</span>: When your active
+    character is <span style="color: #FFFFFF">Maguu Kenki</span>, equip this card.</p><p>After
+    Maguu Kenki equips this card, immediately use <span style="color: #FFD780">Blustering
+    Blade</span> once.</p><p>After your Maguu Kenki, who has this card equipped, uses
+    <span style="color: #FFFFFF">Blustering Blade</span>, you will switch to your
+    next character. You will switch to your previous character when your Maguu Kenki,
+    who has this card equipped, uses <span style="color: #FFFFFF">Frosty Assault</span>.</p><p>(You
+    must have Maguu Kenki in your deck to add this card to your deck.)</p>'
+  points:
+  - point_type: anemo
+    point_count: 3
+- name: Blustering Blade
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
+    style="color: rgba(255, 255, 255, 0.45)">Deals 1 </span><span style="color: rgb(128,
+    255, 215)">Anemo DMG</span><span style="color: rgba(255, 255, 255, 0.45)">, summons
+    1 </span><span style="color: rgb(255, 255, 255)">Shadowsword: Lone Gale</span><span
+    style="color: rgba(255, 255, 255, 0.45)">.</span></p>'
+  points:
+  - point_type: anemo
+    point_count: 3
+  tag: Elemental Skill
+- name: Frosty Assault
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
+    style="color: rgba(255, 255, 255, 0.45)">Deals 1 </span><span style="color: rgb(153,
+    255, 255)">Cryo DMG</span><span style="color: rgba(255, 255, 255, 0.45)">, summons
+    1 </span><span style="color: rgb(255, 255, 255)">Shadowsword: Galloping Frost.</span></p>'
+  points:
+  - point_type: cryo
+    point_count: 3
+  tag: Elemental Skill
+- name: 'Shadowsword: Lone Gale'
+  description: '<p><span style="color: rgb(255, 215, 128)">Summons</span><br><span
+    style="color: rgb(255, 255, 255)">End Phase</span>: Deal 1 <span style="color:
+    rgb(128, 255, 215)">Anemo DMG</span>.<br><span style="color: rgb(255, 255, 255)">Usage(s):
+    2</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Summons
+- name: 'Shadowsword: Galloping Frost'
+  description: '<p><span style="color: rgb(255, 215, 128)">Summons</span><br><span
+    style="color: rgb(255, 255, 255)">End Phase</span>: Deal 1 <span style="color:
+    rgb(153, 255, 255)">Cryo DMG</span>.<br><span style="color: rgb(255, 255, 255)">Usage(s):
+    2</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Summons
+- name: Anemo DMG
+  description: '<p>Reacts with Elements if they are already applied:<br>[<span style="color:
+    rgb(128, 255, 215)">Anemo </span>+ <span style="color: rgb(153, 255, 255)">Cryo</span>]
+    <span style="color: rgb(255, 255, 255)">Cryo Swirl</span>: Deals 1 Cryo DMG to
+    all opposing chracters except the target<br>[<span style="color: rgb(128, 255,
+    215)">Anemo </span>+ <span style="color: rgb(128, 192, 255)">Hydro</span>] <span
+    style="color: rgb(255, 255, 255)">Hydro Swirl</span>: Deals 1 Hydro DMG to all
+    opposing characters except the target<br>[<span style="color: rgb(128, 255, 215)">Anemo
+    </span>+ <span style="color: rgb(255, 153, 153)">Pyro</span>] <span style="color:
+    rgb(255, 255, 255)">Pyro Swirl</span>: Deals 1 Pyro DMG to all opposing characters
+    except the target<br>[<span style="color: rgb(128, 255, 215)">Anemo </span>+ <span
+    style="color: rgb(255, 172, 255)">Electro</span>] <span style="color: rgb(255,
+    255, 255)">Electro Swirl</span>: Deals 1 Electro DMG to all opposing characters
+    except the target</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Detailed Rules
+  description: '<p><strong><span style="color: rgb(236, 229, 216)">Combat Action</span></strong></p><p>After
+    you finish 1 Combat Action, it will be your opponent''s turn.</p><p><span style="color:
+    rgb(255, 255, 255)">Playing a card from your Hand with this rule is also a Combat
+    Action rather than a Fast Action.</span></p><p></p><p><strong><span style="color:
+    rgb(236, 229, 216)">Usage(s)</span></strong></p><p>After this card''s effect is
+    triggered, 1 <span style="color: rgb(255, 255, 255)">Usage </span>of it will be
+    consumed.</p><p>This card will be discarded immediately once it has 0 <span style="color:
+    rgb(255, 255, 255)">Usages </span>remaining.</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+related_character: Maguu Kenki
+source: <p>Reward from Character Proficiency</p><p>Reward for accepting the Tavern
+  Challenge against Maguu Kenki at The Cat's Tail and achieving all corresponding
+  challenge objectives in a Friendly Fracas</p>

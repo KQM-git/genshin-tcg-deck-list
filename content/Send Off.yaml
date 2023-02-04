@@ -1,0 +1,10 @@
+name: Send Off
+id: 332013
+tags: []
+skills:
+- name: Description
+  description: <p>Choose one Summon on the opposing side and destroy it.</p>
+  points:
+  - point_type: black
+    point_count: 2
+source: <p>Default Deck</p><p>Purchased at the Card Shop</p>

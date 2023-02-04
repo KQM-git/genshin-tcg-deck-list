@@ -1,0 +1,11 @@
+name: Lotus Flower Crisp
+id: 333003
+tags: []
+skills:
+- name: Description
+  description: <p>During this Round, the target character takes -3 DMG the next time.</p><p>(A
+    character can consume at most 1 Food per Round)</p>
+  points:
+  - point_type: white
+    point_count: 1
+source: <p>Purchased at the Card Shop</p>

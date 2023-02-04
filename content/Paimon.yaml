@@ -1,0 +1,22 @@
+name: Paimon
+id: 322001
+tags: []
+skills:
+- name: Description
+  description: "<p><span style=\"color: #FFFFFF\">When Action Phase begins</span>:\
+    \ Create <span style=\"color: #FFFFFF\">Omni Element</span> \xD72.</p><p><span\
+    \ style=\"color: #FFFFFF\">Usage(s): 2</span></p>"
+  points:
+  - point_type: white
+    point_count: 3
+- name: Detailed Rules
+  description: '<p><strong><span style="color: #ECE5D8">Omni Element</span></strong></p><p>The
+    Omni Element can be considered as any kind of element, and can be used to pay
+    for costs of various kinds.</p><p></p><p><strong><span style="color: #ECE5D8">Usage(s)</span></strong></p><p>After
+    this card''s effect is triggered, 1 <span style="color: #FFFFFF">Usage </span>of
+    it will be consumed.</p><p>This card will be discarded immediately once it has
+    0 <span style="color: #FFFFFF">Usages </span>remaining.</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+source: <p>Default Deck</p><p>Reward for meeting the Player's Manual requirements</p>

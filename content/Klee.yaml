@@ -1,0 +1,49 @@
+name: Klee
+id: 1306
+tags:
+- Pyro
+- Catalyst
+- Mondstadt
+type: Character Card
+hp: '10'
+energy: '3'
+element: Pyro
+weapon: Catalyst
+skills:
+- name: Kaboom!
+  description: '<p><span style="color: #FFD780">Normal Attack</span></p><p>Deals 1 <span style="color: #FF9999">Pyro DMG</span>.</p>'
+  points:
+  - point_type: pyro
+    point_count: 1
+  - point_type: black
+    point_count: 2
+  tag: Normal Attack
+- name: Jumpy Dumpty
+  description: >
+    <p><span style="color: #FFD780">Elemental Skill</span></p><p>Deals 3 <span style="color: #FF9999">Pyro DMG</span>. This character gains <span style="color: #FFFFFF">Explosive Spark</span>.</p>
+  points:
+  - point_type: pyro
+    point_count: 3
+  tag: Elemental Skill
+- name: Sparks 'n' Splash
+  description: >
+    <p><span style="color: #FFD780">Elemental Burst</span></p><p>Deals 3 <span style="color: #FF9999">Pyro DMG</span>, creates 1 <span style="color: #FFFFFF">Sparks 'n' Splash</span> at the opponent's play area.</p>
+  points:
+  - point_type: pyro
+    point_count: 3
+  - point_type: recharge
+    point_count: 3
+  tag: Elemental Burst
+- name: Explosive Spark
+  description: '<p><span style="color: #FFD780">Status</span></p><p><span style="color: #FFFFFF">When the character to which this is attached uses a Charged Attack</span>: Spend 1 less <span style="color: #FF9999">Pyro </span>and deal +1 DMG.</p><p><span style="color: #FFFFFF">Usage(s): 1</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Sparks 'n' Splash
+  description: >
+    <p><span style="color: #FFD780">Combat Status</span></p><p><span style="color: #FFFFFF">After your character uses a Skill:</span> Sparks 'n' Splash deals 2 <span style="color: #FF9999">Pyro DMG</span> to your active character.</p><p><span style="color: #FFFFFF">Usage(s): 2</span></p>
+  points:
+  - point_type: ''
+    point_count: -1
+talent_card: Pounding Surprise
+source: <p>Reward for inviting Klee to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her</p>

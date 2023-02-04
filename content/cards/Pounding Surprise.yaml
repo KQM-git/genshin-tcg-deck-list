@@ -1,0 +1,11 @@
+name: Pounding Surprise
+id: 213061
+tags: []
+skills:
+- name: Description
+  description: '<p><span style="color: rgb(255, 255, 255)">Combat Action</span>: When your active character is <span style="color: rgb(255, 255, 255)">Klee</span>, equip this card.</p><p>After Klee equips this card, immediately use <span style="color: rgb(255, 215, 128)">Jumpy Dumpty</span> once.</p><p>When your Klee, who has this card equipped, creates an <span style="color: rgb(255, 255, 255)">Explosive Spark</span>, its <span style="color: rgb(255, 255, 255)">Usage(s)</span> +1.</p><p>(You must have Klee in your deck to add this card to your deck.)</p><p></p><p><strong><span style="color: rgb(236, 229, 216)">Explosive Spark</span></strong></p><p><span style="color: rgb(255, 215, 128)">Status</span></p><p><span style="color: rgb(255, 255, 255)">When the character to which this is attached uses a Charged Attack</span>: Spend 1 less <span style="color: rgb(255, 153, 153)">Pyro </span>and deal +1 DMG.</p><p><span style="color: rgb(255, 255, 255)">Usage(s): 1</span></p>'
+  points:
+  - point_type: pyro
+    point_count: 3
+related_character: Klee
+source: <p>Reward for inviting Klee to a duel at The Cat's Tail and achieving all corresponding challenge objectives</p>

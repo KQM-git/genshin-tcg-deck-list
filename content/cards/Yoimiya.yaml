@@ -36,7 +36,7 @@ skills:
   tag: Elemental Skill
 - name: Ryuukin Saxifrage
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p>Deals
-    3 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>, creates 1 <span style="color:
+    4 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>, creates 1 <span style="color:
     rgb(255, 255, 255)">Aurous Blaze</span>.</p><p></p><p><strong><span style="color:
     rgb(236, 229, 216)">Aurous Blaze</span></strong><br><span style="color: rgb(255,
     215, 128)">Combat Status</span><br>After your character other than Yoimiya uses
@@ -45,9 +45,9 @@ skills:
     style="color: rgb(255, 255, 255)">Duration (Rounds): 2</span></p>'
   points:
   - point_type: pyro
-    point_count: 3
+    point_count: 4
   - point_type: recharge
-    point_count: 2
+    point_count: 3
   tag: Elemental Burst
 - name: Pyro DMG
   description: '<p>Applies Pyro and can trigger the following Elemental Reactions:</p><p><span

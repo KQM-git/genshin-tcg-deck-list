@@ -82,7 +82,7 @@
                 </button>
             </div>
 
-            <ul class="divide-y divide-kqm-purple">
+            <ul class="divide-y divide-kqm-purple text-black">
                 <li>
                     <NuxtLink
                         to="/"

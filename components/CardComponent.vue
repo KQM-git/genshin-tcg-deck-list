@@ -13,15 +13,15 @@
         <div
             v-if="modal"
             v-show="showModal"
-            class="bg-[#000000da] fixed inset-0 z-50 flex flex-row gap-10 justify-center items-center"
+            class="bg-[#000000da] fixed inset-0 z-50 flex flex-col lg:flex-row gap-5 lg:gap-10 lg:justify-center items-center p-3 overflow-y-auto"
             @click="showModal = false"
         >
             <div
-                class="relative w-full max-w-md pointer-events-none font-genshin"
+                class="my-auto relative w-full max-w-md pointer-events-none font-genshin"
             >
                 <div
                     v-if="card.hp"
-                    class="absolute -top-8 -left-8 w-16 h-16 bg-center bg-contain flex items-center justify-center font-genshin text-2xl"
+                    class="absolute top-2 left-0 lg:-top-8 lg:-left-8 w-16 h-16 bg-center bg-contain flex items-center justify-center font-genshin text-2xl"
                     :style="`backgroundImage: url(${require(`~/assets/icons/hp.png`)})`"
                 >
                     <div
@@ -44,7 +44,7 @@
                             <img
                                 v-for="tag of card.tags"
                                 :key="tag"
-                                class="w-12 h-12"
+                                class="w-8 h-8 lg:w-12 lg:h-12"
                                 :src="require(`~/assets/icons/${tag}.png`)"
                             >
                         </div>
@@ -69,7 +69,7 @@
                                     v-for="point of skill.points.filter(point => point.point_count > 0)"
                                     :key="point.point_type"
                                     :style="`backgroundImage: url(${require(`~/assets/icons/cost/${point.point_type}.png`)}); text-shadow: -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333, 1px 1px 0 #333`"
-                                    class="w-12 h-12 bg-center bg-contain flex justify-center items-center text-2xl"
+                                    class="w-12 h-12 bg-center bg-contain flex justify-center items-center text-2xl shrink-0"
                                 >
                                     {{ point.point_count }}
                                 </div>
@@ -80,8 +80,8 @@
                 </div>
             </div>
             <div
-                v-if="card.skills"
-                class="flex flex-col gap-5 font-genshin max-w-md"
+                v-if="card?.skills?.filter(skill => skill.points[0].point_count === -1).length > 0"
+                class="my-auto flex flex-col gap-5 font-genshin max-w-md"
             >
                 <div
                     v-for="skill of card.skills.filter(skill => skill.points[0].point_count === -1)"

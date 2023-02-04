@@ -1,11 +1,11 @@
 <template>
     <div
-        class="w-full flex flex-row justify-center items-center gap-5 py-2 h-80 relative"
+        class="w-full flex flex-row justify-center items-center gap-5 py-2 h-44 lg:h-80 relative"
     >
         <card-component
             v-for="(card, i) in cards"
             :key="i"
-            class="absolute top-3 h-60 w-[calc(15rem*7/12)] origin-[50%_130%]"
+            class="absolute top-3 h-32 w-[calc(8rem*7/12)] lg:h-60 lg:w-[calc(15rem*7/12)] origin-[50%_130%]"
             :style="{ transform: `rotate(${10 * (1 - cards.length) + i * 20}deg)` }"
             :name="card"
             :modal="false"

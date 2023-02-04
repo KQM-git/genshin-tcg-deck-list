@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col gap-5 mx-auto max-w-2xl w-full">
+    <div class="flex flex-col gap-5 mx-auto max-w-2xl w-full p-2">
         <nuxt-link
             v-for="deck of decks"
             :key="deck.slug"
@@ -7,7 +7,7 @@
             class="rounded-xl bg-[#2D282F] border-2 border-[#584F65] h-52 flex flex-row"
         >
             <div class="w-full flex flex-col p-6 gap-2 justify-center">
-                <p class="w-full font-genshin text-3xl">
+                <p class="w-full font-genshin text-xl sm:text-3xl">
                     {{ deck.name }}
                 </p>
                 <div class="w-full grid grid-cols-3 gap-2">

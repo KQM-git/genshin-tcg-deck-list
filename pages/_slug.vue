@@ -1,9 +1,9 @@
 <template>
     <div class="flex flex-col m-5 gap-5">
-        <div class="grid grid-cols-2 gap-5">
-            <div class="flex flex-col gap-5">
-                <div class="rounded-xl p-5 bg-[#2D282F] border-2 border-[#584F65] flex flex-row justify-between">
-                    <card-component v-for="(character, i) in deck.characters" :key="i" :name="character" class="h-32 w-32 rounded-full" />
+        <div class="grid md:grid-cols-2 gap-5">
+            <div class="flex flex-col gap-5 shrink">
+                <div class="rounded-xl p-5 bg-[#2D282F] border-2 border-[#584F65] flex flex-row justify-center gap-3 lg:justify-between">
+                    <card-component v-for="(character, i) in deck.characters" :key="i" :name="character" class="h-20 w-20 sm:h-24 sm:w-24 lg:h-32 lg:w-32 rounded-full" />
                 </div>
 
                 <div class="rounded-xl p-5 bg-[#2D282F] border-2 border-[#584F65] flex flex-col justify-between gap-2">
@@ -45,18 +45,21 @@
                     </div>
                 </div>
             </div>
-            <div class="flex flex-col gap-5">
+
+            <div class="flex flex-col gap-5 shrink-1">
                 <div class="rounded-xl p-5 bg-[#2D282F] border-2 border-[#584F65] flex flex-col gap-8">
-                    <div class="flex flex-row items-center gap-3">
+                    <div class="flex flex-col sm:flex-row items-center gap-3">
                         <p class="font-genshin text-3xl">
                             {{ deck.name }}
                         </p>
-                        <tag-bar
-                            v-for="tag of deck.tags"
-                            :key="tag"
-                            :tag="tag"
-                            class="py-2 px-4 rounded-lg text-lg font-bold"
-                        />
+                        <div class="flex flex-row gap-3">
+                            <tag-bar
+                                v-for="tag of deck.tags"
+                                :key="tag"
+                                :tag="tag"
+                                class="py-2 px-4 rounded-lg text-lg font-bold"
+                            />
+                        </div>
                     </div>
                     <p class="text-lg font-genshin">
                         {{ deck.description }}
@@ -68,7 +71,7 @@
                         <p class="text-2xl font-genshin">
                             Good Against
                         </p>
-                        <div class="grid grid-cols-3 gap-5">
+                        <div class="grid grid-cols-2 lg:grid-cols-3 gap-5">
                             <div v-for="(_deck, i) in deck.good_against" :key="i" class="w-full h-16 relative">
                                 <card-component
                                     v-for="(character, j) in _deck"
@@ -87,13 +90,13 @@
                         <p class="text-2xl font-genshin">
                             Bad Against
                         </p>
-                        <div class="grid grid-cols-3 gap-5">
+                        <div class="grid grid-cols-2 lg:grid-cols-3 gap-5">
                             <div v-for="(_deck, i) in deck.bad_against" :key="i" class="w-full h-16 relative">
                                 <card-component
                                     v-for="(character, j) in _deck"
                                     :key="j"
                                     :name="character"
-                                    class="w-16 h-16 rounded-full absolute"
+                                    class="w-16 h-16 sm:w-16 sm:h-16 rounded-full absolute"
                                     :style="{ left: `${j * 100 / 3}px` }"
                                 />
                             </div>
@@ -113,6 +116,7 @@
                 </div>
             </div>
         </div>
+
         <div
             v-for="(section, index) in mainSections"
             :key="index"

@@ -1,0 +1,12 @@
+name: Adeptus' Temptation
+id: 333002
+tags: []
+skills:
+- name: Description
+  description: '<p>During this Round, the target character''s next <span style="color:
+    #FFFFFF">Elemental Burst</span> deals +3 DMG.</p><p>(A character can consume at
+    most 1 Food per Round)</p>'
+  points:
+  - point_type: black
+    point_count: 2
+source: <p>Purchase at the Card Shop</p>

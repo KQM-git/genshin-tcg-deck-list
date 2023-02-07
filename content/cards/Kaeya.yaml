@@ -29,17 +29,23 @@ skills:
 - name: Glacial Waltz
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p>Deals
     1 <span style="color: rgb(153, 255, 255)">Cryo DMG</span>, creates 1 <span style="color:
-    rgb(255, 255, 255)">Icicle</span>.</p><p></p><p><strong><span style="color: rgb(236,
-    229, 216)">Icicle</span></strong></p><p><span style="color: rgb(255, 215, 128)">Combat
-    Status</span></p><p><span style="color: rgb(255, 255, 255)">After you switch characters</span>:
-    Deal 2<span style="color: rgb(153, 255, 255)"> Cryo DMG</span>.</p><p><span style="color:
-    rgb(255, 255, 255)">Usage(s): 3</span></p>'
+    rgb(255, 255, 255)">Icicle</span>.</p><p></p>'
   points:
   - point_type: cryo
     point_count: 4
   - point_type: recharge
     point_count: 2
   tag: Elemental Burst
+- name: Glacial Waltz
+  description: '<p><strong><span style="color: rgb(236,
+    229, 216)">Icicle</span></strong></p><p><span style="color: rgb(255, 215, 128)">Combat
+    Status</span></p><p><span style="color: rgb(255, 255, 255)">After you switch characters</span>:
+    Deal 2<span style="color: rgb(153, 255, 255)"> Cryo DMG</span>.</p><p><span style="color:
+    rgb(255, 255, 255)">Usage(s): 3</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Combat Status
 - name: Cryo DMG
   description: '<p>Applies Cryo and can trigger the following Elemental Reactions:</p><p><span
     style="color: rgb(255, 255, 255)">[</span><span style="color: rgb(153, 255, 255)">Cryo
@@ -59,12 +65,12 @@ skills:
     receives physical or Pyro DMG, in which case they will take +2 DMG)</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 - name: Detailed Rules
   description: '<p><strong><span style="color: rgb(236, 229, 216)">Physical DMG</span></strong></p><p>Physical
     DMG will not apply any Elements, nor can it engage in Elemental Reactions.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 talent_card: Cold-Blooded Strike
 source: <p>Default Deck</p>

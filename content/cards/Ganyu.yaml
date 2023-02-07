@@ -79,7 +79,7 @@ skills:
     receives physical or Pyro DMG, in which case they will take +2 DMG)</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 - name: Detailed Rules
   description: '<p><strong><span style="color: rgb(236, 229, 216)">Physical DMG</span></strong></p><p>Physical
     DMG will not apply any Elements, nor can it engage in Elemental Reactions.</p><p></p><p><strong><span
@@ -88,7 +88,7 @@ skills:
     or DMG Immunity either.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 talent_card: Undivided Heart
 source: <p>Reward for inviting Ganyu to a duel at The Cat's Tail and claiming victory
   in a Friendly Fracas with her</p>

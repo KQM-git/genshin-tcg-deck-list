@@ -32,8 +32,16 @@ skills:
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p><span
     style="color: rgba(255, 255, 255, 0.45)">Deals 2 </span><span style="color: rgb(255,
     153, 153)">Pyro DMG</span><span style="color: rgba(255, 255, 255, 0.45)">, creates
-    1 </span><span style="color: rgb(255, 255, 255)">Inspiration Field</span><span
-    style="color: rgba(255, 255, 255, 0.45)">.</span></p><p></p><p><strong><span style="color:
+    1 </span><span style="color: rgb(236, 229, 216)">Inspiration Field</span><span
+    style="color: rgba(255, 255, 255, 0.45)">.</span></p><p></p>'
+  points:
+  - point_type: pyro
+    point_count: 4
+  - point_type: recharge
+    point_count: 2
+  tag: Elemental Burst
+- name: Fantastic Voyage
+  description: '<p><strong><span style="color:
     rgb(236, 229, 216)">Inspiration Field</span></strong><br><span style="color: rgb(255,
     215, 128)">Combat Status</span><br><span style="color: rgb(255, 255, 255)">When
     your character uses a Skill</span>: If this character has at least 7 HP, deal
@@ -41,11 +49,9 @@ skills:
     character''s HP is not greater than 6, heal this character for 2 HP.</p><p><span
     style="color: rgb(255, 255, 255)">Duration (Rounds): 2</span></p>'
   points:
-  - point_type: pyro
-    point_count: 4
-  - point_type: recharge
-    point_count: 2
-  tag: Elemental Burst
+  - point_type: ''
+    point_count: -1
+  tag: Combat Status
 - name: Pyro DMG
   description: '<p>Applies Pyro and can trigger the following Elemental Reactions:</p><p><span
     style="color: rgb(255, 255, 255)">[</span><span style="color: rgb(255, 153, 153)">Pyro</span><span
@@ -70,7 +76,7 @@ skills:
     at the end of the Round (Takes effect once, max 2 stacks)</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 - name: Detailed Rules
   description: '<p><strong><span style="color: rgb(236, 229, 216)">Physical DMG</span></strong></p><p>Physical
     DMG will not apply any Elements, nor can it engage in Elemental Reactions.</p><p></p><p><strong><span
@@ -80,7 +86,7 @@ skills:
     style="color: rgb(255, 255, 255)">Duration (Rounds)</span> runs out.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 talent_card: Grand Expectation
 source: <p>Reward for inviting Bennett to a duel at The Cat's Tail and claiming victory
   in a Friendly Fracas with him</p>

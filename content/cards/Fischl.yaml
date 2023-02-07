@@ -24,7 +24,7 @@ skills:
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
     style="color: rgba(255, 255, 255, 0.45)">Deals 1 </span><span style="color: #FFACFF">Electro
     DMG</span><span style="color: rgba(255, 255, 255, 0.45)">, summons 1 </span><span
-    style="color: #FFFFFF">Oz</span><span style="color: rgba(255, 255, 255, 0.45)">.</span></p>'
+    style="color: rgb(255, 215, 128)">Oz</span><span style="color: rgba(255, 255, 255, 0.45)">.</span></p>'
   points:
   - point_type: electro
     point_count: 3
@@ -42,13 +42,13 @@ skills:
     point_count: 3
   tag: Elemental Burst
 - name: Oz
-  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span><br><span
+  description: '<p><span style="color: rgb(236, 229, 216)">Summon</span><br><span
     style="color: rgb(255, 255, 255)">End Phase</span>: Deal 1 <span style="color:
     rgb(255, 172, 255)">Electro DMG</span>.<br><span style="color: rgb(255, 255, 255)">Usage(s):
     2</span></p>'
   points:
   - point_type: ''
-    point_count: 0
+    point_count: -1
   tag: Summon
 - name: Electro DMG
   description: '<p>Applies Electro and can trigger the following Elemental Reactions:</p><p>[<span
@@ -68,7 +68,7 @@ skills:
     grants +1 DMG to the next 2 instances of Dendro/Electro DMG</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 - name: Detailed Rules
   description: '<p><strong><span style="color: rgb(236, 229, 216)">Physical DMG</span></strong></p><p>Physical
     DMG will not apply any Elements, nor can it engage in Elemental Reactions.</p><p></p><p><strong><span
@@ -81,7 +81,7 @@ skills:
     255, 255)">Usages </span>remaining.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 talent_card: Stellar Predator
 source: <p>Reward for completing the World Quest "Battlefield of Dice, Cats, and Cards
   - Come Try Genius Invokation TCG!"</p>

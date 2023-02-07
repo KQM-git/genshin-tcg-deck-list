@@ -30,11 +30,7 @@ skills:
 - name: Stellaris Phantasm
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p>Deals
     4 <span style="color: rgb(128, 192, 255)">Hydro DMG</span>, creates 1 <span style="color:
-    rgb(255, 255, 255)">Illusory Bubble</span>.</p><p></p><p><strong><span style="color:
-    rgb(236, 229, 216)">Illusory Bubble</span></strong></p><p><span style="color:
-    rgb(255, 215, 128)">Combat Status</span><br><span style="color: rgb(255, 255,
-    255)">When you deal Skill DMG</span>: Remove this status and double the DMG dealt
-    for this instance.</p>'
+    rgb(236, 229, 216)">Illusory Bubble</span>.</p><p></p>'
   points:
   - point_type: hydro
     point_count: 3
@@ -62,6 +58,16 @@ skills:
   - point_type: ''
     point_count: -1
   tag: Summon
+- name: Stellaris Phantasm
+  description: '<p><strong><span style="color:
+    rgb(236, 229, 216)">Illusory Bubble</span></strong></p><p><span style="color:
+    rgb(255, 215, 128)">Combat Status</span><br><span style="color: rgb(255, 255,
+    255)">When you deal Skill DMG</span>: Remove this status and double the DMG dealt
+    for this instance.</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Combat Status
 - name: Hydro DMG
   description: '<p>Applies Hydro and can trigger the following Elemental Reactions:</p><p><span
     style="color: rgb(255, 255, 255)">[</span><span style="color: rgb(128, 192, 255)">Hydro</span><span
@@ -84,7 +90,7 @@ skills:
     that grants +2 DMG to the next instance of Pyro/Electro DMG</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 - name: Detailed Rules
   description: '<p><strong><span style="color: rgb(236, 229, 216)">Fast Action</span></strong></p><p>You
     can continue with other actions after conducing 1 Fast Action. Only after conducting
@@ -99,7 +105,7 @@ skills:
     rgb(255, 255, 255)">Usages </span>remaining.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 talent_card: Prophecy of Submersion
 source: <p>Reward for inviting Mona to a duel at The Cat's Tail and claiming victory
   in a Friendly Fracas with her</p>

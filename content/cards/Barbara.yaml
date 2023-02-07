@@ -46,7 +46,7 @@ skills:
     Application</span>.<br><span style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
   points:
   - point_type: ''
-    point_count: 0
+    point_count: -1
   tag: Summon
 - name: Hydro DMG
   description: '<p>Applies Hydro and can trigger the following Elemental Reactions:</p><p><span
@@ -70,7 +70,7 @@ skills:
     that grants +2 DMG to the next instance of Pyro/Electro DMG</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 - name: Detailed Rules
   description: '<p><strong><span style="color: rgb(128, 192, 255)">Hydro Application</span></strong></p><p>When
     Hydro is applied without dealing any DMG, the Elemental Reaction triggered will
@@ -97,7 +97,7 @@ skills:
     rgb(255, 255, 255)">Usages </span>remaining.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 talent_card: Glorious Season
 source: <p>Reward for inviting Barbara to a duel at The Cat's Tail and claiming victory
   in a Friendly Fracas with her</p>

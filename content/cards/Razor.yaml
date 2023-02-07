@@ -32,19 +32,24 @@ skills:
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p><span
     style="color: rgba(255, 255, 255, 0.45)">Deals 5 </span><span style="color: rgb(255,
     172, 255)">Electro DMG</span><span style="color: rgba(255, 255, 255, 0.45)">.
-    This character gains </span><span style="color: rgb(255, 255, 255)">The Wolf Within</span><span
-    style="color: rgba(255, 255, 255, 0.45)">.</span></p><p></p><p><strong><span style="color:
-    rgb(236, 229, 216)">The Wolf Within</span></strong></p><p><span style="color:
-    rgb(255, 215, 128)">Status</span><br><span style="color: rgb(255, 255, 255)">After
-    the character to which this is attached uses a Normal Attack or an Elemental Skill</span>:
-    Deal 2 <span style="color: rgb(255, 172, 255)">Electro DMG</span>.<br><span style="color:
-    rgb(255, 255, 255)">Duration (Rounds): 2</span></p>'
+    This character gains </span><span style="color: rgb(236, 229, 216)">The Wolf Within</span><span
+    style="color: rgba(255, 255, 255, 0.45)">.</span></p><p></p>'
   points:
   - point_type: electro
     point_count: 3
   - point_type: recharge
     point_count: 3
   tag: Elemental Burst
+- name: Lightning Fang
+  description: '<p><strong><span style="color:
+    rgb(236, 229, 216)">The Wolf Within</span></strong></p><p><span style="color:
+    rgb(255, 215, 128)">Status</span><br><span style="color: rgb(255, 255, 255)">After
+    the character to which this is attached uses a Normal Attack or an Elemental Skill</span>:
+    Deal 2 <span style="color: rgb(255, 172, 255)">Electro DMG</span>.<br><span style="color:
+    rgb(255, 255, 255)">Duration (Rounds): 2</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1
 - name: Electro DMG
   description: '<p>Applies Electro and can trigger the following Elemental Reactions:</p><p>[<span
     style="color: rgb(255, 172, 255)">Electro </span>+ <span style="color: rgb(255,
@@ -63,7 +68,8 @@ skills:
     grants +1 DMG to the next 2 instances of Dendro/Electro DMG</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
+  tag: Status
 - name: Detailed Rules
   description: '<p><strong><span style="color: rgb(236, 229, 216)">Physical DMG</span></strong></p><p>Physical
     DMG will not apply any Elements, nor can it engage in Elemental Reactions.<br><br><strong><span
@@ -73,7 +79,7 @@ skills:
     style="color: rgb(255, 255, 255)">Duration (Rounds)</span> runs out.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 talent_card: Awakening
 source: <p>Reward for inviting Razor to a duel at The Cat's Tail and claiming victory
   in a Friendly Fracas with him</p>

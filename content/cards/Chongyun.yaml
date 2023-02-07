@@ -22,16 +22,22 @@ skills:
 - name: Chonghua's Layered Frost
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p>Deals
     3 <span style="color: rgb(153, 255, 255)">Cryo DMG</span>, creates 1 <span style="color:
-    rgb(255, 255, 255)">Chonghua Frost Field</span>.</p><p></p><p><strong><span style="color:
+    rgb(236, 229, 216)">Chonghua Frost Field</span>.</p><p></p>'
+  points:
+  - point_type: cryo
+    point_count: 3
+  tag: Elemental Skill
+- name: Chonghua's Layered Frost
+  description: '<p><strong><span style="color:
     rgb(236, 229, 216)">Chonghua Frost Field</span></strong></p><p><span style="color:
     rgb(255, 215, 128)">Combat Status</span><br>Your Sword, Claymore, and Polearm-wielding
     characters'' <span style="color: rgb(255, 255, 255)">Physical DMG </span>is converted
     to <span style="color: rgb(153, 255, 255)">Cryo DMG</span>.<br><span style="color:
     rgb(255, 255, 255)">Duration (Rounds): 2</span></p>'
   points:
-  - point_type: cryo
-    point_count: 3
-  tag: Elemental Skill
+  - point_type: ''
+    point_count: -1
+  tag: Combat Status
 - name: Cloud-Parting Star
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p>Deals
     7 <span style="color: #99FFFF">Cryo DMG</span>.</p>'
@@ -60,7 +66,7 @@ skills:
     receives physical or Pyro DMG, in which case they will take +2 DMG)</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 - name: Detailed Rules
   description: '<p><strong><span style="color: rgb(236, 229, 216)">Physical DMG</span></strong></p><p>Physical
     DMG will not apply any Elements, nor can it engage in Elemental Reactions.</p><p></p><p><strong><span
@@ -70,7 +76,7 @@ skills:
     style="color: rgb(255, 255, 255)">Duration (Rounds)</span> runs out.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 talent_card: Steady Breathing
 source: <p>Reward for inviting Chongyun to a duel at The Cat's Tail and claiming victory
   in a Friendly Fracas with him</p>

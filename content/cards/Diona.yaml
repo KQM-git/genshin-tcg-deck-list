@@ -22,18 +22,24 @@ skills:
 - name: Icy Paws
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p>Deals
     2 <span style="color: rgb(153, 255, 255)">Cryo DMG</span>, creates 1 <span style="color:
-    rgb(255, 255, 255)">Cat-Claw Shield</span>.</p><p></p><p><strong><span style="color:
-    rgb(236, 229, 216)">Cat-Claw Shield</span></strong><br><span style="color: rgb(255,
-    215, 128)">Combat Status</span></p><p>Grants 1 <span style="color: #FFFFFF">Shield
-    point</span> for your active character.</p><p></p><p></p>'
+    rgb(236, 229, 216)">Cat-Claw Shield</span>.</p><p></p>'
   points:
   - point_type: cryo
     point_count: 3
   tag: Elemental Skill
+- name: Icy Paws
+  description: '<p><strong><span style="color:
+    rgb(236, 229, 216)">Cat-Claw Shield</span></strong><br><span style="color: rgb(255,
+    215, 128)">Combat Status</span></p><p>Grants 1 <span style="color: #FFFFFF">Shield
+    point</span> for your active character.</p><p></p><p></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Combat Status
 - name: Signature Mix
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p>Deals
     1 <span style="color: #99FFFF">Cryo DMG</span>, heals this character for 2 HP,
-    summons 1 <span style="color: #FFFFFF">Drunken Mist</span>.</p>'
+    summons 1 <span style="color: rgb(255, 215, 128)">Drunken Mist</span>.</p>'
   points:
   - point_type: cryo
     point_count: 3
@@ -41,7 +47,8 @@ skills:
     point_count: 3
   tag: Elemental Burst
 - name: Drunken Mist
-  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
+  description: '<p><strong><span style="color: rgb(236, 229, 216)">Drunken Mist</span>
+    </strong></p><p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
     style="color: rgb(255, 255, 255)">End Phase</span>: Deal 1 <span style="color:
     rgb(153, 255, 255)">Cryo </span><span style="color: #99FFFF">DMG</span>, heal
     your active character for 2 HP.</p><p><span style="color: rgb(255, 255, 255)">Usage(s):
@@ -69,7 +76,7 @@ skills:
     receives physical or Pyro DMG, in which case they will take +2 DMG)</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 - name: Detailed Rules
   description: '<p><strong><span style="color: rgb(236, 229, 216)">Physical DMG</span></strong></p><p>Physical
     DMG will not apply any Elements, nor can it engage in Elemental Reactions.</p><p></p><p><strong><span
@@ -77,7 +84,7 @@ skills:
     be consumed to protect the character who equips it from DMG.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 talent_card: Shaken, Not Purred
 source: <p>Reward for inviting Diona to a duel at The Cat's Tail and claiming victory
   in a Friendly Fracas with her</p>

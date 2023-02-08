@@ -8,12 +8,36 @@
                 </NuxtLink>
             </div>
             <div class="top-bar flex flex-row items-end">
-                <NuxtLink to="/" class="text-white m-3 pb-1">
+                <NuxtLink
+                    to="/"
+                    class="text-white m-3 pb-1"
+                >
                     Decks
                 </NuxtLink>
-                <NuxtLink to="/about" class="text-white m-3 pb-1">
+                <NuxtLink
+                    to="/about"
+                    class="text-white m-3 pb-1"
+                >
                     About
                 </NuxtLink>
+                <a
+                    href="https://keqingmains.com/"
+                    class="text-white m-3 pb-1"
+                >
+                    KQM
+                </a>
+                <a
+                    href="https://www.gitcg.com/"
+                    class="text-white m-3 pb-1"
+                >
+                    GITCG
+                </a>
+                <a
+                    href="https://genshincards.com/"
+                    class="text-white m-3 pb-1"
+                >
+                    GenshinCards
+                </a>
             </div>
         </div>
         <!-- Mobile -->
@@ -100,6 +124,30 @@
                     >
                         About
                     </NuxtLink>
+                </li>
+                <li>
+                    <a
+                        href="https://keqingmains.com/"
+                        class="my-4 inline-block"
+                    >
+                        KQM
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="https://www.gitcg.com/"
+                        class="my-4 inline-block"
+                    >
+                        GITCG
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="https://genshincards.com/"
+                        class="my-4 inline-block"
+                    >
+                        GenshinCards
+                    </a>
                 </li>
             </ul>
         </aside>

@@ -56,7 +56,7 @@ skills:
     be removed alongside it.</p>'
   points:
   - point_type: ''
-    point_count: 0
+    point_count: -1
   tag: Passive Skill
 - name: Geo DMG
   description: '<p>Reacts with Elements if they are already applied:<br>[<span style="color:
@@ -75,7 +75,7 @@ skills:
     active character gains 1 Shield point (Can stack, max 2 points)</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 - name: Detailed Rules
   description: '<p><strong><span style="color: rgb(236, 229, 216)">Physical DMG</span></strong></p><p>Physical
     DMG will not apply any Elements, nor can it engage in Elemental Reactions.</p><p></p><p><strong><span
@@ -85,7 +85,7 @@ skills:
     0 <span style="color: rgb(255, 255, 255)">Usages </span>remaining.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 talent_card: Stonehide Reforged
 source: <p>Reward for accepting the Tavern Challenge at The Cat's Tail and claiming
   victory in a Friendly Fracas with Stonehide Lawachurl</p>

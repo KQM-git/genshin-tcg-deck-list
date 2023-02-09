@@ -72,13 +72,13 @@ skills:
     instances of Dendro/Electro DMG</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 - name: Detailed Rules
   description: '<p><strong><span style="color: rgb(236, 229, 216)">Physical DMG</span></strong></p><p>Physical
     DMG will not apply any Elements, nor can it engage in Elemental Reactions.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 talent_card: Proliferating Spores
 source: <p>Reward for accepting the Tavern Challenge at The Cat's Tail and claiming
   victory in a Friendly Fracas with Jadeplume Terrorshroom</p>

@@ -66,7 +66,7 @@ skills:
     of Pyro/Electro DMG</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 - name: Detailed Rules
   description: '<p><strong><span style="color: rgb(236, 229, 216)">Duration (Rounds)</span></strong></p><p>Each
     time you reach the end of a Round, <span style="color: rgb(255, 255, 255)">Duration
@@ -74,7 +74,7 @@ skills:
     style="color: rgb(255, 255, 255)">Duration (Rounds)</span> runs out.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 talent_card: Mirror Cage
 source: <p>Reward for accepting the Tavern Challenge at The Cat's Tail and claiming
   victory in a Friendly Fracas with Mirror Maiden</p>

@@ -3,7 +3,13 @@
         <div class="grid md:grid-cols-2 gap-5">
             <div class="flex flex-col gap-5 shrink">
                 <div class="rounded-xl p-5 bg-[#2D282F] border-2 border-[#584F65] flex flex-row justify-center gap-3 lg:justify-between">
-                    <card-component v-for="(character, i) in deck.characters" :key="i" :name="character" class="h-20 w-20 sm:h-24 sm:w-24 lg:h-32 lg:w-32 rounded-full" />
+                    <card-component
+                        v-for="(character, i) in deck.characters"
+                        :key="i"
+                        :name="character"
+                        class="h-20 w-20 sm:h-24 sm:w-24 lg:h-32 lg:w-32 rounded-full"
+                        type="character"
+                    />
                 </div>
 
                 <div class="rounded-xl p-5 bg-[#2D282F] border-2 border-[#584F65] flex flex-col justify-between gap-2">

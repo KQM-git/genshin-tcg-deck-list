@@ -29,6 +29,7 @@
                 class="h-full w-full rounded-xl"
                 :name="card"
                 :gradient="true"
+                type="list"
             />
         </div>
     </div>

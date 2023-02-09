@@ -9,6 +9,10 @@ hp: '10'
 energy: '2'
 element: Hydro
 weapon: Other Weapons
+offset:
+  character: 'top'
+  list: '50% 20%'
+  modal: '50% 10%'
 skills:
 - name: Water Ball
   description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><p><span

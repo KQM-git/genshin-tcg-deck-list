@@ -3,10 +3,14 @@
         class="overflow-hidden"
     >
         <div
-            :class="'bg-center bg-cover h-full w-full' + (modal ? ' cursor-pointer' : '')"
+            :class="'bg-cover h-full w-full' + (modal ? ' cursor-pointer' : '')"
             :style="{
                 backgroundImage: (gradient ? 'linear-gradient(to right, black, transparent), ' : '')
-                    + `url(&quot;${require(`~/assets/cards/${name.replace(/[:*!?<>\/\\]/g, '')}.png`)}&quot;)`
+                    + `url(&quot;${require(`~/assets/cards/${name.replace(/[:*!?<>\/\\]/g, '')}.png`)}&quot;)`,
+                backgroundPosition: {
+                    character: card?.offset?.character ?? 'center',
+                    list: card?.offset?.list ?? 'center'
+                }[type] ?? 'center',
             }"
             @click="showModal = true"
         />
@@ -34,6 +38,7 @@
                 <img
                     class="h-40 w-full object-cover object-[50%_30%] rounded-t-xl"
                     :src="require(`~/assets/cards/${name.replace(/[:*!?<>\/\\]/g, '')}.png`)"
+                    :style="{ objectPosition: card?.offset?.modal ?? '50% 30%' }"
                 >
                 <div class="flex flex-col p-5 bg-[#2D282F] border-x-2 border-b-2 border-[#584F65] rounded-b-xl min-h-[400px]">
                     <div class="w-full flex flex-row justify-between items-center">
@@ -120,6 +125,10 @@ export default Vue.extend({
         modal: {
             type: Boolean,
             default: true
+        },
+        type: {
+            type: String,
+            default: 'card'
         }
     },
     data () {

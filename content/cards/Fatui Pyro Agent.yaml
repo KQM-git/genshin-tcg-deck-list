@@ -24,11 +24,8 @@ skills:
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
     style="color: rgba(255, 255, 255, 0.65)">Deals 1 </span><span style="color: rgb(255,
     153, 153)">Pyro DMG</span><span style="color: rgba(255, 255, 255, 0.65)">. This
-    character gains </span><span style="color: rgb(255, 255, 255)">Stealth</span><span
-    style="color: rgba(255, 255, 255, 0.65)">.</span></p><p></p><p><strong><span style="color:
-    rgb(236, 229, 216)">Stealth</span></strong></p><p><span style="color: rgb(255,
-    215, 128)">Status</span><br>The character to which this is attached takes -1 DMG
-    and deals +1 DMG.<br><span style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
+    character gains </span><span style="color: rgb(236, 229, 216)">Stealth</span><span
+    style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
   - point_type: pyro
     point_count: 3
@@ -45,15 +42,21 @@ skills:
   tag: Elemental Burst
 - name: Stealth Master
   description: '<p><span style="color: rgb(255, 215, 128)">Passive Skill</span></p><p>(Passive)
-    When the battle begins, the character gains <span style="color: rgb(255, 255,
-    255)">Stealth</span>.</p><p></p><p><strong><span style="color: rgb(236, 229, 216)">Stealth</span></strong></p><p><span
-    style="color: rgb(255, 215, 128)">Status</span><br>The character to which this
-    is attached takes -1 DMG and deals +1 DMG.<br><span style="color: rgb(255, 255,
-    255)">Usage(s): 2</span></p>'
+    When the battle begins, the character gains 
+    <span style="color: rgb(236, 229, 216)">Stealth</span>.</p><p></p>'
   points:
   - point_type: ''
-    point_count: 0
+    point_count: -1
   tag: Passive Skill
+- name: Stealth Master
+  description: '<p><strong><span style="color: rgb(236, 229, 216)">Stealth</span></strong></p>
+  <span style="color: rgb(255, 215, 128)">Status</span><p></p>The character to which this
+    is attached takes -1 DMG and deals +1 DMG.<br></br>
+    <span style="color: rgb(255, 255, 255)">Usage(s): 2</span>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Status
 - name: Pyro DMG
   description: '<p>Applies Pyro and can trigger the following Elemental Reactions:</p><p><span
     style="color: rgb(255, 255, 255)">[</span><span style="color: rgb(255, 153, 153)">Pyro</span><span
@@ -78,7 +81,7 @@ skills:
     at the end of the Round (Takes effect once, max 2 stacks)</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 - name: Detailed Rules
   description: '<p><strong><span style="color: rgb(236, 229, 216)">Physical DMG</span></strong></p><p>Physical
     DMG will not apply any Elements, nor can it engage in Elemental Reactions.</p><p></p><p><strong><span
@@ -88,7 +91,7 @@ skills:
     0 <span style="color: rgb(255, 255, 255)">Usages </span>remaining.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 talent_card: Paid in Full
 source: <p>Reward for accepting the Tavern Challenge at The Cat's Tail and claiming
   victory in a Friendly Fracas with Fatui Pyro Agent</p>

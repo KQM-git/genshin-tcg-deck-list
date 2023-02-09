@@ -21,30 +21,34 @@ skills:
     point_count: 2
   tag: Normal Attack
 - name: Floral Brush
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.65)">Deals 3 </span><span style="color: #99FF88">Dendro
-    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p>
+  <span style="color: rgba(255, 255, 255, 0.65)">Deals 3 </span>
+  <span style="color: #99FF88">Dendro DMG</span>
+  <span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
   - point_type: dendro
     point_count: 3
   tag: Elemental Skill
 - name: Trump-Card Kitty
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: #99FF88">Dendro
-    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">, summons 1 </span><span
-    style="color: #FFFFFF">Cuilein-Anbar</span><span style="color: rgba(255, 255,
-    255, 0.65)">.</span></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p>
+  <span style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span>
+  <span style="color: #99FF88">Dendro DMG</span>
+  <span style="color: rgba(255, 255, 255, 0.65)">, summons 1 </span>
+  <span style="color: #FFFFFF">Cuilein-Anbar</span>
+  <span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
   - point_type: dendro
     point_count: 3
   - point_type: recharge
     point_count: 2
   tag: Elemental Burst
-- name: Cuilein-Anbar
-  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span><br><span
-    style="color: rgb(255, 255, 255)">End Phase</span>: Deal 2 <span style="color:
-    rgb(153, 255, 136)">Dendro DMG</span>.<br><span style="color: rgb(255, 255, 255)">Usage(s):
-    2</span></p>'
+- name: Trump-Card Kitty
+  description: '<p><strong><span style="color: rgb(236, 229, 216)">Cuilein-anbar</span></strong></p>
+  <span style="color: rgb(255, 215, 128)">Summon</span><p></p>
+  <span style="color: rgb(255, 255, 255)">End Phase:</span> 
+  <span style="color: rgb(255, 255, 255, 0.65)"> Deal 2 
+  <span style="color: rgb(153, 255, 136)">Dendro DMG</span>.<br>
+  <span style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
   points:
   - point_type: ''
     point_count: -1
@@ -66,7 +70,7 @@ skills:
     instances of Dendro/Electro DMG</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 - name: Detailed Rules
   description: '<p><strong><span style="color: rgb(236, 229, 216)">Physical DMG</span></strong></p><p>Physical
     DMG will not apply any Elements, nor can it engage in Elemental Reactions.</p><p></p><p><strong><span
@@ -76,7 +80,7 @@ skills:
     0 <span style="color: rgb(255, 255, 255)">Usages </span>remaining.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 talent_card: Floral Sidewinder
 source: <p>Reward for inviting Collei to a duel at The Cat's Tail and claiming victory
   in a Friendly Fracas with her</p>

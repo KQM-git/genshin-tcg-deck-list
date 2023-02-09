@@ -15,6 +15,12 @@
                     Decks
                 </NuxtLink>
                 <NuxtLink
+                    to="/deck-viewer"
+                    class="text-white m-3 pb-1"
+                >
+                    Deck Viewer
+                </NuxtLink>
+                <NuxtLink
                     to="/about"
                     class="text-white m-3 pb-1"
                 >
@@ -114,6 +120,15 @@
                         @click.native="isOpen = false"
                     >
                         Decks
+                    </NuxtLink>
+                </li>
+                <li>
+                    <NuxtLink
+                        to="/deck-viewer"
+                        class="my-4 inline-block"
+                        @click.native="isOpen = false"
+                    >
+                        Deck Viewer
                     </NuxtLink>
                 </li>
                 <li>

@@ -15,10 +15,10 @@ skills:
     point_count: 3
 - name: Breastplate
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 1 </span><span style="color: rgb(255,
-    230, 153)">Geo DMG</span><span style="color: rgba(255, 255, 255, 0.45)">, creates
+    style="color: rgba(255, 255, 255, 0.65)">Deals 1 </span><span style="color: rgb(255,
+    230, 153)">Geo DMG</span><span style="color: rgba(255, 255, 255, 0.65)">, creates
     1 </span><span style="color: rgb(255, 255, 255)">Full Plate</span><span style="color:
-    rgba(255, 255, 255, 0.45)">.</span></p><p></p><p><strong><span style="color: rgb(236,
+    rgba(255, 255, 255, 0.65)">.</span></p><p></p><p><strong><span style="color: rgb(236,
     229, 216)">Full Plate</span></strong><br><span style="color: rgb(255, 215, 128)">Combat
     Status</span><br>Grant 2 <span style="color: rgb(255, 255, 255)">Shield points</span>
     to your active character.<br>Before this <span style="color: rgb(255, 255, 255)">Shield

@@ -17,10 +17,10 @@ skills:
     point_count: 2
 - name: Fantastic Voyage
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 2 </span><span style="color: rgb(255,
-    153, 153)">Pyro DMG</span><span style="color: rgba(255, 255, 255, 0.45)">, creates
+    style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: rgb(255,
+    153, 153)">Pyro DMG</span><span style="color: rgba(255, 255, 255, 0.65)">, creates
     1 </span><span style="color: rgb(255, 255, 255)">Inspiration Field</span><span
-    style="color: rgba(255, 255, 255, 0.45)">.</span></p><p></p><p><strong><span style="color:
+    style="color: rgba(255, 255, 255, 0.65)">.</span></p><p></p><p><strong><span style="color:
     rgb(236, 229, 216)">Inspiration Field</span></strong><br><span style="color: rgb(255,
     215, 128)">Combat Status</span><br><span style="color: rgb(255, 255, 255)">When
     your character uses a Skill</span>: If this character has at least 7 HP, deal

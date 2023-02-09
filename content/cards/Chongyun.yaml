@@ -11,8 +11,9 @@ element: Cryo
 weapon: Claymore
 skills:
 - name: Demonbane
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><p>Deals
-    2 <span style="color: #FFFFFF">Physical DMG</span>.</p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>
+  <span style="color: rgba(255, 255, 255, 0.65)">Deals 2 
+  <span style="color: #FFFFFF">Physical DMG</span>.</span>'
   points:
   - point_type: cryo
     point_count: 1
@@ -20,27 +21,30 @@ skills:
     point_count: 2
   tag: Normal Attack
 - name: Chonghua's Layered Frost
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p>Deals
-    3 <span style="color: rgb(153, 255, 255)">Cryo DMG</span>, creates 1 <span style="color:
-    rgb(236, 229, 216)">Chonghua Frost Field</span>.</p><p></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  <span style="color: rgba(255, 255, 255, 0.65)"> Deals 3 
+  <span style="color: rgb(153, 255, 255)">Cryo DMG</span>, creates 1 
+  <span style="color: rgb(236, 229, 216)">Chonghua Frost Field</span>.</span>'
   points:
   - point_type: cryo
     point_count: 3
   tag: Elemental Skill
 - name: Chonghua's Layered Frost
-  description: '<p><strong><span style="color:
-    rgb(236, 229, 216)">Chonghua Frost Field</span></strong></p><p><span style="color:
-    rgb(255, 215, 128)">Combat Status</span><br>Your Sword, Claymore, and Polearm-wielding
-    characters'' <span style="color: rgb(255, 255, 255)">Physical DMG </span>is converted
-    to <span style="color: rgb(153, 255, 255)">Cryo DMG</span>.<br><span style="color:
-    rgb(255, 255, 255)">Duration (Rounds): 2</span></p>'
+  description: '<p><strong><span style="color: rgb(236, 229, 216)">Chonghua Frost Field</span></strong></p>
+  <span style="color: rgb(255, 215, 128)">Combat Status</span><p></p>
+  <span style="color: rgba(255, 255, 255, 0.65)"> Your Sword, Claymore, and Polearm-wielding
+  characters'' 
+  <span style="color: rgb(255, 255, 255)">Physical DMG </span>is converted to 
+  <span style="color: rgb(153, 255, 255)">Cryo DMG</span>.<br></br>
+  <span style="color: rgb(255, 255, 255)">Duration (Rounds): 2</span></p>'
   points:
   - point_type: ''
     point_count: -1
   tag: Combat Status
 - name: Cloud-Parting Star
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p>Deals
-    7 <span style="color: #99FFFF">Cryo DMG</span>.</p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+  <span style="color: rgba(255, 255, 255, 0.65)"> Deals 7 
+  <span style="color: #99FFFF">Cryo DMG</span>.</span>'
   points:
   - point_type: cryo
     point_count: 3

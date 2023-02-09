@@ -11,8 +11,8 @@ element: Cryo
 weapon: Bow
 skills:
 - name: Liutian Archery
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><p>Deals
-    2 <span style="color: #FFFFFF">Physical DMG</span>.</p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>
+  <span style="color: rgba(255, 255, 255, 0.65)">Deals 2 <span style="color: #FFFFFF">Physical DMG</span>.'
   points:
   - point_type: cryo
     point_count: 1
@@ -20,42 +20,53 @@ skills:
     point_count: 2
   tag: Normal Attack
 - name: Trail of the Qilin
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p>Deals
-    1 <span style="color: rgb(153, 255, 255)">Cryo DMG,</span> creates 1 <span style="color:
-    rgb(255, 255, 255)">Ice Lotus</span>.</p><p></p><p><strong><span style="color:
-    rgb(236, 229, 216)">Ice Lotus</span></strong></p><p><span style="color: rgb(255,
-    215, 128)">Combat Status</span><br><span style="color: rgb(255, 255, 255)">When
-    your active character receives DMG</span>: Decrease DMG taken by 1.<br><span style="color:
-    rgb(255, 255, 255)">Usage(s): 2</span></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  <span style="color: rgba(255, 255, 255, 0.65)">Deals 1 
+  <span style="color: rgb(153, 255, 255)">Cryo DMG,</span> creates 1 
+  <span style="color: rgb(236, 229, 216)">Ice Lotus</span>.'
   points:
   - point_type: cryo
     point_count: 3
   tag: Elemental Skill
+- name: Trail of the Qilin
+  description: '<p><strong><span style="color: rgb(236, 229, 216)">Ice Lotus</span></strong></p>
+  <span style="color: rgb(255, 215, 128)">Combat Status</span><p></p>
+  <span style="color: rgb(255, 255, 255)">When your active character receives DMG:</span>
+  <span style="color: rgb(255, 255, 255, 0.65)"> Decrease DMG taken by 1. </span> <br></br>
+  <span style="color: rgb(255, 255, 255)">Usage(s): 2</span>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Combat Status
 - name: Frostflake Arrow
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><p>Deals
-    2 <span style="color: rgb(153, 255, 255)">Cryo DMG</span>, deals 2 <span style="color:
-    rgb(255, 255, 255)">Piercing DMG</span> to all opposing characters on standby.</p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>
+  <span style="color: rgb(255, 255, 255, 0.65)"> Deals 2 
+  <span style="color: rgb(153, 255, 255)">Cryo DMG</span>, deals 2 
+  <span style="color: rgb(255, 255, 255)">Piercing DMG</span> to all opposing characters on standby.</span>'
   points:
   - point_type: cryo
     point_count: 5
   tag: Normal Attack
 - name: Celestial Shower
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p>Deals
-    1 <span style="color: #99FFFF">Cryo DMG</span>, deals 1 <span style="color: rgb(255,
-    255, 255)">Piercing DMG</span> to all opposing characters on standby, summons
-    1 <span style="color: rgb(255, 255, 255)">Sacred Cryo Pearl</span>.</p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+  <span style="color: rgb(255, 255, 255, 0.65)">Deals 1 
+  <span style="color: #99FFFF">Cryo DMG</span>, deals 1 
+  <span style="color: rgb(255, 255, 255)">Piercing DMG</span> to all opposing characters on standby, summons
+  1 <span style="color: rgb(255, 215, 128)">Sacred Cryo Pearl</span>.</p>'
   points:
   - point_type: cryo
     point_count: 3
   - point_type: recharge
     point_count: 2
   tag: Elemental Burst
-- name: Sacred Cryo Pearl
-  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span><br><span
-    style="color: rgb(255, 255, 255)">End Phase</span>: Deal 1 <span style="color:
-    rgb(153, 255, 255)">Cryo DMG</span>, deal 1 <span style="color: rgb(255, 255,
-    255)">Piercing DMG </span>to all opposing characters on standby.<br><span style="color:
-    rgb(255, 255, 255)">Usage(s): 2</span></p>'
+- name: Celestial Shower
+  description: '<p><strong><span style="color: rgb(236, 229, 216)">Sacred Cryo Pearl</span></strong></p>
+  <span style="color: rgb(255, 215, 128)">Summon</span><p></p>
+  <span style="color: rgb(255, 255, 255)">End Phase:</span> 
+  <span style="color: rgb(255, 255, 255, 0.65)">Deal 1 
+  <span style="color: rgb(153, 255, 255)">Cryo DMG</span>, deal 1 
+  <span style="color: rgb(255, 255, 255)">Piercing DMG </span>to all opposing characters on standby.</span><p></p>
+  <span style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
   points:
   - point_type: ''
     point_count: -1

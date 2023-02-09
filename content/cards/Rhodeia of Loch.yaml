@@ -12,8 +12,8 @@ weapon: Other Weapons
 skills:
 - name: Surge
   description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 1 </span><span style="color: #80C0FF">Hydro
-    DMG</span><span style="color: rgba(255, 255, 255, 0.45)">.</span></p>'
+    style="color: rgba(255, 255, 255, 0.65)">Deals 1 </span><span style="color: #80C0FF">Hydro
+    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
   - point_type: hydro
     point_count: 1
@@ -22,7 +22,7 @@ skills:
   tag: Normal Attack
 - name: Oceanid Mimic Summoning
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Randomly summons 1 </span><span style="color:
+    style="color: rgba(255, 255, 255, 0.65)">Randomly summons 1 </span><span style="color:
     rgb(255, 255, 255)">Oceanid Mimic</span><span style="color: rgba(255, 255, 255,
     0.45)"> (Prioritizes summoning a different type from preexisting ones).</p>'
   points:
@@ -31,7 +31,7 @@ skills:
   tag: Elemental Skill
 - name: The Myriad Wilds
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Randomly summons 2 </span><span style="color:
+    style="color: rgba(255, 255, 255, 0.65)">Randomly summons 2 </span><span style="color:
     rgb(255, 255, 255)">Oceanid Mimic</span><span style="color: rgba(255, 255, 255,
     0.45)"> (Prioritizes summoning different types).</p>'
   points:
@@ -40,8 +40,8 @@ skills:
   tag: Elemental Skill
 - name: Tide and Torrent
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 2 </span><span style="color: #80C0FF">Hydro
-    DMG</span><span style="color: rgba(255, 255, 255, 0.45)">. For each friendly Summon
+    style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: #80C0FF">Hydro
+    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">. For each friendly Summon
     on the field, deals +2 additional DMG.</span></p>'
   points:
   - point_type: hydro

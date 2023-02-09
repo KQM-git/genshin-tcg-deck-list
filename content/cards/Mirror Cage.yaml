@@ -17,10 +17,10 @@ skills:
     point_count: 4
 - name: Influx Blast
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 3 </span><span style="color: rgb(128,
-    192, 255)">Hydro DMG</span><span style="color: rgba(255, 255, 255, 0.45)">. The
+    style="color: rgba(255, 255, 255, 0.65)">Deals 3 </span><span style="color: rgb(128,
+    192, 255)">Hydro DMG</span><span style="color: rgba(255, 255, 255, 0.65)">. The
     target character receives </span><span style="color: rgb(255, 255, 255)">Refraction</span><span
-    style="color: rgba(255, 255, 255, 0.45)">.</span></p><p></p><p><strong><span style="color:
+    style="color: rgba(255, 255, 255, 0.65)">.</span></p><p></p><p><strong><span style="color:
     rgb(236, 229, 216)">Refraction</span></strong></p><p><span style="color: #FFD780">Status</span></p><p>The
     character to which this is attached takes +1 Hydro DMG.</p><p><span style="color:
     rgb(255, 255, 255)">Duration (Rounds): 2</span></p><p>(Only one such status can

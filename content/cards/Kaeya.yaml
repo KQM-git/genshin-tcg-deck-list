@@ -11,8 +11,8 @@ element: Cryo
 weapon: Sword
 skills:
 - name: Ceremonial Bladework
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><p>Deals
-    2 <span style="color: #FFFFFF">Physical DMG</span>.</p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span style="color: rgba(255, 255, 255, 0.65)"><p>Deals
+    2 <span style="color: #FFFFFF">Physical DMG</span>.</p></p>'
   points:
   - point_type: cryo
     point_count: 1
@@ -20,16 +20,16 @@ skills:
     point_count: 2
   tag: Normal Attack
 - name: Frostgnaw
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p>Deals
-    3 <span style="color: #99FFFF">Cryo DMG.</span></p><p></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span style="color: rgba(255, 255, 255, 0.65)"><p>Deals
+    3 <span style="color: #99FFFF">Cryo DMG.</span></p><p></p></p>'
   points:
   - point_type: cryo
     point_count: 3
   tag: Elemental Skill
 - name: Glacial Waltz
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p>Deals
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span style="color: rgba(255, 255, 255, 0.65)"><p>Deals
     1 <span style="color: rgb(153, 255, 255)">Cryo DMG</span>, creates 1 <span style="color:
-    rgb(255, 255, 255)">Icicle</span>.</p><p></p>'
+    rgb(236, 229, 216)">Icicle</span>.</p><p></p>'
   points:
   - point_type: cryo
     point_count: 4
@@ -37,11 +37,12 @@ skills:
     point_count: 2
   tag: Elemental Burst
 - name: Glacial Waltz
-  description: '<p><strong><span style="color: rgb(236,
-    229, 216)">Icicle</span></strong></p><p><span style="color: rgb(255, 215, 128)">Combat
-    Status</span></p><p><span style="color: rgb(255, 255, 255)">After you switch characters</span>:
-    Deal 2<span style="color: rgb(153, 255, 255)"> Cryo DMG</span>.</p><p><span style="color:
-    rgb(255, 255, 255)">Usage(s): 3</span></p>'
+  description: '<p><strong><span style="color: rgb(236, 229, 216)">Icicle</span></strong></p>
+    <span style="color: rgb(255, 215, 128)">Combat Status</span>
+    <p><span style="color: rgb(255, 255, 255)">After you switch characters:</span>
+    <span style="color: rgba(255, 255, 255, 0.65)"> Deal 2 </span>
+    <span style="color: rgb(153, 255, 255)"> Cryo DMG</span>.</p><p>
+    <span style="color: rgb(255, 255, 255)">Usage(s): 3</span></p>'
   points:
   - point_type: ''
     point_count: -1

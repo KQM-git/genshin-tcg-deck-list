@@ -12,8 +12,8 @@ weapon: Sword
 skills:
 - name: Favonius Bladework
   description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 2 </span><span style="color: #FFFFFF">Physical
-    DMG</span><span style="color: rgba(255, 255, 255, 0.45)">.</span></p>'
+    style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: #FFFFFF">Physical
+    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
   - point_type: anemo
     point_count: 1
@@ -22,8 +22,8 @@ skills:
   tag: Normal Attack
 - name: Gale Blade
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 3 </span><span style="color: #80FFD7">Anemo
-    DMG</span><span style="color: rgba(255, 255, 255, 0.45)">, the target is forcibly
+    style="color: rgba(255, 255, 255, 0.65)">Deals 3 </span><span style="color: #80FFD7">Anemo
+    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">, the target is forcibly
     switched to the next character.</span></p>'
   points:
   - point_type: anemo
@@ -31,17 +31,18 @@ skills:
   tag: Elemental Skill
 - name: Dandelion Breeze
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Heals all your characters for 2 HP, summons
-    1 </span><span style="color: #FFFFFF">Dandelion Field</span><span style="color:
-    rgba(255, 255, 255, 0.45)">.</span></p>'
+    style="color: rgba(255, 255, 255, 0.65)">Heals all your characters for 2 HP, summons
+    1 </span><span style="color: rgb(236, 229, 216)">Dandelion Field</span><span style="color:
+    rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
   - point_type: anemo
     point_count: 4
   - point_type: recharge
     point_count: 3
   tag: Elemental Burst
-- name: Dandelion Field
-  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
+- name: Dandelion Breeze
+  description: '<p><strong><span style="color: rgb(236, 229, 216)">Dandelion Field</span>
+    </strong></p><p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
     style="color: rgb(255, 255, 255)">End Phase</span>: Deal 2 <span style="color:
     rgb(128, 255, 215)">Anemo DMG</span>, heal your active character for 1 HP.<br><span
     style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
@@ -65,7 +66,7 @@ skills:
     except the target</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 - name: Detailed Rules
   description: '<p><strong><span style="color: rgb(236, 229, 216)">Physical DMG</span></strong></p><p>Physical
     DMG will not apply any Elements, nor can it engage in Elemental Reactions.</p><p></p><p><strong><span
@@ -75,7 +76,7 @@ skills:
     0 <span style="color: rgb(255, 255, 255)">Usages </span>remaining.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 talent_card: Lands of Dandelion
 source: <p>Reward for inviting Jean to a duel at The Cat's Tail and claiming victory
   in a Friendly Fracas with her</p>

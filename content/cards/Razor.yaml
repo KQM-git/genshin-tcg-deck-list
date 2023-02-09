@@ -12,8 +12,8 @@ weapon: Claymore
 skills:
 - name: Steel Fang
   description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 2 </span><span style="color: #FFFFFF">Physical
-    DMG</span><span style="color: rgba(255, 255, 255, 0.45)">.</span></p>'
+    style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: #FFFFFF">Physical
+    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
   - point_type: electro
     point_count: 1
@@ -22,18 +22,18 @@ skills:
   tag: Normal Attack
 - name: Claw and Thunder
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 3 </span><span style="color: #FFACFF">Electro
-    DMG</span><span style="color: rgba(255, 255, 255, 0.45)">.</span></p>'
+    style="color: rgba(255, 255, 255, 0.65)">Deals 3 </span><span style="color: #FFACFF">Electro
+    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
   - point_type: electro
     point_count: 3
   tag: Elemental Skill
 - name: Lightning Fang
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 5 </span><span style="color: rgb(255,
-    172, 255)">Electro DMG</span><span style="color: rgba(255, 255, 255, 0.45)">.
+    style="color: rgba(255, 255, 255, 0.65)">Deals 5 </span><span style="color: rgb(255,
+    172, 255)">Electro DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.
     This character gains </span><span style="color: rgb(236, 229, 216)">The Wolf Within</span><span
-    style="color: rgba(255, 255, 255, 0.45)">.</span></p><p></p>'
+    style="color: rgba(255, 255, 255, 0.65)">.</span></p><p></p>'
   points:
   - point_type: electro
     point_count: 3

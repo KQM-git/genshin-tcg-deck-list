@@ -12,8 +12,8 @@ weapon: Catalyst
 skills:
 - name: Whisper of Water
   description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 1 </span><span style="color: #80C0FF">Hydro
-    DMG</span><span style="color: rgba(255, 255, 255, 0.45)">.</span></p>'
+    style="color: rgba(255, 255, 255, 0.65)">Deals 1 </span><span style="color: #80C0FF">Hydro
+    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
   - point_type: hydro
     point_count: 1
@@ -22,8 +22,8 @@ skills:
   tag: Normal Attack
 - name: "Let the Show Begin\u266A"
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 1 </span><span style="color: #80C0FF">Hydro
-    DMG</span><span style="color: rgba(255, 255, 255, 0.45)">, summons 1 </span><span
+    style="color: rgba(255, 255, 255, 0.65)">Deals 1 </span><span style="color: #80C0FF">Hydro
+    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">, summons 1 </span><span
     style="color: #FFFFFF">Melody Loop</span><span style="color: rgba(255, 255, 255,
     0.45)">.</span></p>'
   points:
@@ -32,7 +32,7 @@ skills:
   tag: Elemental Skill
 - name: "Shining Miracle\u266A"
   description: '<p><span style="color: #FFD780">Elemental Burst</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Heals all of your characters for 4 HP.</span></p>'
+    style="color: rgba(255, 255, 255, 0.65)">Heals all of your characters for 4 HP.</span></p>'
   points:
   - point_type: hydro
     point_count: 3

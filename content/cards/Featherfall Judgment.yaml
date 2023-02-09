@@ -24,8 +24,8 @@ skills:
     point_count: 3
 - name: 'Secret Rite: Chasmic Soulfarer'
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 3 </span><span style="color: rgb(255,
-    172, 255)">Electro DMG</span><span style="color: rgba(255, 255, 255, 0.45)">.</span></p>'
+    style="color: rgba(255, 255, 255, 0.65)">Deals 3 </span><span style="color: rgb(255,
+    172, 255)">Electro DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
   - point_type: electro
     point_count: 3

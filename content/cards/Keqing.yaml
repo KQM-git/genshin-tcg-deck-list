@@ -12,8 +12,8 @@ weapon: Sword
 skills:
 - name: Yunlai Swordsmanship
   description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 2 </span><span style="color: #FFFFFF">Physical
-    DMG</span><span style="color: rgba(255, 255, 255, 0.45)">.</span></p>'
+    style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: #FFFFFF">Physical
+    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
   - point_type: electro
     point_count: 1
@@ -22,8 +22,8 @@ skills:
   tag: Normal Attack
 - name: Stellar Restoration
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 3 </span><span style="color: #FFACFF">Electro
-    DMG</span><span style="color: rgba(255, 255, 255, 0.45)">, creates 1 </span><span
+    style="color: rgba(255, 255, 255, 0.65)">Deals 3 </span><span style="color: #FFACFF">Electro
+    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">, creates 1 </span><span
     style="color: #FFFFFF">Lightning Stiletto.</span></p>'
   points:
   - point_type: electro
@@ -31,10 +31,10 @@ skills:
   tag: Elemental Skill
 - name: Starward Sword
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 4 </span><span style="color: rgb(255,
-    172, 255)">Electro DMG</span><span style="color: rgba(255, 255, 255, 0.45)">,
+    style="color: rgba(255, 255, 255, 0.65)">Deals 4 </span><span style="color: rgb(255,
+    172, 255)">Electro DMG</span><span style="color: rgba(255, 255, 255, 0.65)">,
     deals </span><span style="color: #FFFFFF">3 </span><span style="color: rgb(255,
-    255, 255)">Piercing DMG</span><span style="color: rgba(255, 255, 255, 0.45)">
+    255, 255)">Piercing DMG</span><span style="color: rgba(255, 255, 255, 0.65)">
     to all opposing characters on standby.</span></p>'
   points:
   - point_type: electro
@@ -42,15 +42,22 @@ skills:
   - point_type: recharge
     point_count: 3
   tag: Elemental Burst
-- name: Lightning Stiletto
+- name: Stellar Restoration
   description: '<p><strong><span style="color: rgb(236, 229, 216)">Lightning Stiletto</span></strong><br><span
     style="color: rgb(255, 215, 128)">Event Card</span><br><span style="color: rgb(255,
     255, 255)">Combat Actions</span>: Switch your Keqing in to be the active character
     and immediately use Stellar Restoration once. This instance of Stellar Restoration
-    will grant Keqing <span style="color: rgb(255, 255, 255)">Electro Infusion</span>
-    without creating another Lightning Stiletto. (When Keqing uses Stellar Restoration
-    with this card in Hand: Instead of creating another Lightning Stiletto, discard
-    this card and Keqing gains <span style="color: rgb(255, 255, 255)">Electro Infusion</span>)</p><p></p><p><strong><span
+    will grant Keqing <span style="color: rgb(236, 229, 216)">Electro Infusion</span>
+    without creating another <span style="color: rgb(255, 215, 128)">Lightning Stiletto</span>. (When Keqing uses Stellar Restoration
+    with this card in Hand: Instead of creating another <span
+    style="color: rgb(255, 215, 128)">Lightning Stiletto</span>, discard
+    this card and Keqing gains <span style="color: rgb(236, 229, 216)">Electro Infusion</span>)</p><p></p>'
+  points:
+  - point_type: 'electro'
+    point_count: -1
+  tag: Lightning Stiletto
+- name: Lightning Stiletto
+  description: '<p><strong><span
     style="color: rgb(236, 229, 216)">Electro Infusion</span></strong></p><p><span
     style="color: rgb(255, 215, 128)">Status</span></p><p>The character to which this
     is attached has their Physical DMG dealt converted to <span style="color: rgb(255,
@@ -59,7 +66,7 @@ skills:
   points:
   - point_type: ''
     point_count: -1
-  tag: Lightning Stiletto
+  tag: Status
 - name: Electro DMG
   description: '<p>Applies Electro and can trigger the following Elemental Reactions:</p><p>[<span
     style="color: rgb(255, 172, 255)">Electro </span>+ <span style="color: rgb(255,
@@ -78,7 +85,7 @@ skills:
     grants +1 DMG to the next 2 instances of Dendro/Electro DMG</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 - name: Detailed Rules
   description: '<p><strong><span style="color: rgb(236, 229, 216)">Physical DMG</span></strong></p><p>Physical
     DMG will not apply any Elements, nor can it engage in Elemental Reactions.<br><br><strong><span
@@ -95,7 +102,7 @@ skills:
     runs out.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 talent_card: Thundering Penance
 source: <p>Reward for inviting Keqing to a duel at The Cat's Tail and claiming victory
   in a Friendly Fracas with her</p>

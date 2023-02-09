@@ -16,18 +16,18 @@ skills:
     point_count: 3
 - name: Blustering Blade
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 1 </span><span style="color: rgb(128,
-    255, 215)">Anemo DMG</span><span style="color: rgba(255, 255, 255, 0.45)">, summons
+    style="color: rgba(255, 255, 255, 0.65)">Deals 1 </span><span style="color: rgb(128,
+    255, 215)">Anemo DMG</span><span style="color: rgba(255, 255, 255, 0.65)">, summons
     1 </span><span style="color: rgb(255, 255, 255)">Shadowsword: Lone Gale</span><span
-    style="color: rgba(255, 255, 255, 0.45)">.</span></p>'
+    style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
   - point_type: anemo
     point_count: 3
   tag: Elemental Skill
 - name: Frosty Assault
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 1 </span><span style="color: rgb(153,
-    255, 255)">Cryo DMG</span><span style="color: rgba(255, 255, 255, 0.45)">, summons
+    style="color: rgba(255, 255, 255, 0.65)">Deals 1 </span><span style="color: rgb(153,
+    255, 255)">Cryo DMG</span><span style="color: rgba(255, 255, 255, 0.65)">, summons
     1 </span><span style="color: rgb(255, 255, 255)">Shadowsword: Galloping Frost.</span></p>'
   points:
   - point_type: cryo

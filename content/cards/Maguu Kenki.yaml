@@ -12,8 +12,8 @@ weapon: Other Weapons
 skills:
 - name: Ichimonji
   description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 2 </span><span style="color: #FFFFFF">Physical
-    DMG</span><span style="color: rgba(255, 255, 255, 0.45)">.</span></p>'
+    style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: #FFFFFF">Physical
+    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
   - point_type: anemo
     point_count: 1
@@ -21,15 +21,15 @@ skills:
     point_count: 2
   tag: Normal Attack
 - name: Blustering Blade
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span style="color: rgba(255, 255, 255, 0.45)">Summons 1 </span><span
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span style="color: rgba(255, 255, 255, 0.65)">Summons 1 </span><span
     style="color: #FFFFFF">Shadowsword: Lone Gale</span><span style="color: rgba(255,
-    255, 255, 0.45)">.</span></p>'
+    255, 255, 0.65)">.</span></p>'
   points:
   - point_type: anemo
     point_count: 3
   tag: Elemental Skill
 - name: Frosty Assault
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span style="color: rgba(255, 255, 255, 0.45)">Summons 1 </span><span
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span style="color: rgba(255, 255, 255, 0.65)">Summons 1 </span><span
     style="color: #FFFFFF">Shadowsword: Galloping Frost</span><span style="color:
     rgb(255, 255, 255)">.</span></p>'
   points:
@@ -38,10 +38,10 @@ skills:
   tag: Elemental Skill
 - name: Pseudo Tengu Sweeper
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 4 </span><span style="color: rgb(128,
-    255, 215)">Anemo DMG</span><span style="color: rgba(255, 255, 255, 0.45)">, triggers
+    style="color: rgba(255, 255, 255, 0.65)">Deals 4 </span><span style="color: rgb(128,
+    255, 215)">Anemo DMG</span><span style="color: rgba(255, 255, 255, 0.65)">, triggers
     the effect(s) of all your </span><span style="color: rgb(255, 255, 255)">Shadowsword
-    </span><span style="color: rgba(255, 255, 255, 0.45)">Summon(s). (Does not consume
+    </span><span style="color: rgba(255, 255, 255, 0.65)">Summon(s). (Does not consume
     their Usages)</span></p>'
   points:
   - point_type: anemo

@@ -4,12 +4,12 @@ tags: []
 skills:
 - name: Description
   description: '<p><span style="color: rgb(255, 255, 255)">The character deals +1
-    DMG</span><span style="color: rgba(255, 255, 255, 0.45)">.</span><br><span style="color:
+    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span><br><span style="color:
     rgb(255, 255, 255)">After the character uses an Elemental Skill</span><span style="color:
-    rgba(255, 255, 255, 0.45)">: Create 1 Elemental Die of the same Elemental Type
+    rgba(255, 255, 255, 0.65)">: Create 1 Elemental Die of the same Elemental Type
     as this character. (Once per Round)</span></p><p><span style="color: rgba(255,
-    255, 255, 0.45)">(</span><span style="color: rgb(255, 255, 255)">Only Bow Characters</span><span
-    style="color: rgba(255, 255, 255, 0.45)"> can equip this. A character can equip
+    255, 255, 0.65)">(</span><span style="color: rgb(255, 255, 255)">Only Bow Characters</span><span
+    style="color: rgba(255, 255, 255, 0.65)"> can equip this. A character can equip
     a maximum of 1 Weapon)</span></p>'
   points:
   - point_type: white

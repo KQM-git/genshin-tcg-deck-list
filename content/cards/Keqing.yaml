@@ -54,7 +54,8 @@ skills:
     this card and Keqing gains <span style="color: rgb(236, 229, 216)">Electro Infusion</span>)</p><p></p>'
   points:
   - point_type: 'electro'
-    point_count: -1
+    point_count: 3
+  side: true
   tag: Lightning Stiletto
 - name: Lightning Stiletto
   description: '<p><strong><span

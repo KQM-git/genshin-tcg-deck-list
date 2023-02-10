@@ -1,6 +1,10 @@
 name: The Bestest Travel Companion!
 id: 332001
 tags: []
+offset:
+  character: 'top'
+  list: '50% 30%'
+  modal: '50% 30%'
 skills:
 - name: Description
   description: "<p>Convert the Elemental Dice spent to <span style=\"color: #FFFFFF\"\

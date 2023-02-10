@@ -1,6 +1,10 @@
 name: 'Elemental Resonance: Fervent Flames'
 id: 331302
 tags: []
+offset:
+  character: 'top'
+  list: '50% 34%'
+  modal: '50% 34%'
 skills:
 - name: Description
   description: '<p>During this round, the next instance of <span style="color: #FF9999">Pyro-Related

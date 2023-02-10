@@ -1,6 +1,10 @@
 name: 'Elemental Resonance: Woven Ice'
 id: 331101
 tags: []
+offset:
+  character: 'top'
+  list: '50% 48%'
+  modal: '50% 44%'
 skills:
 - name: Description
   description: '<p><span style="color: rgba(255, 255, 255, 0.65)">Create 1 </span><span

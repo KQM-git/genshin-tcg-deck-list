@@ -9,6 +9,10 @@ hp: '10'
 energy: '2'
 element: Cryo
 weapon: Sword
+offset:
+  character: 'top'
+  list: '50% 15%'
+  modal: '90% 15%'
 skills:
 - name: Ceremonial Bladework
   description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span style="color: rgba(255, 255, 255, 0.65)"><p>Deals

@@ -1,6 +1,10 @@
 name: The Scent Remained
 id: 212021
 tags: []
+offset:
+  character: 'top'
+  list: '50% 60%'
+  modal: '50% 63%'
 skills:
 - name: Description
   description: '<p><span style="color: #FFFFFF">Combat Action</span>: When your active

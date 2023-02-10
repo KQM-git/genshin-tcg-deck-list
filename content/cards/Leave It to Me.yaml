@@ -1,6 +1,10 @@
 name: Leave It to Me!
 id: 332006
 tags: []
+offset:
+  character: 'top'
+  list: '50% 34%'
+  modal: '50% 34%'
 skills:
 - name: Description
   description: '<p><span style="color: #FFFFFF">The next time you perform "Switch

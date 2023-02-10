@@ -1,6 +1,10 @@
 name: Liu Su
 id: 322012
 tags: []
+offset:
+  character: 'top'
+  list: '50% 27%'
+  modal: '50% 20%'
 skills:
 - name: Description
   description: '<p><span style="color: #FFFFFF">After you switch characters</span>:

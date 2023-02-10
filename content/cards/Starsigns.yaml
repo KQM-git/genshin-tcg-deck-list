@@ -1,6 +1,10 @@
 name: Starsigns
 id: 332008
 tags: []
+offset:
+  character: 'top'
+  list: '50% 47%'
+  modal: '50% 42%'
 skills:
 - name: Description
   description: '<p>Your current Active Character <span style="color: #FFFFFF">gains

@@ -9,6 +9,10 @@ hp: '10'
 energy: '3'
 element: Hydro
 weapon: Other Weapons
+offset:
+  character: 'top'
+  list: '50% 33%'
+  modal: '50% 34%'
 skills:
 - name: Surge
   description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>

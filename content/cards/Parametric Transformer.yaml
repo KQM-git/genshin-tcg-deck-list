@@ -1,6 +1,10 @@
 name: Parametric Transformer
 id: 323001
 tags: []
+offset:
+  character: 'top'
+  list: '50% 43%'
+  modal: '50% 45%'
 skills:
 - name: Description
   description: '<p><span style="color: #FFFFFF">When either side uses a Skill</span>:

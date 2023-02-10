@@ -9,6 +9,10 @@ hp: '10'
 energy: '3'
 element: Electro
 weapon: Claymore
+offset:
+  character: 'top'
+  list: '50% 14%'
+  modal: '50% 13%'
 skills:
 - name: Oceanborne
   description: '<p><span style="color: #FFD780">Normal Attack</span></p>Deals 2 

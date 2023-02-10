@@ -1,6 +1,10 @@
 name: Blessing of the Divine Relic's Installation
 id: 332011
 tags: []
+offset:
+  character: 'top'
+  list: '50% 30%'
+  modal: '50% 34%'
 skills:
 - name: Description
   description: <p>Shift 1 Artifact Equipment Card that has been equipped to one of

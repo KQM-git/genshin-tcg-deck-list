@@ -1,6 +1,10 @@
 name: Jueyun Guoba
 id: 333001
 tags: []
+offset:
+  character: 'top'
+  list: '50% 50%'
+  modal: '50% 50%'
 skills:
 - name: Description
   description: '<p>During this Round, the target character''s next <span style="color:

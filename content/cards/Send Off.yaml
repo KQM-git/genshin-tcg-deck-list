@@ -1,6 +1,10 @@
 name: Send Off
 id: 332013
 tags: []
+offset:
+  character: 'top'
+  list: '50% 34%'
+  modal: '50% 34%'
 skills:
 - name: Description
   description: <p>Choose one Summon on the opposing side and destroy it.</p>

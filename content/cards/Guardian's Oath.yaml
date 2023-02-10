@@ -1,6 +1,10 @@
 name: Guardian's Oath
 id: 332014
 tags: []
+offset:
+  character: 'top'
+  list: '50% 28%'
+  modal: '50% 28%'
 skills:
 - name: Description
   description: <p>Destroy all Summons. (Affects both you and your opponent!)</p>

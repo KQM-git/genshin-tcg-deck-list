@@ -1,6 +1,10 @@
 name: Lands of Dandelion
 id: 215021
 tags: []
+offset:
+  character: 'top'
+  list: '50% 55%'
+  modal: '50% 54%'
 skills:
 - name: Description
   description: '<p><span style="color: #FFFFFF">Combat Action</span>: When your active

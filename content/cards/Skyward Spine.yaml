@@ -1,6 +1,10 @@
 name: Skyward Spine
 id: 311403
 tags: []
+offset:
+  character: 'top'
+  list: '50% 38%'
+  modal: '50% 34%'
 skills:
 - name: Description
   description: '<p><span style="color: rgb(255, 255, 255)">The character deals +1

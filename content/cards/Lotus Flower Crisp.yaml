@@ -1,6 +1,10 @@
 name: Lotus Flower Crisp
 id: 333003
 tags: []
+offset:
+  character: 'top'
+  list: '50% 50%'
+  modal: '50% 55%'
 skills:
 - name: Description
   description: <p>During this Round, the target character takes -3 DMG the next time.</p><p>(A

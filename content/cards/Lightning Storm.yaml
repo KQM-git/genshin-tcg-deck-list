@@ -1,6 +1,10 @@
 name: Lightning Storm
 id: 214051
 tags: []
+offset:
+  character: 'top'
+  list: '50% 48%'
+  modal: '50% 43%'
 skills:
 - name: Description
   description: >

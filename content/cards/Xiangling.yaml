@@ -9,6 +9,10 @@ hp: '10'
 energy: '2'
 element: Pyro
 weapon: Polearm
+offset:
+  character: 'top'
+  list: '50% 17.3%'
+  modal: '50% 17%'
 skills:
 - name: Dough-Fu
   description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>Deals

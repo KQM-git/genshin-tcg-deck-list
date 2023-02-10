@@ -9,6 +9,10 @@ hp: '10'
 energy: '2'
 element: Geo
 weapon: Claymore
+offset:
+  character: 'top'
+  list: '50% 21%'
+  modal: '50% 21%'
 skills:
 - name: Favonius Bladework - Maid
   description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span

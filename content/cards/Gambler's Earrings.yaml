@@ -1,6 +1,10 @@
 name: Gambler's Earrings
 id: 312004
 tags: []
+offset:
+  character: 'top'
+  list: '50% 39%'
+  modal: '50% 39%'
 skills:
 - name: Description
   description: "<p><span style=\"color: rgb(255, 255, 255)\">After an opposing character\

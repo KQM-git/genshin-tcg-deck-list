@@ -1,6 +1,10 @@
 name: Wagner
 id: 322004
 tags: []
+offset:
+  character: 'top'
+  list: '50% 21%'
+  modal: '50% 20%'
 skills:
 - name: Description
   description: '<p>Comes with 2 Forging Billets when played.</p><p><span style="color:

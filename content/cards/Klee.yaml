@@ -9,6 +9,10 @@ hp: '10'
 energy: '3'
 element: Pyro
 weapon: Catalyst
+offset:
+  character: 'top'
+  list: '50% 27.5%'
+  modal: '50% 23%'
 skills:
 - name: Kaboom!
   description: '<p><span style="color: #FFD780">Normal Attack</span></p>Deals 1 

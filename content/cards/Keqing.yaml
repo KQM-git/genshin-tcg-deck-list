@@ -9,6 +9,10 @@ hp: '10'
 energy: '3'
 element: Electro
 weapon: Sword
+offset:
+  character: 'top'
+  list: '50% 17.5%'
+  modal: '50% 19%'
 skills:
 - name: Yunlai Swordsmanship
   description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span

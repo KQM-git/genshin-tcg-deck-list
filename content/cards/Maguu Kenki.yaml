@@ -49,7 +49,7 @@ skills:
   tag: Elemental Burst
 - name: 'Shadowsword: Lone Gale'
   description: '<p><span style="color: rgb(255, 215, 128)">Summon</span><br><span
-    style="color: rgb(255, 255, 255)">End Phase</span>: Deal 1 <span style="color:
+    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 1 <span style="color:
     rgb(128, 255, 215)">Anemo DMG</span>.<br><span style="color: rgb(255, 255, 255)">Usage(s):
     2</span></p>'
   points:
@@ -58,7 +58,7 @@ skills:
   tag: Summon
 - name: 'Shadowsword: Galloping Frost'
   description: '<p><span style="color: rgb(255, 215, 128)">Summon</span><br><span
-    style="color: rgb(255, 255, 255)">End Phase</span>: Deal 1 <span style="color:
+    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 1 <span style="color:
     rgb(153, 255, 255)">Cryo DMG</span>.<br><span style="color: rgb(255, 255, 255)">Usage(s):
     2</span></p>'
   points:

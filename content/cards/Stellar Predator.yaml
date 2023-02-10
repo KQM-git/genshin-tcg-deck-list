@@ -16,17 +16,17 @@ skills:
     point_count: 3
 - name: Nightrider
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.65)">Deals 1 </span><span style="color: rgb(255,
-    172, 255)">Electro DMG</span><span style="color: rgba(255, 255, 255, 0.65)">,
-    summons 1 </span><span style="color: rgb(255, 255, 255)">Oz</span><span style="color:
-    rgba(255, 255, 255, 0.65)">.</span></p>'
+    style="color: rgba(255, 255, 255, 0.65)">Deals 1 </span><span style="color: #FFACFF">Electro
+    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">, summons 1 </span><span
+    style="color: rgb(255, 215, 128)">Oz</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
   - point_type: electro
     point_count: 3
+  side: true
   tag: Elemental Skill
 - name: Oz
   description: '<p><span style="color: rgb(255, 215, 128)">Summons</span><br><span
-    style="color: rgb(255, 255, 255)">End Phase</span>: Deal 1 <span style="color:
+    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 1 <span style="color:
     rgb(255, 172, 255)">Electro DMG</span>.<br><span style="color: rgb(255, 255, 255)">Usage(s):
     2</span></p>'
   points:
@@ -51,7 +51,7 @@ skills:
     grants +1 DMG to the next 2 instances of Dendro/Electro DMG</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 - name: Detailed Rules
   description: '<p><strong><span style="color: rgb(236, 229, 216)">Combat Action</span></strong></p><p>After
     you finish 1 Combat Action, it will be your opponent''s turn.</p><p><span style="color:
@@ -63,7 +63,7 @@ skills:
     rgb(255, 255, 255)">Usages </span>remaining.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 related_character: Fischl
 source: <p>Reward from Character Proficiency</p><p>Reward for inviting Fischl to a
   duel at The Cat's Tail and achieving all corresponding challenge objectives</p>

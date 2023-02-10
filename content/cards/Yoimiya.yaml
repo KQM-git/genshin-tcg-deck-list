@@ -11,7 +11,7 @@ element: Pyro
 weapon: Bow
 skills:
 - name: Firework Flare-Up
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><p>Deals
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>Deals
     2 <span style="color: #FFFFFF">Physical DMG</span>.</p>'
   points:
   - point_type: pyro
@@ -20,7 +20,7 @@ skills:
     point_count: 2
   tag: Normal Attack
 - name: Niwabi Fire-Dance
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p>This
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>This
     character gains <span style="color: rgb(236, 229, 216)">Niwabi Enshou</span>.
     (This Skill does not grant Energy)</p><p></p>'
   points:
@@ -29,19 +29,19 @@ skills:
   tag: Elemental Skill
 - name: Niwabi Fire-Dance
   description: '<p><strong><span style="color: rgb(236,
-    229, 216)">Niwabi Enshou</span></strong></p><p><span style="color: rgb(255, 215,
+    229, 216)">Niwabi Enshou</span></strong></p><span style="color: rgb(255, 215,
     128)">Status</span><br>The character to which this is attached has their <span
     style="color: rgb(255, 255, 255)">Normal Attacks</span> deal +1 DMG, and their
     <span style="color: rgb(255, 255, 255)">Physical DMG</span> dealt converted to<span
     style="color: rgba(255, 255, 255, 0.85)"> </span><span style="color: rgb(255,
-    153, 153)">Pyro DMG</span><span style="color: rgba(255, 255, 255, 0.85)">. </span><br><span
+    153, 153)">Pyro DMG</span><span style="color: rgba(255, 255, 255, 0.85)">. </span><p><span
     style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
   points:
   - point_type: ''
     point_count: -1
   tag: Status
 - name: Ryuukin Saxifrage
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p>Deals
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>Deals
     4 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>, creates 1 <span style="color:
     rgb(236, 229, 216)">Aurous Blaze</span>.</p><p></p>'
   points:
@@ -52,8 +52,8 @@ skills:
   tag: Elemental Burst
 - name: Ryuukin Saxifrage
   description: '<p><strong><span style="color:
-    rgb(236, 229, 216)">Aurous Blaze</span></strong><br><span style="color: rgb(255,
-    215, 128)">Combat Status</span><br>After your character other than Yoimiya uses
+    rgb(236, 229, 216)">Aurous Blaze</span></strong></p><span style="color: rgb(255,
+    215, 128)">Combat Status</span></p><p>After your character other than Yoimiya uses
     a Skill: Deal 1<span style="color: rgba(255, 255, 255, 0.85)"> </span><span style="color:
     rgb(255, 153, 153)">Pyro DMG</span><span style="color: rgba(255, 255, 255, 0.85)">.</span></p><p><span
     style="color: rgb(255, 255, 255)">Duration (Rounds): 2</span></p>'

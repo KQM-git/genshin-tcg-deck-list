@@ -10,15 +10,7 @@ skills:
     Cyno, who has this card equipped, uses <span style="color: rgb(255, 255, 255)">Secret
     Rite: Chasmic Soulfarer </span>with 3 or 5 levels of <span style="color: rgb(255,
     255, 255)">Pactsworn Pathclearer</span>''s Indwelling effect, deal +1 additional
-    DMG.</p><p>(You must have Cyno in your deck to add this card to your deck.)</p><p></p><p><strong><span
-    style="color: rgb(236, 229, 216)">Pactsworn Pathclearer</span></strong></p><p><span
-    style="color: rgb(255, 215, 128)">Status</span><br><span style="color: rgb(255,
-    255, 255)">End Phase</span>:</p><p>Gain 1 level of [Indwelling]. Gain the following
-    effects based on the [Indwelling]<br>Level:<br>If equal to or greater than 2:
-    <span style="color: rgb(255, 255, 255)">Physical DMG</span> dealt is converted
-    to <span style="color: rgb(255, 172, 255)">Electro DMG</span>;<br>If equal to
-    or greater than 4: DMG dealt +2;<br>If equal to or greater than 6: [Indwelling]
-    Level -4</p><p></p>'
+    DMG.</p><p>(You must have Cyno in your deck to add this card to your deck.)</p><p></p><p>'
   points:
   - point_type: electro
     point_count: 3
@@ -29,7 +21,22 @@ skills:
   points:
   - point_type: electro
     point_count: 3
+  side: true
   tag: Elemental Skill
+- name: Lawful Enforcer
+  description: '<p><strong><span style="color:
+    rgb(236, 229, 216)">Pactsworn Pathclearer</span></strong></p><p><span style="color:
+    rgb(255, 215, 128)">Status</span><br><span style="color: rgb(255, 255, 255)">End
+    Phase</span>: Gain 1 level of Indwelling.</p><p><span style="color: rgb(255, 255,
+    255)">Create the following effects based on the Indwelling Level</span>:<br>If
+    equal to or greater than 2: <span style="color: rgb(255, 255, 255)">Physical DMG</span>
+    dealt is converted to <span style="color: rgb(255, 172, 255)">Electro DMG</span>;<br>If
+    equal to or greater than 4: DMG dealt +2;<br>If equal to or greater than 6: Indwelling
+    Level -4</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Status
 - name: Electro DMG
   description: '<p>Applies Electro and can trigger the following Elemental Reactions:</p><p>[<span
     style="color: rgb(255, 172, 255)">Electro </span>+ <span style="color: rgb(255,
@@ -48,7 +55,7 @@ skills:
     grants +1 DMG to the next 2 instances of Dendro/Electro DMG</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 - name: Detailed Rules
   description: '<p><strong><span style="color: rgb(236, 229, 216)">Combat Action</span></strong></p><p>After
     you finish 1 Combat Action, it will be your opponent''s turn.</p><p><span style="color:
@@ -58,7 +65,7 @@ skills:
     any Elements, nor can it engage in Elemental Reactions.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 related_character: Cyno
 source: <p>Reward from Character Proficiency</p><p>Reward for inviting Cyno to a duel
   at The Cat's Tail and achieving all corresponding challenge objectives</p>

@@ -14,5 +14,5 @@ skills:
     Elemental Skill or a Normal Attack, they will gain 1 Energy.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 source: <p>Default Deck</p><p>Purchased at the Card Shop</p>

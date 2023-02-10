@@ -16,5 +16,5 @@ skills:
     Shield will be consumed to protect the character who equips it from DMG.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 source: <p>Purchased at the Card Shop</p>

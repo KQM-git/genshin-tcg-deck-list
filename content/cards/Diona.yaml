@@ -32,7 +32,7 @@ skills:
   description: '<p><strong><span style="color:rgb(236, 229, 216)">Cat-Claw Shield</span></strong>
   <br><span style="color: rgb(255, 215, 128)">Combat Status</span></p>
   <p></p><span style="color: rgba(255, 255, 255, 0.65)">Grants 1 
-  <span style="color: #FFFFFF">Shield Point</span> for your active character.</p>'
+  <span style="color: #FFFFFF">Shield </span>point for your active character.</p>'
   points:
   - point_type: ''
     point_count: -1
@@ -50,7 +50,7 @@ skills:
   tag: Elemental Burst
 - name: Drunken Mist
   description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
-    style="color: rgb(255, 255, 255)">End Phase</span>: Deal 1 <span style="color:
+    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 1 <span style="color:
     rgb(153, 255, 255)">Cryo </span><span style="color: #99FFFF">DMG</span>, heal
     your active character for 2 HP.</p><p><span style="color: rgb(255, 255, 255)">Usage(s):
     2</span></p>'

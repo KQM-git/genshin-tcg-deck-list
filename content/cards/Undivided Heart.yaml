@@ -23,6 +23,7 @@ skills:
   points:
   - point_type: cryo
     point_count: 5
+  side: true
   tag: Normal Attack
 - name: Cryo DMG
   description: '<p>Applies Cryo and can trigger the following Elemental Reactions:</p><p><span
@@ -43,7 +44,7 @@ skills:
     receives physical or Pyro DMG, in which case they will take +2 DMG)</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 - name: Detailed Rules
   description: '<p><strong><span style="color: rgb(236, 229, 216)">Combat Action</span></strong></p><p>After
     you finish 1 Combat Action, it will be your opponent''s turn.</p><p><span style="color:
@@ -54,7 +55,7 @@ skills:
     Immunity either.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 related_character: Ganyu
 source: <p>Reward from Character Proficiency</p><p>Reward for inviting Ganyu to a
   duel at The Cat's Tail and achieving all corresponding challenge objectives</p>

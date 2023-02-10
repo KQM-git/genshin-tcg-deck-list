@@ -11,7 +11,7 @@ element: Dendro
 weapon: Other Weapons
 skills:
 - name: Majestic Dance
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><p>Deals
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>Deals
     2 <span style="color: #FFFFFF">Physical DMG</span>.</p>'
   points:
   - point_type: dendro
@@ -20,22 +20,17 @@ skills:
     point_count: 2
   tag: Normal Attack
 - name: Volatile Spore Cloud
-  description: '<p><span style="color: #FFD780">Elemental Skill</span></p><p>Deals
+  description: '<p><span style="color: #FFD780">Elemental Skill</span></p>Deals
     3 <span style="color: #99FF88">Dendro DMG</span>.</p>'
   points:
   - point_type: dendro
     point_count: 3
   tag: Elemental Skill
 - name: Feather Spreading
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p>Deals
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>Deals
     4 <span style="color: rgb(153, 255, 136)">Dendro DMG</span>, then consumes all<span
     style="color: rgb(255, 255, 255)"> Radical Vitality</span> stacks. For each stack
-    consumed, this instance deals +1 DMG.</p><p></p><p><strong><span style="color:
-    rgb(236, 229, 216)">Radical Vitality</span></strong></p><p><span style="color:
-    rgb(255, 215, 128)">Status</span><br>When this character deals or takes Elemental
-    DMG: Gain 1 stack of Radical Vitality. (Max 3 stacks)<br><span style="color: rgb(255,
-    255, 255)">End Phase</span>: If Radical Vitality stacks reach maximum, they will
-    be cleared and the character will lose all Energy.</p>'
+    consumed, this instance deals +1 DMG.</p><p></p>'
   points:
   - point_type: dendro
     point_count: 3
@@ -44,17 +39,25 @@ skills:
   tag: Elemental Burst
 - name: Radical Vitality
   description: '<p><span style="color: rgb(255, 215, 128)">Passive Skill</span></p><p>(Passive)
-    When the battle begins, this character gains <span style="color: rgb(255, 255,
-    255)">Radical Vitality</span>.</p><p></p><p><strong><span style="color: rgb(236,
-    229, 216)">Radical Vitality</span></strong></p><p><span style="color: rgb(255,
-    215, 128)">Status</span><br>When this character deals or takes Elemental DMG:
-    Gain 1 stack of Radical Vitality. (Max 3 stacks)<br><span style="color: rgb(255,
-    255, 255)">End Phase</span>: If Radical Vitality stacks reach maximum, they will
-    be cleared and the character will lose all Energy.</p>'
+    When the battle begins, this character gains <span style="color: rgb(236,
+    229, 216)">Radical Vitality</span>.</p><p></p>'
   points:
   - point_type: ''
     point_count: -1
   tag: Passive Skill
+- name: Radical Vitality
+  description: '<p><strong><span style="color: rgb(236,
+    229, 216)">Radical Vitality</span></strong></p><span style="color: rgb(255,
+    215, 128)">Status</span></p>When this character deals or takes Elemental DMG:
+    Gain 1 stack of <span style="color: rgb(236,
+    229, 216)">Radical Vitality</span>. (Max 3 stacks)</p><p><span style="color: rgb(255,
+    255, 255)">End Phase:</span> If <span style="color: rgb(236,
+    229, 216)">Radical Vitality</span> stacks reach maximum, they will
+    be cleared and the character will lose all Energy.</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Status
 - name: Dendro DMG
   description: '<p>Applies Dendro and can trigger the following Elemental Reactions:</p><p>[<span
     style="color: rgb(153, 255, 136)">Dendro </span>+ <span style="color: rgb(128,

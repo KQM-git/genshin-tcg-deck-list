@@ -3,7 +3,7 @@ id: 321005
 tags: []
 skills:
 - name: Description
-  description: '<p><span style="color: #FFFFFF">End Phase</span>: Heal the most injured
+  description: '<p><span style="color: #FFFFFF">End Phase:</span> Heal the most injured
     character on standby for 2 HP.</p><p><span style="color: #FFFFFF">Usage(s): 2</span></p>'
   points:
   - point_type: white
@@ -15,5 +15,5 @@ skills:
     0 <span style="color: #FFFFFF">Usages </span>remaining.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 source: <p>Purchased at the Card Shop</p>

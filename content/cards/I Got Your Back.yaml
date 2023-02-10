@@ -14,20 +14,28 @@ skills:
   - point_type: geo
     point_count: 3
 - name: Breastplate
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span
     style="color: rgba(255, 255, 255, 0.65)">Deals 1 </span><span style="color: rgb(255,
     230, 153)">Geo DMG</span><span style="color: rgba(255, 255, 255, 0.65)">, creates
-    1 </span><span style="color: rgb(255, 255, 255)">Full Plate</span><span style="color:
-    rgba(255, 255, 255, 0.65)">.</span></p><p></p><p><strong><span style="color: rgb(236,
-    229, 216)">Full Plate</span></strong><br><span style="color: rgb(255, 215, 128)">Combat
-    Status</span><br>Grant 2 <span style="color: rgb(255, 255, 255)">Shield points</span>
-    to your active character.<br>Before this <span style="color: rgb(255, 255, 255)">Shield
-    </span>is fully consumed, the <span style="color: rgb(255, 255, 255)">Physical
-    DMG</span> you take is halved.</p><p>(The figure will be rounded up)</p>'
+    1 </span><span style="color: rgb(236, 229, 216)">Full Plate</span><span style="color:
+    rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
   - point_type: geo
     point_count: 3
+  side: true
   tag: Elemental Skill
+
+- name: Breastplate
+  description: '<p><strong><span style="color: rgb(236, 229, 216)">Full Plate</span></strong><br>
+    <span style="color: rgb(255, 215, 128)">Combat Status</span><p>Grant 2 
+    <span style="color: rgb(255, 255, 255)">Shield Points</span>
+    to your active character.</p><p>Before this <span style="color: rgb(255, 255, 255)">Shield
+    </span>is fully consumed, the <span style="color: rgb(255, 255, 255)">Physical
+    DMG</span> you take is halved.</p><p>(The figure will be rounded up)</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Combat Status
 - name: Geo DMG
   description: '<p>Reacts with Elements if they are already applied:<br>[<span style="color:
     rgb(255, 230, 153)">Geo</span> + <span style="color: rgb(153, 255, 255)">Cryo</span>]
@@ -45,7 +53,7 @@ skills:
     active character gains 1 Shield point (Can stack, max 2 points)</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 - name: Detailed Rules
   description: '<p><strong><span style="color: rgb(236, 229, 216)">Combat Action</span></strong></p><p>After
     you finish 1 Combat Action, it will be your opponent''s turn.</p><p><span style="color:
@@ -57,7 +65,7 @@ skills:
     any Elements, nor can it engage in Elemental Reactions.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 related_character: Noelle
 source: <p>Reward from Character Proficiency</p><p>Reward for inviting Noelle to a
   duel at The Cat's Tail and achieving all corresponding challenge objectives</p>

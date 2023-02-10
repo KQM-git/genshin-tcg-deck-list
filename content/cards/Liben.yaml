@@ -3,7 +3,7 @@ id: 322008
 tags: []
 skills:
 - name: Description
-  description: "<p><span style=\"color: #FFFFFF\">End Phase</span>: Collect your unused\
+  description: "<p><span style=\"color: #FFFFFF\">End Phase:</span> Collect your unused\
     \ Elemental Dice (Max 1 of each Elemental Type). </p><p><span style=\"color: #FFFFFF\"\
     >When Action Phase begins</span>: If this card has collected 3 Elemental Dice,\
     \ draw 2 cards and create <span style=\"color: #FFFFFF\">Omni Element</span> \xD7\
@@ -17,5 +17,5 @@ skills:
     for costs of various kinds.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 source: <p>Purchased at the Card Shop</p>

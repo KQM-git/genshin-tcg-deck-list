@@ -3,7 +3,7 @@ id: 321001
 tags: []
 skills:
 - name: Description
-  description: '<p><span style="color: rgb(255, 255, 255)">End Phase</span>: Draw
+  description: '<p><span style="color: rgb(255, 255, 255)">End Phase:</span> Draw
     2 cards.</p><p><span style="color: #FFFFFF">Usage(s)</span>: 2</p>'
   points:
   - point_type: white
@@ -15,7 +15,7 @@ skills:
     it has 0 <span style="color: rgb(255, 255, 255)">Usages </span>remaining.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 source: <p>Reward for accepting Uncle Tian's Adventure Challenge in the open world
   and achieving all corresponding challenge objectives</p><p>Purchased at the Card
   Shop</p>

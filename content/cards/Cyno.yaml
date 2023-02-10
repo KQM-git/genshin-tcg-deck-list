@@ -11,7 +11,7 @@ element: Electro
 weapon: Polearm
 skills:
 - name: Invoker's Spear
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><p><span
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span
     style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: #FFFFFF">Physical
     DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
@@ -21,7 +21,7 @@ skills:
     point_count: 2
   tag: Normal Attack
 - name: Chasmic Soulfarer
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span
     style="color: rgba(255, 255, 255, 0.65)">Deals 3 </span><span style="color: #FFACFF">Electro
     DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
@@ -29,7 +29,7 @@ skills:
     point_count: 3
   tag: Elemental Skill
 - name: 'Sacred Rite: Wolf''s Swiftness'
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p><span
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span
     style="color: rgba(255, 255, 255, 0.65)">Deals 4 </span><span style="color: rgb(255,
     172, 255)">Electro DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p><p><span
     style="color: rgb(236, 229, 216)">Pactsworn Pathclearer</span><span style="color:
@@ -51,7 +51,7 @@ skills:
   tag: Passive Skill
 - name: Lawful Enforcer
   description: '<p><strong><span style="color:
-    rgb(236, 229, 216)">Pactsworn Pathclearer</span></strong></p><p><span style="color:
+    rgb(236, 229, 216)">Pactsworn Pathclearer</span></strong></p><span style="color:
     rgb(255, 215, 128)">Status</span><br><span style="color: rgb(255, 255, 255)">End
     Phase</span>: Gain 1 level of Indwelling.</p><p><span style="color: rgb(255, 255,
     255)">Create the following effects based on the Indwelling Level</span>:<br>If
@@ -64,7 +64,7 @@ skills:
     point_count: -1
   tag: Status
 - name: Electro DMG
-  description: '<p>Applies Electro and can trigger the following Elemental Reactions:</p><p>[<span
+  description: '<p>Applies Electro and can trigger the following Elemental Reactions:</p>[<span
     style="color: rgb(255, 172, 255)">Electro </span>+ <span style="color: rgb(255,
     153, 153)">Pyro</span>] <span style="color: rgb(255, 255, 255)">Overloaded</span>:
     DMG +2 for this instance, the target is forcibly switched to the next character</p><p>[<span

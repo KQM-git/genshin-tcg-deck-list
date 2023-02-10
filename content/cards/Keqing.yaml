@@ -11,7 +11,7 @@ element: Electro
 weapon: Sword
 skills:
 - name: Yunlai Swordsmanship
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><p><span
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span
     style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: #FFFFFF">Physical
     DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
@@ -21,16 +21,16 @@ skills:
     point_count: 2
   tag: Normal Attack
 - name: Stellar Restoration
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span
     style="color: rgba(255, 255, 255, 0.65)">Deals 3 </span><span style="color: #FFACFF">Electro
     DMG</span><span style="color: rgba(255, 255, 255, 0.65)">, creates 1 </span><span
-    style="color: #FFFFFF">Lightning Stiletto.</span></p>'
+    style="color: rgb(255, 215, 128)">Lightning Stiletto.</span></p>'
   points:
   - point_type: electro
     point_count: 3
   tag: Elemental Skill
 - name: Starward Sword
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p><span
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span
     style="color: rgba(255, 255, 255, 0.65)">Deals 4 </span><span style="color: rgb(255,
     172, 255)">Electro DMG</span><span style="color: rgba(255, 255, 255, 0.65)">,
     deals </span><span style="color: #FFFFFF">3 </span><span style="color: rgb(255,
@@ -43,8 +43,8 @@ skills:
     point_count: 3
   tag: Elemental Burst
 - name: Stellar Restoration
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Lightning Stiletto</span></strong><br><span
-    style="color: rgb(255, 215, 128)">Event Card</span><br><span style="color: rgb(255,
+  description: '<p><strong><span style="color: rgb(236, 229, 216)">Lightning Stiletto</span></strong></p><span
+    style="color: rgb(255, 215, 128)">Event Card</span></p><p><span style="color: rgb(255,
     255, 255)">Combat Actions</span>: Switch your Keqing in to be the active character
     and immediately use Stellar Restoration once. This instance of Stellar Restoration
     will grant Keqing <span style="color: rgb(236, 229, 216)">Electro Infusion</span>
@@ -59,7 +59,7 @@ skills:
   tag: Lightning Stiletto
 - name: Lightning Stiletto
   description: '<p><strong><span
-    style="color: rgb(236, 229, 216)">Electro Infusion</span></strong></p><p><span
+    style="color: rgb(236, 229, 216)">Electro Infusion</span></strong></p><span
     style="color: rgb(255, 215, 128)">Status</span></p><p>The character to which this
     is attached has their Physical DMG dealt converted to <span style="color: rgb(255,
     172, 255)">Electro DMG</span>.</p><p><span style="color: rgb(255, 255, 255)">Duration

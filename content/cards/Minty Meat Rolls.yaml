@@ -14,5 +14,5 @@ skills:
     may use Elemental Dice of any element to pay this type of cost.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 source: <p>Default Deck</p><p>Purchased at the Card Shop</p>

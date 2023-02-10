@@ -11,9 +11,9 @@ element: Geo
 weapon: Claymore
 skills:
 - name: Favonius Bladework - Maid
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><p><span
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span
     style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: #FFFFFF">Physical
-    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
+    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span>'
   points:
   - point_type: geo
     point_count: 1
@@ -21,20 +21,20 @@ skills:
     point_count: 2
   tag: Normal Attack
 - name: Breastplate
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span
     style="color: rgba(255, 255, 255, 0.65)">Deals 1 </span><span style="color: rgb(255,
     230, 153)">Geo DMG</span><span style="color: rgba(255, 255, 255, 0.65)">, creates
     1 </span><span style="color: rgb(236, 229, 216)">Full Plate</span><span style="color:
-    rgba(255, 255, 255, 0.65)">.</span></p><p></p>'
+    rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
   - point_type: geo
     point_count: 3
   tag: Elemental Skill
 - name: Breastplate
-  description: '<p><strong><span style="color: rgb(236,
-    229, 216)">Full Plate</span></strong><br><span style="color: rgb(255, 215, 128)">Combat
-    Status</span><br>Grant 2 <span style="color: rgb(255, 255, 255)">Shield points</span>
-    to your active character.<br>Before this <span style="color: rgb(255, 255, 255)">Shield
+  description: '<p><strong><span style="color: rgb(236, 229, 216)">Full Plate</span></strong><br>
+    <span style="color: rgb(255, 215, 128)">Combat Status</span><p>Grant 2 
+    <span style="color: rgb(255, 255, 255)">Shield Points</span>
+    to your active character.</p><p>Before this <span style="color: rgb(255, 255, 255)">Shield
     </span>is fully consumed, the <span style="color: rgb(255, 255, 255)">Physical
     DMG</span> you take is halved.</p><p>(The figure will be rounded up)</p>'
   points:
@@ -42,11 +42,11 @@ skills:
     point_count: -1
   tag: Combat Status
 - name: Sweeping Time
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p><span
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span
     style="color: rgba(255, 255, 255, 0.65)">Deals 4 </span><span style="color: rgb(255,
     230, 153)">Geo DMG</span><span style="color: rgba(255, 255, 255, 0.65)">. This
     character gains </span><span style="color: rgb(236, 229, 216)">Sweeping Time</span><span
-    style="color: rgba(255, 255, 255, 0.65)">.</span></p><p></p>'
+    style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
   - point_type: geo
     point_count: 4
@@ -55,13 +55,13 @@ skills:
   tag: Elemental Burst
 - name: Sweeping Time
   description: '<p><strong><span style="color:
-    rgb(236, 229, 216)">Sweeping Time</span></strong><br><span style="color: rgb(255,
-    215, 128)">Combat Status</span><br><span style="color: rgba(255, 255, 255, 0.65)">When your character uses a Normal Attack: Consume
-    1 less Geo Die. (Once per Round)<br>Character''s <span style="color: rgb(255,
+    rgb(236, 229, 216)">Sweeping Time</span></strong></p><span style="color: rgb(255,
+    215, 128)">Combat Status</span><p><span style="color: rgba(255, 255, 255, 0.65)">When your character uses a Normal Attack: Consume
+    1 less Geo Die. (Once per Round)</p><p>Character''s <span style="color: rgb(255,
     255, 255)">Normal Attacks</span> deal +2 DMG and their <span style="color: rgb(255,
     255, 255)">Physical DMG</span> dealt is converted to <span style="color: rgb(255,
-    230, 153)">Geo DMG</span>.<br><span style="color: rgb(255, 255, 255)">Duration
-    (Rounds): 2</span></p><p></p></p>'
+    230, 153)">Geo DMG</span>.</p><p><span style="color: rgb(255, 255, 255)">Duration
+    (Rounds): 2</span></p>'
   points:
   - point_type: ''
     point_count: -1

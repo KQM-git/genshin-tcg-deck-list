@@ -61,7 +61,7 @@ skills:
   tag: Status
 - name: Frostflake Seki no To
   description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
-    style="color: rgb(255, 255, 255)">End Phase</span>: Deal 2 <span style="color:
+    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 2 <span style="color:
     rgb(153, 255, 255)">Cryo DMG</span>.</p><p><span style="color: rgb(255, 255, 255)">Usage(s):
     2</span></p>'
   points:

@@ -33,11 +33,11 @@ skills:
     active character gains 1 Shield point (Can stack, max 2 points)</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 - name: Detailed Rules
   description: '<p><strong><span style="color: #ECE5D8">Shield</span></strong></p><p>This
     Shield will be consumed to protect the character who equips it from DMG.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 source: <p>Purchased at the Card Shop</p>

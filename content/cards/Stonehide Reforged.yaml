@@ -8,21 +8,9 @@ skills:
     equip this card.</p><p>After Stonehide Lawachurl equips this card, immediately
     use <span style="color: rgb(255, 215, 128)">Upa Shato</span> once.</p><p>When
     your Stonehide Lawachurl, who has this card equipped, defeats an opposing character:
-    Stonehide Lawachurl will re-attach <span style="color: rgb(255, 255, 255)">Stonehide
-    </span>and <span style="color: rgb(255, 255, 255)">Stone Force</span>.</p><p>(You
-    must have Stonehide Lawachurl in your deck to add this card to your deck.)</p><p></p><p><strong><span
-    style="color: rgb(236, 229, 216)">Stonehide</span></strong></p><p><span style="color:
-    rgb(255, 215, 128)">Status</span><br><span style="color: rgb(255, 255, 255)">When
-    the character to which this is attached receives DMG</span>: Decrease DMG taken
-    by 1. When Geo DMG is decreased, consume 1 additional <span style="color: rgb(255,
-    255, 255)">Usage(s)</span>.<br><span style="color: rgb(255, 255, 255)">Usage(s):
-    3</span></p><p></p><p><strong><span style="color: rgb(236, 229, 216)">Stone Force</span></strong></p><p><span
-    style="color: rgb(255, 215, 128)">Status</span><br>The character to which this
-    is attached has their <span style="color: rgb(255, 255, 255)">Physical DMG</span>
-    dealt converted to <span style="color: rgb(255, 230, 153)">Geo DMG</span>.<br><span
-    style="color: rgb(255, 255, 255)">Once per Round</span>: The character deals +1
-    DMG.</p><p>Once the Stonehide attached to the character is removed, this status
-    will be removed alongside it.</p>'
+    Stonehide Lawachurl will re-attach <span style="color: rgb(236, 229, 216)">
+    Stonehide</span> and <span style="color: rgb(236, 229, 216)">Stone Force</span>.</p><p>(You
+    must have Stonehide Lawachurl in your deck to add this card to your deck.)</p><p></p></p>'
   points:
   - point_type: geo
     point_count: 4
@@ -37,7 +25,32 @@ skills:
     point_count: 3
   - point_type: recharge
     point_count: 2
+  side: true
   tag: Elemental Burst
+- name: Infused Stonehide
+  description: '<p><strong><span
+    style="color: rgb(236, 229, 216)">Stonehide</span></strong></p><span style="color:
+    rgb(255, 215, 128)">Status</span></p><p><span style="color: rgb(255, 255, 255)">When
+    the character to which this is attached receives DMG</span>: Decrease DMG taken
+    by 1. When Geo DMG is decreased, consume 1 additional <span style="color: rgb(255,
+    255, 255)">Usage(s)</span>.</p><p><span style="color: rgb(255, 255, 255)">Usage(s):
+    3</span></p><p></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Status
+- name: Infused Stonehide
+  description: '<p><strong><span style="color: rgb(236, 229, 216)">Stone Force</span></strong></p><span
+    style="color: rgb(255, 215, 128)">Status</span><p>The character to which this
+    is attached has their <span style="color: rgb(255, 255, 255)">Physical DMG</span>
+    dealt converted to <span style="color: rgb(255, 230, 153)">Geo DMG</span>.</p><p><span
+    style="color: rgb(255, 255, 255)">Once per Round</span>: The character deals +1
+    DMG. Once the Stonehide attached to the character is removed, this status will
+    be removed alongside it.</p><p></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Status
 - name: Geo DMG
   description: '<p>Reacts with Elements if they are already applied:<br>[<span style="color:
     rgb(255, 230, 153)">Geo</span> + <span style="color: rgb(153, 255, 255)">Cryo</span>]
@@ -55,7 +68,7 @@ skills:
     active character gains 1 Shield point (Can stack, max 2 points)</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 - name: Detailed Rules
   description: '<p><strong><span style="color: rgb(236, 229, 216)">Combat Action</span></strong></p><p>After
     you finish 1 Combat Action, it will be your opponent''s turn.</p><p><span style="color:
@@ -69,7 +82,7 @@ skills:
     any Elements, nor can it engage in Elemental Reactions.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 related_character: Stonehide Lawachurl
 source: <p>Reward from Character Proficiency</p><p>Reward for accepting the Tavern
   Challenge against Stonehide Lawachurl at The Cat's Tail and achieving all corresponding

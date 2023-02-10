@@ -18,5 +18,5 @@ skills:
     0 <span style="color: #FFFFFF">Usages </span>remaining.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 source: <p>Default Deck</p><p>Reward for meeting the Player's Manual requirements</p>

@@ -11,7 +11,7 @@ element: Electro
 weapon: Claymore
 skills:
 - name: Steel Fang
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><p><span
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span
     style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: #FFFFFF">Physical
     DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
@@ -21,7 +21,7 @@ skills:
     point_count: 2
   tag: Normal Attack
 - name: Claw and Thunder
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span
     style="color: rgba(255, 255, 255, 0.65)">Deals 3 </span><span style="color: #FFACFF">Electro
     DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
@@ -29,7 +29,7 @@ skills:
     point_count: 3
   tag: Elemental Skill
 - name: Lightning Fang
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p><span
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span
     style="color: rgba(255, 255, 255, 0.65)">Deals 5 </span><span style="color: rgb(255,
     172, 255)">Electro DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.
     This character gains </span><span style="color: rgb(236, 229, 216)">The Wolf Within</span><span
@@ -42,10 +42,10 @@ skills:
   tag: Elemental Burst
 - name: Lightning Fang
   description: '<p><strong><span style="color:
-    rgb(236, 229, 216)">The Wolf Within</span></strong></p><p><span style="color:
-    rgb(255, 215, 128)">Status</span><br><span style="color: rgb(255, 255, 255)">After
+    rgb(236, 229, 216)">The Wolf Within</span></strong></p><span style="color:
+    rgb(255, 215, 128)">Status</span></p><p><span style="color: rgb(255, 255, 255)">After
     the character to which this is attached uses a Normal Attack or an Elemental Skill</span>:
-    Deal 2 <span style="color: rgb(255, 172, 255)">Electro DMG</span>.<br><span style="color:
+    Deal 2 <span style="color: rgb(255, 172, 255)">Electro DMG</span>.</p><p><span style="color:
     rgb(255, 255, 255)">Duration (Rounds): 2</span></p>'
   points:
   - point_type: ''

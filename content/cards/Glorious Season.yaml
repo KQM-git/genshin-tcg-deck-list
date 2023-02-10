@@ -15,24 +15,25 @@ skills:
   - point_type: hydro
     point_count: 4
 - name: "Let the Show Begin\u266A"
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.65)">Deals 1 </span><span style="color: rgb(128,
-    192, 255)">Hydro DMG</span><span style="color: rgba(255, 255, 255, 0.65)">, summons
-    1 </span><span style="color: rgb(255, 255, 255)">Melody Loop</span><span style="color:
-    rgba(255, 255, 255, 0.65)">.</span></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span
+    style="color: rgba(255, 255, 255, 0.65)">Deals 1 </span><span style="color: #80C0FF">Hydro
+    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">, summons 1 </span><span
+    style="color: #FFFFFF">Melody Loop</span><span style="color: rgba(255, 255, 255,
+    0.45)">.</span></p>'
   points:
   - point_type: hydro
     point_count: 3
+  side: true
   tag: Elemental Skill
 - name: Melody Loop
-  description: '<p><span style="color: rgb(255, 215, 128)">Summons</span><br><span
-    style="color: rgb(255, 255, 255)">End Phase</span>: Heal all your characters for
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
+    style="color: rgb(255, 255, 255)">End Phase:</span> Heal all your characters for
     1 HP and your active character gains <span style="color: rgb(128, 192, 255)">Hydro
-    Application</span>.<br><span style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
+    Application</span>.</p><p><span style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
   points:
   - point_type: ''
     point_count: -1
-  tag: Summons
+  tag: Summon
 - name: Hydro DMG
   description: '<p>Applies Hydro and can trigger the following Elemental Reactions:</p><p><span
     style="color: rgb(255, 255, 255)">[</span><span style="color: rgb(128, 192, 255)">Hydro</span><span
@@ -55,7 +56,7 @@ skills:
     the grants +2 DMG to the next instance of Pyro/Electro DMG</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 - name: Detailed Rules
   description: '<p><strong><span style="color: rgb(236, 229, 216)">Combat Action</span></strong></p><p>After
     you finish 1 Combat Action, it will be your opponent''s turn.</p><p><span style="color:
@@ -86,7 +87,7 @@ skills:
     rgb(255, 255, 255)">Usages </span>remaining.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 related_character: Barbara
 source: <p>Reward from Character Proficiency</p><p>Reward for inviting Barbara to
   a duel at The Cat's Tail and achieving all corresponding challenge objectives</p>

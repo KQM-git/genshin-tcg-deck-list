@@ -3,7 +3,7 @@ id: 322011
 tags: []
 skills:
 - name: Description
-  description: '<p><span style="color: #FFFFFF">End Phase</span>: One of your characters
+  description: '<p><span style="color: #FFFFFF">End Phase:</span> One of your characters
     without maximum Energy gains 1 <span style="color: #FFFFFF">Energy</span>. (Active
     Character prioritized)</p><p><span style="color: #FFFFFF">Usage(s): 2</span></p>'
   points:
@@ -19,7 +19,7 @@ skills:
     #FFFFFF">Usages </span>remaining.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 source: <p>Reward for accepting Iron Tongue Tian's Adventure Challenge in the open
   world and achieving all corresponding challenge objectives</p><p>Purchased at the
   Card Shop</p>

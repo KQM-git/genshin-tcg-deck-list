@@ -59,14 +59,12 @@ skills:
   - point_type: recharge
     point_count: 2
   tag: Elemental Burst
-- name: Celestial Shower
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Sacred Cryo Pearl</span></strong></p>
-  <span style="color: rgb(255, 215, 128)">Summon</span><p></p>
-  <span style="color: rgb(255, 255, 255)">End Phase:</span> 
-  <span style="color: rgb(255, 255, 255, 0.65)">Deal 1 
-  <span style="color: rgb(153, 255, 255)">Cryo DMG</span>, deal 1 
-  <span style="color: rgb(255, 255, 255)">Piercing DMG </span>to all opposing characters on standby.</span><p></p>
-  <span style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
+- name: Sacred Cryo Pearl
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span><br><span
+    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 1 <span style="color:
+    rgb(153, 255, 255)">Cryo DMG</span>, deal 1 <span style="color: rgb(255, 255,
+    255)">Piercing DMG </span>to all opposing characters on standby.<br><span style="color:
+    rgb(255, 255, 255)">Usage(s): 2</span></p>'
   points:
   - point_type: ''
     point_count: -1

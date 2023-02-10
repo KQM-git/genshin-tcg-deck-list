@@ -19,17 +19,19 @@ skills:
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p><span
     style="color: rgba(255, 255, 255, 0.65)">Deals 1 </span><span style="color: rgb(128,
     255, 215)">Anemo DMG</span><span style="color: rgba(255, 255, 255, 0.65)">, summons
-    1 </span><span style="color: rgb(255, 255, 255)">Large Wind Spirit</span><span
+    1 </span><span style="color: rgb(255, 215, 128)">Large Wind Spirit</span><span
     style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
   - point_type: anemo
     point_count: 3
   - point_type: recharge
     point_count: 2
+  side: true
   tag: Elemental Burst
+
 - name: Large Wind Spirit
   description: '<p><span style="color: rgb(255, 215, 128)">Summons</span></p><p><span
-    style="color: rgb(255, 255, 255)">End Phase</span>: Deal 2 <span style="color:
+    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 2 <span style="color:
     rgb(128, 255, 215)">Anemo DMG</span>.</p><p><span style="color: rgb(255, 255,
     255)">Usage(s): 3</span></p><p></p><p>After this card or your characters trigger
     a Swirl reaction: Convert the Elemental Type of this card and change its DMG dealt
@@ -54,7 +56,7 @@ skills:
     except the target</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 - name: Detailed Rules
   description: '<p><strong><span style="color: rgb(236, 229, 216)">Combat Action</span></strong></p><p>After
     you finish 1 Combat Action, it will be your opponent''s turn.</p><p><span style="color:
@@ -66,7 +68,7 @@ skills:
     rgb(255, 255, 255)">Usages </span>remaining.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 related_character: Sucrose
 source: <p>Reward from Character Proficiency</p><p>Reward for inviting Sucrose to
   a duel at The Cat's Tail and achieving all corresponding challenge objectives</p>

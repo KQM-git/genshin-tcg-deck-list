@@ -4,9 +4,37 @@ tags: []
 skills:
 - name: Description
   description: >
-    <p><span style="color: rgb(255, 255, 255)">Combat Action:</span> When your active character is <span style="color: rgb(255, 255, 255)">Beidou</span>, equip this card.</p><p>After Beidou equips this card, immediately use <span style="color: rgb(255, 215, 128)">Tidecaller </span>once.</p><p>When Beiou, who has this card equipped, uses <span style="color: rgb(255, 255, 255)">Wavestrider</span>: If DMG is taken while <span style="color: rgb(255, 255, 255)">Prepare Skill</span> is active, Beidou's Normal Attacks this Round will cost 1 less <span style="color: rgb(255, 255, 255)">Unaligned Element</span>. (Can be triggered 2 times)</p><p>(You must have Beidou in your deck to add this card to your deck.)</p><p></p><p><strong><span style="color: rgb(236, 229, 216)">Wavestrider</span></strong></p><p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p>(Prepare for 1 turn)</p><p>Deals 2 <span style="color: rgb(255, 172, 255)">Electro DMG</span>.</p>
+    <p><span style="color: rgb(255, 255, 255)">Combat Action:</span> When your active character is 
+    <span style="color: rgb(255, 255, 255)">Beidou</span>, equip this card.</p>
+    <p>After Beidou equips this card, immediately use 
+    <span style="color: rgb(255, 215, 128)">Tidecaller </span>once.</p>
+    <p>When Beiou, who has this card equipped, uses 
+    <span style="color: rgb(255, 255, 255)">Wavestrider</span>: If DMG is taken while 
+    <span style="color: rgb(255, 255, 255)">Prepare Skill</span> is active, Beidou's Normal Attacks this Round will cost 1 less 
+    <span style="color: rgb(255, 255, 255)">Unaligned Element</span>. (Can be triggered 2 times)</p>
+    <p>(You must have Beidou in your deck to add this card to your deck.)</p><p></p>
   points:
   - point_type: electro
     point_count: 3
+- name: Tidecaller
+  description: >
+    <p><span style="color: #FFD780">Elemental Skill</span></p>This character gains a 
+    <span style="color: rgb(236, 229, 216)">Tidecaller: Surf Embrace</span>.</p><p>
+    <span style="color: #FFFFFF">Prepare Skill: Wavestrider</span>.</p>
+  points:
+  - point_type: electro
+    point_count: 3
+  side: true
+  tag: Elemental Skill
+- name: Tidecaller
+  description: '<p><strong><span style="color: rgb(236, 229, 216)">Tidecaller: Surf Embrace</span></strong></p>
+  <span style="color: rgb(255, 215, 128)">Status</span></p>
+  <p>The next time this character acts, they will immediately use the Skill 
+  <span style="color: rgb(255, 215, 128)"">Wavestrider</span>.</p>
+  <p>While preparing this Skill: Grant 2 
+  <span style="color: #FFFFFF">Shield </span>points to this character to which this is attached.</p>'
+  points:
+  - point_type: ''
+    point_count: -1
 related_character: Beidou
 source: <p>Reward for inviting Beidou to a duel at The Cat's Tail and achieving all corresponding challenge objectives</p>

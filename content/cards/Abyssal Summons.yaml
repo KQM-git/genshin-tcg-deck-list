@@ -21,7 +21,7 @@ skills:
     point_count: 2
 - name: Cryo Hilichurl Shooter
   description: '<p><span style="color: rgb(255, 215, 128)">Summons</span></p><p><span
-    style="color: rgb(255, 255, 255)">End Phase</span>: Deal 1 <span style="color:
+    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 1 <span style="color:
     rgb(153, 255, 255)">Cryo DMG</span>.</p><p><span style="color: rgb(255, 255, 255)">Usage(s):
     2</span></p>'
   points:
@@ -29,7 +29,7 @@ skills:
     point_count: -1
 - name: Hydro Samachurl
   description: '<p><span style="color: rgb(255, 215, 128)">Summons</span></p><p><span
-    style="color: rgb(255, 255, 255)">End Phase</span>: Deal 1 <span style="color:
+    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 1 <span style="color:
     rgb(128, 192, 255)">Hydro DMG</span>.</p><p><span style="color: rgb(255, 255,
     255)">Usage(s): 2</span></p>'
   points:
@@ -37,7 +37,7 @@ skills:
     point_count: -1
 - name: Hilichurl Berserker
   description: '<p><span style="color: rgb(255, 215, 128)">Summons</span></p><p><span
-    style="color: rgb(255, 255, 255)">End Phase</span>: Deal 1 <span style="color:
+    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 1 <span style="color:
     rgb(255, 153, 153)">Pyro DMG</span>.</p><p><span style="color: rgb(255, 255, 255)">Usage(s):
     2</span></p>'
   points:
@@ -45,7 +45,7 @@ skills:
     point_count: -1
 - name: Electro Hilichurl Shooter
   description: '<p><span style="color: rgb(255, 215, 128)">Summons</span></p><p><span
-    style="color: rgb(255, 255, 255)">End Phase</span>: Deal 1 <span style="color:
+    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 1 <span style="color:
     rgb(255, 172, 255)">Electro DMG</span>.</p><p><span style="color: rgb(255, 255,
     255)">Usage(s): 2</span></p>'
   points:
@@ -58,5 +58,5 @@ skills:
     it has 0 <span style="color: rgb(255, 255, 255)">Usages </span>remaining.</p>'
   points:
   - point_type: ''
-    point_count: -1
+    point_count: 0
 source: <p>Purchased at the Card Shop</p>

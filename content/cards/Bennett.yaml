@@ -11,7 +11,7 @@ element: Pyro
 weapon: Sword
 skills:
 - name: Strike of Fortune
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><p><span
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span
     style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: #FFFFFF">Physical
     DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
@@ -21,7 +21,7 @@ skills:
     point_count: 2
   tag: Normal Attack
 - name: Passion Overload
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span
     style="color: rgba(255, 255, 255, 0.65)">Deals 3 </span><span style="color: #FF9999">Pyro
     DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
@@ -29,7 +29,7 @@ skills:
     point_count: 3
   tag: Elemental Skill
 - name: Fantastic Voyage
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p><span
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span
     style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: rgb(255,
     153, 153)">Pyro DMG</span><span style="color: rgba(255, 255, 255, 0.65)">, creates
     1 </span><span style="color: rgb(236, 229, 216)">Inspiration Field</span><span
@@ -43,7 +43,7 @@ skills:
 - name: Fantastic Voyage
   description: '<p><strong><span style="color:
     rgb(236, 229, 216)">Inspiration Field</span></strong><br><span style="color: rgb(255,
-    215, 128)">Combat Status</span><br><span style="color: rgb(255, 255, 255)">When
+    215, 128)">Combat Status</span></p><p><span style="color: rgb(255, 255, 255)">When
     your character uses a Skill</span>: If this character has at least 7 HP, deal
     +2 additional DMG for this instance. After the Skill DMG is finalized, if this
     character''s HP is not greater than 6, heal this character for 2 HP.</p><p><span

@@ -54,7 +54,7 @@ skills:
     style="color: rgb(255, 255, 255)">When your active character receives DMG</span>:
     Decrease DMG taken by 1.</p><p><span style="color: rgb(255, 255, 255)">Usage(s):
     1</span>. When the Usage is depleted, this card will not be discarded.</p><p><span
-    style="color: rgb(255, 255, 255)">End Phase</span>: Discard this card, deal 1
+    style="color: rgb(255, 255, 255)">End Phase:</span> Discard this card, deal 1
     <span style="color: rgb(128, 192, 255)">Hydro DMG</span>.</p>'
   points:
   - point_type: ''

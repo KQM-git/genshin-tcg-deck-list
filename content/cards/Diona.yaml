@@ -48,14 +48,12 @@ skills:
   - point_type: recharge
     point_count: 3
   tag: Elemental Burst
-- name: Signature Mix
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Drunken Mist</span>
-    </strong></p><span style="color: rgb(255, 215, 128)">Summon</span>
-    <p><span style="color: rgb(255, 255, 255)">End Phase:</span>
-    <span style="color: rgba(255, 255, 255, 0.65)"> Deal 1 
-    <span style="color: rgb(153, 255, 255)">Cryo DMG</span>, heal
-    your active character for 2 HP.</p><p>
-    <span style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
+- name: Drunken Mist
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
+    style="color: rgb(255, 255, 255)">End Phase</span>: Deal 1 <span style="color:
+    rgb(153, 255, 255)">Cryo </span><span style="color: #99FFFF">DMG</span>, heal
+    your active character for 2 HP.</p><p><span style="color: rgb(255, 255, 255)">Usage(s):
+    2</span></p>'
   points:
   - point_type: ''
     point_count: -1

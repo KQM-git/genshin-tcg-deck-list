@@ -48,38 +48,30 @@ skills:
   - point_type: recharge
     point_count: 3
   tag: Elemental Burst
-- name: Oceanid Mimic Summoning
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Hydro Mimic Ferret</span></strong></p>
-  <span style="color: rgb(255, 215, 128)">Summon</span><p></p>
-  <span style="color: rgb(255, 255, 255)">End Phase:</span> 
-  <span style="color: rgb(255, 255, 255, 0.65)"> Deal 2 
-  <span style="color: rgb(128, 192, 255)">Hydro DMG</span>.<br></br>
-  <span style="color: rgb(255, 255, 255)">Usage(s): 2</span>'
+- name: Hydro Mimic Ferret
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p>Deal
+    2 <span style="color: rgb(128, 192, 255)">Hydro DMG</span></p><p><span style="color:
+    rgb(255, 255, 255)">Usage(s): 2</span></p>'
   points:
   - point_type: ''
     point_count: -1
   tag: Summon
-- name: Oceanid Mimic Summoning
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Hydro Mimic Raptor</span></strong></p>
-  <span style="color: rgb(255, 215, 128)">Summon</span><p></p>
-  <span style="color: rgb(255, 255, 255)">End Phase:</span> 
-  <span style="color: rgb(255, 255, 255, 0.65)"> Deal 1 
-  <span style="color: rgb(128, 192, 255)">Hydro DMG</span>.<br></br>
-  <span style="color: rgb(255, 255, 255)">Usage(s): 2</span>'
+- name: Hydro Mimic Raptor
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p>Deal
+    1 <span style="color: rgb(128, 192, 255)">Hydro DMG</span></p><p><span style="color:
+    rgb(255, 255, 255)">Usage(s): 3</span></p>'
   points:
   - point_type: ''
     point_count: -1
   tag: Summon
-- name: Oceanid Mimic Summoning
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Hydro Mimic Frog</span></strong></p>
-  <span style="color: rgb(255, 215, 128)">Summon</span><p></p>
-  <span style="color: rgb(255, 255, 255, 0.65)"> Provides 2 
-  <span style="color: rgb(255, 255, 255)">Shield Points</span> for your active character. When this card''s 
-  <span style="color: rgb(255, 255, 255)">Shield Points</span>
-  are depleted, it is not discarded.<br></br>During the End Phase, if this card''s 
-  <span style="color: rgb(255, 255, 255)">Shield Points</span> have been depleted: Discard this card and deal 2 
-  <span style="color: rgb(128, 192, 255)">Hydro DMG</span>.<br></br>
-  <span style="color: rgb(255, 255, 255)">Usage(s): 2</span>'
+- name: Hydro Mimic Frog
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p>Provides
+    2 <span style="color: rgb(255, 255, 255)">Shield </span>points for your active
+    character. When this card''s Shield points are depleted, it is not discarded.</p><p>During
+    the End Phase, if this card''s <span style="color: rgb(255, 255, 255)">Shield</span>s
+    have been depleted:</p><p>Discard this card and deal 2 <span style="color: rgb(128,
+    192, 255)">Hydro DMG</span></p><p><span style="color: rgb(255, 255, 255)">Usage(s):
+    2</span></p>'
   points:
   - point_type: ''
     point_count: -1

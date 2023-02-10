@@ -42,7 +42,7 @@ skills:
     point_count: 3
   tag: Elemental Burst
 - name: Oz
-  description: '<p><span style="color: rgb(236, 229, 216)">Summon</span><br><span
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span><br><span
     style="color: rgb(255, 255, 255)">End Phase</span>: Deal 1 <span style="color:
     rgb(255, 172, 255)">Electro DMG</span>.<br><span style="color: rgb(255, 255, 255)">Usage(s):
     2</span></p>'

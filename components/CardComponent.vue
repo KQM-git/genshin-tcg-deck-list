@@ -79,7 +79,7 @@
                                     {{ point.point_count }}
                                 </div>
                             </div>
-                            <div class="skill-desc" v-html="skill.description" />
+                            <div class="skill-desc text-[#ffffffa6]" v-html="skill.description" />
                         </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@
                             {{ skill.name }}
                         </p>
                     </div>
-                    <div class="skill-desc" v-html="skill.description" />
+                    <div class="skill-desc text-[#ffffffa6]" v-html="skill.description" />
                 </div>
             </div>
         </div>

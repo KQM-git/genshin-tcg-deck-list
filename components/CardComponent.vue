@@ -159,7 +159,7 @@ export default Vue.extend({
             card: {} as any
         }
     },
-    async fetch () {
+    async mounted () {
         this.card = await this.$content('cards', this.name.replace(/[:*!?<>/\\]/g, '')).fetch() as any[]
     }
 })

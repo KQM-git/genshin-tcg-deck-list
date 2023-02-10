@@ -5,6 +5,7 @@
             :key="i"
             class="h-24 w-[calc(6rem*7/12)] sm:h-32 sm:w-[calc(8rem*7/12)] lg:h-60 lg:w-[calc(15rem*7/12)]"
             :name="card"
+            :border="true"
         />
     </div>
 </template>

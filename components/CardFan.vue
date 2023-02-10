@@ -9,6 +9,7 @@
             :style="{ transform: `rotate(${10 * (1 - cards.length) + i * 20}deg)` }"
             :name="card"
             :modal="false"
+            :border="true"
         />
     </div>
 </template>

@@ -13,7 +13,13 @@
                 }[type] ?? 'center',
             }"
             @click="showModal = true"
-        />
+        >
+            <img
+                v-if="border"
+                :src="require('~/assets/card_border.png')"
+                class="w-full h-full"
+            >
+        </div>
         <div
             v-if="modal"
             v-show="showModal"
@@ -151,6 +157,10 @@ export default Vue.extend({
         type: {
             type: String,
             default: 'card'
+        },
+        border: {
+            type: Boolean,
+            default: false
         }
     },
     data () {

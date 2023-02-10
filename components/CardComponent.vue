@@ -37,9 +37,22 @@
                 >
                 <div class="flex flex-col p-5 bg-[#2D282F] border-x-2 border-b-2 border-[#584F65] rounded-b-xl min-h-[400px]">
                     <div class="w-full flex flex-row justify-between items-center">
-                        <p class="text-2xl">
-                            {{ name }}
-                        </p>
+                        <div class="flex flex-row justify-center items-center">
+                            <p class="text-2xl">
+                                {{ name }}
+                            </p>
+                            <div v-if="card?.skills?.find(skill => skill.name === 'Description')">
+                                <div
+                                    v-for="point of card.skills.find(skill => skill.name === 'Description').points.filter(point => point.point_count > 0)"
+                                    :key="point.point_type"
+                                    :style="`backgroundImage: url(${require(`~/assets/icons/cost/${point.point_type}.png`)}); text-shadow: -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333, 1px 1px 0 #333`"
+                                    class="w-12 h-12 bg-center bg-contain flex justify-center items-center text-2xl shrink-0"
+                                >
+                                    {{ point.point_count }}
+                                </div>
+                            </div>
+                        </div>
+
                         <div v-if="card.tags?.length != 0" class="flex flex-row">
                             <img
                                 v-for="tag of card.tags"
@@ -51,11 +64,12 @@
                     </div>
                     <div v-if="card.skills" class="w-full flex flex-col gap-5">
                         <div
-                            v-for="skill of card.skills.filter(skill => skill.points[0].point_count > 0 || skill.name === 'Description')"
+                            v-for="skill of card.skills.filter(skill => (skill.points[0].point_count > 0 && !skill?.side) || skill.name === 'Description')"
                             :key="skill.name"
                             class="w-full flex flex-col"
                         >
                             <div
+                                v-if="skill.name !== 'Description'"
                                 class="flex flex-row items-center"
                             >
                                 <img
@@ -80,11 +94,11 @@
                 </div>
             </div>
             <div
-                v-if="card?.skills?.filter(skill => skill.points[0].point_count === -1).length > 0"
+                v-if="card?.skills"
                 class="my-auto flex flex-col gap-5 font-genshin max-w-md"
             >
                 <div
-                    v-for="skill of card.skills.filter(skill => skill.points[0].point_count === -1)"
+                    v-for="skill of card.skills.filter(skill => skill.points[0].point_count === -1 || skill?.side)"
                     :key="skill.name"
                     class="w-full p-5 bg-[#2D282F] border-2 border-[#584F65] rounded-xl"
                 >
@@ -96,6 +110,14 @@
                         <p class="text-lg">
                             {{ skill.name }}
                         </p>
+                        <div
+                            v-for="point of skill.points.filter(point => point.point_count > 0)"
+                            :key="point.point_type"
+                            :style="`backgroundImage: url(${require(`~/assets/icons/cost/${point.point_type}.png`)}); text-shadow: -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333, 1px 1px 0 #333`"
+                            class="w-12 h-12 bg-center bg-contain flex justify-center items-center text-2xl shrink-0"
+                        >
+                            {{ point.point_count }}
+                        </div>
                     </div>
                     <div class="skill-desc" v-html="skill.description" />
                 </div>

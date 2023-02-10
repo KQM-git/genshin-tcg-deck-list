@@ -6,20 +6,20 @@
             :to="deck.slug"
             class="rounded-xl bg-[#2D282F] border-2 border-[#584F65] h-52 flex flex-row"
         >
-            <div class="w-full flex flex-col p-6 gap-2 justify-center">
+            <div class="w-1/2 flex flex-col p-3 sm:p-6 gap-2 justify-center">
                 <p class="w-full font-genshin text-xl sm:text-3xl">
                     {{ deck.name }}
                 </p>
-                <div class="w-full grid grid-cols-3 gap-2">
+                <div class="w-full flex flex-row flex-wrap justify-start items-center gap-2">
                     <tag-bar
                         v-for="tag of deck.tags"
                         :key="tag"
                         :tag="tag"
-                        class="rounded-md text-center font-bold"
+                        class="rounded-md text-center font-bold px-2"
                     />
                 </div>
             </div>
-            <div class="w-full flex flex-row mr-3">
+            <div class="w-1/2 flex flex-row mr-3">
                 <card-component
                     v-for="(character, i) in deck.characters"
                     :key="i"

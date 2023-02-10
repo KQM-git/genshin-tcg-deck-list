@@ -11,8 +11,8 @@ element: Hydro
 weapon: Catalyst
 skills:
 - name: Ripple of Fate
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><p>Deals
-    1 <span style="color: rgb(128, 192, 255)">Hydro DMG.</span></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>
+  <span style="color: rgb(255, 255, 255, 0.65)">Deals 1 <span style="color: rgb(128, 192, 255)">Hydro DMG.</span></span>'
   points:
   - point_type: hydro
     point_count: 1
@@ -20,21 +20,19 @@ skills:
     point_count: 2
   tag: Normal Attack
 - name: Mirror Reflection of Doom
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><p>Deals
-    1 <span style="color: rgb(128, 192, 255)">Hydro DMG</span>, summons 1 <span style="color:
-    #FFFFFF">Reflection</span>.</p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>
+  <span style="color: rgb(255, 255, 255, 0.65)">Deals 1 
+  <span style="color: rgb(128, 192, 255)">Hydro DMG</span>, summons 1 
+  <span style="color: rgb(255, 215, 128)">Reflection</span>.'
   points:
   - point_type: hydro
     point_count: 3
   tag: Normal Attack
 - name: Stellaris Phantasm
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p>Deals
-    4 <span style="color: rgb(128, 192, 255)">Hydro DMG</span>, creates 1 <span style="color:
-    rgb(255, 255, 255)">Illusory Bubble</span>.</p><p></p><p><strong><span style="color:
-    rgb(236, 229, 216)">Illusory Bubble</span></strong></p><p><span style="color:
-    rgb(255, 215, 128)">Combat Status</span><br><span style="color: rgb(255, 255,
-    255)">When you deal Skill DMG</span>: Remove this status and double the DMG dealt
-    for this instance.</p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+  <span style="color: rgb(255, 255, 255, 0.65)">Deals 4 
+  <span style="color: rgb(128, 192, 255)">Hydro DMG</span>, creates 1 
+  <span style="color: rgb(236, 229, 216)">Illusory Bubble</span>.'
   points:
   - point_type: hydro
     point_count: 3
@@ -42,26 +40,37 @@ skills:
     point_count: 3
   tag: Elemental Burst
 - name: Illusory Torrent
-  description: '<p><span style="color: rgb(255, 215, 128)">Passive Skill</span></p><p>(Passive)<span
-    style="color: rgb(255, 255, 255)"> When you perform "Switch Character" while Mona
-    is your active character</span>: This switch is considered a <span style="color:
-    rgb(255, 255, 255)">Fast Action</span> instead of a <span style="color: rgb(255,
-    255, 255)">Combat Action</span>. (Once per Round)</p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Passive Skill</span></p><p>(Passive)
+  <span style="color: rgb(255, 255, 255)"> When you perform "Switch Character" while Mona
+  is your active character</span>: This switch is considered a 
+  <span style="color: rgb(255, 255, 255)">Fast Action</span> instead of a 
+  <span style="color: rgb(255, 255, 255)">Combat Action</span>. (Once per Round)</p>'
   points:
   - point_type: ''
-    point_count: 0
+    point_count: -1
   tag: Passive Skill
 - name: Reflection
   description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
     style="color: rgb(255, 255, 255)">When your active character receives DMG</span>:
     Decrease DMG taken by 1.</p><p><span style="color: rgb(255, 255, 255)">Usage(s):
     1</span>. When the Usage is depleted, this card will not be discarded.</p><p><span
-    style="color: rgb(255, 255, 255)">End Phase</span>: Discard this card, deal 1
+    style="color: rgb(255, 255, 255)">End Phase:</span> Discard this card, deal 1
     <span style="color: rgb(128, 192, 255)">Hydro DMG</span>.</p>'
   points:
   - point_type: ''
-    point_count: 0
+    point_count: -1
   tag: Summon
+- name: Stellaris Phantasm
+  description: '<p><strong><span style="color:
+    rgb(236, 229, 216)">Illusory Bubble</span></strong></p>
+    <span style="color: rgb(255, 215, 128)">Combat Status</span>
+    <span style="color: rgb(255, 255, 255, 0.65)">
+    <p><span style="color: rgb(255, 255, 255)">When you deal Skill DMG:</span> Remove this status and double the DMG dealt
+    for this instance.<span></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Combat Status
 - name: Hydro DMG
   description: '<p>Applies Hydro and can trigger the following Elemental Reactions:</p><p><span
     style="color: rgb(255, 255, 255)">[</span><span style="color: rgb(128, 192, 255)">Hydro</span><span

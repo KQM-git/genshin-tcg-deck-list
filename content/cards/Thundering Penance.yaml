@@ -21,12 +21,13 @@ skills:
     point_count: 3
 - name: Stellar Restoration
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 3 </span><span style="color: rgb(255,
-    172, 255)">Electro DMG</span><span style="color: rgba(255, 255, 255, 0.45)">,
-    creates 1 </span><span style="color: rgb(255, 255, 255)">Lightning Stiletto.</span><br></p>'
+    style="color: rgba(255, 255, 255, 0.65)">Deals 3 </span><span style="color: #FFACFF">Electro
+    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">, creates 1 </span><span
+    style="color: rgb(255, 215, 128)">Lightning Stiletto.</span></p>'
   points:
   - point_type: electro
     point_count: 3
+  side: true
   tag: Elemental Skill
 - name: Lightning Stiletto
   description: '<p><span style="color: rgb(255, 215, 128)">Event Card</span><br><span
@@ -40,6 +41,7 @@ skills:
   points:
   - point_type: ''
     point_count: 0
+  side: true
   tag: Event Card
 - name: Electro DMG
   description: '<p>Applies Electro and can trigger the following Elemental Reactions:</p><p>[<span

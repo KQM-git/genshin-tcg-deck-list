@@ -11,8 +11,9 @@ element: Cryo
 weapon: Sword
 skills:
 - name: 'Kamisato Art: Kabuki'
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><p>Deals
-    2 <span style="color: #FFFFFF">Physical DMG</span>.</p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>
+  <span style="color: rgba(255, 255, 255, 0.65)">
+  <p>Deals 2 <span style="color: #FFFFFF">Physical DMG</span>.</span></p>'
   points:
   - point_type: cryo
     point_count: 1
@@ -20,16 +21,18 @@ skills:
     point_count: 2
   tag: Normal Attack
 - name: 'Kamisato Art: Hyouka'
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p>Deals
-    3 <span style="color: #99FFFF">Cryo DMG</span>.</p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  <span style="color: rgba(255, 255, 255, 0.65)">
+  <p>Deals 3 <span style="color: #99FFFF">Cryo DMG</span>.</span></p>'
   points:
   - point_type: cryo
     point_count: 3
   tag: Elemental Skill
 - name: 'Kamisato Art: Soumetsu'
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p>Deals
-    4 <span style="color: #99FFFF">Cryo DMG</span>, summons 1<span style="color: #FFFFFF">
-    Frostflake Seki no To</span>.</p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p> 
+  <span style="color: rgba(255, 255, 255, 0.65)"> Deals 4 
+  <span style="color: #99FFFF">Cryo DMG</span>, summons 1
+  <span style="color: rgb(236, 229, 216)"> Frostflake Seki no To</span>.</span>'
   points:
   - point_type: cryo
     point_count: 3
@@ -37,26 +40,33 @@ skills:
     point_count: 3
   tag: Elemental Burst
 - name: 'Kamisato Art: Senho'
-  description: '<p><span style="color: rgb(255, 215, 128)">Passive Skill</span></p><p>(Passive)
-    When switched to be the active character, this character gains <span style="color:
-    rgb(255, 255, 255)">Cryo Elemental Infusion</span>.</p><p></p><p><strong><span
-    style="color: rgb(236, 229, 216)">Cryo Elemental Infusion</span></strong></p><p><span
-    style="color: rgb(255, 215, 128)">Status</span></p><p>The character to which this
-    is attached has their <span style="color: rgb(255, 255, 255)">Physical DMG </span>dealt
-    converted to <span style="color: rgb(153, 255, 255)">Cryo DMG</span>. </p><p>(Lasts
-    until the Round ends)</p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Passive Skill</span></p>
+  <span style="color: rgba(255, 255, 255, 0.65)">
+  <p>(Passive) When switched to be the active character, this character gains 
+  <span style="color: rgb(236, 229, 216)">Cryo Elemental Infusion</span>.</span></p>'
   points:
   - point_type: ''
-    point_count: 0
+    point_count: -1
   tag: Passive Skill
+- name: 'Kamisato Art: Senho'
+  description: '<p><strong><span style="color: rgb(236, 229, 216)">Cryo Elemental Infusion</span></strong></p>
+  <span style="color: rgb(255, 215, 128)">Status</span>
+  <span style="color: rgba(255, 255, 255, 0.65)"><p>The character to which this is attached has their 
+  <span style="color: rgb(255, 255, 255)">Physical DMG </span>dealt converted to 
+  <span style="color: rgb(153, 255, 255)">Cryo DMG</span>.</span></p>
+  <br><span style="color: rgb(255, 255, 255)">(Lasts until the Round ends)</span></br>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Status
 - name: Frostflake Seki no To
   description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
-    style="color: rgb(255, 255, 255)">End Phase</span>: Deal 2 <span style="color:
+    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 2 <span style="color:
     rgb(153, 255, 255)">Cryo DMG</span>.</p><p><span style="color: rgb(255, 255, 255)">Usage(s):
     2</span></p>'
   points:
   - point_type: ''
-    point_count: 0
+    point_count: -1
   tag: Summon
 - name: Cryo DMG
   description: '<p>Applies Cryo and can trigger the following Elemental Reactions:</p><p><span

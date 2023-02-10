@@ -11,9 +11,9 @@ element: Geo
 weapon: Catalyst
 skills:
 - name: Sparkling Scatter
-  description: '<p><span style="color: #FFD780">Normal Attack</span></p><p><span style="color:
-    rgba(255, 255, 255, 0.45)">Deals 1 </span><span style="color: rgb(255, 230, 153)">Geo
-    DMG</span><span style="color: rgba(255, 255, 255, 0.45)">.</span></p>'
+  description: '<p><span style="color: #FFD780">Normal Attack</span></p><span style="color:
+    rgba(255, 255, 255, 0.65)">Deals 1 </span><span style="color: rgb(255, 230, 153)">Geo
+    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
   - point_type: geo
     point_count: 1
@@ -21,29 +21,31 @@ skills:
     point_count: 2
   tag: Normal Attack
 - name: Jade Screen
-  description: '<p><span style="color: #FFD780">Elemental Skill</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 2 </span><span style="color: rgb(255,
-    230, 153)">Geo DMG</span><span style="color: rgba(255, 255, 255, 0.45)">, creates
-    1 </span><span style="color: rgb(255, 255, 255)">Jade Screen</span><span style="color:
-    rgba(255, 255, 255, 0.45)">.</span></p><p></p><p><strong><span style="color: rgb(236,
-    229, 216)">Jade Screen</span></strong></p><p><span style="color: rgb(255, 215,
-    128)">Combat Status</span><br><span style="color: rgb(255, 255, 255)">When your
-    active character receives at least 2 DMG</span>: Decrease DMG taken by 1.<br><span
-    style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
+  description: '<p><span style="color: #FFD780">Elemental Skill</span></p><span
+    style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: rgb(255,
+    230, 153)">Geo DMG</span><span style="color: rgba(255, 255, 255, 0.65)">, creates
+    1 </span><span style="color: rgb(236, 229, 216)">Jade Screen</span><span style="color:
+    rgba(255, 255, 255, 0.65)">.</span></p><p></p>'
   points:
   - point_type: geo
     point_count: 3
   tag: Elemental Skill
+- name: Jade Screen
+  description: '<p><strong><span style="color: rgb(236,
+    229, 216)">Jade Screen</span></strong></p><span style="color: rgb(255, 215,
+    128)">Combat Status</span><p><span style="color: rgb(255, 255, 255)">When your
+    active character receives at least 2 DMG</span>: Decrease DMG taken by 1.<p><span
+    style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Combat Status
 - name: Starshatter
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 6 </span><span style="color: rgb(255,
-    230, 153)">Geo DMG</span><span style="color: rgba(255, 255, 255, 0.45)">. If </span><span
-    style="color: rgb(255, 255, 255)">Jade Screen</span><span style="color: rgba(255,
-    255, 255, 0.45)"> is on the field, deals +2 DMG.</span></p><p></p><p><strong><span
-    style="color: rgb(236, 229, 216)">Jade Screen</span></strong></p><p><span style="color:
-    rgb(255, 215, 128)">Combat Status</span><br><span style="color: rgb(255, 255,
-    255)">When your active character receives at least 2 DMG</span>: Decrease DMG
-    taken by 1.<br><span style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span
+    style="color: rgba(255, 255, 255, 0.65)">Deals 6 </span><span style="color: rgb(255,
+    230, 153)">Geo DMG</span><span style="color: rgba(255, 255, 255, 0.65)">. If </span><span
+    style="color: rgb(236, 229, 216)">Jade Screen</span><span style="color: rgba(255,
+    255, 255, 0.65)"> is on the field, deals +2 DMG.</span></p><p></p>'
   points:
   - point_type: geo
     point_count: 3

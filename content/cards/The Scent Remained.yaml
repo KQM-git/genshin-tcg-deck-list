@@ -13,20 +13,27 @@ skills:
   - point_type: hydro
     point_count: 4
 - name: Fatal Rainscreen
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 2 </span><span style="color: rgb(128,
-    192, 255)">Hydro DMG</span><span style="color: rgba(255, 255, 255, 0.45)">, grants
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span
+    style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: rgb(128,
+    192, 255)">Hydro DMG</span><span style="color: rgba(255, 255, 255, 0.65)">, grants
     this character </span><span style="color: rgb(128, 192, 255)">Hydro Application</span><span
-    style="color: rgba(255, 255, 255, 0.45)">, creates 1 </span><span style="color:
-    rgb(255, 255, 255)">Rain Sword</span><span style="color: rgba(255, 255, 255, 0.45)">.</span></p><p></p><p><strong><span
+    style="color: rgba(255, 255, 255, 0.65)">, creates 1 </span><span style="color:
+    rgb(236, 229, 216)">Rain Sword</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
+  points:
+  - point_type: hydro
+    point_count: 3
+  side: true
+  tag: Elemental Skill
+- name: Fatal Rainscreen
+  description: '<p><strong><span
     style="color: rgb(236, 229, 216)">Rain Sword</span></strong></p><p><span style="color:
     rgb(255, 215, 128)">Combat Status</span></p><p><span style="color: rgb(255, 255,
     255)">When your active character receives at least 3 DMG</span>: Decrease DMG
     taken by 1.</p><p><span style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
   points:
-  - point_type: hydro
-    point_count: 3
-  tag: Elemental Skill
+  - point_type: ''
+    point_count: -1
+  tag: Combat Status
 - name: Hydro DMG
   description: '<p>Applies Hydro and can trigger the following Elemental Reactions:</p><p><span
     style="color: rgb(255, 255, 255)">[</span><span style="color: rgb(128, 192, 255)">Hydro</span><span

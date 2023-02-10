@@ -16,11 +16,12 @@ skills:
     point_count: 4
 - name: Floral Brush
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 3 </span><span style="color: rgb(153,
-    255, 136)">Dendro DMG</span><span style="color: rgba(255, 255, 255, 0.45)">.</span></p>'
+    style="color: rgba(255, 255, 255, 0.65)">Deals 3 </span><span style="color: rgb(153,
+    255, 136)">Dendro DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
   - point_type: dendro
     point_count: 3
+  side: true
   tag: Elemental Skill
 - name: Dendro DMG
   description: '<p>Applies Dendro and can trigger the following Elemental Reactions:</p><p>[<span

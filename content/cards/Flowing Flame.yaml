@@ -20,6 +20,7 @@ skills:
   points:
   - point_type: pyro
     point_count: 3
+  side: true
   tag: Elemental Skill
 - name: Pyro DMG
   description: '<p>Applies Pyro and can trigger the following Elemental Reactions:</p><p><span

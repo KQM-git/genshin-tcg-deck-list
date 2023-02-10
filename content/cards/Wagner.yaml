@@ -4,7 +4,7 @@ tags: []
 skills:
 - name: Description
   description: '<p>Comes with 2 Forging Billets when played.</p><p><span style="color:
-    #FFFFFF">End Phase</span>: Gain 1 Forging Billet.</p><p><span style="color: #FFFFFF">When
+    #FFFFFF">End Phase:</span> Gain 1 Forging Billet.</p><p><span style="color: #FFFFFF">When
     playing a Weapon Card</span>: If possible, spend Forging Billets equal to the
     total cost of the Weapon and equip this Weapon for free. (Once per Round)</p>'
   points:

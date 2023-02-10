@@ -11,9 +11,9 @@ element: '<span style="color: rgba(255, 255, 255, 0.65)">Anemo</span>'
 weapon: Other Weapons
 skills:
 - name: Ichimonji
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 2 </span><span style="color: #FFFFFF">Physical
-    DMG</span><span style="color: rgba(255, 255, 255, 0.45)">.</span></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>
+  <span style="color: rgba(255, 255, 255, 0.65)">Deals 2
+  <span style="color: #FFFFFF">Physical DMG</span>.'
   points:
   - point_type: anemo
     point_count: 1
@@ -21,28 +21,26 @@ skills:
     point_count: 2
   tag: Normal Attack
 - name: Blustering Blade
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span style="color: rgba(255, 255, 255, 0.45)">Summons 1 </span><span
-    style="color: #FFFFFF">Shadowsword: Lone Gale</span><span style="color: rgba(255,
-    255, 255, 0.45)">.</span></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  <span style="color: rgba(255, 255, 255, 0.65)">Summons 1 
+  <span style="color: rgb(236, 229, 216)">Shadowsword: Lone Gale</span>.</span></p>'
   points:
   - point_type: anemo
     point_count: 3
   tag: Elemental Skill
 - name: Frosty Assault
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span style="color: rgba(255, 255, 255, 0.45)">Summons 1 </span><span
-    style="color: #FFFFFF">Shadowsword: Galloping Frost</span><span style="color:
-    rgb(255, 255, 255)">.</span></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  <span style="color: rgba(255, 255, 255, 0.65)">Summons 1 
+  <span style="color: rgb(236, 229, 216)">Shadowsword: Galloping Frost</span>.</span>'
   points:
   - point_type: anemo
     point_count: 3
   tag: Elemental Skill
 - name: Pseudo Tengu Sweeper
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 4 </span><span style="color: rgb(128,
-    255, 215)">Anemo DMG</span><span style="color: rgba(255, 255, 255, 0.45)">, triggers
-    the effect(s) of all your </span><span style="color: rgb(255, 255, 255)">Shadowsword
-    </span><span style="color: rgba(255, 255, 255, 0.45)">Summon(s). (Does not consume
-    their Usages)</span></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+  <span style="color: rgba(255, 255, 255, 0.65)">Deals 4 
+  <span style="color: rgb(128, 255, 215)">Anemo DMG</span>, triggers the effect(s) of all your
+  <span style="color: rgb(236, 229, 216)">Shadowsword </span> Summon(s). (Does not consume their Usages)</span>'
   points:
   - point_type: anemo
     point_count: 3
@@ -51,21 +49,21 @@ skills:
   tag: Elemental Burst
 - name: 'Shadowsword: Lone Gale'
   description: '<p><span style="color: rgb(255, 215, 128)">Summon</span><br><span
-    style="color: rgb(255, 255, 255)">End Phase</span>: Deal 1 <span style="color:
+    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 1 <span style="color:
     rgb(128, 255, 215)">Anemo DMG</span>.<br><span style="color: rgb(255, 255, 255)">Usage(s):
     2</span></p>'
   points:
   - point_type: ''
-    point_count: 0
+    point_count: -1
   tag: Summon
 - name: 'Shadowsword: Galloping Frost'
   description: '<p><span style="color: rgb(255, 215, 128)">Summon</span><br><span
-    style="color: rgb(255, 255, 255)">End Phase</span>: Deal 1 <span style="color:
+    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 1 <span style="color:
     rgb(153, 255, 255)">Cryo DMG</span>.<br><span style="color: rgb(255, 255, 255)">Usage(s):
     2</span></p>'
   points:
   - point_type: ''
-    point_count: 0
+    point_count: -1
   tag: Summon
 - name: Anemo DMG
   description: '<p>Reacts with Elements if they are already applied:<br>[<span style="color:

@@ -17,23 +17,24 @@ skills:
     point_count: 3
 - name: Dandelion Breeze
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Heals all your characters for 2 HP, summons
-    1 </span><span style="color: rgb(255, 255, 255)">Dandelion Field</span><span style="color:
-    rgba(255, 255, 255, 0.45)">.</span></p>'
+    style="color: rgba(255, 255, 255, 0.65)">Heals all your characters for 2 HP, summons
+    1 </span><span style="color: rgb(255, 215, 128)">Dandelion Field</span><span style="color:
+    rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
   - point_type: anemo
     point_count: 4
   - point_type: recharge
     point_count: 3
+  side: true
   tag: Elemental Burst
 - name: Dandelion Field
   description: '<p><span style="color: rgb(255, 215, 128)">Summons</span></p><p><span
-    style="color: rgb(255, 255, 255)">End Phase</span>: Deal 2 <span style="color:
+    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 2 <span style="color:
     rgb(128, 255, 215)">Anemo DMG</span>, heal your active character for 1 HP.<br><span
     style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
   points:
   - point_type: ''
-    point_count: 0
+    point_count: -1
   tag: Summons
 - name: Anemo DMG
   description: '<p>Reacts with Elements if they are already applied:<br>[<span style="color:

@@ -11,9 +11,9 @@ element: Anemo
 weapon: Sword
 skills:
 - name: Favonius Bladework
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 2 </span><span style="color: #FFFFFF">Physical
-    DMG</span><span style="color: rgba(255, 255, 255, 0.45)">.</span></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span
+    style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: #FFFFFF">Physical
+    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
   - point_type: anemo
     point_count: 1
@@ -21,33 +21,34 @@ skills:
     point_count: 2
   tag: Normal Attack
 - name: Gale Blade
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 3 </span><span style="color: #80FFD7">Anemo
-    DMG</span><span style="color: rgba(255, 255, 255, 0.45)">, the target is forcibly
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span
+    style="color: rgba(255, 255, 255, 0.65)">Deals 3 </span><span style="color: #80FFD7">Anemo
+    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">, the target is forcibly
     switched to the next character.</span></p>'
   points:
   - point_type: anemo
     point_count: 3
   tag: Elemental Skill
 - name: Dandelion Breeze
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Heals all your characters for 2 HP, summons
-    1 </span><span style="color: #FFFFFF">Dandelion Field</span><span style="color:
-    rgba(255, 255, 255, 0.45)">.</span></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span
+    style="color: rgba(255, 255, 255, 0.65)">Heals all your characters for 2 HP, summons
+    1 </span><span style="color: rgb(236, 229, 216)">Dandelion Field</span><span style="color:
+    rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
   - point_type: anemo
     point_count: 4
   - point_type: recharge
     point_count: 3
   tag: Elemental Burst
-- name: Dandelion Field
-  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
-    style="color: rgb(255, 255, 255)">End Phase</span>: Deal 2 <span style="color:
-    rgb(128, 255, 215)">Anemo DMG</span>, heal your active character for 1 HP.<br><span
+- name: Dandelion Breeze
+  description: '<p><strong><span style="color: rgb(236, 229, 216)">Dandelion Field</span>
+    </strong></p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
+    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 2 <span style="color:
+    rgb(128, 255, 215)">Anemo DMG</span>, heal your active character for 1 HP.</p><p><span
     style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
   points:
   - point_type: ''
-    point_count: 0
+    point_count: -1
   tag: Summon
 - name: Anemo DMG
   description: '<p>Reacts with Elements if they are already applied:<br>[<span style="color:

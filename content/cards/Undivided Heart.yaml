@@ -23,6 +23,7 @@ skills:
   points:
   - point_type: cryo
     point_count: 5
+  side: true
   tag: Normal Attack
 - name: Cryo DMG
   description: '<p>Applies Cryo and can trigger the following Elemental Reactions:</p><p><span

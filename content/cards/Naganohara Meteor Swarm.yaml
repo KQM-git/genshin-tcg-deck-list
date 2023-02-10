@@ -15,19 +15,26 @@ skills:
     point_count: 2
 - name: Niwabi Fire-Dance
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p>This
-    character gains <span style="color: rgb(255, 255, 255)">Niwabi Enshou</span>.
-    (This Skill does not grant Energy)</p><p></p><p><strong><span style="color: rgb(236,
-    229, 216)">Niwabi Enshou</span></strong></p><p><span style="color: rgb(255, 215,
-    128)">Status</span><br>The character to which this is attached has their <span
-    style="color: rgb(255, 255, 255)">Normal Attacks</span> deal +1 DMG, and their
-    <span style="color: rgb(255, 255, 255)">Physical DMG</span> dealt converted to<span
-    style="color: rgba(255, 255, 255, 0.85)"> </span><span style="color: rgb(255,
-    153, 153)">Pyro DMG</span><span style="color: rgba(255, 255, 255, 0.85)">. </span><br><span
-    style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
+    character gains <span style="color: rgb(236, 229, 216)">Niwabi Enshou</span>.
+    (This Skill does not grant Energy)</p><p></p>'
   points:
   - point_type: pyro
     point_count: 1
   tag: Elemental Skill
+  side: true
+- name: Niwabi Fire-Dance
+  description: '<p><strong><span style="color: rgb(236,
+    229, 216)">Niwabi Enshou</span></strong></p><span style="color: rgb(255, 215,
+    128)">Status</span><br>The character to which this is attached has their <span
+    style="color: rgb(255, 255, 255)">Normal Attacks</span> deal +1 DMG, and their
+    <span style="color: rgb(255, 255, 255)">Physical DMG</span> dealt converted to<span
+    style="color: rgba(255, 255, 255, 0.85)"> </span><span style="color: rgb(255,
+    153, 153)">Pyro DMG</span><span style="color: rgba(255, 255, 255, 0.85)">. </span><p><span
+    style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Status
 - name: Pyro DMG
   description: '<p>Applies Pyro and can trigger the following Elemental Reactions:</p><p><span
     style="color: rgb(255, 255, 255)">[</span><span style="color: rgb(255, 153, 153)">Pyro</span><span

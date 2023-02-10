@@ -11,9 +11,9 @@ element: Hydro
 weapon: Other Weapons
 skills:
 - name: Surge
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 1 </span><span style="color: #80C0FF">Hydro
-    DMG</span><span style="color: rgba(255, 255, 255, 0.45)">.</span></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>
+  <span style="color: rgba(255, 255, 255, 0.65)">Deals 1 
+  <span style="color: #80C0FF">Hydro DMG</span>.</span>'
   points:
   - point_type: hydro
     point_count: 1
@@ -21,28 +21,27 @@ skills:
     point_count: 2
   tag: Normal Attack
 - name: Oceanid Mimic Summoning
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Randomly summons 1 </span><span style="color:
-    rgb(255, 255, 255)">Oceanid Mimic</span><span style="color: rgba(255, 255, 255,
-    0.45)"> (Prioritizes summoning a different type from preexisting ones).</p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  <span style="color: rgba(255, 255, 255, 0.65)">Randomly summons 1 
+    <span style="color: rgb(255, 215, 128)">Oceanid Mimic</span>.
+    <span style="color: rgba(255, 255, 255, 0.65)"> (Prioritizes summoning a different type from preexisting ones).'
   points:
   - point_type: hydro
     point_count: 3
   tag: Elemental Skill
 - name: The Myriad Wilds
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Randomly summons 2 </span><span style="color:
-    rgb(255, 255, 255)">Oceanid Mimic</span><span style="color: rgba(255, 255, 255,
-    0.45)"> (Prioritizes summoning different types).</p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  <span style="color: rgba(255, 255, 255, 0.65)">Randomly summons 2 
+    <span style="color: rgb(255, 215, 128)">Oceanid Mimic</span>.
+    <span style="color: rgba(255, 255, 255, 0.65)"> (Prioritizes summoning different types).'
   points:
   - point_type: hydro
     point_count: 5
   tag: Elemental Skill
 - name: Tide and Torrent
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 2 </span><span style="color: #80C0FF">Hydro
-    DMG</span><span style="color: rgba(255, 255, 255, 0.45)">. For each friendly Summon
-    on the field, deals +2 additional DMG.</span></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+  <span style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span>
+  <span style="color: #80C0FF">Hydro DMG</span><span style="color: rgba(255, 255, 255, 0.65)">. For each friendly Summon on the field, deals +2 additional DMG.</span>'
   points:
   - point_type: hydro
     point_count: 3

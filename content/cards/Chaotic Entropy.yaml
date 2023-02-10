@@ -17,26 +17,28 @@ skills:
     point_count: 2
 - name: Forbidden Creation - Isomer 75 / Type II
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 1 </span><span style="color: rgb(128,
-    255, 215)">Anemo DMG</span><span style="color: rgba(255, 255, 255, 0.45)">, summons
-    1 </span><span style="color: rgb(255, 255, 255)">Large Wind Spirit</span><span
-    style="color: rgba(255, 255, 255, 0.45)">.</span></p>'
+    style="color: rgba(255, 255, 255, 0.65)">Deals 1 </span><span style="color: rgb(128,
+    255, 215)">Anemo DMG</span><span style="color: rgba(255, 255, 255, 0.65)">, summons
+    1 </span><span style="color: rgb(255, 215, 128)">Large Wind Spirit</span><span
+    style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
   - point_type: anemo
     point_count: 3
   - point_type: recharge
     point_count: 2
+  side: true
   tag: Elemental Burst
+
 - name: Large Wind Spirit
   description: '<p><span style="color: rgb(255, 215, 128)">Summons</span></p><p><span
-    style="color: rgb(255, 255, 255)">End Phase</span>: Deal 2 <span style="color:
+    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 2 <span style="color:
     rgb(128, 255, 215)">Anemo DMG</span>.</p><p><span style="color: rgb(255, 255,
     255)">Usage(s): 3</span></p><p></p><p>After this card or your characters trigger
     a Swirl reaction: Convert the Elemental Type of this card and change its DMG dealt
     to the Element that it Swirled. (Can only be used once before leaving the field)</p>'
   points:
   - point_type: ''
-    point_count: 0
+    point_count: -1
   tag: Summons
 - name: Anemo DMG
   description: '<p>Reacts with Elements if they are already applied:<br>[<span style="color:

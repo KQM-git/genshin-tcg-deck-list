@@ -5,28 +5,35 @@ skills:
 - name: Description
   description: '<p><span style="color: #FFFFFF">Combat Action</span>: When your active
     character is <span style="color: #FFFFFF">Ningguang</span>, equip this card.</p><p>After
-    Ningguang equips this card, immediately use <span style="color: #FFD780">Jade
+    Ningguang equips this card, immediately use <span style="color:  rgb(236, 229, 216)">Jade
     Screen</span> once.</p><p>When your Ningguang, who has this card equipped, is
-    on the field, <span style="color: #FFFFFF">Jade Screen </span>will cause you to
+    on the field, <span style="color: rgb(236, 229, 216)">Jade Screen </span>will cause you to
     deal +1 <span style="color: #FFE699">Geo DMG</span>.</p><p>(You must have Ningguang
     in your deck to add this card to your deck.)</p>'
   points:
   - point_type: geo
     point_count: 4
 - name: Jade Screen
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 2 </span><span style="color: rgb(255,
-    230, 153)">Geo DMG</span><span style="color: rgba(255, 255, 255, 0.45)">, creates
-    1 </span><span style="color: rgb(255, 255, 255)">Jade Screen</span><span style="color:
-    rgba(255, 255, 255, 0.45)">.</span></p><p></p><p><strong><span style="color: rgb(236,
-    229, 216)">Jade Screen</span></strong></p><p><span style="color: rgb(255, 215,
-    128)">Combat Status</span><br><span style="color: rgb(255, 255, 255)">When your
-    active character receives at least 2 DMG</span>: Decrease DMG taken by 1.<br><span
-    style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
+  description: '<p><span style="color: #FFD780">Elemental Skill</span></p><span
+    style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: rgb(255,
+    230, 153)">Geo DMG</span><span style="color: rgba(255, 255, 255, 0.65)">, creates
+    1 </span><span style="color: rgb(236, 229, 216)">Jade Screen</span><span style="color:
+    rgba(255, 255, 255, 0.65)">.</span></p><p></p>'
   points:
   - point_type: geo
     point_count: 3
+  side: true
   tag: Elemental Skill
+- name: Jade Screen
+  description: '<p><strong><span style="color: rgb(236,
+    229, 216)">Jade Screen</span></strong></p><span style="color: rgb(255, 215,
+    128)">Combat Status</span><p><span style="color: rgb(255, 255, 255)">When your
+    active character receives at least 2 DMG</span>: Decrease DMG taken by 1.<p><span
+    style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Combat Status
 - name: Geo DMG
   description: '<p>Reacts with Elements if they are already applied:<br>[<span style="color:
     rgb(255, 230, 153)">Geo</span> + <span style="color: rgb(153, 255, 255)">Cryo</span>]

@@ -18,7 +18,9 @@ skills:
   points:
   - point_type: cryo
     point_count: 3
+  side: true
   tag: Elemental Skill
+
 - name: Cryo DMG
   description: '<p>Applies Cryo and can trigger the following Elemental Reactions:</p><p><span
     style="color: rgb(255, 255, 255)">[</span><span style="color: rgb(153, 255, 255)">Cryo

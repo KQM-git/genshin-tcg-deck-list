@@ -11,7 +11,8 @@ element: Electro
 weapon: Claymore
 skills:
 - name: Oceanborne
-  description: '<p><span style="color: #FFD780">Normal Attack</span></p><p>Deals 2 <span style="color: #FFFFFF">Physical DMG</span>.</p>'
+  description: '<p><span style="color: #FFD780">Normal Attack</span></p>Deals 2 
+  <span style="color: #FFFFFF">Physical DMG</span>.</p>'
   points:
   - point_type: electro
     point_count: 1
@@ -20,36 +21,54 @@ skills:
   tag: Normal Attack
 - name: Tidecaller
   description: >
-    <p><span style="color: #FFD780">Elemental Skill</span></p><p>This character gains a <span style="color: #FFFFFF">Tidecaller: Surf Embrace</span>.</p><p><span style="color: #FFFFFF">Prepare Skill: Wavestrider</span>.</p>
+    <p><span style="color: #FFD780">Elemental Skill</span></p>This character gains a 
+    <span style="color: rgb(236, 229, 216)">Tidecaller: Surf Embrace</span>.</p><p>
+    <span style="color: #FFFFFF">Prepare Skill: Wavestrider</span>.</p>
   points:
   - point_type: electro
     point_count: 3
   tag: Elemental Skill
 - name: Stormbreaker
   description: >
-    <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p>Deals 3 <span style="color: rgb(255, 172, 255)">Electro DMG</span>, creates 1 <span style="color: rgb(255, 255, 255)">Thunderbeast's Targe</span>.</p>
+    <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>Deals 3 
+    <span style="color: rgb(255, 172, 255)">Electro DMG</span>, creates 1 
+    <span style="color: rgb(236, 229, 216)">Thunderbeast's Targe</span>.</p>
   points:
   - point_type: electro
     point_count: 4
   - point_type: recharge
     point_count: 3
   tag: Elemental Burst
-- name: 'Tidecaller: Surf Embrace'
-  description: '<p><span style="color: #FFD780">Status</span></p><p>The next time this character acts, they will immediately use the Skill <span style="color: #FFFFFF">Wavestrider</span>.</p><p>While preparing this Skill: Grant 2 <span style="color: #FFFFFF">Shield </span>points to this character to which this is attached.</p>'
+- name: Tidecaller
+  description: '<p><strong><span style="color: rgb(236, 229, 216)">Tidecaller: Surf Embrace</span></strong></p>
+  <span style="color: rgb(255, 215, 128)">Status</span></p>
+  <p>The next time this character acts, they will immediately use the Skill 
+  <span style="color: rgb(255, 215, 128)"">Wavestrider</span>.</p>
+  <p>While preparing this Skill: Grant 2 
+  <span style="color: #FFFFFF">Shield </span>points to this character to which this is attached.</p>'
   points:
   - point_type: ''
     point_count: -1
 - name: Wavestrider
   description: >
-    <p><span style="color: #FFD780">Elemental Skill</span></p><p>(Prepare for 1 turn)</p><p>Deals 2 <span style="color: #FFACFF">Electro DMG</span>.</p>
+    <p><span style="color: #FFD780">Elemental Skill</span></p>
+    <p>(Prepare for 1 turn)</p><p>Deals 2 
+    <span style="color: #FFACFF">Electro DMG</span>.</p>
+  side: true
+  points:
+  - point_type: electro
+    point_count: 0
+  tag: Elemental Skill
+- name: Stormbreaker
+  description: '<p><strong><span style="color: rgb(236, 229, 216)">Thunderbeast''s Targe</span></strong></p>
+  <span style="color: rgb(255, 215, 128)">Combat Status</span><p>
+  <span style="color: #FFFFFF">After your character uses a Normal Attack</span>: Deal 1 
+    <span style="color: #FFACFF">Electro DMG</span>.</p>
+    <p><span style="color: #FFFFFF">When your character receives at least 3 DMG</span>: Decrease DMG taken by 1.</p>
+    <p><span style="color: #FFFFFF">Duration (Rounds)</span>: 2</p>'
   points:
   - point_type: ''
     point_count: -1
-- name: Thunderbeast's Targe
-  description: >
-    <p><span style="color: #FFD780">Combat Status</span></p><p><span style="color: #FFFFFF">After your character uses a Normal Attack</span>: Deal 1 <span style="color: #FFACFF">Electro DMG</span>.</p><p><span style="color: #FFFFFF">When your character receives at least 3 DMG</span>: Decrease DMG taken by 1.</p><p><span style="color: #FFFFFF">Duration (Rounds)</span>: 2</p>
-  points:
-  - point_type: ''
-    point_count: -1
+  tag: Combat Status
 talent_card: Lightning Storm
 source: <p>Reward for inviting Beidou to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her</p>

@@ -15,42 +15,41 @@ skills:
   - point_type: anemo
     point_count: 3
 - name: Blustering Blade
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 1 </span><span style="color: rgb(128,
-    255, 215)">Anemo DMG</span><span style="color: rgba(255, 255, 255, 0.45)">, summons
-    1 </span><span style="color: rgb(255, 255, 255)">Shadowsword: Lone Gale</span><span
-    style="color: rgba(255, 255, 255, 0.45)">.</span></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  <span style="color: rgba(255, 255, 255, 0.65)">Summons 1 
+  <span style="color: rgb(236, 229, 216)">Shadowsword: Lone Gale</span>.</span></p>'
   points:
   - point_type: anemo
     point_count: 3
+  side: true
   tag: Elemental Skill
 - name: Frosty Assault
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 1 </span><span style="color: rgb(153,
-    255, 255)">Cryo DMG</span><span style="color: rgba(255, 255, 255, 0.45)">, summons
-    1 </span><span style="color: rgb(255, 255, 255)">Shadowsword: Galloping Frost.</span></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  <span style="color: rgba(255, 255, 255, 0.65)">Summons 1 
+  <span style="color: rgb(236, 229, 216)">Shadowsword: Galloping Frost</span>.</span>'
   points:
-  - point_type: cryo
+  - point_type: anemo
     point_count: 3
+  side: true
   tag: Elemental Skill
 - name: 'Shadowsword: Lone Gale'
-  description: '<p><span style="color: rgb(255, 215, 128)">Summons</span><br><span
-    style="color: rgb(255, 255, 255)">End Phase</span>: Deal 1 <span style="color:
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span><br><span
+    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 1 <span style="color:
     rgb(128, 255, 215)">Anemo DMG</span>.<br><span style="color: rgb(255, 255, 255)">Usage(s):
     2</span></p>'
   points:
   - point_type: ''
-    point_count: 0
-  tag: Summons
+    point_count: -1
+  tag: Summon
 - name: 'Shadowsword: Galloping Frost'
-  description: '<p><span style="color: rgb(255, 215, 128)">Summons</span><br><span
-    style="color: rgb(255, 255, 255)">End Phase</span>: Deal 1 <span style="color:
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span><br><span
+    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 1 <span style="color:
     rgb(153, 255, 255)">Cryo DMG</span>.<br><span style="color: rgb(255, 255, 255)">Usage(s):
     2</span></p>'
   points:
   - point_type: ''
-    point_count: 0
-  tag: Summons
+    point_count: -1
+  tag: Summon
 - name: Anemo DMG
   description: '<p>Reacts with Elements if they are already applied:<br>[<span style="color:
     rgb(128, 255, 215)">Anemo </span>+ <span style="color: rgb(153, 255, 255)">Cryo</span>]

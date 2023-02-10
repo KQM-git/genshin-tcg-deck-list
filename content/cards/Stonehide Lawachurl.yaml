@@ -11,8 +11,8 @@ element: Geo
 weapon: Other Weapons
 skills:
 - name: Plama Lawa
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 2 </span><span style="color: #FFFFFF">Physical
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span
+    style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: #FFFFFF">Physical
     DMG.</span></p>'
   points:
   - point_type: geo
@@ -21,17 +21,17 @@ skills:
     point_count: 2
   tag: Normal Attack
 - name: Movo Lawa
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 3 </span><span style="color: #FFFFFF">Physical
-    DMG</span><span style="color: rgba(255, 255, 255, 0.45)">.</span></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span
+    style="color: rgba(255, 255, 255, 0.65)">Deals 3 </span><span style="color: #FFFFFF">Physical
+    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
   - point_type: geo
     point_count: 3
   tag: Elemental Skill
 - name: Upa Shato
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.45)">Deals 5 </span><span style="color: #FFFFFF">Physical
-    DMG</span><span style="color: rgba(255, 255, 255, 0.45)">.</span></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span
+    style="color: rgba(255, 255, 255, 0.65)">Deals 5 </span><span style="color: #FFFFFF">Physical
+    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
   - point_type: geo
     point_count: 3
@@ -40,24 +40,36 @@ skills:
   tag: Elemental Burst
 - name: Infused Stonehide
   description: '<p><span style="color: rgb(255, 215, 128)">Passive Skill</span></p><p>(Passive)
-    When the battle begins, this character gains <span style="color: rgb(255, 255,
-    255)">Stonehide</span> and <span style="color: rgb(255, 255, 255)">Stone Force</span>.</p><p></p><p><strong><span
-    style="color: rgb(236, 229, 216)">Stonehide</span></strong></p><p><span style="color:
-    rgb(255, 215, 128)">Status</span><br><span style="color: rgb(255, 255, 255)">When
-    the character to which this is attached receives DMG</span>: Decrease DMG taken
-    by 1. When Geo DMG is decreased, consume 1 additional <span style="color: rgb(255,
-    255, 255)">Usage(s)</span>.<br><span style="color: rgb(255, 255, 255)">Usage(s):
-    3</span></p><p></p><p><strong><span style="color: rgb(236, 229, 216)">Stone Force</span></strong></p><p><span
-    style="color: rgb(255, 215, 128)">Status</span><br>The character to which this
-    is attached has their <span style="color: rgb(255, 255, 255)">Physical DMG</span>
-    dealt converted to <span style="color: rgb(255, 230, 153)">Geo DMG</span>.<br><span
-    style="color: rgb(255, 255, 255)">Once per Round</span>: The character deals +1
-    DMG. Once the Stonehide attached to the character is removed, this status will
-    be removed alongside it.</p>'
+    When the battle begins, this character gains <span style="color: rgb(236, 229, 216)">
+    Stonehide</span> and <span style="color: rgb(236, 229, 216)">Stone Force</span>.</p><p></p>'
   points:
   - point_type: ''
-    point_count: 0
+    point_count: -1
   tag: Passive Skill
+- name: Infused Stonehide
+  description: '<p><strong><span
+    style="color: rgb(236, 229, 216)">Stonehide</span></strong></p><span style="color:
+    rgb(255, 215, 128)">Status</span></p><p><span style="color: rgb(255, 255, 255)">When
+    the character to which this is attached receives DMG</span>: Decrease DMG taken
+    by 1. When Geo DMG is decreased, consume 1 additional <span style="color: rgb(255,
+    255, 255)">Usage(s)</span>.</p><p><span style="color: rgb(255, 255, 255)">Usage(s):
+    3</span></p><p></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Status
+- name: Infused Stonehide
+  description: '<p><strong><span style="color: rgb(236, 229, 216)">Stone Force</span></strong></p><span
+    style="color: rgb(255, 215, 128)">Status</span><p>The character to which this
+    is attached has their <span style="color: rgb(255, 255, 255)">Physical DMG</span>
+    dealt converted to <span style="color: rgb(255, 230, 153)">Geo DMG</span>.</p><p><span
+    style="color: rgb(255, 255, 255)">Once per Round</span>: The character deals +1
+    DMG. Once the Stonehide attached to the character is removed, this status will
+    be removed alongside it.</p><p></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Status
 - name: Geo DMG
   description: '<p>Reacts with Elements if they are already applied:<br>[<span style="color:
     rgb(255, 230, 153)">Geo</span> + <span style="color: rgb(153, 255, 255)">Cryo</span>]

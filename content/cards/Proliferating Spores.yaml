@@ -7,19 +7,33 @@ skills:
     character is <span style="color: #FFFFFF">Jadeplume Terrorshroom</span>, equip
     this card.</p><p>After Jadeplume Terrorshroom equips this card, immediately use
     <span style="color: #FFD780">Volatile Spore Cloud</span> once.</p><p>Your Jadeplume
-    Terrorshroom, who has this card equipped, can accumulate 1 more stack of Radical
-    Vitality.</p><p>(You must have Jadeplume Terrorshroom in your deck to add this
+    Terrorshroom, who has this card equipped, can accumulate 1 more stack of <span style="color: rgb(236,
+    229, 216)">Radical Vitality.</span></p><p>(You must have Jadeplume Terrorshroom in your deck to add this
     card to your deck.)</p>'
   points:
   - point_type: dendro
     point_count: 3
 - name: Volatile Spore Cloud
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p>Deals
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>Deals
     3 <span style="color: rgb(153, 255, 136)">Dendro DMG</span>.</p>'
   points:
   - point_type: dendro
     point_count: 3
+  side: true
   tag: Elemental Skill
+- name: Radical Vitality
+  description: '<p><strong><span style="color: rgb(236,
+    229, 216)">Radical Vitality</span></strong></p><span style="color: rgb(255,
+    215, 128)">Status</span></p>When this character deals or takes Elemental DMG:
+    Gain 1 stack of <span style="color: rgb(236,
+    229, 216)">Radical Vitality</span>. (Max 3 stacks)</p><p><span style="color: rgb(255,
+    255, 255)">End Phase:</span> If <span style="color: rgb(236,
+    229, 216)">Radical Vitality</span> stacks reach maximum, they will
+    be cleared and the character will lose all Energy.</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Status
 - name: Dendro DMG
   description: '<p>Applies Dendro and can trigger the following Elemental Reactions:</p><p>[<span
     style="color: rgb(153, 255, 136)">Dendro </span>+ <span style="color: rgb(128,

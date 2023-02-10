@@ -1,6 +1,10 @@
 name: Shaken, Not Purred
 id: 211021
 tags: []
+offset:
+  character: 'top'
+  list: '50% 40%'
+  modal: '50% 36%'
 skills:
 - name: Description
   description: '<p><span style="color: #FFFFFF">Combat Action</span>: When your active

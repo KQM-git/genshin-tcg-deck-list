@@ -1,6 +1,10 @@
 name: Tubby
 id: 322006
 tags: []
+offset:
+  character: 'top'
+  list: '50% 35%'
+  modal: '50% 30%'
 skills:
 - name: Description
   description: '<p><span style="color: #FFFFFF">When playing a Location Support Card</span>:

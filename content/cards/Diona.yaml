@@ -9,6 +9,10 @@ hp: '10'
 energy: '3'
 element: Cryo
 weapon: Bow
+offset:
+  character: 'top'
+  list: '50% 22%'
+  modal: '50% 22%'
 skills:
 - name: "K\xE4tzlein Style"
   description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span style="color: rgba(255, 255, 255, 0.65)">

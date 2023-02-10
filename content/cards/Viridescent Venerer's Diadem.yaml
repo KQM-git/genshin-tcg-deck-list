@@ -1,6 +1,10 @@
 name: Viridescent Venerer's Diadem
 id: 312501
 tags: []
+offset:
+  character: 'top'
+  list: '50% 30%'
+  modal: '50% 26%'
 skills:
 - name: Description
   description: '<p><span style="color: #FFFFFF">When a character uses a Skill or equips

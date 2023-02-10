@@ -9,6 +9,10 @@ hp: '10'
 energy: '2'
 element: Electro
 weapon: Polearm
+offset:
+  character: 'top'
+  list: '50% 23.5%'
+  modal: '50% 21%'
 skills:
 - name: Invoker's Spear
   description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span

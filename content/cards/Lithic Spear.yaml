@@ -1,6 +1,10 @@
 name: Lithic Spear
 id: 311402
 tags: []
+offset:
+  character: 'top'
+  list: '50% 33%'
+  modal: '50% 30%'
 skills:
 - name: Description
   description: '<p><span style="color: rgb(255, 255, 255)">The character deals +1

@@ -9,6 +9,10 @@ hp: '10'
 energy: '2'
 element: Anemo
 weapon: Catalyst
+offset:
+  character: 'top'
+  list: '50% 22.5%'
+  modal: '50% 22%'
 skills:
 - name: Wind Spirit Creation
   description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span

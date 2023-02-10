@@ -1,6 +1,10 @@
 name: Master of Weaponry
 id: 332010
 tags: []
+offset:
+  character: 'top'
+  list: '50% 24%'
+  modal: '50% 24%'
 skills:
 - name: Description
   description: <p>Shift 1 Weapon Equipment Card that has been equipped to one of your

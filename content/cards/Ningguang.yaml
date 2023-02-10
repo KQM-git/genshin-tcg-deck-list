@@ -9,6 +9,10 @@ hp: '10'
 energy: '3'
 element: Geo
 weapon: Catalyst
+offset:
+  character: 'top'
+  list: '50% 18.5%'
+  modal: '50% 18%'
 skills:
 - name: Sparkling Scatter
   description: '<p><span style="color: #FFD780">Normal Attack</span></p><span style="color:

@@ -1,6 +1,10 @@
 name: Prophecy of Submersion
 id: 212031
 tags: []
+offset:
+  character: 'top'
+  list: '50% 62%'
+  modal: '50% 64%'
 skills:
 - name: Description
   description: '<p><span style="color: #FFFFFF">Combat Action</span>: When your active

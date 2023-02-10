@@ -1,6 +1,10 @@
 name: Instructor's Cap
 id: 312005
 tags: []
+offset:
+  character: 'top'
+  list: '50% 28%'
+  modal: '50% 20%'
 skills:
 - name: Description
   description: "<p><span style=\"color: #FFFFFF\">After this character triggers an\

@@ -1,6 +1,10 @@
 name: Chef Mao
 id: 322005
 tags: []
+offset:
+  character: 'top'
+  list: '50% 18%'
+  modal: '50% 18%'
 skills:
 - name: Description
   description: '<p><span style="color: #FFFFFF">After playing a Food Event Card</span>:

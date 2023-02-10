@@ -1,6 +1,10 @@
 name: Pounding Surprise
 id: 213061
 tags: []
+offset:
+  character: 'top'
+  list: '50% 52%'
+  modal: '50% 46%'
 skills:
 - name: Description
   description: '<p><span style="color: rgb(255, 255, 255)">Combat Action</span>: When your active character is 

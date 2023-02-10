@@ -1,6 +1,10 @@
 name: Adventurer's Bandana
 id: 312001
 tags: []
+offset:
+  character: 'top'
+  list: '50% 36%'
+  modal: '50% 28%'
 skills:
 - name: Description
   description: '<p><span style="color: #FFFFFF">After this character uses a Normal

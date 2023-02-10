@@ -9,6 +9,10 @@ hp: '10'
 energy: '2'
 element: Pyro
 weapon: Other Weapons
+offset:
+  character: 'top'
+  list: '50% 22%'
+  modal: '50% 20%'
 skills:
 - name: Thrust
   description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span

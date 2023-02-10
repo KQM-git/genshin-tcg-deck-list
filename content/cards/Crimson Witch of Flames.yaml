@@ -1,6 +1,10 @@
 name: Crimson Witch of Flames
 id: 312302
 tags: []
+offset:
+  character: 'top'
+  list: '50% 30%'
+  modal: '50% 26%'
 skills:
 - name: Description
   description: '<p><span style="color: #FFFFFF">When a character uses a Skill or equips

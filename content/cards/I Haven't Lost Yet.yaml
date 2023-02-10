@@ -1,6 +1,10 @@
 name: I Haven't Lost Yet!
 id: 332005
 tags: []
+offset:
+  character: 'top'
+  list: '50% 20%'
+  modal: '50% 20%'
 skills:
 - name: Description
   description: "<p>Only playable if one of your characters is defeated this Round:</p><p>Create\

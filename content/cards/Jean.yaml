@@ -9,6 +9,10 @@ hp: '10'
 energy: '3'
 element: Anemo
 weapon: Sword
+offset:
+  character: 'top'
+  list: '50% 18%'
+  modal: '50% 17%'
 skills:
 - name: Favonius Bladework
   description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span

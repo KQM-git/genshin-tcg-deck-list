@@ -1,6 +1,10 @@
 name: Kanten Senmyou Blessing
 id: 211051
 tags: []
+offset:
+  character: 'top'
+  list: '50% 50%'
+  modal: '50% 46%'
 skills:
 - name: Description
   description: '<p>The <span style="color: rgb(255, 255, 255)">Cryo Elemental Infusion</span>

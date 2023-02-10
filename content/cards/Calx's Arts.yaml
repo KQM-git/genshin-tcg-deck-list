@@ -1,6 +1,10 @@
 name: Calx's Arts
 id: 332009
 tags: []
+offset:
+  character: 'top'
+  list: '50% 67%'
+  modal: '50% 67%'
 skills:
 - name: Description
   description: '<p>Shift 1 <span style="color: #FFFFFF">Energy </span>from at most

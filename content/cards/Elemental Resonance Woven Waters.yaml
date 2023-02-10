@@ -1,6 +1,10 @@
 name: 'Elemental Resonance: Woven Waters'
 id: 331201
 tags: []
+offset:
+  character: 'top'
+  list: '50% 48%'
+  modal: '50% 44%'
 skills:
 - name: Description
   description: '<p>Create 1 <span style="color: #80C0FF">Hydro Die</span>.</p><p>(You

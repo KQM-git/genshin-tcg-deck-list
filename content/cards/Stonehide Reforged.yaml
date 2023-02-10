@@ -1,6 +1,10 @@
 name: Stonehide Reforged
 id: 226011
 tags: []
+offset:
+  character: 'top'
+  list: '50% 50%'
+  modal: '50% 47%'
 skills:
 - name: Description
   description: '<p><span style="color: rgb(255, 255, 255)">Combat Action</span>: When

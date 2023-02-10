@@ -1,6 +1,10 @@
 name: Toss-Up
 id: 332003
 tags: []
+offset:
+  character: 'top'
+  list: '50% 37%'
+  modal: '50% 39%'
 skills:
 - name: Description
   description: '<p>Select any Elemental Die to <span style="color: #FFFFFF">reroll</span>.

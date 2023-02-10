@@ -9,6 +9,10 @@ hp: '8'
 energy: '2'
 element: Geo
 weapon: Other Weapons
+offset:
+  character: 'top'
+  list: '50% 35%'
+  modal: '50% 29%'
 skills:
 - name: Plama Lawa
   description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span

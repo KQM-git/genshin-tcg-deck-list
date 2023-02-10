@@ -1,6 +1,10 @@
 name: Katheryne
 id: 322002
 tags: []
+offset:
+  character: 'top'
+  list: '50% 27%'
+  modal: '50% 30%'
 skills:
 - name: Description
   description: '<p><span style="color: #FFFFFF">When you perform "Switch Character"</span>:

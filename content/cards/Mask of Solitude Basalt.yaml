@@ -1,6 +1,10 @@
 name: Mask of Solitude Basalt
 id: 312601
 tags: []
+offset:
+  character: 'top'
+  list: '50% 45%'
+  modal: '50% 40%'
 skills:
 - name: Description
   description: '<p><span style="color: #FFFFFF">When a character uses a Skill or equips

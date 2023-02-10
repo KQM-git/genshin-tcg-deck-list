@@ -1,6 +1,10 @@
 name: Mondstadt Hash Brown
 id: 333006
 tags: []
+offset:
+  character: 'top'
+  list: '50% 55%'
+  modal: '50% 55%'
 skills:
 - name: Description
   description: <p>Heal the target character for 2 HP.</p><p>(A character can consume

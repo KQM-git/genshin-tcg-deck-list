@@ -1,6 +1,10 @@
 name: Mushroom Pizza
 id: 333007
 tags: []
+offset:
+  character: 'top'
+  list: '50% 50%'
+  modal: '50% 50%'
 skills:
 - name: Description
   description: <p>Heal the target character for 1 HP. For the next two Rounds, heal

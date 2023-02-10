@@ -9,6 +9,10 @@ hp: '10'
 energy: '3'
 element: Hydro
 weapon: Catalyst
+offset:
+  character: 'top'
+  list: '50% 18%'
+  modal: '50% 18%'
 skills:
 - name: Ripple of Fate
   description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>
@@ -42,7 +46,7 @@ skills:
 - name: Illusory Torrent
   description: '<p><span style="color: rgb(255, 215, 128)">Passive Skill</span></p><p>(Passive)
   <span style="color: rgb(255, 255, 255)"> When you perform "Switch Character" while Mona
-  is your active character</span>: This switch is considered a 
+  is your active character:</span> This switch is considered a 
   <span style="color: rgb(255, 255, 255)">Fast Action</span> instead of a 
   <span style="color: rgb(255, 255, 255)">Combat Action</span>. (Once per Round)</p>'
   points:
@@ -51,7 +55,7 @@ skills:
   tag: Passive Skill
 - name: Reflection
   description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
-    style="color: rgb(255, 255, 255)">When your active character receives DMG</span>:
+    style="color: rgb(255, 255, 255)">When your active character receives DMG:</span>
     Decrease DMG taken by 1.</p><p><span style="color: rgb(255, 255, 255)">Usage(s):
     1</span>. When the Usage is depleted, this card will not be discarded.</p><p><span
     style="color: rgb(255, 255, 255)">End Phase:</span> Discard this card, deal 1

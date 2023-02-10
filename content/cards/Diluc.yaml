@@ -9,6 +9,10 @@ hp: '10'
 energy: '3'
 element: Pyro
 weapon: Claymore
+offset:
+  character: 'top'
+  list: '50% 19.4%'
+  modal: '50% 20%'
 skills:
 - name: Tempered Sword
   description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>Deals

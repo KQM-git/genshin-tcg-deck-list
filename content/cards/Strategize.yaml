@@ -1,6 +1,10 @@
 name: Strategize
 id: 332004
 tags: []
+offset:
+  character: 'top'
+  list: '50% 34%'
+  modal: '50% 34%'
 skills:
 - name: Description
   description: <p>Draw 2 cards.</p>

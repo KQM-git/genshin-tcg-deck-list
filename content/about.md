@@ -1,0 +1,2 @@
+---
+This website serves to host player-submitted, curated guides for Genius Invokation TCG. To submit decks for review, please check out the #deck-guide-submission channel on the GITCG Discord server: https://discord.gg/GITCG

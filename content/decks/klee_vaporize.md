@@ -1,5 +1,5 @@
 ---
-name: Klee Mona
+name: Klee Vaporize
 tags:
     - Medium
     - Aggro

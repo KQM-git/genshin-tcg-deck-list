@@ -21,7 +21,7 @@ video_url: https://www.youtube.com/watch?v=-vbt-a0G6sA
 ## Mulligan
 <CardRow :cards="['The Bestest Travel Companion', 'Toss-Up', 'Liu Su', 'Paimon', 'Elemental Resonance: Woven Flames']"></CardRow>
 
-What you mulligan for depends on the deck you’re up against, but generally, against all decks, aim to start with at least 1 dice fixer in my hand. A dice fixer is any card that allows you to manipulate your dice rolls. This is because you need a lot of identical dice on round 1 no matter your opener, and not getting them is basically an instant loss.  <br></br>
+What you mulligan for depends on the deck you’re up against, but generally, against all decks, aim to start with at least 1 dice fixer in your hand. A dice fixer is any card that allows you to manipulate your dice rolls. This is because you need a lot of identical dice on round 1 no matter your opener, and not getting them is basically an instant loss.  <br></br>
 
 Despite this, I will consider keeping some non-dice fixing cards depending on the game. This is because cards you shuffle back in your deck during the first reroll will not appear again, meaning throwing a Paimon back in your deck guarantees that you’ll start without one, and you’re a lot more likely to draw a bad opener such as Lotus Crisp or I Haven't Lost Yet. Ramp becomes strong following your opening turn so keeping ramp cards is a very strong way to offset any potential dice related failings early and transition into a strong midgame. 
 

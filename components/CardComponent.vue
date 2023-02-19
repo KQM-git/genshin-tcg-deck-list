@@ -12,7 +12,7 @@
                     list: card?.offset?.list ?? 'center'
                 }[type] ?? 'center',
             }"
-            @click="showModal = true"
+            @click="openModal"
         >
             <img
                 v-if="border"
@@ -24,7 +24,7 @@
             v-if="modal"
             v-show="showModal"
             class="bg-[#000000da] fixed inset-0 z-50 flex flex-col lg:flex-row gap-5 lg:gap-10 lg:justify-center items-center p-3 overflow-y-auto"
-            @click="showModal = false"
+            @click="closeModal"
         >
             <div
                 class="my-auto relative w-full max-w-md pointer-events-none font-genshin"
@@ -171,6 +171,21 @@ export default Vue.extend({
     },
     async mounted () {
         this.card = await this.$content('cards', this.name.replace(/[:*!?<>/\\]/g, '')).fetch() as any[]
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                this.closeModal()
+            }
+        })
+    },
+    methods: {
+        openModal () {
+            document.body.style.overflow = 'hidden'
+            this.showModal = true
+        },
+        closeModal () {
+            document.body.style.overflow = 'auto'
+            this.showModal = false
+        }
     }
 })
 

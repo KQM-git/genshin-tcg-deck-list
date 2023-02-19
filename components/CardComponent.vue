@@ -75,8 +75,8 @@
                     </div>
                     <div v-if="card.skills" class="w-full flex flex-col gap-5">
                         <div
-                            v-for="skill of card.skills.filter(skill => (skill.points[0].point_count > 0 && !skill?.side) || skill.name === 'Description')"
-                            :key="skill.name"
+                            v-for="(skill, i) in card.skills.filter(skill => (skill.points[0].point_count > 0 && !skill?.side) || skill.name === 'Description')"
+                            :key="i"
                             class="w-full flex flex-col"
                         >
                             <div
@@ -109,8 +109,8 @@
                 class="my-auto flex flex-col gap-5 font-genshin max-w-md"
             >
                 <div
-                    v-for="skill of card.skills.filter(skill => skill.points[0].point_count === -1 || skill?.side)"
-                    :key="skill.name"
+                    v-for="(skill, i) in card.skills.filter(skill => skill.points[0].point_count === -1 || skill?.side)"
+                    :key="i"
                     class="w-full p-5 bg-[#2D282F] border-2 border-[#584F65] rounded-xl"
                 >
                     <div class="flex flex-row items-center">

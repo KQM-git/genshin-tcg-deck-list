@@ -3,7 +3,7 @@ name: Ganyu Freeze
 tags:
     - Easy
     - Combo
-description: This deck is based around combining Xingqiu’s burst attacks together with Ganyu’s Frostflake Arrow to freeze the enemies and deal huge AoE DMG in the process. After Xingiu uses his Elemental Burst, it’s all a game of switching in Ganyu safely, dealing a lot of DMG, and then repeat next round. Keep in mind that fast swaps can counter this deck easily, so always make sure your Ganyu is safe from harm.
+description: This deck is based around combining Xingqiu’s burst attacks together with Ganyu’s Frostflake Arrow to freeze the enemies and deal huge AoE DMG in the process. After Xingqiu uses his Elemental Burst, it’s all a game of switching in Ganyu safely, dealing a lot of DMG, and then repeat next round. Keep in mind that fast swaps can counter this deck easily, so always make sure your Ganyu is safe from harm.
 deck_code: '!!080306.2V.34.3H.3L.3K.2W.2Z.35.3X.41.3J.21.3G.2O.0S='
 good_against:
     - 

@@ -19,7 +19,7 @@ video_url: ''
 ---
  
 ## Mulligan
-<CardRow :cards= "['Elemental Resonance: Woven Waters', 'Liben', 'Liu Su', 'Paimon', 'Undivided Hearth']"></CardRow>
+<CardRow :cards= "['Elemental Resonance: Woven Waters', 'Liben', 'Liu Su', 'Paimon', 'Undivided Heart']"></CardRow>
 In your mulligan, you want to look for some sort of early ramp like Liben/Paimon to make your Ganyu turn stronger, since the extra dice makes a huge difference in what you can actually do. Undivided Heart is also an easy keep since it’s one of the more relevant cards in the deck, and you ideally always want it on ganyu from the second Frostflake Arrow onwards. Lastly, Liu Su allows you to burst on Xingqiu on Round 1, which makes you second set up turn a lot easier and more flexible.  <br></br>
 
 Obviously what you keep changes depending on your opponent’s deck, but cheap energy and ramp are things you want in every game. If you end up not getting them, your gameplan could be halted a bit. Same goes for Undivided Heart, which could limit your DMG output significantly.

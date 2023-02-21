@@ -179,12 +179,16 @@ export default Vue.extend({
     },
     methods: {
         openModal () {
-            document.body.style.overflow = 'hidden'
-            this.showModal = true
+            if (this.modal) {
+                document.body.style.overflow = 'hidden'
+                this.showModal = true
+            }
         },
         closeModal () {
-            document.body.style.overflow = 'auto'
-            this.showModal = false
+            if (this.modal) {
+                document.body.style.overflow = 'auto'
+                this.showModal = false
+            }
         }
     }
 })

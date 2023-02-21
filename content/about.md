@@ -1,0 +1,3 @@
+KQM works with GITCG to curate player-created deck guides and generating findings on TCG mechanics. Anyone can submit deck guides for consideration to be published on this website, as long as they meet certain standards of guide quality. If approved, the Theorycrafting Staff will work with you on making minor changes to your guide before publication.
+
+To submit decks for review, please check out the #deck-guide-submission channel on the GITCG Discord server, which also has the full requirements for submitted deck guides: https://discord.gg/GITCG. Make sure to pick up the "Access: Theorycrafting" role in #roles.

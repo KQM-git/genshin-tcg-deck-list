@@ -49,8 +49,15 @@
 import Vue from 'vue'
 import CardComponent from '~/components/CardComponent.vue'
 
-async function getDecks ($content: any, codeMapping: { [key: string]: string}, search: string = '') {
-    const decks = (await $content('decks').search(search).fetch() as any[]).map((deck) => {
+async function getDecks ($content: any, codeMapping: { [key: string]: string}, search: string = ''): Promise<any[]> {
+    let decks: any[]
+    if (search !== '') {
+        decks = await $content('decks').search('name', search).fetch() as any[]
+    } else {
+        decks = await $content('decks').fetch() as any[]
+    }
+
+    return decks.map((deck) => {
         const cards = deck.deck_code.replace(/[!=?]/g, '').match(/\.?.{2}/g)
         deck.characters = cards.slice(0, 3).map((code: string) => codeMapping[code])
         deck.deck_list = {}
@@ -60,8 +67,6 @@ async function getDecks ($content: any, codeMapping: { [key: string]: string}, s
 
         return deck
     })
-
-    return decks
 }
 
 export default Vue.extend({

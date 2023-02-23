@@ -17,14 +17,14 @@
             v-if="searchFilters.tags.length > 0"
             class="w-full flex flex-row"
         >
-            <div class="flex flex-row gap-2">
+            <div class="flex flex-row gap-2 overflow-x-auto">
                 <button
                     v-for="tag of searchFilters.tags"
                     :key="tag"
                     @click="removeTag(tag)"
                 >
                     <tag-bar
-                        class="rounded-md text-center font-bold px-2"
+                        class="rounded-md text-center font-bold px-2 whitespace-nowrap"
                         :tag="tag"
                     />
                 </button>
@@ -51,7 +51,7 @@
                     v-for="(tagSection, index) in [
                         ['Easy', 'Medium', 'Hard', 'Very Hard'], ['Aggro', 'Combo']]"
                     :key="index"
-                    class="w-full flex flex-row gap-2"
+                    class="w-full flex flex-row gap-2 overflow-x-auto"
                 >
                     <button
                         v-for="tag of tagSection"
@@ -59,7 +59,7 @@
                         @click="addTag(tag)"
                     >
                         <tag-bar
-                            class="rounded-md text-center font-bold px-2"
+                            class="rounded-md text-center font-bold px-2 whitespace-nowrap"
                             :tag="tag"
                         />
                     </button>

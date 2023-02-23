@@ -1,5 +1,17 @@
 <template>
     <div class="flex flex-col gap-5 mx-auto max-w-2xl w-full p-2">
+        <form action onsubmit="return false" class="m-1 flex justify-center">
+            <input
+                v-model="search"
+                type="search"
+                placeholder="Search"
+                class="rounded-md p-1 pl-9 w-full max-w-sm bg-gray-600 bg-no-repeat bg-left text-white"
+                :style="{
+                    'background-image': `url(${require('~/assets/icons/magnify.svg')})`,
+                    'background-position': '0.5em 50%'
+                }"
+            >
+        </form>
         <nuxt-link
             v-for="deck of decks"
             :key="deck.slug"
@@ -37,6 +49,21 @@
 import Vue from 'vue'
 import CardComponent from '~/components/CardComponent.vue'
 
+async function getDecks ($content: any, codeMapping: { [key: string]: string}, search: string = '') {
+    const decks = (await $content('decks').search(search).fetch() as any[]).map((deck) => {
+        const cards = deck.deck_code.replace(/[!=?]/g, '').match(/\.?.{2}/g)
+        deck.characters = cards.slice(0, 3).map((code: string) => codeMapping[code])
+        deck.deck_list = {}
+        for (const card of cards.slice(3)) {
+            deck.deck_list[codeMapping[card.replace('.', '')]] = card.includes('.') ? 2 : 1
+        }
+
+        return deck
+    })
+
+    return decks
+}
+
 export default Vue.extend({
     name: 'IndexPage',
     components: { CardComponent },
@@ -47,18 +74,21 @@ export default Vue.extend({
             codeMapping[entry.Code] = entry.Card
         }
 
-        const decks = (await $content('decks').fetch() as any[]).map((deck) => {
-            const cards = deck.deck_code.replace(/[!=?]/g, '').match(/\.?.{2}/g)
-            deck.characters = cards.slice(0, 3).map((code: string) => codeMapping[code])
-            deck.deck_list = {}
-            for (const card of cards.slice(3)) {
-                deck.deck_list[codeMapping[card.replace('.', '')]] = card.includes('.') ? 2 : 1
-            }
+        const decks = await getDecks($content, codeMapping)
 
-            return deck
-        })
-
-        return { decks }
+        return { codeMapping, decks }
+    },
+    data () {
+        return {
+            search: '',
+            codeMapping: {} as { [key: string]: string},
+            decks: [] as any[]
+        }
+    },
+    watch: {
+        async search (search) {
+            this.decks = await getDecks(this.$content, this.codeMapping, search)
+        }
     }
 })
 </script>

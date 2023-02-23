@@ -1,6 +1,6 @@
 <template>
-    <div class="flex flex-col gap-5 mx-auto max-w-2xl w-full p-2">
-        <form action onsubmit="return false" class="m-1 flex justify-center">
+    <div class="flex flex-col gap-3 mx-auto max-w-2xl w-full p-2">
+        <form action onsubmit="return false" class="flex justify-center">
             <input
                 v-model="search"
                 type="search"
@@ -12,6 +12,61 @@
                 }"
             >
         </form>
+
+        <div
+            v-if="searchFilters.tags.length > 0"
+            class="w-full flex flex-row"
+        >
+            <div class="flex flex-row gap-2">
+                <button
+                    v-for="tag of searchFilters.tags"
+                    :key="tag"
+                    @click="removeTag(tag)"
+                >
+                    <tag-bar
+                        class="rounded-md text-center font-bold px-2"
+                        :tag="tag"
+                    />
+                </button>
+            </div>
+        </div>
+
+        <div class="w-full p-3 rounded-xl bg-[#2D282F] border-2 border-[#584F65]">
+            <div class="w-full flex flex-row gap-3 overflow-x-auto">
+                <button
+                    v-for="section of ['Tags', 'Element', 'Faction', 'Weapon']"
+                    :key="section"
+                    :class="'text-lg font-bold ' + (searchSection === section ? 'text-white' : 'text-gray-400')"
+                    @click="searchSection = section"
+                >
+                    {{ section }}
+                </button>
+            </div>
+
+            <div
+                v-if="searchSection === 'Tags'"
+                class="w-full flex flex-col pt-1 gap-2"
+            >
+                <div
+                    v-for="(tagSection, index) in [
+                        ['Easy', 'Medium', 'Hard', 'Very Hard'], ['Aggro', 'Combo']]"
+                    :key="index"
+                    class="w-full flex flex-row gap-2"
+                >
+                    <button
+                        v-for="tag of tagSection"
+                        :key="tag"
+                        @click="addTag(tag)"
+                    >
+                        <tag-bar
+                            class="rounded-md text-center font-bold px-2"
+                            :tag="tag"
+                        />
+                    </button>
+                </div>
+            </div>
+        </div>
+
         <nuxt-link
             v-for="deck of decks"
             :key="deck.slug"
@@ -49,7 +104,7 @@
 import Vue from 'vue'
 import CardComponent from '~/components/CardComponent.vue'
 
-async function getDecks ($content: any, codeMapping: { [key: string]: string}, search: string = ''): Promise<any[]> {
+async function getDecks ($content: any, codeMapping: { [key: string]: string}, search: string = '', searchFilters: any = []): Promise<any[]> {
     let decks: any[]
     if (search !== '') {
         decks = await $content('decks').search('name', search).fetch() as any[]
@@ -57,16 +112,20 @@ async function getDecks ($content: any, codeMapping: { [key: string]: string}, s
         decks = await $content('decks').fetch() as any[]
     }
 
-    return decks.map((deck) => {
+    decks.forEach((deck) => {
         const cards = deck.deck_code.replace(/[!=?]/g, '').match(/\.?.{2}/g)
         deck.characters = cards.slice(0, 3).map((code: string) => codeMapping[code])
         deck.deck_list = {}
         for (const card of cards.slice(3)) {
             deck.deck_list[codeMapping[card.replace('.', '')]] = card.includes('.') ? 2 : 1
         }
-
-        return deck
     })
+
+    if (searchFilters.tags?.length > 0) {
+        decks = decks.filter((deck: any) => searchFilters.tags.every((tag: string) => deck.tags.includes(tag)))
+    }
+
+    return decks
 }
 
 export default Vue.extend({
@@ -86,6 +145,13 @@ export default Vue.extend({
     data () {
         return {
             search: '',
+            searchSection: 'Tags',
+            searchFilters: {
+                tags: [] as string[],
+                elements: [] as string[],
+                factions: [] as string[],
+                weapons: [] as string[]
+            },
             codeMapping: {} as { [key: string]: string},
             decks: [] as any[]
         }
@@ -93,6 +159,22 @@ export default Vue.extend({
     watch: {
         async search (search) {
             this.decks = await getDecks(this.$content, this.codeMapping, search)
+        },
+        searchFilters: {
+            handler: async function (searchFilters) {
+                this.decks = await getDecks(this.$content, this.codeMapping, this.search, searchFilters)
+            },
+            deep: true
+        }
+    },
+    methods: {
+        addTag (tag: string) {
+            if (!this.searchFilters.tags.includes(tag)) {
+                this.searchFilters.tags.push(tag)
+            }
+        },
+        removeTag (tag: string) {
+            this.searchFilters.tags = this.searchFilters.tags.filter((t: string) => t !== tag)
         }
     }
 })

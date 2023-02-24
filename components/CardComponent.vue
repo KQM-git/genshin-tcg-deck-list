@@ -48,11 +48,14 @@
                 >
                 <div class="flex flex-col p-5 bg-[#2D282F] border-x-2 border-b-2 border-[#584F65] rounded-b-xl min-h-[400px]">
                     <div class="w-full flex flex-row justify-between items-center">
-                        <div class="flex flex-row justify-center items-center">
+                        <div class="flex flex-row justify-start items-center">
                             <p class="text-2xl">
                                 {{ name }}
                             </p>
-                            <div v-if="card?.skills?.find(skill => skill.name === 'Description')">
+                            <div
+                                v-if="card?.skills?.find(skill => skill.name === 'Description')"
+                                class="flex flex-row"
+                            >
                                 <div
                                     v-for="point of card.skills.find(skill => skill.name === 'Description').points.filter(point => point.point_count > 0)"
                                     :key="point.point_type"
@@ -64,7 +67,7 @@
                             </div>
                         </div>
 
-                        <div v-if="card.tags?.length != 0" class="flex flex-row">
+                        <div v-if="card.tags?.length != 0" class="flex flex-row w-full justify-end">
                             <img
                                 v-for="tag of card.tags"
                                 :key="tag"

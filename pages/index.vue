@@ -13,25 +13,7 @@
             >
         </form>
 
-        <div
-            v-if="searchFilters.tags.length > 0"
-            class="w-full flex flex-row"
-        >
-            <div class="flex flex-row gap-2 overflow-x-auto">
-                <button
-                    v-for="tag of searchFilters.tags"
-                    :key="tag"
-                    @click="removeTag(tag)"
-                >
-                    <tag-bar
-                        class="rounded-md text-center font-bold px-2 whitespace-nowrap"
-                        :tag="tag"
-                    />
-                </button>
-            </div>
-        </div>
-
-        <div class="w-full p-3 rounded-xl bg-[#2D282F] border-2 border-[#584F65]">
+        <div class="w-full p-3 rounded-xl bg-[#2D282F] border-2 border-[#584F65] flex flex-col gap-2">
             <div class="w-full flex flex-row gap-3 overflow-x-auto">
                 <button
                     v-for="section of ['Tags', 'Element', 'Faction', 'Weapon']"
@@ -45,7 +27,7 @@
 
             <div
                 v-if="searchSection === 'Tags'"
-                class="w-full flex flex-col pt-1 gap-2"
+                class="w-full flex flex-col gap-2"
             >
                 <div
                     v-for="(tagSection, index) in [
@@ -56,7 +38,7 @@
                     <button
                         v-for="tag of tagSection"
                         :key="tag"
-                        @click="addTag(tag)"
+                        @click="addFilter(tag, searchFilters.tags)"
                     >
                         <tag-bar
                             class="rounded-md text-center font-bold px-2 whitespace-nowrap"
@@ -64,6 +46,105 @@
                         />
                     </button>
                 </div>
+            </div>
+
+            <div
+                v-if="searchSection === 'Element'"
+                class="w-full flex flex-row gap-2 overflow-x-auto"
+            >
+                <button
+                    v-for="element of ['Pyro', 'Hydro', 'Anemo', 'Electro', 'Dendro', 'Cryo', 'Geo']"
+                    :key="element"
+                    class="w-10 h-10 shrink-0"
+                    @click="addFilter(element, searchFilters.elements)"
+                >
+                    <img
+                        :class="['w-full h-full', searchFilters.elements.length > 0 && !searchFilters.elements.includes(element) ? 'brightness-50' : '']"
+                        :src="require(`~/assets/icons/${element}.png`)"
+                    >
+                </button>
+            </div>
+
+            <div
+                v-if="searchSection === 'Faction'"
+                class="w-full flex flex-row gap-2 overflow-x-auto"
+            >
+                <button
+                    v-for="faction of ['Mondstadt', 'Liyue', 'Inazuma', 'Sumeru', 'Fatui', 'Monster', 'Hilichurl']"
+                    :key="faction"
+                    class="w-10 h-10 shrink-0"
+                    @click="addFilter(faction, searchFilters.factions)"
+                >
+                    <img
+                        :class="['w-full h-full', searchFilters.factions.length > 0 && !searchFilters.factions.includes(faction) ? 'brightness-50' : '']"
+                        :src="require(`~/assets/icons/${faction}.png`)"
+                    >
+                </button>
+            </div>
+
+            <div
+                v-if="searchSection === 'Weapon'"
+                class="w-full flex flex-row gap-2 overflow-x-auto"
+            >
+                <button
+                    v-for="weapon of ['Sword', 'Claymore', 'Polearm', 'Catalyst', 'Bow', 'Other Weapons']"
+                    :key="weapon"
+                    class="w-10 h-10 shrink-0"
+                    @click="addFilter(weapon, searchFilters.weapons)"
+                >
+                    <img
+                        :class="['w-full h-full', searchFilters.weapons.length > 0 && !searchFilters.weapons.includes(weapon) ? 'brightness-50' : '']"
+                        :src="require(`~/assets/icons/${weapon}.png`)"
+                    >
+                </button>
+            </div>
+
+            <div
+                v-if="searchSection !== 'Tags'"
+                class="w-full flex flex-row gap-2 overflow-x-auto"
+            >
+                <button
+                    v-for="character of filteredCharacters"
+                    :key="character.name"
+                    @click="addFilter(character.name, searchFilters.characters)"
+                >
+                    <card-component
+                        :name="character.name"
+                        :modal="false"
+                        type="character"
+                        class="w-16 h-16 rounded-full"
+                    />
+                </button>
+            </div>
+        </div>
+
+        <div
+            v-if="searchFilters.tags.length + searchFilters.characters.length > 0"
+            class="w-full flex flex-row"
+        >
+            <div class="flex flex-row gap-2 overflow-x-auto">
+                <button
+                    v-for="tag of searchFilters.tags"
+                    :key="tag"
+                    @click="removeFilter(tag, searchFilters.tags)"
+                >
+                    <tag-bar
+                        class="rounded-md text-center font-bold px-2 whitespace-nowrap"
+                        :tag="tag"
+                    />
+                </button>
+                <button
+                    v-for="character of searchFilters.characters"
+                    :key="character"
+                    @click="removeFilter(character, searchFilters.characters)"
+                >
+                    <card-component
+                        :name="character"
+                        :modal="false"
+                        type="character"
+                        class="w-16 h-16 rounded-full"
+                    />
+                </button>
             </div>
         </div>
 
@@ -125,6 +206,10 @@ async function getDecks ($content: any, codeMapping: { [key: string]: string}, s
         decks = decks.filter((deck: any) => searchFilters.tags.every((tag: string) => deck.tags.includes(tag)))
     }
 
+    if (searchFilters.characters?.length > 0) {
+        decks = decks.filter((deck: any) => searchFilters.characters.every((character: string) => deck.characters.includes(character)))
+    }
+
     return decks
 }
 
@@ -140,7 +225,10 @@ export default Vue.extend({
 
         const decks = await getDecks($content, codeMapping)
 
-        return { codeMapping, decks }
+        const characters = (await $content('cards').fetch() as any[]).filter((card: any) => card.type === 'Character Card')
+        const filteredCharacters = characters
+
+        return { codeMapping, decks, characters, filteredCharacters }
     },
     data () {
         return {
@@ -150,31 +238,52 @@ export default Vue.extend({
                 tags: [] as string[],
                 elements: [] as string[],
                 factions: [] as string[],
-                weapons: [] as string[]
+                weapons: [] as string[],
+                characters: [] as string[]
             },
             codeMapping: {} as { [key: string]: string},
-            decks: [] as any[]
+            decks: [] as any[],
+            characters: [] as any[],
+            filteredCharacters: [] as any[]
         }
     },
     watch: {
         async search (search) {
-            this.decks = await getDecks(this.$content, this.codeMapping, search)
+            this.decks = await getDecks(this.$content, this.codeMapping, search, this.searchFilters)
         },
         searchFilters: {
             handler: async function (searchFilters) {
                 this.decks = await getDecks(this.$content, this.codeMapping, this.search, searchFilters)
+
+                let filteredCharacters = [...this.characters]
+
+                if (searchFilters.elements.length > 0) {
+                    filteredCharacters = filteredCharacters.filter((character: any) => searchFilters.elements.includes(character.element))
+                }
+
+                if (searchFilters.factions.length > 0) {
+                    filteredCharacters = filteredCharacters.filter((character: any) => character.tags.some((tag: string) => searchFilters.factions.includes(tag)))
+                }
+
+                if (searchFilters.weapons.length > 0) {
+                    filteredCharacters = filteredCharacters.filter((character: any) => searchFilters.weapons.includes(character.weapon))
+                }
+
+                this.filteredCharacters = filteredCharacters
             },
             deep: true
         }
     },
     methods: {
-        addTag (tag: string) {
-            if (!this.searchFilters.tags.includes(tag)) {
-                this.searchFilters.tags.push(tag)
-            }
+        removeFilter (filter: string, filterType: string[]) {
+            filterType.splice(filterType.indexOf(filter), 1)
         },
-        removeTag (tag: string) {
-            this.searchFilters.tags = this.searchFilters.tags.filter((t: string) => t !== tag)
+        addFilter (filter: string, filterType: string[]) {
+            if (filterType.includes(filter)) {
+                this.removeFilter(filter, filterType)
+            } else {
+                filterType.push(filter)
+            }
         }
     }
 })

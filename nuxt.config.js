@@ -10,15 +10,52 @@ export default {
 
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: 'genshin-tcg-deck-list',
+        title: 'Genshin Impact TCG Guides',
         htmlAttrs: {
             lang: 'en'
         },
         meta: [
-            { charset: 'utf-8' },
-            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: '' },
-            { name: 'format-detection', content: 'telephone=no' }
+            {
+                charset: 'utf-8'
+            },
+            {
+                name: 'viewport',
+                content: 'width=device-width, initial-scale=1'
+            },
+            {
+                hid: 'description',
+                name: 'description',
+                content: "Curated deck guides for Genshin Impact's collectible card minigame, Genius Invokation TCG."
+            },
+            {
+                name: 'format-detection',
+                content: 'telephone=no'
+            },
+            {
+                hid: 'og:title',
+                name: 'og:title',
+                content: 'Genshin Impact TCG Guides'
+            },
+            {
+                hid: 'og:description',
+                name: 'og:description',
+                content: "Curated deck guides for Genshin Impact's collectible card minigame, Genius Invokation TCG."
+            },
+            {
+                hid: 'og:type',
+                name: 'og:type',
+                content: 'article'
+            },
+            {
+                hid: 'og:image',
+                property: 'og:image',
+                content: '/favicon.ico'
+            },
+            {
+                hid: 'og:url',
+                property: 'og:url',
+                content: 'https://cards.keqingmains.com/'
+            }
         ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

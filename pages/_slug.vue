@@ -150,6 +150,39 @@ export default Vue.extend({
         // }
 
         return { deck, mainSections, cardsData }
+    },
+    head () {
+        const vm: any = this
+        return {
+            title: vm.deck.name,
+            meta: [
+                {
+                    hid: 'description',
+                    name: 'description',
+                    content: vm.deck.description
+                },
+                {
+                    hid: 'og:type',
+                    name: 'og:type',
+                    content: 'article'
+                },
+                {
+                    hid: 'og:title',
+                    name: 'og:title',
+                    content: vm.deck.name
+                },
+                {
+                    hid: 'og:description',
+                    name: 'og:description',
+                    content: vm.deck.description
+                },
+                {
+                    hid: 'og:url',
+                    property: 'og:url',
+                    content: `https://cards.keqingmains.com/${vm.deck.slug}`
+                }
+            ]
+        }
     }
 })
 </script>

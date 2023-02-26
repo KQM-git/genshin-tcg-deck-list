@@ -1,12 +1,10 @@
 <template>
     <div class="w-full pb-16 lg:pb-0">
         <!-- Desktop -->
-        <div class="hidden lg:flex justify-between">
-            <div class="w-[15%] flex flex-row">
-                <NuxtLink to="/" class="p-1 w-20">
-                    <img src="~/assets/logo.png">
-                </NuxtLink>
-            </div>
+        <div class="hidden lg:flex justify-between items-center">
+            <NuxtLink to="/" class="p-1 w-16">
+                <img src="~/assets/logo.png">
+            </NuxtLink>
             <div class="top-bar flex flex-row items-end">
                 <NuxtLink
                     to="/"
@@ -61,7 +59,7 @@
                     <path d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
             </button>
-            <NuxtLink to="/" class="h-full">
+            <NuxtLink to="/" class="h-12">
                 <img src="~/assets/logo.png" class="max-h-full">
             </NuxtLink>
         </div>

@@ -12,7 +12,7 @@ good_against:
         - Mona
 bad_against:
     - 
-        - Oceanid
+        - Rhodeia of Loch
         - Fischl
         - Mirror Maiden
 video_url: https://www.youtube.com/watch?v=Mr1wskjOtjk

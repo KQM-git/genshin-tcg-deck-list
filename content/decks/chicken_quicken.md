@@ -4,7 +4,7 @@ tags:
     - Easy
     - Aggro
 description: This deck is based around utilising Fischl's skill and Collei's burst to output massive damage with the above-average 3 damage reaction, Quicken. The goal of the deck is to pressure the opponent from game start to game end, making sure they cannot execute their game plans peacefully. In addition, Dendro Resonance serves to counter the popular card, Xingqiu.
-deck_code: '!!0Q0G0R.2V.2W.3E.3H.3K.3L.21.2Z.3F.40.2I.3G.3W.30.2O='
+deck_code: '!!0Q0G0R.2V.2W.3E.3H.3K.3L.21.2Z.3F.40.3X.2I.3G.3W.2O='
 good_against:
     - 
         - Xingqiu

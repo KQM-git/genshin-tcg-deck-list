@@ -20,7 +20,7 @@ video_url: ''
  
 ## Mulligan
 <CardRow :cards= "['Chaotic Entropy', 'Liben', 'Liu Su', 'Paimon', 'Liyue Harbor Wharf']"></CardRow>
-If you see Chaotic Entropy in your opening hand, it’s already a very good sign, since that’s one of the main ways for you to win the game. The other cards you want to keep are cards that are good early on, to help you have better early game to slow down the opponent, This includes Liu Su for some cheap energy, which Jean - but especially Sucrose - really like, Paimon or Liben for some early ramp, or even Liyue Harbor wharf for some card draw that you can afford in the early turns, and can even be played alongside your Paimon/Liben. 
+If you see Chaotic Entropy in your opening hand, it’s already a very good sign, since that’s one of the main ways for you to win the game. The other cards you want to keep are cards that are good early on, to help you have better early game to slow down the opponent, This includes Liu Su for some cheap energy, which Jean - but especially Sucrose - really like, Paimon or Liben for some early ramp, or even Liyue Harbor wharf for some card draw that you can afford in the early turns, and can even be played alongside your Paimon/Liben.  <br></br> 
 
 ### Importance of Defensive Cards
 <CardFan :cards="['Lucky Dog's Silver Circlet', 'Aquila Favonia']"></CardFan>
@@ -39,7 +39,7 @@ Like mentioned before, Chaotic Entropy is the star of the deck. While it’s act
 Now that your Swirls are good to go for basically the whole game, you want to slow down what the opponent wants to do using Jean and Sucrose’s Elemental Skills to swap key units out, using the skill that swaps to whoever is better for you. Using Lucky Dog, Jean’s Burst and Aquila Favonia, you can easily buy enough time to wear down any opponent, but be always careful for potential snipes from decks like Pyro Resonance ones or from a potential Adeptus Temptation Burst. Lastly, remember that when one of your opponent’s characters is defeated, your potential Swirl DMG goes down, so pushing through an enemy with a strong Stall unit like an Aquila Favonia Bennett or a Noelle could prove difficult, and will require careful use of your resources. Matchups with this deck can be very dependant on even just one small mistake from you or your opponent, so always keep in mind what your game plan for each turn is.
 
 ### Conclusion and Credits
-Thank you for making this far! We hope this guide will help you blow your opponents away in your duels!
+Thank you for making it this far! We hope this guide will help you blow your opponents away in your duels!
 
 Guide made originally by WONG#7718.
 Supervised by Pietroloz#6800.

@@ -23,7 +23,7 @@ video_url: ''
 If you see Chaotic Entropy in your opening hand, it’s already a very good sign, since that’s one of the main ways for you to win the game. The other cards you want to keep are cards that are good early on, to help you have better early game to slow down the opponent, This includes Liu Su for some cheap energy, which Jean - but especially Sucrose - really like, Paimon or Liben for some early ramp, or even Liyue Harbor wharf for some card draw that you can afford in the early turns, and can even be played alongside your Paimon/Liben. 
 
 ### Importance of Defensive Cards
-<CardFan :cards="['Lucky Dog's Silver Circlet', 'Aquila Favonia']"></CardFan>
+<CardFan :cards="['Lucky Dogs Silver Circlet', 'Aquila Favonia']"></CardFan>
 If your starting hand is already looking good and you happen to be against and aggressive deck, keeping defensive cards like Aquila Favonia or Lucky Dog is something you should consider. While your early game strategy doesn’t change much, they can ensure that your mid to late game strategy can be achieved more safely.  Aquila Favonia can be considered as a keep against very grindy decks, since the +1 DMG it offers to Jean can make a big difference.
 
 ### Starting off the Swirl Chain.

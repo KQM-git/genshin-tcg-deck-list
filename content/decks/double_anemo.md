@@ -23,14 +23,14 @@ video_url: ‘’
 If you see Chaotic Entropy in your opening hand, it’s already a very good sign, since that’s one of the main ways for you to win the game. The other cards you want to keep are cards that are good early on, to help you have better early game to slow down the opponent, This includes Liu Su for some cheap energy, which Jean - but especially Sucrose - really like, Paimon or Liben for some early ramp, or even Liyue Harbor wharf for some card draw that you can afford in the early turns, and can even be played alongside your Paimon/Liben. 
 
 ### Importance of defensive cards
-<CardFan :cards="['Lucky Dog's Silver Circlet', 'Aquila Favonia']"></CardFan>
+<CardFan :cards="['Lucky Dog’s Silver Circlet', 'Aquila Favonia']"></CardFan>
 If your starting hand is already looking good and you happen to be against and aggressive deck, keeping defensive cards like Aquila Favonia or Lucky Dog is something you should consider. While your early game strategy doesn’t change much, they can ensure that your mid to late game strategy can be achieved more safely.  Aquila Favonia can be considered as a keep against very grindy decks, since the +1 DMG it offers to Jean can make a big difference.
 
 ### Starting off the Swirl chain.
  Most of the time your first round is pretty standard: start off with Mona, use her Elemental Skill to apply Hydro, then swap to Sucrose and trigger a Swirl. With Sucrose applying Hydro to standby opponents, as well as forcefully swapping one into play, it pretty much guarantees that for the rest of the game most of your hydro attacks will trigger Swirl again. This leaves you with 1 die, which you can use on Liu Su before swapping to Sucrose to cast her Burst on the second round (which is what you should prioritize), draw some cards with Strategize, or even have 1 die left to make Sucrose eat a Mushroom Pizza if she were to face a lot of aggression. If your opponent swaps, making you unable to Swirl, you ideally want to play a ramp card like Paimon/Liben and then swap to Sucrose so that you can still use your dice and end first, which will guarantee you to Swirl on the next round thanks to Mona’s Reflection Summon. You can even play Liyue Harbor Wharf here, although it has a lower priority compared to Liben/Paimon. You can also play both Wharf and your ramp card, and still guarantee a Swirl on the next round, enabled by Mona’s fast swap passive.
  
 ## Turning Swirl into a giant threat thanks to Chaotic Entropy
-<CardRow :cards= "['Chaotic Entropy']"></CardRow>
+<CardRow :cards="['Chaotic Entropy']"></CardRow>
 
 Like mentioned before, Chaotic Entropy is the star of the deck. While it’s active and Sucrose’s Grand Wind Spirit is infused with Hydro, all your Hydro DMG will be increased by 1, Swirls included. This can close out games extremely fast, and applies an incredible amount of pressure for all 3 turns that Sucrose’s burst is up. However, that is also your biggest weakness: if the opponent uses Send Off, then you will lose out on the massive increase in DMG until you are able to re-cast Sucrose’s Burst, if you even can do that. If that happens, not all hope is lost. If your opponent is slow, try to build a second Sucrose Burst by defending her. If your opponent is fast, use the fact that they just used 2 dice to deal no dmg to catch up on your own DMG. 
 

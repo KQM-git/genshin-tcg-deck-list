@@ -31,7 +31,7 @@
             >
                 <div
                     v-for="(tagSection, index) in [
-                        ['Easy', 'Medium', 'Hard', 'Very Hard'], ['Aggro', 'Combo']]"
+                        ['Easy', 'Medium', 'Hard', 'Very Hard'], ['Aggro', 'Combo', 'Control']]"
                     :key="index"
                     class="w-full flex flex-row gap-2 overflow-x-auto"
                 >

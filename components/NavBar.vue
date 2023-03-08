@@ -3,7 +3,7 @@
         <!-- Desktop -->
         <div class="hidden lg:flex justify-between items-center">
             <NuxtLink to="/" class="p-1 w-16">
-                <img src="~/assets/logo.png">
+                <nuxt-img src="/favicon.ico" />
             </NuxtLink>
             <div class="top-bar flex flex-row items-end">
                 <NuxtLink
@@ -60,7 +60,7 @@
                 </svg>
             </button>
             <NuxtLink to="/" class="h-12">
-                <img src="~/assets/logo.png" class="max-h-full">
+                <nuxt-img src="/favicon.ico" class="max-h-full" />
             </NuxtLink>
         </div>
 

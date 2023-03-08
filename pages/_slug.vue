@@ -45,14 +45,14 @@
                         <p class="text-2xl font-genshin">
                             Good Against
                         </p>
-                        <div class="grid grid-cols-2 lg:grid-cols-3 gap-5">
-                            <div v-for="(_deck, i) in deck.good_against" :key="i" class="w-full h-16 relative">
+                        <div class="flex flex-row flex-wrap gap-x-8 gap-y-3">
+                            <div v-for="(_deck, i) in deck.good_against" :key="i" class="h-16 w-40 relative">
                                 <card-component
                                     v-for="(character, j) in _deck"
                                     :key="j"
                                     :name="character"
                                     class="w-16 h-16 rounded-full absolute"
-                                    :style="{ left: `${j * 100 / 3}px` }"
+                                    :style="{ left: `${j * 100 / 3}%` }"
                                     type="character"
                                 />
                             </div>
@@ -65,14 +65,14 @@
                         <p class="text-2xl font-genshin">
                             Bad Against
                         </p>
-                        <div class="grid grid-cols-2 lg:grid-cols-3 gap-5">
-                            <div v-for="(_deck, i) in deck.bad_against" :key="i" class="w-full h-16 relative">
+                        <div class="flex flex-row flex-wrap gap-x-8 gap-y-3">
+                            <div v-for="(_deck, i) in deck.bad_against" :key="i" class="h-16 w-40 relative">
                                 <card-component
                                     v-for="(character, j) in _deck"
                                     :key="j"
                                     :name="character"
                                     class="w-16 h-16 sm:w-16 sm:h-16 rounded-full absolute"
-                                    :style="{ left: `${j * 100 / 3}px` }"
+                                    :style="{ left: `${j * 100 / 3}%` }"
                                     type="character"
                                 />
                             </div>

@@ -3,33 +3,22 @@
         class="overflow-hidden"
     >
         <div
-            :class="'relative bg-cover h-full w-full' + (modal ? ' cursor-pointer' : '')"
+            :class="'bg-cover h-full w-full' + (modal ? ' cursor-pointer' : '')"
             :style="{
-                backgroundImage: (gradient ? 'linear-gradient(to right, black, transparent)' : '') }"
-
+                backgroundImage: (gradient ? 'linear-gradient(to right, black, transparent), ' : '')
+                    + `url(&quot;${require(`~/assets/cards/${name.replace(/[:*!?<>\/\\]/g, '')}.png`)}&quot;)`,
+                backgroundPosition: {
+                    character: card?.offset?.character ?? 'center',
+                    list: card?.offset?.list ?? 'center'
+                }[type] ?? 'center',
+            }"
             @click="openModal"
         >
-            <div
-                v-if="gradient"
-                class="w-full h-full absolute inset-0 bg-[linear-gradient(to_right,_black,_transparent)]"
-            />
-            <nuxt-img
+            <img
                 v-if="border"
-                src="/card_border.png"
-                class="w-full h-full absolute inset-0"
-            />
-            <nuxt-img
-                :width="{ character: 200, list: 300 }[type]"
-                :src="`/cards/${name.replace(/[:*!?<>\/\\]/g, '')}.png`"
-                class="w-full h-full object-cover"
-                :style="{
-                    objectPosition: {
-                        character: card?.offset?.character ?? 'center',
-                        list: card?.offset?.list ?? 'center'
-                    }[type] ?? 'center',
-                }"
-                placeholder
-            />
+                :src="require('~/assets/card_border.png')"
+                class="w-full h-full"
+            >
         </div>
         <div
             v-if="modal"
@@ -43,7 +32,7 @@
                 <div
                     v-if="card.hp"
                     class="absolute top-2 left-0 lg:-top-8 lg:-left-8 w-16 h-16 bg-center bg-contain flex items-center justify-center font-genshin text-2xl"
-                    style="backgroundImage: url('/icons/hp.png')"
+                    :style="`backgroundImage: url(${require(`~/assets/icons/hp.png`)})`"
                 >
                     <div
                         class="mt-3"
@@ -52,11 +41,11 @@
                         {{ card.hp }}
                     </div>
                 </div>
-                <nuxt-img
-                    class="h-40 w-full object-cover rounded-t-xl"
-                    :src="`/cards/${name.replace(/[:*!?<>\/\\]/g, '')}.png`"
+                <img
+                    class="h-40 w-full object-cover object-[50%_30%] rounded-t-xl"
+                    :src="require(`~/assets/cards/${name.replace(/[:*!?<>\/\\]/g, '')}.png`)"
                     :style="{ objectPosition: card?.offset?.modal ?? '50% 30%' }"
-                />
+                >
                 <div class="flex flex-col p-5 bg-[#2D282F] border-x-2 border-b-2 border-[#584F65] rounded-b-xl min-h-[400px]">
                     <div class="w-full flex flex-row justify-between items-center">
                         <div class="flex flex-row justify-start items-center">
@@ -70,7 +59,7 @@
                                 <div
                                     v-for="point of card.skills.find(skill => skill.name === 'Description').points.filter(point => point.point_count > 0)"
                                     :key="point.point_type"
-                                    :style="`backgroundImage: '/icons/cost/${point.point_type}.png'; text-shadow: -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333, 1px 1px 0 #333`"
+                                    :style="`backgroundImage: url(${require(`~/assets/icons/cost/${point.point_type}.png`)}); text-shadow: -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333, 1px 1px 0 #333`"
                                     class="w-12 h-12 bg-center bg-contain flex justify-center items-center text-2xl shrink-0"
                                 >
                                     {{ point.point_count }}
@@ -79,12 +68,12 @@
                         </div>
 
                         <div v-if="card.tags?.length != 0" class="flex flex-row w-full justify-end">
-                            <nuxt-img
+                            <img
                                 v-for="tag of card.tags"
                                 :key="tag"
                                 class="w-8 h-8 lg:w-12 lg:h-12"
-                                :src="`/icons/${tag}.png`"
-                            />
+                                :src="require(`~/assets/icons/${tag}.png`)"
+                            >
                         </div>
                     </div>
                     <div v-if="card.skills" class="w-full flex flex-col gap-5">
@@ -97,17 +86,17 @@
                                 v-if="skill.name !== 'Description'"
                                 class="flex flex-row items-center"
                             >
-                                <nuxt-img
-                                    :src="`/skills/${skill.name.replace(/[:*!?<>\/\\]/g, '')}.png`"
+                                <img
+                                    :src="require(`~/assets/skills/${skill.name.replace(/[:*!?<>\/\\]/g, '')}.png`)"
                                     class="w-12 h-12"
-                                />
+                                >
                                 <p class="text-lg">
                                     {{ skill.name }}
                                 </p>
                                 <div
                                     v-for="point of skill.points.filter(point => point.point_count > 0)"
                                     :key="point.point_type"
-                                    :style="`backgroundImage: url(${`/icons/cost/${point.point_type}.png`}); text-shadow: -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333, 1px 1px 0 #333`"
+                                    :style="`backgroundImage: url(${require(`~/assets/icons/cost/${point.point_type}.png`)}); text-shadow: -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333, 1px 1px 0 #333`"
                                     class="w-12 h-12 bg-center bg-contain flex justify-center items-center text-2xl shrink-0"
                                 >
                                     {{ point.point_count }}
@@ -128,17 +117,17 @@
                     class="w-full p-5 bg-[#2D282F] border-2 border-[#584F65] rounded-xl"
                 >
                     <div class="flex flex-row items-center">
-                        <nuxt-img
-                            :src="`/skills/${skill.name.replace(/[:*!?<>\/\\]/g, '')}.png`"
+                        <img
+                            :src="require(`~/assets/skills/${skill.name.replace(/[:*!?<>\/\\]/g, '')}.png`)"
                             class="w-12 h-12"
-                        />
+                        >
                         <p class="text-lg">
                             {{ skill.name }}
                         </p>
                         <div
                             v-for="point of skill.points.filter(point => point.point_count > 0)"
                             :key="point.point_type"
-                            :style="`backgroundImage: url(${`/icons/cost/${point.point_type}.png`}); text-shadow: -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333, 1px 1px 0 #333`"
+                            :style="`backgroundImage: url(${require(`~/assets/icons/cost/${point.point_type}.png`)}); text-shadow: -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333, 1px 1px 0 #333`"
                             class="w-12 h-12 bg-center bg-contain flex justify-center items-center text-2xl shrink-0"
                         >
                             {{ point.point_count }}

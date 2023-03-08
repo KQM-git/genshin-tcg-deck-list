@@ -7,7 +7,7 @@
                 placeholder="Search"
                 class="rounded-md p-1 pl-9 w-full max-w-sm bg-gray-600 bg-no-repeat bg-left text-white"
                 :style="{
-                    'background-image': `url('/icons/magnify.svg')`,
+                    'background-image': `url(${require('~/assets/icons/magnify.svg')})`,
                     'background-position': '0.5em 50%'
                 }"
             >
@@ -58,10 +58,10 @@
                     class="w-10 h-10 shrink-0"
                     @click="addFilter(element, searchFilters.elements)"
                 >
-                    <nuxt-img
+                    <img
                         :class="['w-full h-full', searchFilters.elements.length > 0 && !searchFilters.elements.includes(element) ? 'brightness-50' : '']"
-                        :src="`/icons/${element}.png`"
-                    />
+                        :src="require(`~/assets/icons/${element}.png`)"
+                    >
                 </button>
             </div>
 
@@ -75,10 +75,10 @@
                     class="w-10 h-10 shrink-0"
                     @click="addFilter(faction, searchFilters.factions)"
                 >
-                    <nuxt-img
+                    <img
                         :class="['w-full h-full', searchFilters.factions.length > 0 && !searchFilters.factions.includes(faction) ? 'brightness-50' : '']"
-                        :src="`/icons/${faction}.png`"
-                    />
+                        :src="require(`~/assets/icons/${faction}.png`)"
+                    >
                 </button>
             </div>
 
@@ -92,10 +92,10 @@
                     class="w-10 h-10 shrink-0"
                     @click="addFilter(weapon, searchFilters.weapons)"
                 >
-                    <nuxt-img
+                    <img
                         :class="['w-full h-full', searchFilters.weapons.length > 0 && !searchFilters.weapons.includes(weapon) ? 'brightness-50' : '']"
-                        :src="`/icons/${weapon}.png`"
-                    />
+                        :src="require(`~/assets/icons/${weapon}.png`)"
+                    >
                 </button>
             </div>
 

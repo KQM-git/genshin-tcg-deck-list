@@ -36,14 +36,14 @@ As described, your opening hand and dice dictates which objective you might want
 
 You should always have at least one of the above cards on hand. The Bestest Travel Companion! is a card that changes two of your unusable dice to Omni Element, and is extremely valuable as always for a deck oriented around Elemental Skills. Elemental Resonance: Woven Thunder adds an extra dice to your arsenal, and cards like Liben and Paimon allows you to spend dice strategically to obtain 2 Omni Element in future Rounds, helping out the deck’s strategies. <br></br>
 
-Generally, as Ganyu Superconduct, you do not have to worry about the opponent’s strategies too much. The only effect that truly damages your strategy is self Hydro application, exhibited by Kokomi, Barbara, and Xingqiu.
+Generally, as Ganyu Superconduct, you do not have to worry about the opponent’s strategies too much. The only effect that truly damages your strategy is self Hydro application, exhibited by Kokomi, Barbara, and Xingqiu. <br></br>
 
 
 ### Celestial Shower Route
 <CardFan :cards="['Liu Su', 'Elemental Resonance: High Voltage', 'Leave It to Me']"></CardFan>
 
 
-When Liu Su or Elemental Resonance: High Voltage is in your opening hand, you can accelerate Ganyu’s Elemental Burst by switching to her on Round 1. If you have a good hand, you could even perform her Elemental Burst this Round! Moreover, since Ganyu is swapped in later, you should not have to spend dice on defensive options just yet. If you went second, Leave It to Me! is a great utility card for ending the Round and obtaining priority ahead of your opponent, allowing for a guaranteed Superconduct trigger on your Elemental Burst!
+When Liu Su or Elemental Resonance: High Voltage is in your opening hand, you can accelerate Ganyu’s Elemental Burst by switching to her on Round 1. If you have a good hand, you could even perform her Elemental Burst this Round! Moreover, since Ganyu is swapped in later, you should not have to spend dice on defensive options just yet. If you went second, Leave It to Me! is a great utility card for ending the Round and obtaining priority ahead of your opponent, allowing for a guaranteed Superconduct trigger on your Elemental Burst! <br></br>
 
 
 ### Undivided Heart Route
@@ -69,7 +69,7 @@ Against decks utilizing Sucrose or Jean, you might want to watch your swaps. If 
 The next few Rounds after your initial setup should be spent applying more AoE DMG, while also making sure to conserve Ganyu’s HP. In most cases, Ganyu Superconduct wins by the AoE DMG overwhelming the opponent, but some cards like Favonius Cathedral can prevent that from happening. Neither Ganyu nor Fischl are particularly good at single target DMG, so you want to utilize Keqing to do the final blows. Even if your opponent still has all three Character Cards in play, that is fine: once their average HP gets around 3, you can try to finish off the game from there. <br></br>
 
 
-However, the deck cannot maintain this pressure for too long. As the deck seldom has space to play defensively, it will start to lose advantage in a prolonged battle. Decks that pool their resources into one character, like Noelle, will be able to have that character survive and counterattack with powerful strengthened moves, and simply outmatch the AoE-oriented characters. When playing, keep in mind the damage the opponent can inflict, as well as what characters they’re keeping healthy.
+However, the deck cannot maintain this pressure for too long. As the deck seldom has space to play defensively, it will start to lose advantage in a prolonged battle. Decks that pool their resources into one character, like Noelle, will be able to have that character survive and counterattack with powerful strengthened moves, and simply outmatch the AoE-oriented characters. When playing, keep in mind the damage the opponent can inflict, as well as what characters they’re keeping healthy. <br></br>
 
 
 ### Sacrificing Ganyu?

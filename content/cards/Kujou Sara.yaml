@@ -1,0 +1,65 @@
+name: Kujou Sara
+id: 1406
+tags:
+- Electro
+- Bow
+- Inazuma
+type: Character Card
+hp: '10'
+energy: 2
+element: Electro
+weapon: Bow
+offset:
+  character: 'top'
+  list: '50% 17%'
+  modal: '50% 13%'
+skills:
+- name: Tengu Bowmanship
+  description: '<p><span style="color: #FFD780">Normal Attack</span></p>Deals 2 
+  <span style="color: #FFFFFF">Physical DMG</span>.</p>'
+  points:
+  - point_type: electro
+    point_count: 1
+  - point_type: black
+    point_count: 2
+  tag: Normal Attack
+- name: Tengu Stormcall
+  description: '<p><span style="color: #FFD780">Elemental Skill</span></p>
+  Deals 1 <span style="color: #FFACFF">Electro DMG</span>, summons 1 <span style="color: #FFFFFF">Tengu Juurai: Ambush</span>.'
+  points:
+  - point_type: electro
+    point_count: 3
+  tag: Elemental Skill
+- name: 'Subjugation: Koukou Sendou'
+  description: '<p><span style="color: #FFD780">Elemental Burst</span></p>
+  Deals 1 <span style="color: #FFACFF">Electro DMG</span>, summons 1 <span style="color: #FFFFFF">Tengu Juurai: Stormcluster</span>.'
+  points:
+  - point_type: electro
+    point_count: 4
+  - point_type: recharge
+    point_count: 2
+  tag: Elemental Burst
+- name: 'Tengu Juurai: Ambush'
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
+    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 1 <span style="color: #FFACFF">Electro DMG</span>, applies
+    <span style="color: #FFFFFF">Crowfeather Cover</span> to friendly active character.</p>
+    <p><span style="color: rgb(255, 255, 255)">Usage(s): 1</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+- name: 'Tengu Juurai: Stormcluster'
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
+    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 2 <span style="color: #FFACFF">Electro DMG</span>, applies
+    <span style="color: #FFFFFF">Crowfeather Cover</span> to friendly active character.</p>
+    <p><span style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Crowfeather Cover
+  description: '<p><span style="color: rgb(255, 215, 128)">Combat Status</span></p>
+    The character with this attached deals +1 <span style="color: #FFFFFF">Elemental Skill</span> and <span style="color: #FFFFFF">Elemental Burst</span> DMG.
+    <p><span style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+talent_card: Sin of Pride

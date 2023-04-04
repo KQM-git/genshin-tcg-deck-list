@@ -1,0 +1,40 @@
+name: Sin of Pride
+id: 214061
+tags: []
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFFFF">Combat Action</span>: When your active character is <span style="color: #FFFFFF">Kujou Sara</span>, equip this card.</p>
+    <p>After Kujou Sara equips this card, immediately use <span style="color: #FFD780">Subjugation: Koukou Sendou</span> once.</p>
+    <p>If a friendly <span style="color: #FFACFF">Electro</span> character has <span style="color: #FFFFFF">Crowfeather Cover</span> attached, their <span style="color: #FFFFFF">Elemental Skill</span> and <span style="color: #FFFFFF">Elemental Burst</span> deal +1 additional DMG.</p>
+    <p>(You must have Kujou Sara in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: electro
+    point_count: 4
+  - point_type: recharge
+    point_count: 2
+- name: 'Subjugation: Koukou Sendou'
+  description: '<p><span style="color: #FFD780">Elemental Burst</span></p>
+  Deals 1 <span style="color: #FFACFF">Electro DMG</span>, summons 1 <span style="color: #FFFFFF">Tengu Juurai: Stormcluster</span>.'
+  points:
+  - point_type: electro
+    point_count: 4
+  - point_type: recharge
+    point_count: 2
+  side: true
+  tag: Elemental Burst
+- name: 'Tengu Juurai: Stormcluster'
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
+    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 2 <span style="color: #FFACFF">Electro DMG</span>, applies
+    <span style="color: #FFFFFF">Crowfeather Cover</span> to friendly active character.</p>
+    <p><span style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Crowfeather Cover
+  description: '<p><span style="color: rgb(255, 215, 128)">Combat Status</span></p>
+    The character with this attached deals +1 Elemental Skill and Elemental Burst DMG.
+    <p><span style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1

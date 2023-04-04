@@ -1,0 +1,41 @@
+name: Tamanooya's Casket
+id: 212051
+tags: []
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is <span style="color: #FFFFFF">Sangonomiya Kokomi</span>, equip this card.</p>
+    <p>After Sangonomiya Kokomi equips this card, immediately use <span style="color: #FFD780">Nereid's Ascension</span> once.</p>
+    <p>When your Sangonomiya Kokomi, who has this card equipped, uses <span style="color: #FFFFFF">Nereid's Ascension</span>: If <span style="color: #FFFFFF">Bake-Kurage</span> is on the field, its <span style="color: #FFFFFF">Usage(s)</span> will be refreshed.</p>
+    <p>While <span style="color: #FFFFFF">Ceremonial Garment</span> exists, <span style="color: #FFFFFF">Bake-Kurage</span> deals +1 DMG.</p>
+    <p>(You must have Sangonomiya Kokomi in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: hydro
+    point_count: 4
+  - point_type: recharge
+    point_count: 2
+- name: Nereid's Ascension
+  description: '<p><span style="color: rgb(255, 215, 128)">Elenmental Burst</span></p>
+  Deals 3 <span style="color: #80C0FF">Hydro DMG</span>. This character gains <span style="color: #FFFFFF">Ceremonial Garment</span>.'
+  points:
+  - point_type: hydro
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+  side: true
+- name: 'Bake-Kurage'
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
+    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 1 <span style="color: #80C0FF">Hydro DMG</span>, heal your active character for 1 HP.</p>
+    <p><span style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Ceremonial Garment
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Combat Status</span></p>
+    <p>The character to which this is attached has their Normal Attacks deal +1 DMG.</p>
+    <p>After the character to which this attached uses a Normal Attack: Heal 1 HP for all your characters.</p>
+    <p><span style="color: rgb(255, 255, 255)">Duration (Rounds): 2</span></p>
+  points:
+  - point_type: ''
+    point_count: -1

@@ -1,0 +1,49 @@
+name: Wellspring of War-Lust
+id: 211061
+tags: []
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is <span style="color: #FFFFFF">Eula</span>, equip this card.</p>
+    <p>After Eula equips this card, immediately use <span style="color: #FFD780">Glacial Illumination</span> once.</p>
+    <p>After your Eula, who has this card equipped, uses <span style="color: #FFD780">Icetide Vortex</span>, this will generate 1 more Zeal for <span style="color: #FFD780">Lightfall Sword</span></p>
+    <p>(You must have Eula in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: cryo
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+- name: Icetide Vortex
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  Deals 2 <span style="color: #99FFFF">Cryo DMG</span>. If this character has not yet gained <span style="color: #FFFFFF">Grimheart</span>, they will gain <span style="color: #FFFFFF">Grimheart</span>.'
+  points:
+  - point_type: cryo
+    point_count: 3
+  tag: Elenmental Skill
+  side: true
+- name: Glacial Illumination
+  description: '<p><span style="color: rgb(255, 215, 128)">Elenmental Burst</span></p>
+  Deals 2 <span style="color: #99FFFF">Cryo DMG</span>, summons 1 <span style="color: #FFFFFF">Lightfall Sword</span>.'
+  points:
+  - point_type: cryo
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+  side: true
+- name: Grimheart
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Combat Status</span></p>
+    <p>After the character to which this is attached uses Icetide Vortex: Remove this status, DMG +2 for this instance.</p>
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Lightfall Sword
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
+    <p>When <span style="color: #FFFFFF">Eula</span> uses a <span style="color: #FFD780">Normal Attack</span> or <span style="color: #FFD780">Elemental Skill</span>, this card will accumulate 2 Zeal stacks, but Eula will not gain Energy.</p>
+    <p><span style="color: rgb(255, 255, 255)">End Phase:</span> Discard this card and deal 2 Physical DMG.</p>
+    <p>Each Zeal stack adds 1 DMG to this damage instance.</p>
+    <p>(Effects on this card's Usage will apply to Zeal.)</p>
+  points:
+  - point_type: ''
+    point_count: -1

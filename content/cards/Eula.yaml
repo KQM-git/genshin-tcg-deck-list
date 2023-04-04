@@ -1,0 +1,57 @@
+name: Eula
+id: 1106
+tags:
+- Cryo
+- Claymore
+- Mondstadt
+type: Character Card
+hp: '10'
+energy: 2
+element: Cryo
+weapon: Claymore
+offset:
+  character: 'top'
+  list: '50% 18%'
+  modal: '50% 13%'
+skills:
+- name: Favonius Bladework - Edel
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span
+    style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: #FFFFFF">Physical
+    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
+  points:
+  - point_type: cryo
+    point_count: 1
+  - point_type: black
+    point_count: 2
+- name: Icetide Vortex
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  Deals 2 <span style="color: #99FFFF">Cryo DMG</span>. If this character has not yet gained <span style="color: #FFFFFF">Grimheart</span>, they will gain <span style="color: #FFFFFF">Grimheart</span>.'
+  points:
+  - point_type: cryo
+    point_count: 3
+  tag: Elenmental Skill
+- name: Glacial Illumination
+  description: '<p><span style="color: rgb(255, 215, 128)">Elenmental Burst</span></p>
+  Deals 2 <span style="color: #99FFFF">Cryo DMG</span>, summons 1 <span style="color: #FFFFFF">Lightfall Sword</span>.'
+  points:
+  - point_type: cryo
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+- name: Grimheart
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Combat Status</span></p>
+    <p>After the character to which this is attached uses Icetide Vortex: Remove this status, DMG +2 for this instance.</p>
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Lightfall Sword
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
+    <p>When <span style="color: #FFFFFF">Eula</span> uses a <span style="color: #FFD780">Normal Attack</span> or <span style="color: #FFD780">Elemental Skill</span>, this card will accumulate 2 Zeal stacks, but Eula will not gain Energy.</p>
+    <p><span style="color: rgb(255, 255, 255)">End Phase:</span> Discard this card and deal 2 Physical DMG.</p>
+    <p>Each Zeal stack adds 1 DMG to this damage instance.</p>
+    <p>(Effects on this card's Usage will apply to Zeal.)</p>
+  points:
+  - point_type: ''
+    point_count: -1

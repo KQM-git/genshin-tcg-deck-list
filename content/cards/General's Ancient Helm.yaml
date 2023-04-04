@@ -1,0 +1,15 @@
+name: General's Ancient Helm
+id: 312009
+tags: []
+offset:
+  character: 'top'
+  list: '50% 40%'
+  modal: '50% 40%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">When Action Phase begins: </span> The character to which this is attached gains <span style="color: #FFFFFF">Unmovable Mountain</span> that provides 2 <span style="color: #FFFFFF">Shield</span> points.<p/>
+    <p>(A character can equip a maximum of 1 Artifact)</p>
+  points:
+  - point_type: white
+    point_count: 2

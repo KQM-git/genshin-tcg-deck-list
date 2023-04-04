@@ -1,0 +1,56 @@
+name: Sangonomiya Kokomi
+id: 1205
+tags:
+- Hydro
+- Catalyst
+- Inazuma
+type: Character Card
+hp: '10'
+energy: 2
+element: Hydro
+weapon: Catalyst
+offset:
+  character: 'top'
+  list: '50% 20%'
+  modal: '50% 13%'
+skills:
+- name: The Shape of Water
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>
+  <span style="color: rgb(255, 255, 255, 0.65)">Deals 1 <span style="color: rgb(128, 192, 255)">Hydro DMG.</span></span>'
+  points:
+  - point_type: hydro
+    point_count: 1
+  - point_type: black
+    point_count: 2
+  tag: Normal Attack
+- name: Kurage's Oath
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  This character gains <span style="color: #80C0FF">Hydro Application</span> and summons 1 <span style="color: #FFFFFF">Bake-Kurage</span>.'
+  points:
+  - point_type: hydro
+    point_count: 3
+  tag: Elenmental Skill
+- name: Nereid's Ascension
+  description: '<p><span style="color: rgb(255, 215, 128)">Elenmental Burst</span></p>
+  Deals 3 <span style="color: #80C0FF">Hydro DMG</span>. This character gains <span style="color: #FFFFFF">Ceremonial Garment</span>.'
+  points:
+  - point_type: hydro
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+- name: 'Bake-Kurage'
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
+    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 1 <span style="color: #80C0FF">Hydro DMG</span>, heal your active character for 1 HP.</p>
+    <p><span style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Ceremonial Garment
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Combat Status</span></p>
+    <p>The character to which this is attached has their Normal Attacks deal +1 DMG.</p>
+    <p>After the character to which this attached uses a Normal Attack: Heal 1 HP for all your characters.</p>
+    <p><span style="color: rgb(255, 255, 255)">Duration (Rounds): 2</span></p>
+  points:
+  - point_type: ''
+    point_count: -1

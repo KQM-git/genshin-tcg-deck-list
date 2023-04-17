@@ -1,5 +1,5 @@
 ---
-name: Mirror Maiden Electro Charged
+name: Mirror Maiden Electro-Charged
 
 
 tags:

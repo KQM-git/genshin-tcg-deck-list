@@ -1,15 +1,9 @@
 ---
 name: Mirror Maiden Electro-Charged
-
-
 tags:
     - Medium
     - Control
-
-
 description: Mirror Maiden Electro-Charged, or MMEC, is a Summon-oriented midrange deck which aims to gain advantage through high value Skills and Electro-Charged. Use Rhodeia of Loch and Fischl's Summons to whittle down the opponent and use their Elemental Bursts and Mirror Maiden to finish them off!
-
-
 deck_code: '!!090G0A.3L.34.3H.2V.3K.3I.35.3O.3X.41.4E.3W.3G.2I.2O='
 good_against:
     - 
@@ -46,7 +40,7 @@ Knowing when to swap in Mirror Maiden and using her Elemental Skill is the most 
 
 
 ## Mid/Late Game
-<CardFan :cards="['Calx\'s Arts', 'I Haven\'t Lost Yet', 'Adeptus Temptation',]"></CardFan>
+<CardFan :cards="['Calx\'s Arts', 'I Haven\'t Lost Yet', 'Adeptus\' Temptation',]"></CardFan>
 
 
 Prioritise maintaining Summon uptime and healing up the team with food cards and Hydro Resonance: Soothing Waters to get out of the opponent's kill range. Cards such as Calx's Arts or I Haven't Lost Yet combined with Adeptus' Temptation can be utilised to surprise opponents with an unexpected DMG spike on an important target. Fischl's Elemental Burst, Midnight Phantasmagoria, can deal a significant amount of AoE damage to help finish off low HP standby characters. On the other hand, Rhodeia's Elemental Burst, Tide and Torrent, can threaten up to 10 DMG with 4 Summons on the field that can close out games. Furthermore, Mirror Maiden's Refraction combined with End Phase Summons will easily close out games as well.

@@ -20,7 +20,7 @@ video_url: ''
 
 
 ## Mulligan: 
-<CardRow :cards="['Liyue Harbor Wharf ', 'Liben', 'Paimon', 'The Bestest Travel Companion', 'Toss Up']"></CardRow>
+<CardRow :cards="['Liyue Harbor Wharf', 'Liben', 'Paimon', 'The Bestest Travel Companion', 'Toss Up']"></CardRow>
 
 
 MMEC generates advantage over time as the bulk of the damage comes from end of turn Summons. To facilitate that, you want ramp and card draw to either allow you to summon more, or to draw healing cards to allow your Summons to get their value. Ramp are cards that provide you with extra dice advantage, such as Changing Shifts, so they are essential to MMEC's game plan. Dice fixing is very necessary as well, since the dice requirements are very stringent because you don't want to Normal Attack. Keep Paimon, Liben, Liyue Harbor Wharf, and at most one dice fixer (Toss Up or The Bestest Travel Companion).

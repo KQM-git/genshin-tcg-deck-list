@@ -15,7 +15,7 @@ bad_against:
         - Ganyu
         - Fischl
         - Keqing
-video_url: ''
+video_url: https://youtu.be/W-e3VJM13dk
 --- 
 
 

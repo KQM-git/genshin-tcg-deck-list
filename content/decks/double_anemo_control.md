@@ -15,7 +15,7 @@ bad_against:
         - Noelle
         - Rhodeia of Loch
         - Stonehide Lawachurl
-video_url: ''
+video_url: https://youtu.be/Stp2XNnfDOM
 ---
  
 ## Mulligan

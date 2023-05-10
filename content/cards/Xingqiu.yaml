@@ -59,11 +59,10 @@ skills:
   - point_type: recharge
     point_count: 2
   tag: Elemental Burst
-- name: Raincutter
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Rainbow
-    Bladework</span></strong></p><p><span style="color: rgb(255, 215, 128)">Combat
+- name: Rainbow Bladework
+  description: '<p><span style="color: rgb(255, 215, 128)">Combat
     Status</span><br><span style="color: rgb(255, 255, 255)">After your character
-    uses a Normal Attack</span>: Deal 2 <span style="color: rgb(128, 192, 255)">Hydro
+    uses a Normal Attack</span>: Deal 1 <span style="color: rgb(128, 192, 255)">Hydro
     DMG</span>.<br><span style="color: rgb(255, 255, 255)"><p>Usage(s): 3</span></p>'
   points:
   - point_type: ''

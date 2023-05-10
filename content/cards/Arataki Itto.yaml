@@ -1,0 +1,79 @@
+name: Arataki Itto
+id: 1605
+tags:
+- Geo
+- Claymore
+- Inazuma
+type: Character Card
+hp: '10'
+energy: 3
+element: Geo
+weapon: Claymore
+offset:
+  character: 'top'
+  list: '50% 23%'
+  modal: '50% 15%'
+skills:
+- name: 'Fight Club Legend'
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span
+    style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: #FFFFFF">Physical
+    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
+  points:
+  - point_type: geo
+    point_count: 1
+  - point_type: black
+    point_count: 2
+  tag: Normal Attack
+- name: 'Masatsu Zetsugi: Akaushi Burst!'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  <span style="color: rgba(255, 255, 255, 0.65)">Deals 1 
+  <span style="color: rgb(255, 230, 153)">Geo DMG</span>. 
+  Summons <span style="color: #FFFFFF">Ushi</span>. 
+  This character gains <span style="color: #FFFFFF">Superlative Superstrength</span>.</span>'
+  points:
+  - point_type: geo
+    point_count: 3
+  tag: Elemental Skill
+- name: 'Royal Descent: Behold, Itto the Evil!'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elenmetal Burst</span></p>
+  <span style="color: rgba(255, 255, 255, 0.65)">Deals 5 <span style="color: rgb(255, 230, 153)">Geo DMG</span>. 
+  This character gains <span style="color: #FFFFFF">Superlative Superstrength</span>.</span>'
+  points:
+  - point_type: geo
+    point_count: 3
+  - point_type: recharge
+    point_count: 3
+  tag: Elemental Burst
+- name: Ushi
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
+    <p><span style="color: #FFFFFF">When your active character receives DMG:</span> Decrease DMG taken by 1.</p>
+    <p><span style="color: rgb(255, 255, 255)">Usage(s):</span> 1. When the Usage is depleted, this card will not be discarded.</p>
+    <p><span style="color: #FFFFFF">Can be triggered once while this Summon is present:</span> 
+    When your active character receives DMG, Arataki Itto gains <span style="color: #FFFFFF">Superlative Superstrength</span>.</p>
+    <p><span style="color: #FFFFFF">End Phase:</span> Discard this card, deal 1 <span style="color: rgb(255, 230, 153)">Geo DMG</span>.</p>
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Summon
+- name: Superlative Superstrength
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <p><span style="color: #FFFFFF">When the character to which this is attached uses a Charged Attack:</span> deal +1 DMG. 
+    If the <span style="color: #FFFFFF">Usage(s)</span> are no less than 2, expend 1 less <span style="color: #FFFFFF">Unaligned Element.</span></p>
+    <p><span style="color: rgb(255, 255, 255)">Usage(s):</span> 1. (Can stack. Max 3 stacks.)</p>
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Status
+- name: Raging Oni King
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <p>The character to which this is attached has their <span style="color: #FFFFFF">Normal Attacks</span> deal +2 DMG, 
+    and their <span style="color: #FFFFFF">Physical DMG</span> dealt converted to <span style="color: rgb(255, 230, 153)">Geo DMG</span>.</p>
+    <p><span style="color: rgb(255, 255, 255)">Duration (Rounds):</span> 2.</p>
+    <p><span style="color: #FFFFFF">After the character to which this is attached uses a Charged Attack:</span> Gains <span style="color: #FFFFFF">Superlative Superstrength</span>. (Once per Round)</p>
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Status

@@ -10,6 +10,6 @@ skills:
   description: >
     <p>Choose one Summon on the opposing side and cause it to lose 2 <span style="color: rgb(255, 255, 255)">Usage(s)</span>.</p>
   points:
-  - point_type: black
+  - point_type: white
     point_count: 2
 source: <p>Default Deck</p><p>Purchased at the Card Shop</p>

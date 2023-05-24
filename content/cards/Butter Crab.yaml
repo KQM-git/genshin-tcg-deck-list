@@ -1,0 +1,15 @@
+name: Butter Crab
+id: 333012
+tags: []
+offset:
+  character: 'top'
+  list: '50% 20%'
+  modal: '50% 20%'
+skills:
+- name: Description
+  description: >
+    <p>During this Round, all your characters take -2 DMG the next time.</p>
+    <p>(A character can consume at most 1 Food per Round)</p>
+  points:
+  - point_type: black
+    point_count: 2

@@ -34,16 +34,15 @@ skills:
 - name: Dawn
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>Deals
     8 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>. This character gains
-    <span style="color: rgb(236, 229, 216)">Pyro Infusion</span>.</p><p></p>'
+    <span style="color: #FFFFFF">Pyro Infusion</span>.</p><p></p>'
   points:
   - point_type: pyro
     point_count: 4
   - point_type: recharge
     point_count: 3
   tag: Elemental Burst
-- name: Dawn
-  description: '<p><strong><span
-    style="color: rgb(236, 229, 216)">Pyro Infusion</span></strong><br><span style="color:
+- name: Pyro Infusion
+  description: '<p><span style="color:
     rgb(255, 215, 128)">Status</span></p><p>The character to which this is attached has
     their <span style="color: rgb(255, 255, 255)">Physical DMG</span> dealt converted
     to<span style="color: rgba(255, 255, 255, 0.85)"> </span><span style="color: rgb(255,

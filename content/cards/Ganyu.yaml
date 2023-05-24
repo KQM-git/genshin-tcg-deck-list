@@ -6,7 +6,7 @@ tags:
 - Liyue
 type: Character Card
 hp: '10'
-energy: '2'
+energy: '3'
 element: Cryo
 weapon: Bow
 offset:
@@ -27,16 +27,15 @@ skills:
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
   <span style="color: rgba(255, 255, 255, 0.65)">Deals 1 
   <span style="color: rgb(153, 255, 255)">Cryo DMG,</span> creates 1 
-  <span style="color: rgb(236, 229, 216)">Ice Lotus</span>.'
+  <span style="color: #FFFFFF">Ice Lotus</span>.'
   points:
   - point_type: cryo
     point_count: 3
   tag: Elemental Skill
-- name: Trail of the Qilin
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Ice Lotus</span></strong></p>
-  <span style="color: rgb(255, 215, 128)">Combat Status</span><p></p>
+- name: Ice Lotus
+  description: '<p><span style="color: rgb(255, 215, 128)">Combat Status</span></p>
   <span style="color: rgb(255, 255, 255)">When your active character receives DMG:</span>
-  <span style="color: rgb(255, 255, 255, 0.65)"> Decrease DMG taken by 1. </span> <br></br>
+  <span style="color: rgb(255, 255, 255, 0.65)"> Decrease DMG taken by 1. </span> <br>
   <span style="color: rgb(255, 255, 255)">Usage(s): 2</span>'
   points:
   - point_type: ''
@@ -53,15 +52,15 @@ skills:
   tag: Normal Attack
 - name: Celestial Shower
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
-  <span style="color: rgb(255, 255, 255, 0.65)">Deals 1 
+  <span style="color: rgb(255, 255, 255, 0.65)">Deals 2 
   <span style="color: #99FFFF">Cryo DMG</span>, deals 1 
   <span style="color: rgb(255, 255, 255)">Piercing DMG</span> to all opposing characters on standby, summons
-  1 <span style="color: rgb(255, 215, 128)">Sacred Cryo Pearl</span>.</p>'
+  1 <span style="color: #FFFFFF">Sacred Cryo Pearl</span>.</p>'
   points:
   - point_type: cryo
     point_count: 3
   - point_type: recharge
-    point_count: 2
+    point_count: 3
   tag: Elemental Burst
 - name: Sacred Cryo Pearl
   description: '<p><span style="color: rgb(255, 215, 128)">Summon</span><br><span

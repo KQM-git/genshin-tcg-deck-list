@@ -1,0 +1,11 @@
+name: Chinju Forest
+id: 321009
+tags: []
+skills:
+- name: Description
+  description: >
+    <p><span style="color: rgb(255, 255, 255)">When Action Phase begins:</span> If you do not start first, create 1 Elemental Die that matches the Type of your active character.</p>
+    <p><span style="color: #FFFFFF">Usage(s): 3</span></p>
+  points:
+  - point_type: white
+    point_count: 1

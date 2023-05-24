@@ -1,0 +1,14 @@
+name: The Legend of Vennessa
+id: 332019
+tags: []
+offset:
+  character: 'top'
+  list: '50% 20%'
+  modal: '50% 20%'
+skills:
+- name: Description
+  description: >
+    <p>Create 4 basic Elemental Dice of different types.</p>
+  points:
+  - point_type: white
+    point_count: 3

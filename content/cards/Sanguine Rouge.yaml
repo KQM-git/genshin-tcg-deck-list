@@ -1,0 +1,25 @@
+name: "Sanguine Rouge"
+id: 213071
+tags: []
+offset:
+  character: 'top'
+  list: '50% 43%'
+  modal: '50% 40%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action:</span> When your active character is <span style="color: #FFFFFF">Hu Tao</span>, equip this card.</p>
+    <p>After Hu Tao equips this card, immediately use <span style="color: rgb(255, 215, 128)">Guide to Afterlife</span> once.</p>
+    <p>When your Hu Tao, who has this card equipped, has no more than 6 HP, <span style="color: rgb(255, 153, 153)">Pyro DMG</span> dealt +1.</p>
+    <p>(You must have Hu Tao in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: pyro
+    point_count: 2
+- name: Guide to Afterlife
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>This character gains 
+  <span style="color: rgb(255, 255, 255)">Paramita Papilio</span>.</p>'
+  points:
+  - point_type: pyro
+    point_count: 2
+  side: true
+  tag: Elemental Skill

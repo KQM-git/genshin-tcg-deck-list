@@ -27,14 +27,13 @@ skills:
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
   <span style="color: rgba(255, 255, 255, 0.65)"><p>Deals 2 
   <span style="color: rgb(153, 255, 255)">Cryo DMG</span>, 
-  creates 1 <span style="color: rgb(236, 229, 216)">Cat-Claw Shield</span>.</p></p>'
+  creates 1 <span style="color: #FFFFFF">Cat-Claw Shield</span>.</p></p>'
   points:
   - point_type: cryo
     point_count: 3
   tag: Elemental Skill
-- name: Icy Paws
-  description: '<p><strong><span style="color:rgb(236, 229, 216)">Cat-Claw Shield</span></strong>
-  <br><span style="color: rgb(255, 215, 128)">Combat Status</span></p>
+- name: Cat-Claw Shield
+  description: '<p><span style="color: rgb(255, 215, 128)">Combat Status</span></p>
   <p></p><span style="color: rgba(255, 255, 255, 0.65)">Grants 1 
   <span style="color: #FFFFFF">Shield </span>point for your active character.</p>'
   points:
@@ -45,7 +44,7 @@ skills:
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
   <span style="color: rgba(255, 255, 255, 0.65)"><p>Deals 1 
   <span style="color: #99FFFF">Cryo DMG</span>, heals this character for 2 HP, summons 1 
-  <span style="color: rgb(255, 215, 128)">Drunken Mist</span>.</p></p>'
+  <span style="color: #FFFFFF">Drunken Mist</span>.</p></p>'
   points:
   - point_type: cryo
     point_count: 3

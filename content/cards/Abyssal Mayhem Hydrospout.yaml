@@ -1,0 +1,35 @@
+name: "Abyssal Mayhem: Hydrospout"
+id: 212041
+tags: []
+offset:
+  character: 'top'
+  list: '50% 43%'
+  modal: '50% 40%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action:</span> When your active character is <span style="color: #FFFFFF">Tartaglia</span>, equip this card.</p>
+    <p>After Tartaglia equips this card, immediately use <span style="color: rgb(255, 215, 128)">Foul Legacy: Raging Tide</span> once.</p>
+    <p><span style="color: #FFFFFF">End Phase:</span> Deals 1 <span style="color: #FFFFFF">Piercing DMG</span>
+    to all opposing characters affected by <span style="color: #FFFFFF">Riptide</span>.</p>
+    <p>(You must have Tartaglia in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: hydro
+    point_count: 4
+- name: 'Foul Legacy: Raging Tide'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span
+    style="color: rgba(255, 255, 255, 0.65)">Switches to <span style="color: rgb(255, 255, 255)">Melee Stance</span> 
+    and deals 2 <span style="color: rgb(128, 192, 255)">Hydro DMG</span>.</span></p>'
+  points:
+  - point_type: hydro
+    point_count: 3
+  side: true
+- name: Riptide
+  description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p><p><span style="color: rgb(255, 255,
+    255)">When the character to which this is attached is defeated:</span> Apply Riptide to active character.</p>
+    <p>(When Tartaglia is in <span style="color: rgb(255, 255, 255)">Melee Stance</span>, 
+    he will deal additional DMG when attacking the character to which this is attached.)</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Status

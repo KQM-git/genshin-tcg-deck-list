@@ -1,0 +1,21 @@
+name: Vortex Vanquisher
+id: 311404
+tags: []
+offset:
+  character: 'top'
+  list: '50% 30%'
+  modal: '50% 43%'
+skills:
+- name: Description
+  description: '<p><span style="color: rgb(255, 255, 255)">The character deals +1
+    DMG</span>.</p>
+    <p>When your active character is protected by a <span style="color: #FFFFFF">Shield</span> Character Status or a <span style="color: #FFFFFF">Shield</span> Combat Status, you deal +1 DMG.</p>
+    <p><span style="color: #FFFFFF">After the character uses an Elemental Skill:</span> 
+    If you have a Combat Status that grants a <span style="color: #FFFFFF">Shield</span> on your side, add 1 <span style="color: #FFFFFF">Shield</span> point to that Combat Status. (Once per Round)
+    <p>(<span style="color:
+    rgb(255, 255, 255)">Only Polearm Characters</span> can equip this. A character can
+    equip a maximum of 1 Weapon)</p>'
+  points:
+  - point_type: white
+    point_count: 3
+source: '<p><span style="color: rgba(255, 255, 255, 0.65)">Purchased at the Card Shop</span></p>'

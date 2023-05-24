@@ -1,0 +1,54 @@
+name: "The Shrine's Sacred Shade"
+id: 214081
+tags: []
+offset:
+  character: 'top'
+  list: '50% 43%'
+  modal: '50% 40%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action:</span> When your active character is <span style="color: #FFFFFF">Yae Miko</span>, equip this card.</p>
+    <p>After Yae Miko equips this card, immediately use <span style="color: rgb(255, 215, 128)">Great Secret Art: Tenko Kenshin</span> once.</p>
+    <p>When your Yae Miko, who has this card equipped, destroys a <span style="color: #FFFFFF">Sesshou Sakura</span> through 
+    <span style="color: #FFFFFF">Great Secret Art: Tenko Kenshin</span>, the next use of 
+    <span style="color: #FFFFFF">Yakan Evocation: Sesshou Sakura</span> this Round will cost 2 less Elemental Dice.</p>
+    <p>(You must have Yae Miko in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: electro
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+- name: 'Great Secret Art: Tenko Kenshin'
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+    <p>Deals 4 <span style="color: rgb(255, 172, 255)">Electro DMG</span>. 
+    If your side of the field has a <span style="color: #FFFFFF">Sesshou Sakura</span>, destroy it and create <span style="color: #FFFFFF">Tenko Thunderbolts</span>.</p>
+  points:
+  - point_type: electro
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+  side: true
+  tag: Elemental Burst
+- name: Sesshou Sakura
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
+    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 1 <span style="color:
+    rgb(255, 172, 255)">Electro DMG</span>.</p><p><span style="color: rgb(255, 255, 255)">Usage(s):
+    3</span> (Can stack, max 6 stacks)</p>
+    <p><span style="color: rgb(255, 255, 255)">When you declare the end of your Round:</span> If this summon has at least 4 
+    <span style="color: rgb(255, 255, 255)">Usage(s)</span> remaining, deal 1 <span style="color:
+    rgb(255, 172, 255)">Electro DMG</span>. (Consumes <span style="color: rgb(255, 255, 255)">Usage(s)</span>)</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Summon
+- name: 'Yakan Evocation: Sesshou Sakura'
+  description: >
+    <p><span style="color: #FFD780">Elemental Skill</span></p>
+    <p>Summons 1 <span style="color: #FFFFFF">Sesshou Sakura</span>.</p>
+  points:
+  - point_type: electro
+    point_count: 3
+  side: true
+  tag: Elemental Skill

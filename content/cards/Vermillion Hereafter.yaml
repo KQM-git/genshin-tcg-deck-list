@@ -1,0 +1,16 @@
+name: Vermillion Hereafter
+id: 312012
+tags: []
+offset:
+  character: 'top'
+  list: '50% 40%'
+  modal: '50% 40%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">When the character uses a Normal Attack or equips a Talent: </span>Spend 1 less Elemental Die. (Once per Round)</p>
+    <p><span style="color: #FFFFFF">After a character is switched to the active character: </span>During this Round, character deals +1 Normal Attack DMG.</p>
+    <p>(A character can equip a maximum of 1 Artifact)</p>
+  points:
+  - point_type: white
+    point_count: 2

@@ -1,0 +1,25 @@
+name: "Absorbing Prism"
+id: 224011
+tags: []
+offset:
+  character: 'top'
+  list: '50% 43%'
+  modal: '50% 40%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action:</span> When your active character is 
+    <span style="color: #FFFFFF">Electro Hypostasis</span>, heal that character for 3 HP and attach the
+    <span style="color: #FFFFFF">Electro Crystal Core</span> to them.</p>
+    <p>(You must have Electro Hypostasis in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: electro
+    point_count: 3
+- name: Electro Crystal Core
+  description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <p><span style="color: #FFFFFF">When the character to which this is attached would be defeated:</span> 
+    Remove this effect, ensure the character <span style="color: #FFFFFF">will not be defeated</span>, and heal them to 1 HP.</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Status

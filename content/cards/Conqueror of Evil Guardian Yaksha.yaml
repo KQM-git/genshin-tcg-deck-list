@@ -1,0 +1,54 @@
+name: "Conqueror of Evil: Guardian Yaksha"
+id: 215041
+tags: []
+offset:
+  character: 'top'
+  list: '50% 43%'
+  modal: '50% 40%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action:</span> When your active character is <span style="color: #FFFFFF">Xiao</span>, equip this card.</p>
+    <p>After Xiao equips this card, immediately use <span style="color: rgb(255, 215, 128)">Bane of All Evil</span> once.</p>
+    <p>When your Xiao has <span style="color: #FFFFFF">Yaksha's Mask</span> attached, your use of 
+    <span style="color: #FFFFFF">Lemniscatic Wind Cycling</span> will cost 1 less 
+    <span style="color: #80FFD7">Anemo Die</span>. (Every attachment of <span style="color: #FFFFFF">Yaksha's Mask</span> allows the effect to be triggered twice)</p>
+    <p>(You must have Xiao in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: anemo
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+- name: Bane of All Evil
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+    <p>Deals 4 <span style="color: #80FFD7">Anemo DMG</span>. This character gains <span style="color: #FFFFFF">Yaksha's Mask</span>.</p>
+  points:
+  - point_type: anemo
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+  side: true
+  tag: Elemental Burst
+- name: Yaksha's Mask
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <p>The character to which this is attached has their <span style="color: rgb(255, 255, 255)">Physical DMG</span> dealt converted to 
+    <span style="color: #80FFD7">Anemo DMG</span>, and they will deal +1 <span style="color: #80FFD7">Anemo DMG</span>.</p>
+    <p><span stlye="color: #FFFFFF">When the character to which this is attached uses a Plunging Attack:</span> +2 additional DMG.</p>
+    <p><span style="color: rgb(255, 255, 255)">If the character this card is attached to is the active character, 
+    when you perform "Switch Character":</span> Spend 1 less Elemental Die. (Once per Round)</p>
+    <p><span style="color: rgb(255, 255, 255)">Duration (Rounds): 2</span></p>
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Status
+- name: Lemniscatic Wind Cycling
+  description: >
+    <p><span style="color: #FFD780">Elemental Skill</span></p>
+    <p>Deals 3 <span style="color: #80FFD7">Anemo DMG</span>.</p>
+  points:
+  - point_type: anemo
+    point_count: 3
+  side: true
+  tag: Elemental Skill

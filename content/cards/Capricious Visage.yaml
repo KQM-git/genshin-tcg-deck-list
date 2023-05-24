@@ -1,0 +1,15 @@
+name: Capricious Visage
+id: 312013
+tags: []
+offset:
+  character: 'top'
+  list: '50% 40%'
+  modal: '50% 40%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">When the character uses an Elemental Skill or equips a Talent: </span>Spend 1 less Elemental Die. (Once per Round)</p>
+    <p>(A character can equip a maximum of 1 Artifact)</p>
+  points:
+  - point_type: white
+    point_count: 2

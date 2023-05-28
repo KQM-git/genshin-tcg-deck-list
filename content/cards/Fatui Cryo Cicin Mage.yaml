@@ -11,7 +11,7 @@ element: Cryo
 weapon: Other Weapons
 offset:
   character: 'top'
-  list: '50% 18.5%'
+  list: '50% 23%'
   modal: '50% 18%'
 skills:
 - name: Cicin Icicle

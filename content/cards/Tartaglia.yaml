@@ -11,7 +11,7 @@ element: Hydro
 weapon: Bow
 offset:
   character: 'top'
-  list: '50% 16%'
+  list: '50% 14%'
   modal: '50% 16%'
 skills:
 - name: Cutting Torrent

@@ -1,6 +1,10 @@
 name: Kid Kujirai
 id: 322014
 tags: []
+offset:
+  character: 'top'
+  list: '50% 30%'
+  modal: '50% 25%'
 skills:
 - name: Description
   description: >

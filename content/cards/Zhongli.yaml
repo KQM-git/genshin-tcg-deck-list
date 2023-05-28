@@ -11,7 +11,7 @@ element: Geo
 weapon: Polearm
 offset:
   character: 'top'
-  list: '50% 23%'
+  list: '50% 15%'
   modal: '50% 15%'
 skills:
 - name: 'Rain of Stone'

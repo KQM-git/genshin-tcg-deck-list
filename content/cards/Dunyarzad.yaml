@@ -1,6 +1,10 @@
 name: Dunyarzad
 id: 322016
 tags: []
+offset:
+  character: 'top'
+  list: '50% 27%'
+  modal: '50% 17%'
 skills:
 - name: Description
   description: >

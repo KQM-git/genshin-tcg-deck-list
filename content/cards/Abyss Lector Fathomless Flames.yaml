@@ -11,7 +11,7 @@ element: Pyro
 weapon: Other Weapons
 offset:
   character: 'top'
-  list: '50% 22%'
+  list: '50% 17%'
   modal: '50% 20%'
 skills:
 - name: Flame of Salvation

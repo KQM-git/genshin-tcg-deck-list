@@ -11,8 +11,8 @@ element: Pyro
 weapon: Bow
 offset:
   character: 'top'
-  list: '50% 17.3%'
-  modal: '50% 17%'
+  list: '50% 17%'
+  modal: '50% 10%'
 skills:
 - name: Sharpshooter
   description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>Deals

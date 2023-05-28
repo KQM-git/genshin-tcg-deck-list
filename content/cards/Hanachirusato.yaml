@@ -1,6 +1,10 @@
 name: Hanachirusato
 id: 322013
 tags: []
+offset:
+  character: 'top'
+  list: '50% 25%'
+  modal: '50% 20%'
 skills:
 - name: Description
   description: >

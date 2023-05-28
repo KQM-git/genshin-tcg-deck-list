@@ -11,7 +11,7 @@ element: Anemo
 weapon: Bow
 offset:
   character: 'top'
-  list: '50% 14%'
+  list: '50% 20%'
   modal: '50% 13%'
 skills:
 - name: Divine Marksmanship

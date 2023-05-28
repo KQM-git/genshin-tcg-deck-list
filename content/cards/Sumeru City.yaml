@@ -1,6 +1,10 @@
 name: Sumeru City
 id: 321010
 tags: []
+offset:
+  character: 'top'
+  list: '50% 45%'
+  modal: '50% 50%'
 skills:
 - name: Description
   description: >

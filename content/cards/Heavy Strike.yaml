@@ -3,8 +3,8 @@ id: 332018
 tags: []
 offset:
   character: 'top'
-  list: '50% 20%'
-  modal: '50% 20%'
+  list: '50% 60%'
+  modal: '50% 60%'
 skills:
 - name: Description
   description: >

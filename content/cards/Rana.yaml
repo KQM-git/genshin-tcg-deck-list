@@ -1,6 +1,10 @@
 name: Rana
 id: 322017
 tags: []
+offset:
+  character: 'top'
+  list: '50% 23%'
+  modal: '50% 17%'
 skills:
 - name: Description
   description: >

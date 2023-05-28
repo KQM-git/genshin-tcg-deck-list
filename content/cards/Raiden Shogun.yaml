@@ -11,8 +11,8 @@ element: Electro
 weapon: Polearm
 offset:
   character: 'top'
-  list: '50% 14%'
-  modal: '50% 13%'
+  list: '50% 20%'
+  modal: '50% 20%'
 skills:
 - name: Origin
   description: '<p><span style="color: #FFD780">Normal Attack</span></p>Deals 2 

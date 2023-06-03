@@ -1,0 +1,80 @@
+name: Zhongli
+id: 1603
+tags:
+- Geo
+- Polearm
+- Liyue
+type: Character Card
+hp: '10'
+energy: 3
+element: Geo
+weapon: Polearm
+offset:
+  character: 'top'
+  list: '50% 15%'
+  modal: '50% 15%'
+skills:
+- name: 'Rain of Stone'
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span
+    style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: #FFFFFF">Physical
+    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
+  points:
+  - point_type: geo
+    point_count: 1
+  - point_type: black
+    point_count: 2
+  tag: Normal Attack
+- name: 'Dominus Lapidis'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  <span style="color: rgba(255, 255, 255, 0.65)">Deals 1 
+  <span style="color: rgb(255, 230, 153)">Geo DMG</span>, 
+  summons 1 <span style="color: #FFFFFF">Stone Stele</span>.'
+  points:
+  - point_type: geo
+    point_count: 3
+  tag: Elemental Skill
+- name: 'Dominus Lapidis: Striking Stone'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  <span style="color: rgba(255, 255, 255, 0.65)">Deals 3 
+  <span style="color: rgb(255, 230, 153)">Geo DMG</span>, 
+  summons 1 <span style="color: #FFFFFF">Stone Stele</span>,
+  creates 1 <span style="color: #FFFFFF">Jade Shield</span>.'
+  points:
+  - point_type: geo
+    point_count: 5
+  tag: Elemental Skill
+- name: Planet Befall
+  description: '<p><span style="color: rgb(255, 215, 128)">Elenmetal Burst</span></p>
+  <span style="color: rgba(255, 255, 255, 0.65)">Deals 4 <span style="color: rgb(255, 230, 153)">Geo DMG</span>. 
+  The target character receives <span style="color: #FFFFFF">Petrification</span>.</span>'
+  points:
+  - point_type: geo
+    point_count: 3
+  - point_type: recharge
+    point_count: 3
+  tag: Elemental Burst
+- name: Stone Stele
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
+    <p><span style="color: #FFFFFF">End Phase:</span> Deal 1 <span style="color: rgb(255, 230, 153)">Geo DMG</span>.</p>
+    <p><span style="color: #FFFFFF">Usage(s): 2</span></p>
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Summon
+- name: Jade Shield
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Combat Status</span></p>
+    <p>Grants 2 <span style="color: #FFFFFF">Shield points</span> to your active character.</p>
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Combat Status
+- name: Petrification
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <p><span style="color: #FFFFFF">Character cannot use Skills.</span> (Lasts until the end of this Round)</p>
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Status

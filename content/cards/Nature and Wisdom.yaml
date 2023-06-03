@@ -1,0 +1,14 @@
+name: Nature and Wisdom
+id: 331804
+tags: []
+offset:
+  character: 'top'
+  list: '50% 47%'
+  modal: '50% 47%'
+skills:
+- name: Description
+  description: '<p>Draw 1 card. After that, switch any cards in your hand.</p>
+  <p>(You must have at least 2 Sumeru characters in your deck to add this card to your deck.)</p>'
+  points:
+  - point_type: white
+    point_count: 1

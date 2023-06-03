@@ -1,0 +1,14 @@
+name: Friendship Eternal
+id: 332020
+tags: []
+offset:
+  character: 'top'
+  list: '50% 20%'
+  modal: '50% 20%'
+skills:
+- name: Description
+  description: >
+    <p>Players with less than 4 cards in their hand draw cards until their hand has 4 cards in it.</p>
+  points:
+  - point_type: white
+    point_count: 2

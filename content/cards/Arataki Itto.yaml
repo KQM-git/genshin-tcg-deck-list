@@ -50,7 +50,7 @@ skills:
     <p><span style="color: #FFFFFF">When your active character receives DMG:</span> Decrease DMG taken by 1.</p>
     <p><span style="color: rgb(255, 255, 255)">Usage(s):</span> 1. When the Usage is depleted, this card will not be discarded.</p>
     <p><span style="color: #FFFFFF">Can be triggered once while this Summon is present:</span> 
-    When your active character receives DMG, Arataki Itto gains <span style="color: #FFFFFF">Superlative Superstrength</span>.</p>
+    When your character takes DMG, Arataki Itto gains <span style="color: #FFFFFF">Superlative Superstrength</span>.</p>
     <p><span style="color: #FFFFFF">End Phase:</span> Discard this card, deal 1 <span style="color: rgb(255, 230, 153)">Geo DMG</span>.</p>
   points:
   - point_type: ''

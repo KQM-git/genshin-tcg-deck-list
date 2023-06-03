@@ -1,0 +1,66 @@
+name: Yae Miko
+id: 1408
+tags:
+- Electro
+- Catalyst
+- Inazuma
+type: Character Card
+hp: '10'
+energy: '2'
+element: Electro
+weapon: Catalyst
+offset:
+  character: 'top'
+  list: '50% 18%'
+  modal: '50% 20%'
+skills:
+- name: Spiritfox Sin-Eater
+  description: '<p><span style="color: #FFD780">Normal Attack</span></p><p>Deal 1 <span style="color:
+    rgb(255, 172, 255)">Electro DMG</span>.</p>'
+  points:
+  - point_type: electro
+    point_count: 1
+  - point_type: black
+    point_count: 2
+  tag: Normal Attack
+- name: 'Yakan Evocation: Sesshou Sakura'
+  description: >
+    <p><span style="color: #FFD780">Elemental Skill</span></p>
+    <p>Summons 1 <span style="color: #FFFFFF">Sesshou Sakura</span>.</p>
+  points:
+  - point_type: electro
+    point_count: 3
+  tag: Elemental Skill
+- name: 'Great Secret Art: Tenko Kenshin'
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+    <p>Deals 4 <span style="color: rgb(255, 172, 255)">Electro DMG</span>. 
+    If your side of the field has a <span style="color: #FFFFFF">Sesshou Sakura</span>, destroy it and create <span style="color: #FFFFFF">Tenko Thunderbolts</span>.</p>
+  points:
+  - point_type: electro
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+  tag: Elemental Burst
+- name: Sesshou Sakura
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
+    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 1 <span style="color:
+    rgb(255, 172, 255)">Electro DMG</span>.</p><p><span style="color: rgb(255, 255, 255)">Usage(s):
+    3</span> (Can stack, max 6 stacks)</p>
+    <p><span style="color: rgb(255, 255, 255)">When you declare the end of your Round:</span> If this summon has at least 4 
+    <span style="color: rgb(255, 255, 255)">Usage(s)</span> remaining, deal 1 <span style="color:
+    rgb(255, 172, 255)">Electro DMG</span>. (Consumes <span style="color: rgb(255, 255, 255)">Usage(s)</span>)</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Summon
+- name: Tenko Thunderbolts
+  description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
+  <p><span style="color: rgb(255, 255, 255)">Before you choose your action:</span> Deal 3 <span style="color:
+    rgb(255, 172, 255)">Electro DMG</span>.</p>
+  <p><span style="color: rgb(255, 255, 255)">Usage(s):
+    1</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Status

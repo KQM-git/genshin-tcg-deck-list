@@ -1,0 +1,35 @@
+name: Mystical Abandon
+id: 211071
+tags: []
+offset:
+  character: 'top'
+  list: '50% 63%'
+  modal: '50% 60%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action:</span> When your active character is <span style="color: #FFFFFF">Shenhe</span>, equip this card.</p>
+    <p>After Shenhe equips this card, immediately use <span style="color: rgb(255, 215, 128)">Spring Spirit Summoning</span> once.</p>
+    <p>When the <span style="color: #FFFFFF">Icy Quill</span> created by your Shenhe, who has this card equipped, 
+    is triggered by your characters' <span style="color: #FFFFFF">Normal Attacks</span>, its Usages will not decrease. (Once per Round)</p>
+    <p>(You must have Shenhe in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: cryo
+    point_count: 3
+- name: Spring Spirit Summoning
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  Deals 2 <span style="color: #99FFFF">Cryo DMG</span>, creates 1 <span style="color: #FFFFFF">Icy Quill</span>.'
+  points:
+  - point_type: cryo
+    point_count: 3
+  side: true
+  tag: Elemental Skill
+- name: Icy Quill
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <p>Your character deals 1 increased <span style="color: #99FFFF">Cryo DMG</span> 
+    (Includes the DMG triggered by <span style="color: #99FFFF">Cryo-infused</span> Swirl reactions)</p>
+    <p><span style="color: rgb(255, 255, 255)">Usage(s): 3</span></p>
+  points:
+  - point_type: ''
+    point_count: -1

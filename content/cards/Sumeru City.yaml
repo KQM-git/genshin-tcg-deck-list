@@ -1,0 +1,14 @@
+name: Sumeru City
+id: 321010
+tags: []
+offset:
+  character: 'top'
+  list: '50% 45%'
+  modal: '50% 50%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: rgb(255, 255, 255)">When your character uses a Skill or equips a Talent:</span> If you do not have more Elemental Dice than cards in your hand, spend 1 less Elemental Die. (Once per Round)</p>
+  points:
+  - point_type: white
+    point_count: 2

@@ -1,0 +1,15 @@
+name: Rana
+id: 322017
+tags: []
+offset:
+  character: 'top'
+  list: '50% 23%'
+  modal: '50% 17%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: rgb(255, 255, 255)">After your character uses an Elemental Skill:</span> 
+    Create 1 Elemental Die of the same Type as your next off-field character. (Once per Round)</p>
+  points:
+  - point_type: white
+    point_count: 2

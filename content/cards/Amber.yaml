@@ -1,0 +1,53 @@
+name: Amber
+id: 1304
+tags:
+- Pyro
+- Bow
+- Mondstadt
+type: Character Card
+hp: '10'
+energy: '2'
+element: Pyro
+weapon: Bow
+offset:
+  character: 'top'
+  list: '50% 17%'
+  modal: '50% 10%'
+skills:
+- name: Sharpshooter
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>Deals
+    2 <span style="color: rgb(255, 255, 255)">Physical DMG</span>.</p>'
+  points:
+  - point_type: pyro
+    point_count: 1
+  - point_type: black
+    point_count: 2
+  tag: Normal Attack
+- name: Explosive Puppet
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>Summons
+    1 <span style="color: rgb(255, 255, 255)">Baron Bunny</span>.</p>'
+  points:
+  - point_type: pyro
+    point_count: 3
+  tag: Elemental Skill
+- name: Fiery Rain
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+    <span style="color: rgb(255, 255, 255, 0.65)"> Deals 2 
+    <span style="color: rgb(255, 153, 153)">Pyro DMG</span>, deals 2 
+    <span style="color: rgb(255, 255, 255)">Piercing DMG</span> to all opposing characters on standby.</span>'
+  points:
+  - point_type: pyro
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+  tag: Elemental Burst
+- name: Baron Bunny
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p>
+    <p><span style="color: rgb(255, 255, 255)">When your active character takes DMG:</span> Decrease DMG taken by 2.</p>
+    <p><span style="color: rgb(255, 255, 255)">Usage(s): 1</span>. When the Usages are depleted, this card will not be discarded.</p>
+    <p><span style="color: rgb(255, 255, 255)">At the End Phase, if Usage(s) have been depleted:</span>
+    Discard this card to deal 2 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>.</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Summon

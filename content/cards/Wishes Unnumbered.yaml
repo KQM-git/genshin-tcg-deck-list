@@ -1,0 +1,32 @@
+name: "Wishes Unnumbered"
+id: 214071
+tags: []
+offset:
+  character: 'top'
+  list: '50% 45%'
+  modal: '50% 45%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action:</span> When your active character is <span style="color: #FFFFFF">Raiden Shogun</span>, equip this card.</p>
+    <p>After Raiden Shogun equips this card, immediately use <span style="color: rgb(255, 215, 128)">Secret Art: Musou Shinsetsu</span> once.</p>
+    <p>When your Raiden Shogun, who has this card equipped, uses <span style="color: #FFFFFF">Secret Art: Musou Shinsetsu</span>, 
+    it will deal +1 additional DMG for every point of Resolve consumed.</p>
+    <p>(You must have Raiden Shogun in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: electro
+    point_count: 4
+  - point_type: recharge
+    point_count: 2
+- name: 'Secret Art: Musou Shinsetsu'
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+    <p>Deals 3 <span style="color: rgb(255, 172, 255)">Electro DMG</span>. 
+    All of your other characters gain 2 <span style="color: #FFFFFF">Energy</span>.</p>
+  points:
+  - point_type: electro
+    point_count: 4
+  - point_type: recharge
+    point_count: 2
+  side: true
+  tag: Elemental Burst

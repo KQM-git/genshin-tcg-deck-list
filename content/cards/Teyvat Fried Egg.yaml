@@ -1,0 +1,15 @@
+name: Teyvat Fried Egg
+id: 333009
+tags: []
+offset:
+  character: 'top'
+  list: '50% 50%'
+  modal: '50% 50%'
+skills:
+- name: Description
+  description: >
+    <p>Revives the target character and heals that character for 1 HP.</p>
+    <p>(You can only revive 1 character via Food per Round, and a character can consume at most 1 Food per Round)</p>
+  points:
+  - point_type: white
+    point_count: 3

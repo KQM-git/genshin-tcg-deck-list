@@ -31,7 +31,7 @@ skills:
     point_count: 3
   tag: Elenmental Skill
 - name: Nereid's Ascension
-  description: '<p><span style="color: rgb(255, 215, 128)">Elenmental Burst</span></p>
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
   Deals 2 <span style="color: #80C0FF">Hydro DMG</span>, heals all characters for 1 HP. This character gains <span style="color: #FFFFFF">Ceremonial Garment</span>.'
   points:
   - point_type: hydro

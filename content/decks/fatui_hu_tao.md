@@ -32,7 +32,7 @@ A good alternative play line is to only use Guide to Afterlife into a Charged At
 The game plan remains mostly the same on round 2 where you continue to deal damage by doing Hu Tao Normal Attacks and Cryo Cicin Mage Skill or Normal Attacks, with the option of using Hu Tao’s burst, Spirit Soother, to potentially get a kill or heal Hu Tao to prevent her from getting killed. However, keeping Hu Tao’s burst for a later point in the game can be a good idea as it is her only source of immediate Pyro damage after Paramita Papillio wears off. 
 
 ## Mid-Late Game Plan
-<CardRow :cards="['I Haven’t Lost Yet!', 'Elemental Resonance: Fervent Flames', 'Heavy Strike', 'Fatui Conspiracy']"></CardRow>
+<CardRow :cards="['I Haven\'t Lost Yet!', 'Elemental Resonance: Fervent Flames', 'Heavy Strike', 'Fatui Conspiracy']"></CardRow>
 
 Round 3 and onwards, Hu Tao will likely no longer have the Paramita Papillio status active anymore as you normally use skill on round 1 while rarely using it again on round 2. This significantly reduces the reliability of the damage she can deal without relying on her burst. Using another Guide to Afterlife is often risky and punishable as Hu Tao can get taken out before your next action. In these cases, you should look to instead go to Fatui Pyro Agent or Cryo Cicin Mage and work towards their bursts.
 

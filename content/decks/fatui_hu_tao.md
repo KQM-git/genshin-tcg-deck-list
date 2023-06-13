@@ -47,7 +47,7 @@ Cards such as I Haven’t Lost Yet!, Elemental Resonance: Fervent Flames, Heavy 
 There are a number of things you need to be mindful of when playing Fatui Hu Tao. Cryo Cicins will lose one usage upon taking elemental reaction damage meaning it’s very important to plan multiple turns ahead to not unnecessarily lose usages on your Cryo Cicins. Furthermore, Hu Tao is a bit of an unconventional character needing 2 dice before she can start dealing Pyro damage as well as requiring an even amount of dice for her Charged Attacks. These restrictions on Hu Tao require extra planning to effectively use Hu Tao. Another thing to note is that, as Blood Blossom is a Character Status on the opponent, it goes off before the opponent’s summons. Moreover, the order for Cryo Cicins and Blood Blossom is dependent on who ended their round first, with Cryo Cicins going first with Blood Blossom going second if you ended first and vice versa. 
 
 ## Tech Options
-<CardRow :cards="['Liu Su', 'Mondstadt Hashbrown', 'Leave It to Me!']"></CardRow>
+<CardRow :cards="['Liu Su', 'Mondstadt Hash Brown', 'Leave It to Me!']"></CardRow>
 
 
 Many of the cards in the deck are very powerful and likely mandatory. Therefore, not a lot of cards can be taken out for other options. Nonetheless, there are still some tech options that can be considered. Energy cards like Liu Su and Calx’s Arts are great for allowing characters to burst earlier than normal. More defensive cards like Mondstadt Hashbrown or Send Off are good options for more survivability. Another copy of Leave It to Me!, Heavy Strike or Adeptus Temptation can be considered for more surprise options to take down an opposing character. Some cards that can be taken out for these options are Timmie, Jueyun Guoba and Paimon.

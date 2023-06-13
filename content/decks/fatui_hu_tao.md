@@ -10,7 +10,7 @@ good_against:
         - Chongyun
         - Raiden Shogun
         - Razor
-bad against:
+bad_against:
     -
         - Rhodeia of Loch
         - Stonehide Lawachurl

@@ -16,6 +16,7 @@ bad_against:
         - Fischl
         - Keqing
 video_url: https://youtu.be/W-e3VJM13dk
+last_updated_version: 3.6
 --- 
 
 

@@ -16,6 +16,7 @@ bad_against:
         - Ganyu
         - Keqing
 video_url: https://www.youtube.com/watch?v=-vbt-a0G6sA
+last_updated_version: 3.4
 ---
  
 ## Mulligan

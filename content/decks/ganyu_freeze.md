@@ -16,6 +16,7 @@ bad_against:
         - Klee
         - Fatui Pyro Agent
 video_url: https://youtu.be/XcXaYe8jLrE
+last_updated_version: 3.4
 ---
  
 ## Mulligan

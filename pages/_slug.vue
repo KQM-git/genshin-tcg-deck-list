@@ -22,19 +22,26 @@
 
             <div class="flex flex-col gap-5 shrink-1">
                 <div class="rounded-xl p-5 bg-[#2D282F] border-2 border-[#584F65] flex flex-col gap-8">
-                    <div class="flex flex-col sm:flex-row items-center gap-3">
-                        <p class="font-genshin text-3xl">
-                            {{ deck.name }}
-                        </p>
-                        <div class="flex flex-row gap-3">
-                            <tag-bar
-                                v-for="tag of deck.tags"
-                                :key="tag"
-                                :tag="tag"
-                                class="py-2 px-4 rounded-lg text-lg font-bold"
-                            />
+                    <div class="flex flex-col gap-1">
+                        <div class="flex flex-col sm:flex-row items-center gap-3">
+                            <p class="font-genshin text-3xl">
+                                {{ deck.name }}
+                            </p>
+                            <div class="flex flex-row gap-3">
+                                <tag-bar
+                                    v-for="tag of deck.tags"
+                                    :key="tag"
+                                    :tag="tag"
+                                    class="py-2 px-4 rounded-lg text-lg font-bold"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="font-genshin text-kqm-purple text-center sm:text-left">
+                            Last updated for {{ deck.last_updated_version }}
                         </div>
                     </div>
+
                     <p class="text-lg font-genshin">
                         {{ deck.description }}
                     </p>

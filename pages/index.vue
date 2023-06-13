@@ -165,6 +165,10 @@
                         :tag="tag"
                         class="rounded-md text-center font-bold px-2"
                     />
+                    <tag-bar
+                        :tag="deck.last_updated_version.toString()"
+                        class="rounded-md text-center font-bold px-2"
+                    />
                 </div>
             </div>
             <div class="w-1/2 flex flex-row mr-3">
@@ -184,13 +188,14 @@
 <script lang="ts">
 import Vue from 'vue'
 import CardComponent from '~/components/CardComponent.vue'
+import TagBar from '~/components/TagBar.vue'
 
 async function getDecks ($content: any, codeMapping: { [key: string]: string}, search: string = '', searchFilters: any = []): Promise<any[]> {
     let decks: any[]
     if (search !== '') {
-        decks = await $content('decks').search('name', search).fetch() as any[]
+        decks = await $content('decks').search('name', search).sortBy('last_updated_version', 'desc').sortBy('name').fetch() as any[]
     } else {
-        decks = await $content('decks').fetch() as any[]
+        decks = await $content('decks').sortBy('last_updated_version', 'desc').sortBy('name').fetch() as any[]
     }
 
     decks.forEach((deck) => {
@@ -215,7 +220,7 @@ async function getDecks ($content: any, codeMapping: { [key: string]: string}, s
 
 export default Vue.extend({
     name: 'IndexPage',
-    components: { CardComponent },
+    components: { CardComponent, TagBar },
     async asyncData ({ $content }) {
         const codeMapping: { [key: string]: string} = {}
         const cardcodes = await $content('cardcodes').fetch() as any

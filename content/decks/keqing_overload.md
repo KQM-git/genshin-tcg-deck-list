@@ -16,6 +16,7 @@ bad_against:
         - Rhodeia of Loch
         - Fischl
 video_url: https://www.youtube.com/watch?v=gjjMBbcpeaw
+last_updated_version: 3.6
 --- 
 
 ## Mulligan

@@ -16,6 +16,7 @@ bad_against:
         - Rhodeia of Loch
         - Stonehide Lawachurl
 video_url: https://youtu.be/Stp2XNnfDOM
+last_updated_version: 3.5
 ---
  
 ## Mulligan

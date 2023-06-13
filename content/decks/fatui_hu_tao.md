@@ -1,14 +1,14 @@
+---
 name: Fatui Hu Tao
 tags:
     - Hard
     - Aggro
 description: Fatui Hu Tao is an aggro deck that makes use of high elemental application to output high damage, being able to take out an opposing character by round 1. Make use of Cryo Cicin Mage’s Cryo Cicin’s and Hu Tao’s Charged Attacks with Paramita Papilio active to dish out damage. Finish the opponent off with high damage elemental bursts.
-
 deck_code: '!!0F4V4O.2V.3K3L.3H.36.3Y3V.2U.21.62.3X.37693W.67.3G.2O='
 good_against:
     -
         - Chongyun
-        - Raiden
+        - Raiden Shogun
         - Razor
 bad against:
     -
@@ -48,4 +48,4 @@ There are a number of things you need to be mindful of when playing Fatui Hu Tao
 Many of the cards in the deck are very powerful and likely mandatory. Therefore, not a lot of cards can be taken out for other options. Nonetheless, there are still some tech options that can be considered. Energy cards like Liu Su and Calx’s Arts are great for allowing characters to burst earlier than normal. More defensive cards like Mondstadt Hashbrown or Send Off are good options for more survivability. Another copy of Leave It to Me!, Heavy Strike or Adeptus Temptation can be considered for more surprise options to take down an opposing character. Some cards that can be taken out for these options are Timmie, Jueyun Guoba and Paimon.
 
 ### Credits 
-Guide by KevinZ#4959, with help from Ting#9554 and Matt Mario#9115
+Guide by KevinZ#4959, with help from Ting#9554 and Matt Mario#9115.

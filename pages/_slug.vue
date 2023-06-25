@@ -201,4 +201,8 @@ export default Vue.extend({
 ::v-deep .nuxt-content h3 {
     @apply font-bold text-2xl pb-1
 }
+
+::v-deep .nuxt-content img {
+    @apply mx-auto
+}
 </style>

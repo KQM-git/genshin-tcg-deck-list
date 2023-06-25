@@ -1,0 +1,16 @@
+name: Shimenawa's Reminiscence
+id: 312014
+tags: []
+offset:
+  character: 'top'
+  list: '50% 39%'
+  modal: '50% 39%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">When the character uses an Elemental Skill or equips a Talent: </span>Spend 1 less Elemental Die. (Once per Round)</p>
+    <p><span style="color: #FFFFFF">If the character has at least 2 Energy</span>, this character's Normal Attacks and Elemental Skills will deal +1 DMG.</p>
+    <p>(A character can equip a maximum of 1 Artifact)</p>
+  points:
+  - point_type: white
+    point_count: 3

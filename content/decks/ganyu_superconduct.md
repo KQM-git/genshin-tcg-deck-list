@@ -16,6 +16,7 @@ bad_against:
         - Diona
         - Xingqiu
 video_url: https://youtu.be/4q5vYtT4HUY
+last_updated_version: 3.5
 --- 
 
 

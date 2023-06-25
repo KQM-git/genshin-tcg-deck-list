@@ -25,7 +25,7 @@ skills:
   tag: Normal Attack
 - name: Guoba Attack
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>Summons
-    1 <span style="color: rgb(255, 215, 128)">Guoba</span>.</p>'
+    1 <span style="color: rgb(255, 255, 255)">Guoba</span>.</p>'
   points:
   - point_type: pyro
     point_count: 3
@@ -34,7 +34,7 @@ skills:
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span
     style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: rgb(255,
     153, 153)">Pyro DMG</span><span style="color: rgba(255, 255, 255, 0.65)">, creates
-    1 </span><span style="color: rgb(236,229, 216)">Pyronado</span><span style="color:
+    1 </span><span style="color: rgb(255, 255, 255)">Pyronado</span><span style="color:
     rgba(255, 255, 255, 0.65)">.</span></p><p></p>'
   points:
   - point_type: pyro

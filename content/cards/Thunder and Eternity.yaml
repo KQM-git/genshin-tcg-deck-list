@@ -1,0 +1,14 @@
+name: Thunder and Eternity
+id: 331803
+tags: []
+offset:
+  character: 'top'
+  list: '50% 47%'
+  modal: '50% 47%'
+skills:
+- name: Description
+  description: '<p>Convert all your Elemental Dice to the Type of the active character.</p>
+  <p>(You must have at least 2 Inazuman characters in your deck to add this card to your deck.)</p>'
+  points:
+  - point_type: white
+    point_count: 0

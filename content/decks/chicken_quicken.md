@@ -16,6 +16,7 @@ bad_against:
         - Fischl
         - Mirror Maiden
 video_url: https://www.youtube.com/watch?v=Mr1wskjOtjk
+last_updated_version: 3.4
 ---
  
 ## Mulligan

@@ -32,8 +32,7 @@ skills:
   tag: Elemental Skill
 - name: Glacial Waltz
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span style="color: rgba(255, 255, 255, 0.65)"><p>Deals
-    1 <span style="color: rgb(153, 255, 255)">Cryo DMG</span>, creates 1 <span style="color:
-    rgb(236, 229, 216)">Icicle</span>.</p><p></p>'
+    1 <span style="color: rgb(153, 255, 255)">Cryo DMG</span>, creates 1 <span style="color: #FFFFFF">Icicle</span>.</p><p></p>'
   points:
   - point_type: cryo
     point_count: 4

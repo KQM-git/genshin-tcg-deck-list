@@ -15,7 +15,8 @@ bad_against:
         - Xingqiu
         - Ganyu
         - Mona
-video_url: https://www.youtube.com/watch?v=W_yW6YECexM
+video_url: https://youtu.be/nwsq62KdvPs
+last_updated_version: 3.5
 --- 
 
 ## Mulligan

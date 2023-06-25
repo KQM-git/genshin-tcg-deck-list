@@ -1,0 +1,36 @@
+name: Kyouka Fuushi
+id: 212061
+tags: []
+offset:
+  character: 'top'
+  list: '50% 25%'
+  modal: '50% 24%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFFFF">Combat Action</span>: When your active character is <span style="color: #FFFFFF">Kamisato Ayato</span>, equip this card.</p>
+    <p>After Kamisato Ayato equips this card, immediately use <span style="color: #FFD780">Kamisato Art: Kyouka</span> once.</p>
+    <p>When your Kamisato Ayato, who has this card equipped, triggers the effects of <span style="color: #FFFFFFFF">Takimeguri Kanka</span>, deal +1 additional DMG if the target's remaining HP is equal to or less than 6.</p>
+    <p>(You must have Kamisato Ayato in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: hydro
+    point_count: 3
+- name: 'Kamisato Art: Kyouka'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  <span style="color: rgba(255, 255, 255, 0.65)">Deals 2 
+  <span style="color: #80C0FF">Hydro DMG</span>. This character gains 
+  <span style="color: #FFFFFF">Takimeguri Kanka</span>.</span>'
+  points:
+  - point_type: hydro
+    point_count: 3
+  side: true
+  tag: Elemental Skill
+- name: Takimeguri Kanka
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    The character to which this is attached has their <span style="color: #FFFFFF">Normal Attacks</span> deal +1 DMG, 
+    and their <span style="color: #FFFFFF">Physical DMG</span> dealt converted to <span style="color: #80C0FF">Hydro DMG</span>.
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Status

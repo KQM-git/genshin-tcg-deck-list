@@ -1,0 +1,62 @@
+name: Hu Tao
+id: 1307
+tags:
+- Pyro
+- Polearm
+- Liyue
+type: Character Card
+hp: '10'
+energy: '2'
+element: Pyro
+weapon: Bow
+offset:
+  character: 'top'
+  list: '50% 20%'
+  modal: '50% 20%'
+skills:
+- name: Secret Spear of Wangsheng
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>Deals
+    2 <span style="color: rgb(255, 255, 255)">Physical DMG</span>.</p>'
+  points:
+  - point_type: pyro
+    point_count: 1
+  - point_type: black
+    point_count: 2
+  tag: Normal Attack
+- name: Guide to Afterlife
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>This character gains 
+  <span style="color: rgb(255, 255, 255)">Paramita Papilio</span>.</p>'
+  points:
+  - point_type: pyro
+    point_count: 2
+  tag: Elemental Skill
+- name: Spirit Soother
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+    <span style="color: rgb(255, 255, 255, 0.65)"> Deals 4 
+    <span style="color: rgb(255, 153, 153)">Pyro DMG</span>, heals herself for 2 HP. If this character''s HP 
+    is no more than 6, DMG dealt and Healing are increased by 1.</span>'
+  points:
+  - point_type: pyro
+    point_count: 3
+  - point_type: recharge
+    point_count: 3
+  tag: Elemental Burst
+- name: Paramita Papilio
+  description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <p>The character to which this is attached has their <span style="color: rgb(255, 255, 255)">Physical DMG</span> dealt converted to <span style="color: rgb(255,
+    153, 153)">Pyro DMG</span>, and they will deal +1 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>.</p>
+    <p><span style="color: rgb(255, 255, 255)">When the character to which this is attached uses a Charged Attack:</span>
+    Apply <span style="color: rgb(255, 255, 255)">Blood Blossom</span> to target character.</p>
+    <p><span style="color: rgb(255, 255, 255)">Duration (Rounds): 2</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Status
+- name: Blood Blossom
+  description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <p><span style="color: rgb(255, 255, 255)">End Phase</span> Deal 1 <span style="color: rgb(255, 153, 153)">Pyro DMG</span> to the character to which this is attached.</p>
+    <p><span style="color: rgb(255, 255, 255)">Usage(s): 1</span>.</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Summon

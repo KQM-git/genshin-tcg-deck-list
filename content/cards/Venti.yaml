@@ -1,0 +1,64 @@
+name: Venti
+id: 1503
+tags:
+- Anemo
+- Bow
+- Mondstadt
+type: Character Card
+hp: '10'
+energy: '2'
+element: Anemo
+weapon: Bow
+offset:
+  character: 'top'
+  list: '50% 20%'
+  modal: '50% 13%'
+skills:
+- name: Divine Marksmanship
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span
+    style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: #FFFFFF">Physical
+    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
+  points:
+  - point_type: anemo
+    point_count: 1
+  - point_type: black
+    point_count: 2
+  tag: Normal Attack
+- name: 'Skyward Sonnet'
+  description: >
+    <p><span style="color: #FFD780">Elemental Skill</span></p>
+    <p>Deals 2 <span style="color: #80FFD7">Anemo DMG</span>, creates 1 <span style="color: #FFFFFF">Stormzone</span>.</p>
+  points:
+  - point_type: anemo
+    point_count: 3
+  tag: Elemental Skill
+- name: Wind's Grand Ode
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+    <p>Deals 2 <span style="color: #80FFD7">Anemo DMG</span>, summons 1 <span style="color: #FFFFFF">Stormeye</span>.</p>
+  points:
+  - point_type: anemo
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+  tag: Elemental Burst
+- name: Stormzone
+  description: '<p><span style="color: rgb(255, 215, 128)">Combat Status</span></p><p><span
+    style="color: rgb(255, 255, 255)">When you perform "Switch Character":</span> Spend 1 less Elemental Die.</p>
+    <p><span style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Combat Status
+- name: Stormeye
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p>
+    <p><span style="color: rgb(255, 255, 255)">End Phase:</span> Deal 2 <span style="color: rgb(128, 255, 215)">Anemo
+    DMG</span>. Your opponent switches to: <span style="color: rgb(255, 255, 255)">Character Closest to Your Current Active Character</span>.</p>
+    <p><span style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>
+    <p><span style="color: rgb(255, 255, 255)">After your character or Summon triggers a Swirl reaction:</span> Convert the Elemental Type
+    of this card and change its DMG dealt to the element Swirled. (Can only be converted
+    once before leaving the field)</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Summon

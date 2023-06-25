@@ -12,7 +12,7 @@ skills:
     of a <span style="color: #FFFFFF">Combat Action</span>. (Once per Round)</p>'
   points:
   - point_type: black
-    point_count: 2
+    point_count: 1
 - name: Detailed Rules
   description: '<p><strong><span style="color: #ECE5D8">Fast Action</span></strong></p><p>You
     can continue with other actions after conducting 1 Fast Action.</p><p>Only after

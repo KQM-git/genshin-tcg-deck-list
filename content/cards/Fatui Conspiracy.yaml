@@ -1,0 +1,25 @@
+name: Fatui Conspiracy
+id: 332016
+tags: []
+offset:
+  character: 'top'
+  list: '50% 32%'
+  modal: '50% 28%'
+skills:
+- name: Description
+  description: >
+    <p>Create 1 <span style="color: rgb(255, 255, 255)">Fatui Ambusher</span> of a random type on the opponent's field.</p>
+    <p>(You must have at least 2 Fatui characters in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: white
+    point_count: 2
+- name: Fatui Ambusher
+  description: '<p>Fatui Ambushers will trigger their effects after characters on the side of the field they are at use Skills, and will deal DMG to the active character on that side of the field. (Once per Round)</p>
+    <p>There are 4 kinds of Fatui Ambushers in total:</p>
+    <p><span style="color: #FFFFFF">Cryo Cicin Mage</span>: Deals 1 <span style="color: rgb(153, 255, 255)">Cryo DMG</span> when triggered, 2 Usages.</p>
+    <p><span style="color: #FFFFFF">Mirror Maiden</span>: Deals 1 <span style="color: rgb(128, 192, 255)">Hydro DMG</span> when triggered, 2 Usages.</p>
+    <p><span style="color: #FFFFFF">Pyroslinger Bracer</span>: Deals 1 <span style="color: rgb(255, 153, 153)">Pyro DMG</span> when triggered, 2 Usages.</p>
+    <p><span style="color: #FFFFFF">Electrohammer Vanguard</span>: Deals 1 <span style="color: rgb(255, 172, 255)">Electro DMG</span> when triggered, 2 Usages.</p>'
+  points:
+  - point_type: ''
+    point_count: -1

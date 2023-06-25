@@ -1,0 +1,15 @@
+name: Sashimi Platter
+id: 333010
+tags: []
+offset:
+  character: 'top'
+  list: '50% 50%'
+  modal: '50% 50%'
+skills:
+- name: Description
+  description: >
+    <p>Before this Round ends, the target character's Normal Attacks deal +1 DMG.</p>
+    <p>(A character can consume at most 1 Food per Round)</p>
+  points:
+  - point_type: white
+    point_count: 1

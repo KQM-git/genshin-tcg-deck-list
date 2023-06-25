@@ -15,7 +15,8 @@ bad_against:
         - Mirror Maiden
         - Rhodeia of Loch
         - Fischl
-video_url: ''
+video_url: https://www.youtube.com/watch?v=gjjMBbcpeaw
+last_updated_version: 3.6
 --- 
 
 ## Mulligan

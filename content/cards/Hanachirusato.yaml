@@ -1,0 +1,15 @@
+name: Hanachirusato
+id: 322013
+tags: []
+offset:
+  character: 'top'
+  list: '50% 25%'
+  modal: '50% 20%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: rgb(255, 255, 255)">When a Summon disappears:</span> This card gains 1 <span style="color: rgb(255, 255, 255)">Cleansing Ritual Progress</span>. (Max 3)</p>
+    <p><span style="color: #FFFFFF">When you play a Weapon or Artifact Card:</span> If you already have 3 <span style="color: rgb(255, 255, 255)">Cleansing Ritual Progress</span>, discard this card and cause the card you play to cost 2 less Elemental Dice.</p>
+  points:
+  - point_type: white
+    point_count: 0

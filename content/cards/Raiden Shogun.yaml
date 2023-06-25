@@ -1,0 +1,69 @@
+name: Raiden Shogun
+id: 1407
+tags:
+- Electro
+- Polearm
+- Inazuma
+type: Character Card
+hp: '10'
+energy: '2'
+element: Electro
+weapon: Polearm
+offset:
+  character: 'top'
+  list: '50% 20%'
+  modal: '50% 20%'
+skills:
+- name: Origin
+  description: '<p><span style="color: #FFD780">Normal Attack</span></p>Deals 2 
+  <span style="color: #FFFFFF">Physical DMG</span>.</p>'
+  points:
+  - point_type: electro
+    point_count: 1
+  - point_type: black
+    point_count: 2
+  tag: Normal Attack
+- name: 'Transcendence: Baleful Omen'
+  description: >
+    <p><span style="color: #FFD780">Elemental Skill</span></p>
+    <p>Summons 1 <span style="color: #FFFFFF">Eye of Stormy Judgment</span>.</p>
+  points:
+  - point_type: electro
+    point_count: 3
+  tag: Elemental Skill
+- name: 'Secret Art: Musou Shinsetsu'
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+    <p>Deals 3 <span style="color: rgb(255, 172, 255)">Electro DMG</span>. 
+    All of your other characters gain 2 <span style="color: #FFFFFF">Energy</span>.</p>
+  points:
+  - point_type: electro
+    point_count: 4
+  - point_type: recharge
+    point_count: 2
+  tag: Elemental Burst
+- name: Chakra Desiderata
+  description: '<p><span style="color: rgb(255, 215, 128)">Passive Skill</span></p><p>(Passive)
+  When the battle begins, this character gains <span style="color: rgb(255, 255, 255)">Chakra Desiderata</span>.</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Passive Skill
+- name: Chakra Desiderata
+  description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
+  <p><span style="color: rgb(255, 255, 255)">After your other characters use Elemental Bursts:</span> Gain 1 Resolve. (Max 3)</p>
+  <p><span style="color: rgb(255, 255, 255)">When the character to which this is attached uses Secret Art: Musou Shinsetsu:</span> 
+  Consume all Resolve and deal +1 DMG per Resolve.</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Status
+- name: Eye of Stormy Judgment
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
+    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 1 <span style="color:
+    rgb(255, 172, 255)">Electro DMG</span>.</p><p><span style="color: rgb(255, 255, 255)">Usage(s):
+    3</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Summon

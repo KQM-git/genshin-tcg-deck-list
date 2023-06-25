@@ -13,6 +13,6 @@ skills:
     Elemental Dice you roll are always guaranteed to be <span style="color: #FFE699">Geo
     Dice</span>.</p><p>(A character can equip a maximum of 1 Artifact)</p>'
   points:
-  - point_type: white
+  - point_type: black
     point_count: 3
 source: <p>Purchased at the Card Shop</p>

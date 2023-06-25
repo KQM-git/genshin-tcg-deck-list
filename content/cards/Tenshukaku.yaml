@@ -1,0 +1,15 @@
+name: Tenshukaku
+id: 321007
+tags: []
+offset:
+  character: 'top'
+  list: '50% 45%'
+  modal: '50% 50%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: rgb(255, 255, 255)">When the Action Phase begins:</span> If you have 5 different kinds of Elemental Die, 
+    create 1 <span style="color: rgb(255, 255, 255)">Omni Element</span>.</p>
+  points:
+  - point_type: white
+    point_count: 2

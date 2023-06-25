@@ -1,0 +1,41 @@
+name: Arataki Ichiban
+id: 216051
+tags: []
+offset:
+  character: 'top'
+  list: '50% 45%'
+  modal: '50% 45%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFFFF">Combat Action</span>: When your active character is <span style="color: #FFFFFF">Arataki Itto</span>, equip this card.</p>
+    <p>After Arataki Itto equips this card, immediately use <span style="color: #FFD780">Fight Club Legend</span> once.</p>
+    <p>When your Arataki Itto, who has this card equipped, uses <span style="color: #FFD780">Fight Club Legend</span> for the second time or more in one Round:
+    If <span style="color: #FFFFFF">Superlative Superstrength</span> is triggered, deal +1 additional DMG.</p>
+    <p>(You must have Arataki Itto in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: geo
+    point_count: 1
+  - point_type: black
+    point_count: 2
+- name: 'Fight Club Legend'
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span
+    style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: #FFFFFF">Physical
+    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
+  points:
+  - point_type: geo
+    point_count: 1
+  - point_type: black
+    point_count: 2
+  side: true
+  tag: Normal Attack
+- name: Superlative Superstrength
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <p><span style="color: #FFFFFF">When the character to which this is attached uses a Charged Attack:</span> deal +1 DMG. 
+    If the <span style="color: #FFFFFF">Usage(s)</span> are no less than 2, expend 1 less <span style="color: #FFFFFF">Unaligned Element.</span></p>
+    <p><span style="color: rgb(255, 255, 255)">Usage(s):</span> 1. (Can stack. Max 3 stacks.)</p>
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Status

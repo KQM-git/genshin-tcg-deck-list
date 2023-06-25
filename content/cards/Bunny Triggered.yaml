@@ -1,0 +1,37 @@
+name: "Bunny Triggered"
+id: 213041
+tags: []
+offset:
+  character: 'top'
+  list: '50% 63%'
+  modal: '50% 60%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action:</span> When your active character is <span style="color: #FFFFFF">Amber</span>, equip this card.</p>
+    <p>After Amber equips this card, immediately use <span style="color: rgb(255, 215, 128)">Explosive Puppet</span> once.</p>
+    <p>After you use a <span style="color: #FFFFFF">Normal Attack</span>: If this card and <span style="color: #FFFFFF">Baron Bunny</span>
+     are still on the field, then <span style="color: #FFFFFF">Baron Bunny</span> explodes and deals 3
+    <span style="color: rgb(255, 153, 153)">Pyro DMG</span>.</p>
+    <p>(You must have Amber in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: pyro
+    point_count: 3
+- name: Explosive Puppet
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>Summons
+    1 <span style="color: rgb(255, 255, 255)">Baron Bunny</span>.</p>'
+  points:
+  - point_type: pyro
+    point_count: 3
+  side: true
+  tag: Elemental Skill
+- name: Baron Bunny
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p>
+    <p><span style="color: rgb(255, 255, 255)">When your active character takes DMG:</span> Decrease DMG taken by 2.</p>
+    <p><span style="color: rgb(255, 255, 255)">Usage(s): 1</span>. When the Usages are depleted, this card will not be discarded.</p>
+    <p><span style="color: rgb(255, 255, 255)">At the End Phase, if Usage(s) have been depleted:</span>
+    Discard this card to deal 2 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>.</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Summon

@@ -19,12 +19,12 @@ video_url: https://www.youtube.com/watch?v=h4vjGMVZI7o
 last_updated_version: 3.7
 --- 
  
-## Mulligan: 
+## Mulligan 
 <CardRow :cards="['Liu Su', 'Liben', 'The Bestest Travel Companion!']"></CardRow>
 
 Always keep 1 Liu Su and The Bestest Travel Companion as Shenhe’s burst is a vital point to your strategy and you want to be able to use your skill round 1 and generate Icy Quills. Keep ramp cards such as Liben and Paimon, but if you have neither, you can keep Stone and Contracts, otherwise mulligan it away as it will be harder to use effectively otherwise.
 
-## Early Game:
+## Early Game
 <CardFan :cards="['Liben', 'Chaotic Entropy']"></CardFan>
 
 As this deck really wants Shenhe’s burst out as quick as possible, it is important to have the energy to burst round 2. You generally start on Shenhe and use Spring Spirit Summoning to get Icy Quills and to apply Cryo. If you have a fast swap, look to use Sucrose skill to spread Cryo and use up Icy Quills. If they swap off the initial character that you applied Cryo on, use another skill on Shenhe to build up her burst. Alternatively, if you have Liu Su as well as a ramp card in hand from your opening mulligan, start from one of your Anemo characters and swap to Shenhe to Skill and ramp.

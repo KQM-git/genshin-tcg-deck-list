@@ -1,0 +1,17 @@
+name: Covenant of Rock
+id: 330002
+tags: []
+offset:
+  character: 'top'
+  list: '50% 45%'
+  modal: '50% 40%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: rgb(255, 255, 255)">Can only be played when you have 0 Elemental Dice left:</span> Generate 2 different basic Elemental Dice.</p>
+    <p>(Only one "Arcane Legend" card can be played for the entire game. This card will be in your starting hand.)</p>
+  points:
+  - point_type: arcane
+  - point_type: white
+    point_count: 0
+  

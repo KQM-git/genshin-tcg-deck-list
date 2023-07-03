@@ -46,24 +46,21 @@ skills:
   - point_type: recharge
     point_count: 3
   tag: Elemental Burst
-- name: Stellar Restoration
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Lightning Stiletto</span></strong></p><span
-    style="color: rgb(255, 215, 128)">Event Card</span></p><p><span style="color: rgb(255,
+- name: Lightning Stiletto
+  description: '<p><span style="color: rgb(255, 215, 128)">Event Card</span></p><p><span style="color: rgb(255,
     255, 255)">Combat Actions</span>: Switch your Keqing in to be the active character
     and immediately use Stellar Restoration once. This instance of Stellar Restoration
-    will grant Keqing <span style="color: rgb(236, 229, 216)">Electro Infusion</span>
-    without creating another <span style="color: rgb(255, 215, 128)">Lightning Stiletto</span>. (When Keqing uses Stellar Restoration
-    with this card in Hand: Instead of creating another <span
-    style="color: rgb(255, 215, 128)">Lightning Stiletto</span>, discard
-    this card and Keqing gains <span style="color: rgb(236, 229, 216)">Electro Infusion</span>)</p><p></p>'
+    will grant Keqing <span style="color: rgb(255, 255, 255)">Electro Infusion</span>
+    without creating another Lightning Stiletto. (When Keqing uses Stellar Restoration
+    with this card in Hand: Instead of creating another Lightning Stiletto, discard
+    this card and Keqing gains <span style="color: rgb(255, 255, 255)">Electro Infusion</span>)</p><p></p>'
   points:
   - point_type: 'electro'
     point_count: 3
   side: true
   tag: Lightning Stiletto
-- name: Lightning Stiletto
-  description: '<p><strong><span
-    style="color: rgb(236, 229, 216)">Electro Infusion</span></strong></p><span
+- name: Electro Infusion
+  description: '<p><span
     style="color: rgb(255, 215, 128)">Status</span></p><p>The character to which this
     is attached has their Physical DMG dealt converted to <span style="color: rgb(255,
     172, 255)">Electro DMG</span>.</p><p><span style="color: rgb(255, 255, 255)">Duration
@@ -92,15 +89,15 @@ skills:
   - point_type: ''
     point_count: 0
 - name: Detailed Rules
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Physical DMG</span></strong></p><p>Physical
+  description: '<p><strong><span style="color: rgb(255, 255, 255)">Physical DMG</span></strong></p><p>Physical
     DMG will not apply any Elements, nor can it engage in Elemental Reactions.<br><br><strong><span
-    style="color: rgb(236, 229, 216)">Piercing DMG</span></strong></p><p>Piercing
+    style="color: rgb(255, 255, 255)">Piercing DMG</span></strong></p><p>Piercing
     DMG cannot be increased by any bounses, but cannot be defended against using Shields
     or DMG Immunity either.</p><p></p><p><strong><span style="color: rgb(236, 229,
     216)">Combat Action</span></strong></p><p>After you finish 1 Combat Action, it
     will be your opponents turn.</p><p><span style="color: rgb(255, 255, 255)">Playing
     a card from your Hand with this rule is also a Combat Action rather than a Fast
-    Action.</span></p><p></p><p><strong><span style="color: rgb(236, 229, 216)">Duration
+    Action.</span></p><p></p><p><strong><span style="color: rgb(255, 255, 255)">Duration
     (Rounds)</span></strong></p><p>Each time you reach the end of a Round, <span style="color:
     rgb(255, 255, 255)">Duration (Rounds) </span>- 1.</p><p>This card will be discarded
     immediately once <span style="color: rgb(255, 255, 255)">Duration (Rounds)</span>

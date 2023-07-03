@@ -15,10 +15,10 @@ skills:
   - point_type: white
     point_count: 1
 - name: Detailed Rules
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Energy</span></strong></p><p>Characters
+  description: '<p><strong><span style="color: rgb(255, 255, 255)">Energy</span></strong></p><p>Characters
     must consume Energy to use their Elemental Bursts.</p><p>When characters use an
     Elemental Skill or a Normal Attack, they will gain 1 Energy.</p><p></p><p><strong><span
-    style="color: rgb(236, 229, 216)">Usage(s)</span></strong></p><p>After this card''s
+    style="color: rgb(255, 255, 255)">Usage(s)</span></strong></p><p>After this card''s
     effect is triggered, 1 <span style="color: rgb(255, 255, 255)">Usage </span>of
     it will be consumed.</p><p>This card will be discarded immediately once it has
     0 <span style="color: rgb(255, 255, 255)">Usages </span>remaining.</p>'

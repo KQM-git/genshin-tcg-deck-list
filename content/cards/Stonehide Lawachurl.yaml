@@ -45,15 +45,14 @@ skills:
   tag: Elemental Burst
 - name: Infused Stonehide
   description: '<p><span style="color: rgb(255, 215, 128)">Passive Skill</span></p><p>(Passive)
-    When the battle begins, this character gains <span style="color: rgb(236, 229, 216)">
-    Stonehide</span> and <span style="color: rgb(236, 229, 216)">Stone Force</span>.</p><p></p>'
+    When the battle begins, this character gains <span style="color: rgb(255, 255, 255)">
+    Stonehide</span> and <span style="color: rgb(255, 255, 255)">Stone Force</span>.</p><p></p>'
   points:
   - point_type: ''
     point_count: -1
   tag: Passive Skill
-- name: Infused Stonehide
-  description: '<p><strong><span
-    style="color: rgb(236, 229, 216)">Stonehide</span></strong></p><span style="color:
+- name: Stonehide
+  description: '<p><span style="color:
     rgb(255, 215, 128)">Status</span></p><p><span style="color: rgb(255, 255, 255)">When
     the character to which this is attached receives DMG</span>: Decrease DMG taken
     by 1. When Geo DMG is decreased, consume 1 additional <span style="color: rgb(255,
@@ -63,8 +62,8 @@ skills:
   - point_type: ''
     point_count: -1
   tag: Status
-- name: Infused Stonehide
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Stone Force</span></strong></p><span
+- name: Stone Force
+  description: '<p><span
     style="color: rgb(255, 215, 128)">Status</span><p>The character to which this
     is attached has their <span style="color: rgb(255, 255, 255)">Physical DMG</span>
     dealt converted to <span style="color: rgb(255, 230, 153)">Geo DMG</span>.</p><p><span
@@ -94,9 +93,9 @@ skills:
   - point_type: ''
     point_count: 0
 - name: Detailed Rules
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Physical DMG</span></strong></p><p>Physical
+  description: '<p><strong><span style="color: rgb(255, 255, 255)">Physical DMG</span></strong></p><p>Physical
     DMG will not apply any Elements, nor can it engage in Elemental Reactions.</p><p></p><p><strong><span
-    style="color: rgb(236, 229, 216)">Usage(s)</span></strong></p><p>After this card''s
+    style="color: rgb(255, 255, 255)">Usage(s)</span></strong></p><p>After this card''s
     effect is triggered, 1 <span style="color: rgb(255, 255, 255)">Usage </span>of
     it will be consumed.</p><p>This card will be discarded immediately once it has
     0 <span style="color: rgb(255, 255, 255)">Usages </span>remaining.</p>'

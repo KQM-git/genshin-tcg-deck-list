@@ -82,9 +82,9 @@ skills:
   - point_type: ''
     point_count: 0
 - name: Detailed Rules
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Physical DMG</span></strong></p><p>Physical
+  description: '<p><strong><span style="color: rgb(255, 255, 255)">Physical DMG</span></strong></p><p>Physical
     DMG will not apply any Elements, nor can it engage in Elemental Reactions.</p><p></p><p><strong><span
-    style="color: rgb(236, 229, 216)">Shield</span></strong></p><p>This Shield will
+    style="color: rgb(255, 255, 255)">Shield</span></strong></p><p>This Shield will
     be consumed to protect the character who equips it from DMG.</p>'
   points:
   - point_type: ''

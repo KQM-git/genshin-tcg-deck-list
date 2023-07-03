@@ -93,9 +93,9 @@ skills:
   - point_type: ''
     point_count: 0
 - name: Detailed Rules
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Physical DMG</span></strong></p><p>Physical
+  description: '<p><strong><span style="color: rgb(255, 255, 255)">Physical DMG</span></strong></p><p>Physical
     DMG will not apply any Elements, nor can it engage in Elemental Reactions.</p><p></p><p><strong><span
-    style="color: rgb(236, 229, 216)">Piercing DMG</span></strong></p><p>Piercing
+    style="color: rgb(255, 255, 255)">Piercing DMG</span></strong></p><p>Piercing
     DMG cannot be increased by any bounses, but cannot be defended against using Shields
     or DMG Immunity either.</p>'
   points:

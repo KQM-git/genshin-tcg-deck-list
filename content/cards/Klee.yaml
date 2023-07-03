@@ -27,7 +27,7 @@ skills:
   description: >
     <p><span style="color: #FFD780">Elemental Skill</span></p>Deals 3 
     <span style="color: #FF9999">Pyro DMG</span>. This character gains 
-    <span style="color: rgb(236, 229, 216)">Explosive Spark</span>.</p>
+    <span style="color: rgb(255, 255, 255)">Explosive Spark</span>.</p>
   points:
   - point_type: pyro
     point_count: 3
@@ -36,7 +36,7 @@ skills:
   description: >
     <p><span style="color: #FFD780">Elemental Burst</span></p>Deals 3 
     <span style="color: #FF9999">Pyro DMG</span>, creates 1 
-    <span style="color: rgb(236, 229, 216)">Sparks 'n' Splash</span> at the opponent's play area.</p>
+    <span style="color: rgb(255, 255, 255)">Sparks 'n' Splash</span> at the opponent's play area.</p>
   points:
   - point_type: pyro
     point_count: 3

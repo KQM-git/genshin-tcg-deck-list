@@ -23,14 +23,14 @@ skills:
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
   <span style="color: rgba(255, 255, 255, 0.65)"> Deals 3 
   <span style="color: rgb(153, 255, 255)">Cryo DMG</span>, creates 1 
-  <span style="color: rgb(236, 229, 216)">Chonghua Frost Field</span>.</span>'
+  <span style="color: rgb(255, 255, 255)">Chonghua Frost Field</span>.</span>'
   points:
   - point_type: cryo
     point_count: 3
   side: true
   tag: Elemental Skill
 - name: Chonghua's Layered Frost
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Chonghua Frost Field</span></strong></p>
+  description: '<p><strong><span style="color: rgb(255, 255, 255)">Chonghua Frost Field</span></strong></p>
   <span style="color: rgb(255, 215, 128)">Combat Status</span><p></p>
   <span style="color: rgba(255, 255, 255, 0.65)"> Your Sword, Claymore, and Polearm-wielding
   characters'' 
@@ -61,11 +61,11 @@ skills:
   - point_type: ''
     point_count: 0
 - name: Detailed Rules
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Combat Action</span></strong></p><p>After
+  description: '<p><strong><span style="color: rgb(255, 255, 255)">Combat Action</span></strong></p><p>After
     you finish 1 Combat Action, it will be your opponent''s turn.</p><p><span style="color:
     rgb(255, 255, 255)">Playing a card from your Hand with this rule is also a Combat
     Action rather than a Fast Action.</span></p><p></p><p><strong><span style="color:
-    rgb(236, 229, 216)">Duration (Rounds)</span></strong></p><p>Each time you reach
+    rgb(255, 255, 255)">Duration (Rounds)</span></strong></p><p>Each time you reach
     the end of a Round, <span style="color: rgb(255, 255, 255)">Duration (Rounds)
     </span>- 1.</p><p>This card will be discarded immediately once <span style="color:
     rgb(255, 255, 255)">Duration (Rounds)</span> runs out.</p>'

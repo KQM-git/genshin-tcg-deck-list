@@ -36,7 +36,7 @@ skills:
 - name: Dandelion Breeze
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span
     style="color: rgba(255, 255, 255, 0.65)">Heals all your characters for 2 HP, summons
-    1 </span><span style="color: rgb(236, 229, 216)">Dandelion Field</span><span style="color:
+    1 </span><span style="color: rgb(255, 255, 255)">Dandelion Field</span><span style="color:
     rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
   - point_type: anemo
@@ -44,9 +44,8 @@ skills:
   - point_type: recharge
     point_count: 3
   tag: Elemental Burst
-- name: Dandelion Breeze
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Dandelion Field</span>
-    </strong></p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
+- name: Dandelion Field
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
     style="color: rgb(255, 255, 255)">End Phase:</span> Deal 2 <span style="color:
     rgb(128, 255, 215)">Anemo DMG</span>, heal your active character for 1 HP.</p><p><span
     style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
@@ -72,9 +71,9 @@ skills:
   - point_type: ''
     point_count: 0
 - name: Detailed Rules
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Physical DMG</span></strong></p><p>Physical
+  description: '<p><strong><span style="color: rgb(255, 255, 255)">Physical DMG</span></strong></p><p>Physical
     DMG will not apply any Elements, nor can it engage in Elemental Reactions.</p><p></p><p><strong><span
-    style="color: rgb(236, 229, 216)">Usage(s)</span></strong></p><p>After this card''s
+    style="color: rgb(255, 255, 255)">Usage(s)</span></strong></p><p>After this card''s
     effect is triggered, 1 <span style="color: rgb(255, 255, 255)">Usage </span>of
     it will be consumed.</p><p>This card will be discarded immediately once it has
     0 <span style="color: rgb(255, 255, 255)">Usages </span>remaining.</p>'

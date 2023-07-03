@@ -36,7 +36,7 @@ skills:
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span
     style="color: rgba(255, 255, 255, 0.65)">Deals 4 </span><span style="color: rgb(255,
     172, 255)">Electro DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p><p><span
-    style="color: rgb(236, 229, 216)">Pactsworn Pathclearer</span><span style="color:
+    style="color: rgb(255, 255, 255)">Pactsworn Pathclearer</span><span style="color:
     rgba(255, 255, 255, 0.65)">''s Indwelling Level +2.</span></p><p></p>'
   points:
   - point_type: electro
@@ -47,15 +47,14 @@ skills:
 - name: Lawful Enforcer
   description: '<p><span style="color: rgb(255, 215, 128)">Passive Skill</span></p><p><span
     style="color: rgba(255, 255, 255, 0.65)">(Passive) When the battle begins, this
-    character gains </span><span style="color: rgb(236, 229, 216)">Pactsworn Pathclearer</span><span
+    character gains </span><span style="color: rgb(255, 255, 255)">Pactsworn Pathclearer</span><span
     style="color: rgba(255, 255, 255, 0.65)">.</span></p><p></p>'
   points:
   - point_type: ''
     point_count: -1
   tag: Passive Skill
-- name: Lawful Enforcer
-  description: '<p><strong><span style="color:
-    rgb(236, 229, 216)">Pactsworn Pathclearer</span></strong></p><span style="color:
+- name: Pactsworn Pathclearer
+  description: '<p><span style="color:
     rgb(255, 215, 128)">Status</span><br><span style="color: rgb(255, 255, 255)">End
     Phase</span>: Gain 1 level of Indwelling.</p><p><span style="color: rgb(255, 255,
     255)">Create the following effects based on the Indwelling Level</span>:<br>If
@@ -87,7 +86,7 @@ skills:
   - point_type: ''
     point_count: 0
 - name: Detailed Rules
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Physical DMG</span></strong></p><p>Physical
+  description: '<p><strong><span style="color: rgb(255, 255, 255)">Physical DMG</span></strong></p><p>Physical
     DMG will not apply any Elements, nor can it engage in Elemental Reactions.</p>'
   points:
   - point_type: ''

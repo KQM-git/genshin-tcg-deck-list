@@ -19,7 +19,7 @@ skills:
     point_count: 2
 - name: Niwabi Fire-Dance
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><p>This
-    character gains <span style="color: rgb(236, 229, 216)">Niwabi Enshou</span>.
+    character gains <span style="color: rgb(255, 255, 255)">Niwabi Enshou</span>.
     (This Skill does not grant Energy)</p><p></p>'
   points:
   - point_type: pyro
@@ -65,13 +65,13 @@ skills:
   - point_type: ''
     point_count: 0
 - name: Detailed Rules
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Combat Action</span></strong></p><p>After
+  description: '<p><strong><span style="color: rgb(255, 255, 255)">Combat Action</span></strong></p><p>After
     you finish 1 Combat Action, it will be your opponent''s turn.</p><p><span style="color:
     rgb(255, 255, 255)">Playing a card from your Hand with this rule is also a Combat
     Action rather than a Fast Action.</span></p><p></p><p><strong><span style="color:
-    rgb(236, 229, 216)">Physical DMG</span></strong></p><p>Physical DMG will not apply
+    rgb(255, 255, 255)">Physical DMG</span></strong></p><p>Physical DMG will not apply
     any Elements, nor can it engage in Elemental Reactions.</p><p></p><p><strong><span
-    style="color: rgb(236, 229, 216)">Usage(s)</span></strong></p><p>After this card''s
+    style="color: rgb(255, 255, 255)">Usage(s)</span></strong></p><p>After this card''s
     effect is triggered, 1 <span style="color: rgb(255, 255, 255)">Usage </span>of
     it will be consumed.</p><p>This card will be discarded immediately once it has
     0 <span style="color: rgb(255, 255, 255)">Usages </span>remaining.</p>'

@@ -11,7 +11,7 @@ skills:
     character is <span style="color: #FFFFFF">Diona</span>, equip this card.</p><p>After
     Diona equips this card, immediately use <span style="color: #FFD780">Icy Paws</span>
     once.</p><p>When your Diona, who has this card equipped, creates a <span style="color:
-    rgb(236, 229, 216)">Cat-Claw Shield</span>, its <span style="color: #FFFFFF">Shield </span>points
+    rgb(255, 255, 255)">Cat-Claw Shield</span>, its <span style="color: #FFFFFF">Shield </span>points
     +1.</p><p>(You must have Diona in your deck to add this card to your deck.)</p>'
   points:
   - point_type: cryo
@@ -20,14 +20,14 @@ skills:
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
   <span style="color: rgba(255, 255, 255, 0.65)"><p>Deals 2 
   <span style="color: rgb(153, 255, 255)">Cryo DMG</span>, 
-  creates 1 <span style="color: rgb(236, 229, 216)">Cat-Claw Shield</span>.</p></p>'
+  creates 1 <span style="color: rgb(255, 255, 255)">Cat-Claw Shield</span>.</p></p>'
   points:
   - point_type: cryo
     point_count: 3
   side: true
   tag: Elemental Skill
 - name: Icy Paws
-  description: '<p><strong><span style="color:rgb(236, 229, 216)">Cat-Claw Shield</span></strong>
+  description: '<p><strong><span style="color:rgb(255, 255, 255)">Cat-Claw Shield</span></strong>
   <br><span style="color: rgb(255, 215, 128)">Combat Status</span></p>
   <p></p><span style="color: rgba(255, 255, 255, 0.65)">Grants 1 
   <span style="color: #FFFFFF">Shield </span>point for your active character.</p>'
@@ -56,11 +56,11 @@ skills:
   - point_type: ''
     point_count: 0
 - name: Detailed Rules
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Combat Action</span></strong></p><p>After
+  description: '<p><strong><span style="color: rgb(255, 255, 255)">Combat Action</span></strong></p><p>After
     you finish 1 Combat Action, it will be your opponent''s turn.</p><p><span style="color:
     rgb(255, 255, 255)">Playing a card from your Hand with this rule is also a Combat
     Action rather than a Fast Action.</span></p><p></p><p><strong><span style="color:
-    rgb(236, 229, 216)">Shield</span></strong></p><p>This Shield will be consumed
+    rgb(255, 255, 255)">Shield</span></strong></p><p>This Shield will be consumed
     to protect the character who equips it from DMG.</p>'
   points:
   - point_type: ''

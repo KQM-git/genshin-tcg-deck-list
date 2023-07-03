@@ -1,0 +1,30 @@
+name: Right of Final Interpretation
+id: 213081
+tags: []
+offset:
+  character: 'top'
+  list: '50% 20%'
+  modal: '50% 17%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action</span>: When <span style="color: #FFFFFF">Yanfei</span> is your active character, equip this card.</p>
+    <p>After Candace equips this card, she will immediately use <span style="color: #FFD780">Seal of Approval</span> once.</p>
+    <p>When Yanfei uses a <span style="color: #FFFFFF">Charged Attack</span> with this card equipped: 
+    Deal +1 DMG to enemies with 6 or less HP.</p>
+    <p>(You must have Yanfei in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: pyro
+    point_count: 1
+  - point_type: black
+    point_count: 2
+- name: Seal of Approval
+  description: '<p><span style="color: #FFD780">Normal Attack</span></p>Deals 1 
+  <span style="color: #FF9999">Pyro DMG</span>.</p>'
+  points:
+  - point_type: pyro
+    point_count: 1
+  - point_type: black
+    point_count: 2
+  side: true
+  tag: Normal Attack

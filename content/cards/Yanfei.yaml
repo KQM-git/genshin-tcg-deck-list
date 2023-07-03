@@ -1,0 +1,63 @@
+name: Klee
+id: 1308
+tags:
+- Pyro
+- Catalyst
+- Liyue
+type: Character Card
+hp: '10'
+energy: '2'
+element: Pyro
+weapon: Catalyst
+offset:
+  character: 'top'
+  list: '50% 21.5%'
+  modal: '50% 13%'
+skills:
+- name: Seal of Approval
+  description: '<p><span style="color: #FFD780">Normal Attack</span></p>Deals 1 
+  <span style="color: #FF9999">Pyro DMG</span>.</p>'
+  points:
+  - point_type: pyro
+    point_count: 1
+  - point_type: black
+    point_count: 2
+  tag: Normal Attack
+- name: Signed Edict
+  description: >
+    <p><span style="color: #FFD780">Elemental Skill</span></p>Deals 3 
+    <span style="color: #FF9999">Pyro DMG</span> and attaches 
+    <span style="color: rgb(255, 255, 255)">Scarlet Seal</span> to this character.</p>
+  points:
+  - point_type: pyro
+    point_count: 3
+  tag: Elemental Skill
+- name: Done Deal
+  description: >
+    <p><span style="color: #FFD780">Elemental Burst</span></p>Deals 3 
+    <span style="color: #FF9999">Pyro DMG</span>, attaches 
+    <span style="color: rgb(255, 255, 255)">Scarlet Seal</span> and <span style="color: rgb(255, 255, 255)">Brilliance</span> 
+    to this character.</p>
+  points:
+  - point_type: pyro
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+  tag: Elemental Burst
+- name: Scarlet Seal
+  description: '<p><span style="color:
+    rgb(255, 215, 128)">Status</span></p><p>
+  <span style="color: #FFFFFF">When the character uses a Charged Attack:</span> Damage dealt +2.</p>
+  <p><span style="color: #FFFFFF">Usage(s): 1</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Brilliance
+  description: >
+    <p><span style="color: #FFD780">Status</span></p>
+    <p><span style="color: #FFFFFF">When the character uses a Charged Attack: </span>Spend 1 less <span style="color: #FF9999">Pyro</span>. (Once every Round)</p>
+    <p><span style="color: #FFFFFF">End Phase: </span> Attach <span style="color: rgb(255, 255, 255)">Scarlet Seal</span> to this character.
+    <p><span style="color: #FFFFFF">Duration (Rounds): 2</span></p>
+  points:
+  - point_type: ''
+    point_count: -1

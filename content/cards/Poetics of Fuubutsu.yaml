@@ -1,0 +1,28 @@
+name: Poetics of Fuubutsu
+id: 215051
+tags: []
+offset:
+  character: 'top'
+  list: '50% 20%'
+  modal: '50% 17%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is <span style="color: #FFFFFF">Kaedehara Kazuha</span>, equip this card.</p>
+    <p>After Kaedehara Kazuha equips this card, she will immediately use <span style="color: #FFD780">Chihayaburu</span> once.</p>
+    <p>After Kaedehara Kazuha triggers Swirl with this card equipped: For the next 2 instances, your Characters and Summons will deal +1 DMG for the Elemental Type Swirled. (Each Elemental Type is counted independently)</p>
+    <p>(You must have Kaedehara Kazuha in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: anemo
+    point_count: 3
+- name: Chihayaburu
+  description: >
+    <p><span style="color: #FFD780">Elemental Skill</span></p>
+    <p>Deals 3 <span style="color: #80FFD7">Anemo DMG</span>, attaches <span style="color: #FFFFFF">Midare Ranzan</span> to this character.
+    If this skill triggers Swirl, <span style="color: #FFFFFF">Midare Ranzan</span> is converted to the Swirled element.</p>
+    <p><span style="color: #FFFFFF">After the Skill DMG is finalized:</span> Your team switches to the next character.</p>
+  points:
+  - point_type: anemo
+    point_count: 3
+  side: true
+  tag: Elemental Skill

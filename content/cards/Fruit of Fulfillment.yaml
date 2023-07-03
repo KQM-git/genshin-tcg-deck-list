@@ -1,0 +1,17 @@
+name: Fruit of Fulfillment
+id: 311105
+tags: []
+offset:
+  character: 'top'
+  list: '50% 43%'
+  modal: '50% 43%'
+skills:
+- name: Description
+  description: '<p><span style="color: rgb(255, 255, 255)">Character deals +1
+    DMG</span>.</p><p><span style="color: rgb(255, 255, 255)">When played:</span>
+    Draw 2 cards.</p><p>(Can only be equipped by <span style="color:
+    rgb(255, 255, 255)">Catalyst characters</span>. A character can
+    equip at most 1 Weapon.)</p>'
+  points:
+  - point_type: black
+    point_count: 3

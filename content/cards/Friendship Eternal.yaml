@@ -3,8 +3,8 @@ id: 332020
 tags: []
 offset:
   character: 'top'
-  list: '50% 20%'
-  modal: '50% 20%'
+  list: '50% 25%'
+  modal: '50% 25%'
 skills:
 - name: Description
   description: >

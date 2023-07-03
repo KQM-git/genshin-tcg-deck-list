@@ -1,4 +1,4 @@
-name: Red Feather Fan
+name: Treasure-Seeking Seelie
 id: 323004
 tags: []
 offset:
@@ -11,4 +11,4 @@ skills:
   <p>When this card has stored 3 <span style="color: #FFFFFF">Treasure Clues</span>, discard this card and draw 3 cards.</p>'
   points:
   - point_type: white
-    point_count: 2
+    point_count: 1

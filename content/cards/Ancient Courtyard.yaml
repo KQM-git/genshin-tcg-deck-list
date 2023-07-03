@@ -1,0 +1,17 @@
+name: Ancient Courtyard
+id: 330001
+tags: []
+offset:
+  character: 'top'
+  list: '50% 35%'
+  modal: '50% 40%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: rgb(255, 255, 255)">You must have a character who has already equipped a Weapon or Artifact:</span> The next time you play a Weapon or Artifact card in this Round: Spend 2 less Elemental Dice.</p>
+    <p>(Only one "Arcane Legend" card can be played for the entire game. This card will be in your starting hand.)</p>
+  points:
+  - point_type: arcane
+  - point_type: white
+    point_count: 0
+  

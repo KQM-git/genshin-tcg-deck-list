@@ -29,7 +29,7 @@ skills:
   tag: Elemental Skill
 - name: Lawful Enforcer
   description: '<p><strong><span style="color:
-    rgb(236, 229, 216)">Pactsworn Pathclearer</span></strong></p><p><span style="color:
+    rgb(255, 255, 255)">Pactsworn Pathclearer</span></strong></p><p><span style="color:
     rgb(255, 215, 128)">Status</span><br><span style="color: rgb(255, 255, 255)">End
     Phase</span>: Gain 1 level of Indwelling.</p><p><span style="color: rgb(255, 255,
     255)">Create the following effects based on the Indwelling Level</span>:<br>If
@@ -61,11 +61,11 @@ skills:
   - point_type: ''
     point_count: 0
 - name: Detailed Rules
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Combat Action</span></strong></p><p>After
+  description: '<p><strong><span style="color: rgb(255, 255, 255)">Combat Action</span></strong></p><p>After
     you finish 1 Combat Action, it will be your opponent''s turn.</p><p><span style="color:
     rgb(255, 255, 255)">Playing a card from your Hand with this rule is also a Combat
     Action rather than a Fast Action.</span></p><p></p><p><strong><span style="color:
-    rgb(236, 229, 216)">Physical DMG</span></strong></p><p>Physical DMG will not apply
+    rgb(255, 255, 255)">Physical DMG</span></strong></p><p>Physical DMG will not apply
     any Elements, nor can it engage in Elemental Reactions.</p>'
   points:
   - point_type: ''

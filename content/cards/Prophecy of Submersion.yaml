@@ -23,7 +23,7 @@ skills:
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
   <span style="color: rgb(255, 255, 255, 0.65)">Deals 4 
   <span style="color: rgb(128, 192, 255)">Hydro DMG</span>, creates 1 
-  <span style="color: rgb(236, 229, 216)">Illusory Bubble</span>.'
+  <span style="color: rgb(255, 255, 255)">Illusory Bubble</span>.'
   points:
   - point_type: hydro
     point_count: 3
@@ -56,7 +56,7 @@ skills:
     point_count: 0
 - name: Stellaris Phantasm
   description: '<p><strong><span style="color:
-    rgb(236, 229, 216)">Illusory Bubble</span></strong></p>
+    rgb(255, 255, 255)">Illusory Bubble</span></strong></p>
     <span style="color: rgb(255, 215, 128)">Combat Status</span>
     <span style="color: rgb(255, 255, 255, 0.65)">
     <p><span style="color: rgb(255, 255, 255)">When you deal Skill DMG:</span> Remove this status and double the DMG dealt
@@ -66,7 +66,7 @@ skills:
     point_count: -1
   tag: Combat Status
 - name: Detailed Rules
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Combat Action</span></strong></p><p>After
+  description: '<p><strong><span style="color: rgb(255, 255, 255)">Combat Action</span></strong></p><p>After
     you finish 1 Combat Action, it will be your opponent''s turn.</p><p><span style="color:
     rgb(255, 255, 255)">Playing a card from your Hand with this rule is also a Combat
     Action rather than a Fast Action.</span></p><p></p><p><strong><span style="color:

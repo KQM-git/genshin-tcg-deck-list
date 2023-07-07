@@ -23,7 +23,7 @@ skills:
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p><span
     style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: rgb(255,
     153, 153)">Pyro DMG</span><span style="color: rgba(255, 255, 255, 0.65)">, creates
-    1 </span><span style="color: rgb(236, 229, 216)">Inspiration Field</span><span
+    1 </span><span style="color: rgb(255, 255, 255)">Inspiration Field</span><span
     style="color: rgba(255, 255, 255, 0.65)">.</span></p><p></p>'
   points:
   - point_type: pyro
@@ -34,7 +34,7 @@ skills:
   tag: Elemental Burst
 - name: Fantastic Voyage
   description: '<p><strong><span style="color:
-    rgb(236, 229, 216)">Inspiration Field</span></strong><br><span style="color: rgb(255,
+    rgb(255, 255, 255)">Inspiration Field</span></strong><br><span style="color: rgb(255,
     215, 128)">Combat Status</span><br><span style="color: rgb(255, 255, 255)">When
     your character uses a Skill</span>: If this character has at least 7 HP, deal
     +2 additional DMG for this instance. After the Skill DMG is finalized, if this
@@ -70,11 +70,11 @@ skills:
   - point_type: ''
     point_count: 0
 - name: Detailed Rules
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Combat Action</span></strong></p><p>After
+  description: '<p><strong><span style="color: rgb(255, 255, 255)">Combat Action</span></strong></p><p>After
     you finish 1 Combat Action, it will be your opponent''s turn.</p><p><span style="color:
     rgb(255, 255, 255)">Playing a card from your Hand with this rule is also a Combat
     Action rather than a Fast Action.</span></p><p></p><p><strong><span style="color:
-    rgb(236, 229, 216)">Duration (Rounds)</span></strong></p><p>Each time you reach
+    rgb(255, 255, 255)">Duration (Rounds)</span></strong></p><p>Each time you reach
     the end of a Round, <span style="color: rgb(255, 255, 255)">Duration (Rounds)
     </span>- 1.</p><p>This card will be discarded immediately once <span style="color:
     rgb(255, 255, 255)">Duration (Rounds)</span> runs out.</p>'

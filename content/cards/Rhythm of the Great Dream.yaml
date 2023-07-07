@@ -1,0 +1,14 @@
+name: Rhythm of the Great Dream
+id: 332021
+tags: []
+offset:
+  character: 'top'
+  list: '50% 65%'
+  modal: '50% 60%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: rgb(255, 255, 255)">The next time you play a Weapon or Artifact card:</span> Spend 1 less Elemental Die.</p>
+  points:
+  - point_type: white
+    point_count: 0

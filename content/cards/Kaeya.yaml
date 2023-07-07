@@ -39,9 +39,8 @@ skills:
   - point_type: recharge
     point_count: 2
   tag: Elemental Burst
-- name: Glacial Waltz
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Icicle</span></strong></p>
-    <span style="color: rgb(255, 215, 128)">Combat Status</span>
+- name: Icicle
+  description: '<p><span style="color: rgb(255, 215, 128)">Combat Status</span></p>
     <p><span style="color: rgb(255, 255, 255)">After you switch characters:</span>
     <span style="color: rgba(255, 255, 255, 0.65)"> Deal 2 </span>
     <span style="color: rgb(153, 255, 255)"> Cryo DMG</span>.</p><p>
@@ -71,7 +70,7 @@ skills:
   - point_type: ''
     point_count: 0
 - name: Detailed Rules
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Physical DMG</span></strong></p><p>Physical
+  description: '<p><strong><span style="color: rgb(255, 255, 255)">Physical DMG</span></strong></p><p>Physical
     DMG will not apply any Elements, nor can it engage in Elemental Reactions.</p>'
   points:
   - point_type: ''

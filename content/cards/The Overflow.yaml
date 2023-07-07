@@ -1,0 +1,41 @@
+name: The Overflow
+id: 212071
+tags: []
+offset:
+  character: 'top'
+  list: '50% 60%'
+  modal: '50% 63%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is <span style="color: #FFFFFF">Candace</span>, equip this card.</p>
+    <p>After Candace equips this card, immediately use <span style="color: #FFD780">Sacred Rite: Wagtail's Tide</span> once.</p>
+    <p>When this card is equipped by Candace, her <span style="color: #FFFFFF">Prayer of the Crimson Crown</span> has the following extra effect: 
+    <span style="color: #FFFFFF">After your character uses a Normal Attack:</span> Deals 1 <span style="color: #80C0FF">Hydro DMG</span>. (Once per Round)</p>
+    <p>(You must have Candace in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: hydro
+    point_count: 4
+  - point_type: recharge
+    point_count: 2
+- name: "Sacred Rite: Wagtail's Tide"
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+  Deals 2 <span style="color: #80C0FF">Hydro DMG</span> and creates 1 <span style="color: #FFFFFF">Prayer of the Crimson Crown</span>.'
+  points:
+  - point_type: hydro
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+  side: true
+  tag: Elemental Burst
+- name: Prayer of the Crimson Crown
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Combat Status</span></p>
+    <p>Your characters' <span style="color: rgb(255, 255, 255)">Normal Attacks</span> deal +1 DMG.</p>
+    <p>Your Sword, Claymore, and Polearm-wielding characters' <span style="color: #FFFFFF">Physical
+    DMG</span> is converted to <span style="color: #80C0FF">Hydro DMG</span>.</p>
+    <p><span style="color: rgb(255, 255, 255)">Duration (Rounds):</span> 2</p>
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Combat Status

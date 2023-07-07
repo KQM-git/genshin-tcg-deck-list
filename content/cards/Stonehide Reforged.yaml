@@ -12,8 +12,8 @@ skills:
     equip this card.</p><p>After Stonehide Lawachurl equips this card, immediately
     use <span style="color: rgb(255, 215, 128)">Upa Shato</span> once.</p><p>When
     your Stonehide Lawachurl, who has this card equipped, defeats an opposing character:
-    Stonehide Lawachurl will re-attach <span style="color: rgb(236, 229, 216)">
-    Stonehide</span> and <span style="color: rgb(236, 229, 216)">Stone Force</span>.</p><p>(You
+    Stonehide Lawachurl will re-attach <span style="color: rgb(255, 255, 255)">
+    Stonehide</span> and <span style="color: rgb(255, 255, 255)">Stone Force</span>.</p><p>(You
     must have Stonehide Lawachurl in your deck to add this card to your deck.)</p><p></p></p>'
   points:
   - point_type: geo
@@ -33,7 +33,7 @@ skills:
   tag: Elemental Burst
 - name: Infused Stonehide
   description: '<p><strong><span
-    style="color: rgb(236, 229, 216)">Stonehide</span></strong></p><span style="color:
+    style="color: rgb(255, 255, 255)">Stonehide</span></strong></p><span style="color:
     rgb(255, 215, 128)">Status</span></p><p><span style="color: rgb(255, 255, 255)">When
     the character to which this is attached receives DMG</span>: Decrease DMG taken
     by 1. When Geo DMG is decreased, consume 1 additional <span style="color: rgb(255,
@@ -44,7 +44,7 @@ skills:
     point_count: -1
   tag: Status
 - name: Infused Stonehide
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Stone Force</span></strong></p><span
+  description: '<p><strong><span style="color: rgb(255, 255, 255)">Stone Force</span></strong></p><span
     style="color: rgb(255, 215, 128)">Status</span><p>The character to which this
     is attached has their <span style="color: rgb(255, 255, 255)">Physical DMG</span>
     dealt converted to <span style="color: rgb(255, 230, 153)">Geo DMG</span>.</p><p><span
@@ -74,15 +74,15 @@ skills:
   - point_type: ''
     point_count: 0
 - name: Detailed Rules
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Combat Action</span></strong></p><p>After
+  description: '<p><strong><span style="color: rgb(255, 255, 255)">Combat Action</span></strong></p><p>After
     you finish 1 Combat Action, it will be your opponent''s turn.</p><p><span style="color:
     rgb(255, 255, 255)">Playing a card from your Hand with this rule is also a Combat
     Action rather than a Fast Action.</span></p><p></p><p><strong><span style="color:
-    rgb(236, 229, 216)">Usage(s)</span></strong></p><p>After this card''s effect is
+    rgb(255, 255, 255)">Usage(s)</span></strong></p><p>After this card''s effect is
     triggered, 1 <span style="color: rgb(255, 255, 255)">Usage </span>of it will be
     consumed.</p><p>This card will be discarded immediately once it has 0 <span style="color:
     rgb(255, 255, 255)">Usages </span>remaining.</p><p></p><p><strong><span style="color:
-    rgb(236, 229, 216)">Physical DMG</span></strong></p><p>Physical DMG will not apply
+    rgb(255, 255, 255)">Physical DMG</span></strong></p><p>Physical DMG will not apply
     any Elements, nor can it engage in Elemental Reactions.</p>'
   points:
   - point_type: ''

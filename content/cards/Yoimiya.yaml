@@ -45,10 +45,10 @@ skills:
   tag: Status
 - name: Ryuukin Saxifrage
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>Deals
-    4 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>, creates 1 <span style="color: #FFFFFF">Aurous Blaze</span>.</p><p></p>'
+    3 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>, creates 1 <span style="color: #FFFFFF">Aurous Blaze</span>.</p><p></p>'
   points:
   - point_type: pyro
-    point_count: 4
+    point_count: 3
   - point_type: recharge
     point_count: 3
   tag: Elemental Burst
@@ -88,13 +88,13 @@ skills:
   - point_type: ''
     point_count: 0
 - name: Detailed Rules
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Physical DMG</span></strong></p><p>Physical
+  description: '<p><strong><span style="color: rgb(255, 255, 255)">Physical DMG</span></strong></p><p>Physical
     DMG will not apply any Elements, nor can it engage in Elemental Reactions.</p><p></p><p><strong><span
-    style="color: rgb(236, 229, 216)">Usage(s)</span></strong></p><p>After this card''s
+    style="color: rgb(255, 255, 255)">Usage(s)</span></strong></p><p>After this card''s
     effect is triggered, 1 <span style="color: rgb(255, 255, 255)">Usage </span>of
     it will be consumed.</p><p>This card will be discarded immediately once it has
     0 <span style="color: rgb(255, 255, 255)">Usages </span>remaining.</p><p></p><p><strong><span
-    style="color: rgb(236, 229, 216)">Duration (Rounds)</span></strong></p><p>Each
+    style="color: rgb(255, 255, 255)">Duration (Rounds)</span></strong></p><p>Each
     time you reach the end of a Round, <span style="color: rgb(255, 255, 255)">Duration
     (Rounds) </span>- 1.</p><p>This card will be discarded immediately once <span
     style="color: rgb(255, 255, 255)">Duration (Rounds)</span> runs out.</p>'

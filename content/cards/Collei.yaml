@@ -38,7 +38,7 @@ skills:
   <span style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span>
   <span style="color: #99FF88">Dendro DMG</span>
   <span style="color: rgba(255, 255, 255, 0.65)">, summons 1 </span>
-  <span style="color: rgb(236, 229, 216)">Cuilein-Anbar</span>
+  <span style="color: rgb(255, 255, 255)">Cuilein-Anbar</span>
   <span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
   points:
   - point_type: dendro
@@ -46,8 +46,8 @@ skills:
   - point_type: recharge
     point_count: 2
   tag: Elemental Burst
-- name: Trump-Card Kitty
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Cuilein-anbar</span></strong></p>
+- name: Cuilein-Anbar
+  description: '<p>
   <span style="color: rgb(255, 215, 128)">Summon</span><p>
   <span style="color: rgb(255, 255, 255)">End Phase:</span> 
   <span style="color: rgb(255, 255, 255, 0.65)"> Deal 2 
@@ -76,9 +76,9 @@ skills:
   - point_type: ''
     point_count: 0
 - name: Detailed Rules
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Physical DMG</span></strong></p><p>Physical
+  description: '<p><strong><span style="color: rgb(255, 255, 255)">Physical DMG</span></strong></p><p>Physical
     DMG will not apply any Elements, nor can it engage in Elemental Reactions.</p><p></p><p><strong><span
-    style="color: rgb(236, 229, 216)">Usage(s)</span></strong></p><p>After this card''s
+    style="color: rgb(255, 255, 255)">Usage(s)</span></strong></p><p>After this card''s
     effect is triggered, 1 <span style="color: rgb(255, 255, 255)">Usage </span>of
     it will be consumed.</p><p>This card will be discarded immediately once it has
     0 <span style="color: rgb(255, 255, 255)">Usages </span>remaining.</p>'

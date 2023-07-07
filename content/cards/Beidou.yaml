@@ -26,7 +26,7 @@ skills:
 - name: Tidecaller
   description: >
     <p><span style="color: #FFD780">Elemental Skill</span></p>This character gains a 
-    <span style="color: rgb(236, 229, 216)">Tidecaller: Surf Embrace</span>.</p><p>
+    <span style="color: rgb(255, 255, 255)">Tidecaller: Surf Embrace</span>.</p><p>
     <span style="color: #FFFFFF">Prepare Skill: Wavestrider</span>.</p>
   points:
   - point_type: electro
@@ -34,18 +34,17 @@ skills:
   tag: Elemental Skill
 - name: Stormbreaker
   description: >
-    <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>Deals 3 
+    <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>Deals 2 
     <span style="color: rgb(255, 172, 255)">Electro DMG</span>, creates 1 
-    <span style="color: rgb(236, 229, 216)">Thunderbeast's Targe</span>.</p>
+    <span style="color: rgb(255, 255, 255)">Thunderbeast's Targe</span>.</p>
   points:
   - point_type: electro
-    point_count: 4
+    point_count: 3
   - point_type: recharge
     point_count: 3
   tag: Elemental Burst
-- name: Tidecaller
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Tidecaller: Surf Embrace</span></strong></p>
-  <span style="color: rgb(255, 215, 128)">Status</span></p>
+- name: "Tidecaller: Surf Embrace"
+  description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
   <p>The next time this character acts, they will immediately use the Skill 
   <span style="color: rgb(255, 215, 128)"">Wavestrider</span>.</p>
   <p>While preparing this Skill: Grant 2 
@@ -56,7 +55,7 @@ skills:
 - name: Wavestrider
   description: >
     <p><span style="color: #FFD780">Elemental Skill</span></p>
-    <p>(Prepare for 1 turn)</p><p>Deals 2 
+    <p>(Prepare for 1 turn)</p><p>Deals 3 
     <span style="color: #FFACFF">Electro DMG</span>.</p>
   side: true
   points:
@@ -64,7 +63,7 @@ skills:
     point_count: 0
   tag: Elemental Skill
 - name: Stormbreaker
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Thunderbeast''s Targe</span></strong></p>
+  description: '<p><strong><span style="color: rgb(255, 255, 255)">Thunderbeast''s Targe</span></strong></p>
   <span style="color: rgb(255, 215, 128)">Combat Status</span><p>
   <span style="color: #FFFFFF">After your character uses a Normal Attack</span>: Deal 1 
     <span style="color: #FFACFF">Electro DMG</span>.</p>

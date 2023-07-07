@@ -52,7 +52,7 @@ skills:
   - point_type: ''
     point_count: 0
 - name: Detailed Rules
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Combat Action</span></strong></p><p>After
+  description: '<p><strong><span style="color: rgb(255, 255, 255)">Combat Action</span></strong></p><p>After
     you finish 1 Combat Action, it will be your opponent''s turn.</p><p><span style="color:
     rgb(255, 255, 255)">Playing a card from your Hand with this rule is also a Combat
     Action rather than a Fast Action.</span></p>'

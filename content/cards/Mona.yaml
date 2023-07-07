@@ -97,14 +97,14 @@ skills:
   - point_type: ''
     point_count: 0
 - name: Detailed Rules
-  description: '<p><strong><span style="color: rgb(236, 229, 216)">Fast Action</span></strong></p><p>You
+  description: '<p><strong><span style="color: rgb(255, 255, 255)">Fast Action</span></strong></p><p>You
     can continue with other actions after conducing 1 Fast Action. Only after conducting
     1 Combat Action will the turn pass over to your opponent.</p><p></p><p><strong><span
-    style="color: rgb(236, 229, 216)">Combat Action</span></strong></p><p>After you
+    style="color: rgb(255, 255, 255)">Combat Action</span></strong></p><p>After you
     finish 1 Combat Action, it will be your opponents turn.</p><p><span style="color:
     rgb(255, 255, 255)">Playing a card from your Hand with this rule is also a Combat
     Action rather than a Fast Action.</span></p><p></p><p><strong><span style="color:
-    rgb(236, 229, 216)">Usage(s)</span></strong></p><p>After this card''s effect is
+    rgb(255, 255, 255)">Usage(s)</span></strong></p><p>After this card''s effect is
     triggered, 1 <span style="color: rgb(255, 255, 255)">Usage </span>of it will be
     consumed.</p><p>This card will be discarded immediately once it has 0 <span style="color:
     rgb(255, 255, 255)">Usages </span>remaining.</p>'

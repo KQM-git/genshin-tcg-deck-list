@@ -2,47 +2,53 @@
 name: Geoceanid
 tags:
     - Medium
-    - Combo
-description: Perhaps you’ve been looking for a new powerful deck to master that has a straightforward strategy and can easily sweep your opponents. Well, Geoceanid is for you! The main objective of this deck is to spam summons with Oceanid and threaten your opponent with its burst that deals a significant amount of damage as well as provide crystallize reactions for the Geo characters. Stonehide Lawachurl can also deal a huge amount of DMG with its passive plus geo reactions while Noelle can tank and solo in the late game thanks to her shield skill, geo resonance, and the needed equipment. It’s important to keep Noelle healthy at all times against AoE DMG decks, keep her safe with the healing food cards and you will be able to dominate your opponents in the late game.
-deck_code: '!!090P0N.2V.3C.3K2J.3D.3X40.411Z4E2I2N.3G.3N.3S.3U.3W.1R='
+    - Control
+description: Geoceanid aims to control the opponent while accruing advantages over time through the use of powerful Action Cards such as Tenacity of the Millelith and Tenshukaku. Use Rhodeia of Loch’s summons to apply Hydro on the opposing characters and Stonehide Lawachurl to output pressure when necessary. After setting up, make use of Zhongli and his multitude of shields to outlast and dominate the opponent in the late game!
+
+deck_code: '!!090P4T.2V.5U.3C.3K3L.3D.3X40.41.5R.3G.3U.2I.5I.5M.2O='
 good_against:
     - 
-        - Fischl
-        - Rhodeia of Loch
-        - Mirror Maiden
+        - Xiao
+        - Shenhe
+        - Sucrose
 bad_against:
     - 
-        - Xingqiu
-        - Ganyu
-        - Mona
-video_url: https://youtu.be/nwsq62KdvPs
-last_updated_version: 3.5
+        - Barbara
+        - Arataki Itto
+        - Noelle
+video_url: 
+last_updated_version: 3.8
 --- 
 
 ## Mulligan
-<CardRow :cards= "['Abyssal Summons', 'Starsigns', 'Liben', 'Liyue Harbor Wharf', 'Knights of Favonius Library']"></CardRow>
+<CardRow :cards= "['Tenshukaku', 'Vanarana', 'Liben', 'Liyue Harbor Wharf', 'Tenacity of the Millelith']"></CardRow>
 
-Oftentimes Abyssal Summons is the best card in your starting hand, as it can summon Pyro, Electro or Cryo hilichurls that synergizes very well with your Oceanid summons and can put even more pressure on the opponent in the early game. Keeping a copy of Starsigns in your hand is suggested to threaten an early Oceanid or Lawachurl Elemental Burst when your opponent is least expecting it. Ramp cards like Paimon, Liben and Liyue Harbor Wharf are also good to keep, so that you can have the advantage over your opponent in the midgame. Lastly, 1 copy dice fixers like The Bestest Traveling Companion! or Knights of Favonius Library is good to avoid having to tune your cards.  <br></br>
+In your mulligan, try to look for cards that help you either use up or carry over dice to the next round. Ramp cards such as Tenshukaku, Vanarana and Paimon are great for providing more dice for following rounds. Draw cards such as Liyue Harbor Wharf and Liben are good for allowing you to draw more key cards in your deck. Tenacity of the Millelith and, to a lesser extent, Vortex Vanquisher are good to keep as they are essential for Zhongli to carry. 
 
-If you are up against AoE DMG decks (Superconduct, Anemo Swirls, Electro-charge), Mushroom Pizza or Hash Brown can definitely keep your Noelle healthy and safe until late game.
-
-## The Power of Geoceanid Highroll
+## Early Game:
 <CardFan :cards="['Stonehide Lawachurl', 'Rhodeia of Loch']"></CardFan>
 
-For starters, you always want to start with Oceanid to get summons out with The Myriad Wilds (5 cost skill). If you have Abyssal Summons in hand you want to play that first so that the first 2 summons will cause a elemental reaction while the 3rd summon will apply an elemental aura to that character, this is helpful for setting up geo reactions and potentially setting up crazy elemental reactions with your second Abyssal Summons as your 4th summon.  <br></br>
+You always want to start Rhodeia on Round 1. In the first two rounds, you want to use a lot of your dice on ramp, draw and setting up Zhongli’s equips.Therefore, most of the time, you want to use Rhodeia’s 3 cost Elemental Skill, Oceanid Mimic Summoning, to summon an Oceanid Mimic while spending the rest of your dice on action cards. While Rhodeia’s 5 cost Elemental Skill, Myriad Wilds, may seem appealing, it does not provide any more application than simply using the 3 cost Elemental Skill in addition to being more expensive and having more stringent dice requirements. In the case of bad dice round 1, use Rhodeia’s Normal Attack or use up all your dice for action cards. <br></br>
 
-Oceanid burst is strong with 2+ summons on the field, if you happen to get Starsigns then that’s great for surprising your opponent with big chunk of DMG, if not however, you can use extra dice for setting up supports, equipping Noelle, or swap to Stonehide Lawachurl to get those geo reactions. Its passive is very important because you deal 1 additional DMG and another 1 additional DMG from geo reactions, you want to preserve that so don’t end turn with it unless there are no summons on your opponent’s board.  <br></br>
+On round 2, if you do not have an Oceanid Mimic summon on the field, use Rhodeia’s 3 cost Elemental Skill as you want to have a summon that can apply an element at all times. If you have an Oceanid Mimic on the field, you can swap to Lawachurl and use either a Normal Attack or an Elemental Skill depending on your dice. You can use up the rest of your dice by attacking additional times with Lawachurl if needed. If possible, try to use up a lot of your dice on action cards.  Round 2 is a good time to Equip Zhongli with either Tenacity of the Millelith or Vortex Vanquisher if you can. Setting up Zhongli is especially valuable against decks that struggle to break through his shields.
 
-An alternative approach is to start on Stonehide Lawachurl first. This way, if you have the Geo Woven Dice card, you can threaten to kill the opposing character in the first round (Normal Attack -> Normal Attack -> Woven Dice -> Elemental Burst), as the combo will deal exactly 10 DMG. Even if you do not have the Geo Woven Dice card, your opponent might expect it and be forced to swap out instead of staying on the same character for 1 whole round. This is very effective against units that like to get their Elemental Burst as early as possible like Xingqiu. Don’t worry if you are not able to snipe Xingqiu in the first round when your opponent expects the combo, as you are still able to disrupt their game plan and slow them down, allowing you to set up your own combo and win before them.  <br></br>
+## Mid/Late Game
+<CardRow :cards= "['Zhongli']"></CardRow>
 
-If you’re dealing with Double Pyro FTK decks, you can do The Myriad Wilds (5 cost skill) then swap to Stonehide Lawachurl. When the next round comes in you can deal a maximum of 5 DMG with just skill alone or 4 DMG with a normal attack plus you get 1 shield point thanks to geo reactions. If you’re going for this route, then make use of Stonehide Lawachurl’s passive until it gets knocked out, you can also use 1 Geo Resonance to protect it but save the other one for Noelle. Stonehide Lawachurl doesn’t need tons of card protection because you only need to use them for Noelle only and its passive doesn’t last long, when its passive is depleted, it’ll become very weak and unable to cause geo reactions but it can still do 5 DMG burst.
+In the mid-game, focus on keeping Zhongli healthy. If you have already equipped Zhongli with one of Vortex Vanquisher or Tenacity of the Millelith, you can try to get value with them by swapping to Zhongli and using either his 3 or 5 cost Elemental Skill. Otherwise, try to limit the opponents options by threatening a kill on one of their characters with Elemental Bursts from Lawachurl or Rhodeia. However, if necessary, do not be afraid of letting both Rhodeia and Lawachurl die to set up on Zhongli and ramp. <br></br>
 
-## Time to clean up with Noelle
-<CardRow :cards= "['Noelle']"></CardRow>
+The late-game is when Zhongli truly begins to shine. Equipped with Tenacity of the Millelith and Vortex Vanquisher, Zhongli can be extremely hard to break through. Focus on using Zhongli’s 5 cost Elemental Skill to create a Jade Shield, slowing the opponent’s progress while chipping away at them. Furthermore, cards such as Elemental Resonance: Enduring Rock and Lotus Flower Crisp allows Zhongli to tank even more damage. Zhongli’s Elemental Burst allows him to petrify opposing characters, giving him the ability to stop opposing threats while basically all but guaranteeing a win in a 1v1 situation.
 
-Once your other characters get eliminated, then it’s time for Noelle to sweep the board! Her shield is what makes her super strong when it comes to stalling, if your Noelle is fully equipped with Wolf’s Gravestone and General Ancient’s Helm/Lucky Dog then you’re pretty much unstoppable. Build her burst with her shields, normal attacking is fine as long as the shield remains intact. Once her energy is maxed out you don’t want to use her burst immediately unless you are in a safe position, you usually burst if it’s lethal. With her burst you can easily sweep your opponents with your normal attacks.  <br></br>
+## General Gameplay Tips
+<CardRow :cards="['Tenshukaku', 'Abyssal Summons']"></CardRow>
 
-Now what if your Noelle doesn’t have any equipment? Don’t worry as she is steady as stone. With the aid of Geo Resonance alongside with other food cards she can survive even against lethal threats. Pair her with 1 Abyssal Summons and that will give you 1 extra DMG and 1 extra shield point thanks to geo reactions. Chip your opponent’s HP away with just skill and normal attacks then burst to close the game.
+When using Tenshukaku during the same round as other ramp cards, make sure to play it after your other ramp cards as the dice from the earlier ramp cards will be accounted for when Tenshukaku checks for 5 different types of dice. Therefore, it is recommended to play Vanarana and Liben before Tenshukaku even if you will be left with 0 dice remaining. Abyssal Summons should mainly be used to apply an element to trigger Crystallize. However, using it between two Oceanid Mimics or before using an Elemental Burst with Rhodeia are also viable options. Lastly, aim to end your round before your opponent in the late-game so that you can use Zhongli’s 5 cost skill or actions cards to survive your opponent’s attacks.
+
+## Tech Options
+<CardRow :cards="['Send Off', 'Adeptus\' Temptation', 'Starsigns', 'Ancient Courtyard', 'Covenant of Rock']"></CardRow>
+
+Geoceanid has a few options it can choose between depending on what matchups you want to prepare for. A big one is Send Off which is very powerful against decks that make use of summons. You can put in cards such as another Mondstadt Hash Brown or Favonius Cathedral if you want more healing. Cards such as Adeptus’ Temptation, Heavy Strike or Starsigns are good for giving you more options and can be the extra push you need to get an essential kill. Lastly, the Arcane cards: Ancient Courtyard and Covenant of Rock have powerful effects that give an effective 2 extra dice, but are reliant on other cards in your deck to function. They are also guaranteed to be in your starting hand which is usually bad as a lot of other cards are more important Round 1. Consider taking out cards such as: The Bestest Travel Companion!, Mondstadt Hash Brown, Paimon or a copy of Vanarana for these cards.
 
 ### Credits
-Guide made originally by Zo/4rk#0443. Proofread and approved by many Theorycrafting Staffs (Juslin#7989, KevinZ#4959, Ting#9554, etc.). Big shoutouts to Pohtato#2227 for the amazing feedback and crepaholic#8721 for the amazing short video.
+Guide by KevinZ, with help from Ting and other theorycrafting staff.
+

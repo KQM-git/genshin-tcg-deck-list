@@ -86,7 +86,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="rounded-xl p-5 bg-[#2D282F] border-2 border-[#584F65]">
+                <div
+                    v-if="deck.video_url"
+                    class="rounded-xl p-5 bg-[#2D282F] border-2 border-[#584F65]"
+                >
                     <p class="text-2xl font-genshin">
                         Video
                     </p>

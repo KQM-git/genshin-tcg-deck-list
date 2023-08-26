@@ -7,22 +7,22 @@ description: Shenhe Anemo can deal up to 4 damage Swirls by stacking Cryo damage
 deck_code: '!!0K4Y4S.3A.3K.3I.2V.5U.3B.3X.40.21.62.2Z.3G3S6D.2O.15='
 good_against:
     - 
-        - Bennett
-        - Electro Hypostasis
-        - Fatui Pyro Agent
+        - Chongyun
+        - Raiden Shogun
+        - Shenhe
 bad_against: 
     - 
-        - Rhodeia of Loch
-        - Stonehide Lawachurl
-        - Zhongli
+        - Arataki Itto
+        - Barbara
+        - Noelle
 video_url: https://www.youtube.com/watch?v=h4vjGMVZI7o
-last_updated_version: 3.7
+last_updated_version: '4.0'
 --- 
  
 ## Mulligan 
 <CardRow :cards="['Liu Su', 'Liben', 'The Bestest Travel Companion!']"></CardRow>
 
-Always keep 1 Liu Su and The Bestest Travel Companion as Shenhe’s burst is a vital point to your strategy and you want to be able to use your skill round 1 and generate Icy Quills. Keep ramp cards such as Liben and Paimon, but if you have neither, you can keep Stone and Contracts, otherwise mulligan it away as it will be harder to use effectively otherwise.
+Always keep 1 Liu Su and The Bestest Travel Companion as Shenhe’s burst is a vital point to your strategy and you want to be able to use your skill round 1 and generate Icy Quills. Keep ramp cards such as Liben and Paimon, to guarantee being able to use 3 skills in future rounds.
 
 ## Early Game
 <CardFan :cards="['Liben', 'Chaotic Entropy']"></CardFan>

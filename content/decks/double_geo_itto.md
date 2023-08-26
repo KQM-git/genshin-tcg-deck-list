@@ -44,7 +44,7 @@ If the opponent lacks the means to take out Itto, you can safely amass energy fo
 Don’t hesitate to sacrifice Barbara or Noelle later in the game to soak up damage and safely deploy Itto. When you are ready to combo with Itto, use Geo Resonance: Enduring Rock and Food Cards such as Lotus Flower Crisp to keep Itto out of kill range. Heavy Strike adds the extra damage needed for a kill, while Wind and Freedom can keep Itto safe by allowing another action before the opponent gets to respond. In the event that Itto is unexpectedly defeated, Noelle serves as a reliable backup carry, with good survivability, decent damage output with her Elemental Burst, and the ability to equip The Bell similar to Itto.
 
 ## Other Options
-<CardRow :cards= "['Ancient Courtyard', 'Strategize', 'Sumeru City', 'Gambler’s Earrings', 'Guardian’s Oath']"></CardRow>
+<CardRow :cards= "['Ancient Courtyard', 'Strategize', 'Sumeru City', 'Gambler\'s Earrings', 'Guardian\'s Oath']"></CardRow>
 
 The flexibility of Double Geo Itto extends to deck building, with multiple tech options that can be considered in the deck. Below are some noteworthy choices. <br></br>
 

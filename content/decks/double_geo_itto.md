@@ -13,7 +13,7 @@ good_against:
         - Fatui Pyro Agent
 bad_against:
     - 
-        - Ayaka
+        - Kamisato Ayaka
         - Yoimiya
         - Chongyun
 video_url: ''

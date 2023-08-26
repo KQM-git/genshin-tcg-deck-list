@@ -17,7 +17,7 @@ bad_against:
         - Yoimiya
         - Chongyun
 video_url: ''
-last_updated_version: 4.0
+last_updated_version: '4.0'
 --- 
 
 ## Mulligan

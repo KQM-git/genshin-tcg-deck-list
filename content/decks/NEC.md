@@ -16,8 +16,8 @@ bad_against:
         - Klee
         - Mona
         - Fatui Pyro Agent
-video_url: 
-last_updated_version: 4.0
+video_url: ''
+last_updated_version: '4.0'
 --- 
 
 ## Mulligan

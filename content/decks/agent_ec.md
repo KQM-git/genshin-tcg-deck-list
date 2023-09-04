@@ -30,7 +30,7 @@ Look for ramp and card draw that can be effectively utilized during the early st
 In the initial round, prioritize applying pressure by using Rhodeia of Loch's Elemental Skill. Typically, you start by using Rhodeia of Loch’s 5-cost Elemental Skill to Summon your Oceanid Mimics, then use the remaining Dice towards playing ramp cards such as Liben, Tubby, or Liyue Harbor Wharf. In the case where you don't have any ramp cards to utilize your remaining Dice, alternatively use Rhodeia of Loch’s 3-cost Elemental Skill along with Fischl's Skill. The rule of thumb is having at least Oz and at least two Oceanid Mimics at the end of Round 2. <br></br>
 
 ## Mid - Late Game
-<CardFan :cards= "['Lucky Dog\'s Silver Circlet', 'I Haven\'t Lost Yet', 'Calx\'s Art']"></CardFan>
+<CardFan :cards= "['Lucky Dog\'s Silver Circlet', 'I Haven\'t Lost Yet', 'Calx\'s Arts']"></CardFan>
 
 Prioritizing always having Summons on the field and using healing cards to stay out of your opponent’s breakpoints is your main strategy. While slowly generating Summon value, keep an eye on your energy, as cards such as Calx's Arts and I Haven't Lost Yet!, when combined with Adeptus' Temptation, can catch opponents off guard with an unexpected Elemental Burst on a crucial target. Fischl's Elemental Burst, Midnight Phantasmagoria, can deal significant AoE Damage to eliminate low-health standby characters. Whereas Rhodeia's Elemental Burst: Tide and Torrent is capable of unleashing up to 10 points of damage with four Summons on the field, which is enough to defeat a full-health character in one shot. <br></br>
 

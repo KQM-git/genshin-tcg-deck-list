@@ -20,7 +20,7 @@ last_updated_version: '4.0'
 --- 
 
 ## Mulligan
-<CardRow :cards= "['Tubby', 'Liben', 'The Bestest Travel Companion!', 'Liyue Harbor Wharf'']"></CardRow>
+<CardRow :cards= "['Tubby', 'Liben', 'The Bestest Travel Companion!', 'Liyue Harbor Wharf']"></CardRow>
 
 Look for ramp and card draw that can be effectively utilized during the early stages of the game such as Liben, Tubby, Liyue Harbor Wharf, and Strategize. Dice fixers will also serve as effective tools to enhance the deck’s consistency, particularly when Dice rolls are unfavorable. Thus, It is recommended to keep The Bestest Travel Companion! if it appears during the mulligan phase. <br></br>
 

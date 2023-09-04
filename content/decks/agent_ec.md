@@ -15,8 +15,7 @@ bad_against:
         - Shenhe
         - Raiden Shogun
         - Chongyun
-        
-video_url: https://youtu.be/efrasMiF2PU
+video_url: https://www.youtube.com/watch?v=efrasMiF2PU
 last_updated_version: '4.0'
 --- 
 

@@ -9,7 +9,7 @@ good_against:
     - 
         - Klee
         - Mona
-        - Fatui Agent
+        - Fatui Pyro Agent
 bad_against:
     - 
         - Shenhe

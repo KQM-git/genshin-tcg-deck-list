@@ -11,5 +11,5 @@ skills:
     <p><span style="color: #FFFFFF">After another character of yours uses an Elemental Burst: </span>The character to which this is attached gains 1 <span style="color: #FFFFFF">Energy</span>.<p/>
     <p>(A character can equip a maximum of 1 Artifact)</p>
   points:
-  - point_type: black
-    point_count: 2
+  - point_type: white
+    point_count: 1

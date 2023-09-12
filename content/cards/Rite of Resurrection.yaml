@@ -1,0 +1,29 @@
+name: Rite of Resurrection
+id: 211081
+tags: []
+offset:
+  character: 'top'
+  list: '50% 50%'
+  modal: '50% 50%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is <span style="color: #FFFFFF">Qiqi</span>, equip this card.</p>
+    <p>After Qiqi equips this card, immediately use <span style="color: #FFD780">Adeptus Art: Preserver of Fortune</span>once.</p>
+    <p>After your Qiqi, who has this card equipped, uses <span style="color: #FFFFFF">Adeptus Art: Preserver of Fortune</span>, she revives all your fallen characters and heals them for 2 HP. (Can happen 2 times per match)</p>
+    <p>(You must have Qiqi in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: cryo
+    point_count: 5
+  - point_type: recharge
+    point_count: 3
+- name: "Adeptus Art: Preserver of Fortune"
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+    Deals 3 <span style="color: #99FFFF">Cryo DMG</span>, creates 1 <span style="color: rgb(255, 255, 255)">Fortune-Preserving Talisman</span>.
+  points:
+  - point_type: cryo
+    point_count: 3
+  - point_type: recharge
+    point_count: 3
+  side: true

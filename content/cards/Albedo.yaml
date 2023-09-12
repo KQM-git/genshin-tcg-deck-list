@@ -1,0 +1,53 @@
+name: Albedo
+id: 1604
+tags:
+- Geo
+- Sword
+- Mondstadt
+type: Character Card
+hp: '10'
+energy: '2'
+element: Geo
+weapon: Sword
+offset:
+  character: 'top'
+  list: '50% 20%'
+  modal: '50% 18%'
+skills:
+- name: Favonius Bladework - Weiss
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>
+    Deals 2 <span style="color: rgb(255, 255, 255)">Physical DMG</span>.
+  points:
+  - point_type: geo
+    point_count: 1
+  - point_type: black
+    point_count: 2
+  tag: Normal Attack
+- name: "Abiogenesis: Solar Isotoma"
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+    Summons <span style="color: rgb(255, 255, 255)">Solar Isotoma</span>.
+  points:
+  - point_type: geo
+    point_count: 3
+  tag: Elemental Skill
+- name: "Rite of Progeniture: Tectonic Tide"
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+    Deals 4 <span style="color: rgb(255, 230, 153)">Geo DMG</span>. If <span style="color: rgb(255, 255, 255)">Solar Isotoma</span> is on the field, deals +2 DMG.
+  points:
+  - point_type: geo
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+  tag: Elemental Burst
+- name: Solar Isotoma
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
+    <p><span style="color: rgb(255, 255, 255)">End Phase: </span>Deal 1 <span style="color: rgb(255, 230, 153)">Geo DMG</span>.</p>
+    <p><span style="color: rgb(255, 255, 255)">Usage(s)</span>: 3</p>
+    <p><span style="color: rgb(255, 255, 255)">When this Summon is on the field: </span>Your character's <span style="color: rgb(255, 255, 255)">Plunging Attack</span> spends 1 less <span style="color: rgb(255, 255, 255)">Unaligned Element</span>. (Once per Round)</p>
+  points:
+  - point_type: ''
+    point_count: -1

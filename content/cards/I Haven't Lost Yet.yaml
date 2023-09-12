@@ -7,9 +7,8 @@ offset:
   modal: '50% 20%'
 skills:
 - name: Description
-  description: "<p>Only playable if one of your characters is defeated this Round:</p><p>Create\
-    \ <span style=\"color: #FFFFFF\">Omni Element</span> \xD71 and your current active\
-    \ character gains 1 <span style=\"color: #FFFFFF\">Energy</span>.</p>"
+  description: >
+    <p>Only playable if one of your characters is defeated this Round:</p><p>Create <span style="color: #FFFFFF">Omni Element</span> \xD71 and your current active character gains 1 <span style="color: #FFFFFF">Energy</span>. (Only one copy of I Haven't Lost Yet! can be played each round.)</p>"
   points:
   - point_type: white
     point_count: 0

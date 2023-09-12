@@ -11,6 +11,6 @@ skills:
     a Talent</span>: Spend 1 less <span style="color: #80C0FF">Hydro </span>Die. (Once
     per Round)</p><p>(A character can equip a maximum of 1 Artifact)</p>'
   points:
-  - point_type: white
+  - point_type: black
     point_count: 2
 source: <p>Default Deck</p><p>Purchased at the Card Shop</p>

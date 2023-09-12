@@ -7,7 +7,7 @@ offset:
   modal: '50% 47%'
 skills:
 - name: Description
-  description: '<p>Convert all your Elemental Dice to the Type of the active character.</p>
+  description: '<p>Convert all your Elemental Dice to <span style="color: #FFFFFF">Omni Element</span>.</p>
   <p>(You must have at least 2 Inazuman characters in your deck to add this card to your deck.)</p>'
   points:
   - point_type: white

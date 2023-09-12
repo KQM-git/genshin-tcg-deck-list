@@ -1,0 +1,35 @@
+name: Descent of Divinity
+id: 216041
+tags: []
+offset:
+  character: 'top'
+  list: '50% 65%'
+  modal: '50% 65%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is <span style="color: #FFFFFF">Albedo</span>, equip this card.</p>
+    <p>After Albedo equips this card, immediately use <span style="color: #FFD780">Abiogenesis: Solar Isotoma</span> once.</p>
+    <p>When there is Albedo on the field who has this card equipped, if your side of the field has <span style="color: #FFFFFF">Solar Isotoma</span>, then your characters' <span style="color: #FFFFFF">Plunging Attack</span> deals +1 DMG.</p>
+    <p>(You must have Albedo in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: geo
+    point_count: 3
+- name: "Abiogenesis: Solar Isotoma"
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+    Summons <span style="color: rgb(255, 255, 255)">Solar Isotoma</span>.
+  points:
+  - point_type: geo
+    point_count: 3
+  side: true
+- name: Solar Isotoma
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
+    <p><span style="color: rgb(255, 255, 255)">End Phase: </span>Deal 1 <span style="color: rgb(255, 230, 153)">Geo DMG</span>.</p>
+    <p><span style="color: rgb(255, 255, 255)">Usage(s)</span>: 3</p>
+    <p><span style="color: rgb(255, 255, 255)">When this Summon is on the field: </span>Your character's <span style="color: rgb(255, 255, 255)">Plunging Attack</span> spends 1 less <span style="color: rgb(255, 255, 255)">Unaligned Element</span>. (Once per Round)</p>
+  points:
+  - point_type: ''
+    point_count: -1
+  side: true

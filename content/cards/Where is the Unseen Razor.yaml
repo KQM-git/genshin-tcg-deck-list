@@ -1,0 +1,16 @@
+name: Where is the Unseen Razor?
+id: 332022
+tags: []
+offset:
+  character: 'top'
+  list: '50% 50%'
+  modal: '50% 50%'
+skills:
+- name: Description
+  description: >
+    <p>Return a Weapon card equipped by your character to your Hand.</p>
+    <p><span style="color: #FFFFFF">During this Round, the next time you play a Weapon card:</span> Spend 2 less Elemental Dice.</p>
+  points:
+  - point_type: ''
+    point_count: 0
+source: <p>Purchased at the Card Shop</p>

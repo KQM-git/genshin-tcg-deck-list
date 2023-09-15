@@ -12,5 +12,5 @@ skills:
     <p>The DMG dealt by the character's Elemental Bursts is increased by 2.</p>
     <p>(A character can equip a maximum of 1 Artifact)</p>
   points:
-  - point_type: black
-    point_count: 3
+  - point_type: white
+    point_count: 2

@@ -12,5 +12,5 @@ skills:
     <p><span style="color: #FFFFFF">If the character has at least 2 Energy</span>, this character's Normal Attacks and Elemental Skills will deal +1 DMG.</p>
     <p>(A character can equip a maximum of 1 Artifact)</p>
   points:
-  - point_type: white
+  - point_type: black
     point_count: 3

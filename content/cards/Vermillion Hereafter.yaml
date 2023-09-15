@@ -12,5 +12,5 @@ skills:
     <p><span style="color: #FFFFFF">After a character is switched to the active character: </span>During this Round, character deals +1 Normal Attack DMG.</p>
     <p>(A character can equip a maximum of 1 Artifact)</p>
   points:
-  - point_type: white
-    point_count: 2
+  - point_type: black
+    point_count: 3

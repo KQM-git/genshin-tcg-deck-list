@@ -13,6 +13,6 @@ skills:
     starting Elemental Dice you roll are always guaranteed to be <span style="color:
     #99FF88">Dendro Dice</span>.</p><p>(A character can equip a maximum of 1 Artifact)</p>'
   points:
-  - point_type: black
-    point_count: 3
+  - point_type: white
+    point_count: 2
 source: '<p><span style="color: rgba(255, 255, 255, 0.65)">Purchased at the Card Shop</span></p>'

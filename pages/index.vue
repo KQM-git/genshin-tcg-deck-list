@@ -31,7 +31,7 @@
             >
                 <div
                     v-for="(tagSection, index) in [
-                        ['Easy', 'Medium', 'Hard', 'Very Hard'], ['Aggro', 'Combo', 'Control']]"
+                        ['Easy', 'Medium', 'Hard', 'Very Hard'], ['Aggro', 'Combo', 'Control'], ['Retired']]"
                     :key="index"
                     class="w-full flex flex-row gap-2 overflow-x-auto"
                 >
@@ -208,7 +208,9 @@ async function getDecks ($content: any, codeMapping: { [key: string]: string}, s
     })
 
     if (searchFilters.tags?.length > 0) {
-        decks = decks.filter((deck: any) => searchFilters.tags.every((tag: string) => deck.tags.includes(tag)))
+        decks = decks.filter((deck: any) => searchFilters.tags.every((tag: string) => deck.tags.includes(tag))).filter((deck: any) => !deck.tags.includes('Retired') || searchFilters.tags.includes('Retired'))
+    } else {
+        decks = decks.filter((deck: any) => !deck.tags.includes('Retired'))
     }
 
     if (searchFilters.characters?.length > 0) {
@@ -228,7 +230,7 @@ export default Vue.extend({
             codeMapping[entry.Code] = entry.Card
         }
 
-        const decks = await getDecks($content, codeMapping)
+        const decks = (await getDecks($content, codeMapping)).filter((deck: any) => !deck.tags.includes('Retired'))
 
         const characters = (await $content('cards').fetch() as any[]).filter((card: any) => card.type === 'Character Card')
         const filteredCharacters = characters

@@ -3,6 +3,7 @@ name: Mirror Maiden Electro-Charged
 tags:
     - Medium
     - Control
+    - Retired
 description: Mirror Maiden Electro-Charged, or MMEC, is a Summon-oriented midrange deck which aims to gain advantage through high value Skills and Electro-Charged. Use Rhodeia of Loch and Fischl's Summons to whittle down the opponent and use their Elemental Bursts and Mirror Maiden to finish them off!
 deck_code: '!!090G0A.3L.34.3H.2V.3K.3I.35.3O.3X.41.4E.3W.3G.2I.2O='
 good_against:

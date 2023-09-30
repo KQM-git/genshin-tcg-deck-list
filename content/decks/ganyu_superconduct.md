@@ -3,6 +3,7 @@ name: Ganyu Superconduct
 tags:
     - Easy
     - Aggro
+    - Retired
 description: AoE DMG is the name of this deck. With the aid of the Superconduct Elemental Reaction, as well as Ganyu's Talents, this deck is able to easily whittle down all three of your opponent's Character Cards in one fell swoop. When your opponent only has one character remaining, finish them off with Keqing!
 deck_code: '!!030G0I.2W.2V.38.3H.3K.3L.21.2J.2Z.39.3X.41.3G.2O.0S='
 good_against:

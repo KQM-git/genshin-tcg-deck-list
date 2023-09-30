@@ -3,6 +3,7 @@ name: Fatui Hu Tao
 tags:
     - Hard
     - Aggro
+    - Retired
 description: Fatui Hu Tao is an aggro deck that makes use of high elemental application to output high damage, being able to take out an opposing character by round 1. Make use of Cryo Cicin Mage’s Cryo Cicin’s and Hu Tao’s Charged Attacks with Paramita Papilio active to dish out damage. Finish the opponent off with high damage elemental bursts.
 deck_code: '!!0F4V4O.2V.3K3L.3H.36.3Y3V.2U.21.62.3X.37693W.67.3G.2O='
 good_against:

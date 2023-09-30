@@ -3,6 +3,7 @@ name: Double Anemo Control
 tags:
     - Hard
     - Control
+    - Retired
 description: The aim of the deck is to abuse Jean and Sucrose’s Elemental Skills to disrupt your opponent’s gameplan and use Swirls to deal consistent damage to all the enemy characters. Stop the opponent from doing what they want, and you will eventually win thanks to Swirl DMG, thanks to Sucrose’s Talent card. 
 deck_code: '!!0K0L06.2V.3K.3A.2Z.3J.3X.41.3B.1Z.2N2I.3G3S.15.1X.2O='
 good_against:

@@ -3,6 +3,13 @@
         <div class="max-w-screen-lg mx-auto h-full">
             <NavBar />
             <Nuxt />
+            <a href="https://www.netlify.com">
+                <img
+                    class="mx-auto p-3"
+                    src="https://www.netlify.com/v3/img/components/netlify-color-accent.svg"
+                    alt="Deploys by Netlify"
+                >
+            </a>
         </div>
     </div>
 </template>

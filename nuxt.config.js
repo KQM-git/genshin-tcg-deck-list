@@ -1,3 +1,6 @@
+// const fs = require('fs')
+import { readdirSync } from 'fs'
+
 export default {
     // Allows testing on mobile
     server: {
@@ -107,5 +110,8 @@ export default {
             }
         }
     },
-    ignore: [process.env.NODE_ENV === 'production' && 'pages/test.vue']
+    ignore: [process.env.NODE_ENV === 'production' && 'pages/test.vue'],
+    generate: {
+        routes: readdirSync('./content/decks').map(x => x.replace('.md', ''))
+    }
 }

@@ -106,5 +106,6 @@ export default {
                 modules: false
             }
         }
-    }
+    },
+    ignore: [process.env.NODE_ENV === 'production' && 'pages/test.vue']
 }

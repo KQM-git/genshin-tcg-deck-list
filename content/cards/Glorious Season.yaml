@@ -30,7 +30,7 @@ skills:
   tag: Elemental Skill
 - name: Melody Loop
   description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
-    style="color: #FFFFFF">End Phase:</span> Heal all your characters for
+    style="color: #FFFFFF">End Phase</span>: Heal all your characters for
     1 HP and your active character gains <span style="color: rgb(128, 192, 255)">Hydro
     Application</span>.</p><p><span style="color: #FFFFFF">Usage(s): 2</span></p>'
   points:

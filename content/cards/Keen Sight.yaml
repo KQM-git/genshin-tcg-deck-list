@@ -29,10 +29,10 @@ skills:
 - name: Vijnana Suffusion
   description: >
     <p><span style="color: rgb(255, 215, 128)">Status</span></p>
-    <p><span style="color: #FFFFFF">When the character to which this is attached uses a Charged Attack:</span> 
+    <p><span style="color: #FFFFFF">When the character to which this is attached uses a Charged Attack</span>: 
     Their <span style="color: #FFFFFF">Physical DMG</span> dealt will be converted to <span style="color: #99FF88">Dendro DMG</span> 
     and after the Skill DMG is finalized, summon 1 <span style="color: #FFFFFF">Clusterbloom Arrow</span>.</p>
-    <p><span style="color: #FFFFFF">Usage(s):</span> 2.</p>
+    <p><span style="color: #FFFFFF">Usage(s)</span>: 2.</p>
   points:
   - point_type: ''
     point_count: -1
@@ -40,8 +40,8 @@ skills:
 - name: Clusterboom Arrow
   description: >
     <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
-    <p><span style="color: #FFFFFF">End Phase:</span> deal 1 <span style="color: #99FF88">Dendro DMG</span>.</p>
-    <p><span style="color: #FFFFFF">Usage(s):</span> 1. (Can stack. Max 2 stacks.)</p>
+    <p><span style="color: #FFFFFF">End Phase</span>: deal 1 <span style="color: #99FF88">Dendro DMG</span>.</p>
+    <p><span style="color: #FFFFFF">Usage(s)</span>: 1. (Can stack. Max 2 stacks.)</p>
   points:
   - point_type: ''
     point_count: -1

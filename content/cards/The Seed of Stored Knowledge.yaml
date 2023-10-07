@@ -8,7 +8,7 @@ offset:
 skills:
 - name: Description
   description: >
-    <p><span style="color: #FFFFFF">Combat Action:</span> When your active character is <span style="color: #FFFFFF">Nahida</span>, equip this card.</p>
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is <span style="color: #FFFFFF">Nahida</span>, equip this card.</p>
     <p>After Nahida equips this card, immediately use <span style="color: rgb(255, 215, 128)">Illusory Heart</span> once.</p>
     <p>When your Nahida, who has this card equipped, is on the field, the following effects will take place based on your party's Elemental Types:</p>
     <p><span style="color: rgb(255, 153, 153)">Pyro</span>: When the <span style="color: #FFFFFF">Shrine of Maya</span> is on the field, 
@@ -38,7 +38,7 @@ skills:
   tag: Elemental Burst
 - name: Shrine of Maya
   description: '<p><span style="color: rgb(255, 215, 128)">Combat Status</span><p>
-  <p><span style="color: #FFFFFF">When your character triggers an Elemental Reaction:</span> 
+  <p><span style="color: #FFFFFF">When your character triggers an Elemental Reaction</span>: 
   <span> +1 additional DMG.</span></p>
   <p><span style="color: #FFFFFF">Duration (Rounds): 2</span></p>'
   points:
@@ -47,7 +47,7 @@ skills:
   tag: Combat Status
 - name: Seed of Skandha
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span><p>
-  <p><span style="color: #FFFFFF">After any character who has a Seed of Skandha takes Elemental Reaction DMG:</span> 
+  <p><span style="color: #FFFFFF">After any character who has a Seed of Skandha takes Elemental Reaction DMG</span>: 
   <span> Deal 1 
   <span style="color: #FFFFFF">Piercing DMG</span> to the character(s) 
   to which the Seed of Skandha is attached on the same side of the field.</p>

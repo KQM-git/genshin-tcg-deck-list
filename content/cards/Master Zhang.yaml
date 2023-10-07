@@ -7,7 +7,7 @@ offset:
   modal: '50% 20%'
 skills:
 - name: Description
-  description: '<p><span style="color: #FFFFFF">When you play a Weapon from your hand:</span> 
+  description: '<p><span style="color: #FFFFFF">When you play a Weapon from your hand</span>: 
     Spend 1 less Elemental Die. For every character already equipped with a Weapon on the field, you spend 1 less Elemental Die. (Once per Round)</p>'
   points:
   - point_type: white

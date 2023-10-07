@@ -41,7 +41,7 @@ skills:
   tag: Elemental Burst
 - name: 'Tengu Juurai: Ambush'
   description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
-    style="color: #FFFFFF">End Phase:</span> Deal 1 <span style="color: #FFACFF">Electro DMG</span>, applies
+    style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: #FFACFF">Electro DMG</span>, applies
     <span style="color: #FFFFFF">Crowfeather Cover</span> to friendly active character.</p>
     <p><span style="color: #FFFFFF">Usage(s): 1</span></p>'
   points:
@@ -49,7 +49,7 @@ skills:
     point_count: -1
 - name: 'Tengu Juurai: Stormcluster'
   description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
-    style="color: #FFFFFF">End Phase:</span> Deal 2 <span style="color: #FFACFF">Electro DMG</span>, applies
+    style="color: #FFFFFF">End Phase</span>: Deal 2 <span style="color: #FFACFF">Electro DMG</span>, applies
     <span style="color: #FFFFFF">Crowfeather Cover</span> to friendly active character.</p>
     <p><span style="color: #FFFFFF">Usage(s): 2</span></p>'
   points:

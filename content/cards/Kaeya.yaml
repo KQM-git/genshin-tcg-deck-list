@@ -41,7 +41,7 @@ skills:
   tag: Elemental Burst
 - name: Icicle
   description: '<p><span style="color: rgb(255, 215, 128)">Combat Status</span></p>
-    <p><span style="color: #FFFFFF">After you switch characters:</span>
+    <p><span style="color: #FFFFFF">After you switch characters</span>:
     <span> Deal 2 </span>
     <span style="color: rgb(153, 255, 255)"> Cryo DMG</span>.</p><p>
     <span style="color: #FFFFFF">Usage(s): 3</span></p>'

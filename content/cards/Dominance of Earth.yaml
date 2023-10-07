@@ -8,7 +8,7 @@ offset:
 skills:
 - name: Description
   description: >
-    <p><span style="color: #FFFFFF">Combat Action:</span> When your active character is <span style="color: #FFFFFF">Zhongli</span>, equip this card.</p>
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is <span style="color: #FFFFFF">Zhongli</span>, equip this card.</p>
     <p>After Zhongli equips this card, immediately use <span style="color: rgb(255, 215, 128)">Dominus Lapidis: Striking Stone</span> once.</p>
     <p>When your active character is protected by a <span style="color: #FFFFFF">Shield</span> Character Status 
     or a <span style="color: #FFFFFF">Shield</span> Combat Status, your Summons deal +1 <span style="color: rgb(255, 230, 153)">Geo DMG</span>.</p>

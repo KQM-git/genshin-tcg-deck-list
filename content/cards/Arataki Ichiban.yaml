@@ -31,9 +31,9 @@ skills:
 - name: Superlative Superstrength
   description: >
     <p><span style="color: rgb(255, 215, 128)">Status</span></p>
-    <p><span style="color: #FFFFFF">When the character to which this is attached uses a Charged Attack:</span> deal +1 DMG. 
+    <p><span style="color: #FFFFFF">When the character to which this is attached uses a Charged Attack</span>: deal +1 DMG. 
     If the <span style="color: #FFFFFF">Usage(s)</span> are no less than 2, expend 1 less <span style="color: #FFFFFF">Unaligned Element.</span></p>
-    <p><span style="color: #FFFFFF">Usage(s):</span> 1. (Can stack. Max 3 stacks.)</p>
+    <p><span style="color: #FFFFFF">Usage(s)</span>: 1. (Can stack. Max 3 stacks.)</p>
   points:
   - point_type: ''
     point_count: -1

@@ -9,7 +9,7 @@ skills:
 - name: Description
   description: >
     <p>During this round, your current active character's next <span style="color: #FFFFFF">Normal Attack</span> deals +1 DMG.</p>
-    <p><span style="color: #FFFFFF">When this Normal Attack is a Charged Attack:</span> Deal +1 additional DMG.</p>
+    <p><span style="color: #FFFFFF">When this Normal Attack is a Charged Attack</span>: Deal +1 additional DMG.</p>
   points:
   - point_type: white
     point_count: 1

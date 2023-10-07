@@ -32,7 +32,7 @@ skills:
   description: '<p><strong><span
     style="color: #FFFFFF">Explosive Spark</span></strong></p><span style="color:
     rgb(255, 215, 128)">Status</span></p><p>
-  <span style="color: #FFFFFF">When the character to which this is attached uses a Charged Attack:</span> Spend 1 less 
+  <span style="color: #FFFFFF">When the character to which this is attached uses a Charged Attack</span>: Spend 1 less 
   <span style="color: #FF9999">Pyro Die</span> and deal +1 DMG.</p>
   (Charged Attack: When the total number of Elemental Dice is even, the Normal Attack to use will be considered a Charged Attack.)
   <p><span style="color: #FFFFFF">Usage(s): 1</span></p>'

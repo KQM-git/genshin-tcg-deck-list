@@ -59,7 +59,7 @@ skills:
     #FFFFFF">Illusory Bubble</span></strong></p>
     <span style="color: rgb(255, 215, 128)">Combat Status</span>
     <span>
-    <p><span style="color: #FFFFFF">When you deal Skill DMG:</span> Remove this status and double the DMG dealt
+    <p><span style="color: #FFFFFF">When you deal Skill DMG</span>: Remove this status and double the DMG dealt
     for this instance.<span></p>'
   points:
   - point_type: ''

@@ -8,7 +8,7 @@ offset:
 skills:
 - name: Description
   description: >
-    <p><span style="color: #FFFFFF">Combat Action:</span> When your active character is <span style="color: #FFFFFF">Yae Miko</span>, equip this card.</p>
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is <span style="color: #FFFFFF">Yae Miko</span>, equip this card.</p>
     <p>After Yae Miko equips this card, immediately use <span style="color: rgb(255, 215, 128)">Great Secret Art: Tenko Kenshin</span> once.</p>
     <p>When your Yae Miko, who has this card equipped, destroys a <span style="color: #FFFFFF">Sesshou Sakura</span> through 
     <span style="color: #FFFFFF">Great Secret Art: Tenko Kenshin</span>, the next use of 
@@ -33,10 +33,10 @@ skills:
   tag: Elemental Burst
 - name: Sesshou Sakura
   description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
-    style="color: #FFFFFF">End Phase:</span> Deal 1 <span style="color:
+    style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color:
     rgb(255, 172, 255)">Electro DMG</span>.</p><p><span style="color: #FFFFFF">Usage(s):
     3</span> (Can stack, max 6 stacks)</p>
-    <p><span style="color: #FFFFFF">When you declare the end of your Round:</span> If this summon has at least 4 
+    <p><span style="color: #FFFFFF">When you declare the end of your Round</span>: If this summon has at least 4 
     <span style="color: #FFFFFF">Usage(s)</span> remaining, deal 1 <span style="color:
     rgb(255, 172, 255)">Electro DMG</span>. (Consumes <span style="color: #FFFFFF">Usage(s)</span>)</p>'
   points:

@@ -75,7 +75,7 @@ skills:
   tag: Elemental Skill
 - name: Electro Crystal Core
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
-    <p><span style="color: #FFFFFF">When the character to which this is attached would be defeated:</span> 
+    <p><span style="color: #FFFFFF">When the character to which this is attached would be defeated</span>: 
     Remove this effect, ensure the character <span style="color: #FFFFFF">will not be defeated</span>, and heal them to 1 HP.</p>'
   points:
   - point_type: ''
@@ -85,7 +85,7 @@ skills:
   description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p>
     <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: #FFACFF">Electro DMG</span>.</p>
     <p><span style="color: #FFFFFF">Usage(s): 2</span></p>
-    <p><span style="color: #FFFFFF">When this Summon is on the field:</span> 
+    <p><span style="color: #FFFFFF">When this Summon is on the field</span>: 
     Your opponent will have to spend 1 additional Elemental Die when performing "Switch Character." (Once per Round)</p>'
   points:
   - point_type: ''

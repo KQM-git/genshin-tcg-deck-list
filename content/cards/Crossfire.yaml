@@ -27,7 +27,7 @@ skills:
   tag: Elemental Skill
 - name: Guoba
   description: '<p><span style="color: rgb(255, 215, 128)">Summons</span><br><span
-    style="color: #FFFFFF">End Phase:</span> Deal 2 <span style="color:
+    style="color: #FFFFFF">End Phase</span>: Deal 2 <span style="color:
     rgb(255, 153, 153)">Pyro DMG</span>.<br><span style="color: #FFFFFF">Usage(s):
     2</span></p>'
   points:

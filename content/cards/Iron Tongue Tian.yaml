@@ -7,7 +7,7 @@ offset:
   modal: '50% 20%'
 skills:
 - name: Description
-  description: '<p><span style="color: #FFFFFF">End Phase:</span> One of your characters
+  description: '<p><span style="color: #FFFFFF">End Phase</span>: One of your characters
     without maximum Energy gains 1 <span style="color: #FFFFFF">Energy</span>. (Active
     Character prioritized)</p><p><span style="color: #FFFFFF">Usage(s): 2</span></p>'
   points:

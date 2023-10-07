@@ -8,8 +8,8 @@ offset:
 skills:
 - name: Description
   description: >
-    <p><span style="color: #FFFFFF">End Phase:</span> Collect up to 2 unused Elemental Dice.</p>
-    <p><span style="color: #FFFFFF">When the Action Phase begins:</span> Reclaim the dice you collected using this card.</p>
+    <p><span style="color: #FFFFFF">End Phase</span>: Collect up to 2 unused Elemental Dice.</p>
+    <p><span style="color: #FFFFFF">When the Action Phase begins</span>: Reclaim the dice you collected using this card.</p>
   points:
   - point_type: white
     point_count: 0

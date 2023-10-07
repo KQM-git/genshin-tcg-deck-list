@@ -25,7 +25,7 @@ skills:
   side: true
 - name: 'Bake-Kurage'
   description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
-    style="color: #FFFFFF">End Phase:</span> Deal 1 <span style="color: #80C0FF">Hydro DMG</span>, heal your active character for 1 HP.</p>
+    style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: #80C0FF">Hydro DMG</span>, heal your active character for 1 HP.</p>
     <p><span style="color: #FFFFFF">Usage(s): 2</span></p>'
   points:
   - point_type: ''

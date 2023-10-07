@@ -46,11 +46,11 @@ skills:
 - name: Ushi
   description: >
     <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
-    <p><span style="color: #FFFFFF">When your active character receives DMG:</span> Decrease DMG taken by 1.</p>
-    <p><span style="color: #FFFFFF">Usage(s):</span> 1. When the Usage is depleted, this card will not be discarded.</p>
-    <p><span style="color: #FFFFFF">Can be triggered once while this Summon is present:</span> 
+    <p><span style="color: #FFFFFF">When your active character receives DMG</span>: Decrease DMG taken by 1.</p>
+    <p><span style="color: #FFFFFF">Usage(s)</span>: 1. When the Usage is depleted, this card will not be discarded.</p>
+    <p><span style="color: #FFFFFF">Can be triggered once while this Summon is present</span>: 
     When your character takes DMG, Arataki Itto gains <span style="color: #FFFFFF">Superlative Superstrength</span>.</p>
-    <p><span style="color: #FFFFFF">End Phase:</span> Discard this card, deal 1 <span style="color: rgb(255, 230, 153)">Geo DMG</span>.</p>
+    <p><span style="color: #FFFFFF">End Phase</span>: Discard this card, deal 1 <span style="color: rgb(255, 230, 153)">Geo DMG</span>.</p>
   points:
   - point_type: ''
     point_count: -1
@@ -58,9 +58,9 @@ skills:
 - name: Superlative Superstrength
   description: >
     <p><span style="color: rgb(255, 215, 128)">Status</span></p>
-    <p><span style="color: #FFFFFF">When the character to which this is attached uses a Charged Attack:</span> deal +1 DMG. 
+    <p><span style="color: #FFFFFF">When the character to which this is attached uses a Charged Attack</span>: deal +1 DMG. 
     If the <span style="color: #FFFFFF">Usage(s)</span> are no less than 2, expend 1 less <span style="color: #FFFFFF">Unaligned Element.</span></p>
-    <p><span style="color: #FFFFFF">Usage(s):</span> 1. (Can stack. Max 3 stacks.)</p>
+    <p><span style="color: #FFFFFF">Usage(s)</span>: 1. (Can stack. Max 3 stacks.)</p>
   points:
   - point_type: ''
     point_count: -1
@@ -70,8 +70,8 @@ skills:
     <p><span style="color: rgb(255, 215, 128)">Status</span></p>
     <p>The character to which this is attached has their <span style="color: #FFFFFF">Normal Attacks</span> deal +2 DMG, 
     and their <span style="color: #FFFFFF">Physical DMG</span> dealt converted to <span style="color: rgb(255, 230, 153)">Geo DMG</span>.</p>
-    <p><span style="color: #FFFFFF">Duration (Rounds):</span> 2.</p>
-    <p><span style="color: #FFFFFF">After the character to which this is attached uses a Charged Attack:</span> Gains <span style="color: #FFFFFF">Superlative Superstrength</span>. (Once per Round)</p>
+    <p><span style="color: #FFFFFF">Duration (Rounds)</span>: 2.</p>
+    <p><span style="color: #FFFFFF">After the character to which this is attached uses a Charged Attack</span>: Gains <span style="color: #FFFFFF">Superlative Superstrength</span>. (Once per Round)</p>
   points:
   - point_type: ''
     point_count: -1

@@ -28,7 +28,7 @@ skills:
     <p><span style="color: #FFD780">Elemental Skill</span></p>
     <p>Deals 3 <span style="color: #80FFD7">Anemo DMG</span>, attaches <span style="color: #FFFFFF">Midare Ranzan</span> to this character.
     If this skill triggers Swirl, <span style="color: #FFFFFF">Midare Ranzan</span> is converted to the Swirled element.</p>
-    <p><span style="color: #FFFFFF">After the Skill DMG is finalized:</span> Your team switches to the next character.</p>
+    <p><span style="color: #FFFFFF">After the Skill DMG is finalized</span>: Your team switches to the next character.</p>
   points:
   - point_type: anemo
     point_count: 3
@@ -47,17 +47,17 @@ skills:
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p><p><span
     style="color: #FFFFFF">When the attached character uses a Plunging Attack: Physical DMG</span> 
     dealt becomes <span style="color: #80FFD7">Anemo DMG</span>, and deals +1 DMG.</p>
-    <p><span style="color: #FFFFFF">After the character uses a skill:</span> This effect is removed.</p>'
+    <p><span style="color: #FFFFFF">After the character uses a skill</span>: This effect is removed.</p>'
   points:
   - point_type: ''
     point_count: -1
   tag: Status
 - name: Autumn Whirlwind
   description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p>
-    <p><span style="color: #FFFFFF">End Phase:</span> Deal 1 <span style="color: rgb(128, 255, 215)">Anemo
+    <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: rgb(128, 255, 215)">Anemo
     DMG</span>.</p>
     <p><span style="color: #FFFFFF">Usage(s): 3</span></p>
-    <p><span style="color: #FFFFFF">After your character or Summon triggers a Swirl reaction:</span> Convert the Elemental Type
+    <p><span style="color: #FFFFFF">After your character or Summon triggers a Swirl reaction</span>: Convert the Elemental Type
     of this card and change its DMG dealt to the element Swirled. (Can only be converted
     once before leaving the field)</p>'
   points:

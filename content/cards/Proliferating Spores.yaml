@@ -31,7 +31,7 @@ skills:
     215, 128)">Status</span></p>When this character deals or takes Elemental DMG:
     Gain 1 stack of <span style="color: rgb(236,
     229, 216)">Radical Vitality</span>. (Max 3 stacks)</p><p><span style="color: rgb(255,
-    255, 255)">End Phase:</span> If <span style="color: rgb(236,
+    255, 255)">End Phase</span>: If <span style="color: rgb(236,
     229, 216)">Radical Vitality</span> stacks reach maximum, they will
     be cleared and the character will lose all Energy.</p>'
   points:

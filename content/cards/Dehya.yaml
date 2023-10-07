@@ -47,9 +47,9 @@ skills:
 - name: Fiery Sanctum Field
   description: >
     <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
-    <p><span style="color: #FFFFFF">End Phase:</span> Deal 1 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>.</p>
+    <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>.</p>
     <p><span style="color: #FFFFFF">Usage(s): 3</span></p>
-    <p><span style="color: #FFFFFF">When this Summon is on the field and Dehya is on standby on your side, then when your active character takes damage:</span>
+    <p><span style="color: #FFFFFF">When this Summon is on the field and Dehya is on standby on your side, then when your active character takes damage</span>:
     Decrease DMG taken by 1, and if Dehya has at least 7 HP, deal 1 <span style="color: #FFFFFF">Piercing DMG</span> to her (once per round).</p>
   points:
   - point_type: ''

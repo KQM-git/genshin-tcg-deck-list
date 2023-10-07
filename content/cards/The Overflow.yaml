@@ -11,7 +11,7 @@ skills:
     <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is <span style="color: #FFFFFF">Candace</span>, equip this card.</p>
     <p>After Candace equips this card, immediately use <span style="color: #FFD780">Sacred Rite: Wagtail's Tide</span> once.</p>
     <p>When this card is equipped by Candace, her <span style="color: #FFFFFF">Prayer of the Crimson Crown</span> has the following extra effect: 
-    <span style="color: #FFFFFF">After your character uses a Normal Attack:</span> Deals 1 <span style="color: #80C0FF">Hydro DMG</span>. (Once per Round)</p>
+    <span style="color: #FFFFFF">After your character uses a Normal Attack</span>: Deals 1 <span style="color: #80C0FF">Hydro DMG</span>. (Once per Round)</p>
     <p>(You must have Candace in your deck to add this card to your deck.)</p>
   points:
   - point_type: hydro
@@ -34,7 +34,7 @@ skills:
     <p>Your characters' <span style="color: #FFFFFF">Normal Attacks</span> deal +1 DMG.</p>
     <p>Your Sword, Claymore, and Polearm-wielding characters' <span style="color: #FFFFFF">Physical
     DMG</span> is converted to <span style="color: #80C0FF">Hydro DMG</span>.</p>
-    <p><span style="color: #FFFFFF">Duration (Rounds):</span> 2</p>
+    <p><span style="color: #FFFFFF">Duration (Rounds)</span>: 2</p>
   points:
   - point_type: ''
     point_count: -1

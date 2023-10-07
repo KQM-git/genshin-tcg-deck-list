@@ -8,7 +8,7 @@ offset:
 skills:
 - name: Description
   description: >
-    <p><span style="color: #FFFFFF">You must have a character who has already equipped a Weapon or Artifact:</span> The next time you play a Weapon or Artifact card in this Round: Spend 2 less Elemental Dice.</p>
+    <p><span style="color: #FFFFFF">You must have a character who has already equipped a Weapon or Artifact</span>: The next time you play a Weapon or Artifact card in this Round: Spend 2 less Elemental Dice.</p>
     <p>(Only one "Arcane Legend" card can be played for the entire game. This card will be in your starting hand.)</p>
   points:
   - point_type: arcane

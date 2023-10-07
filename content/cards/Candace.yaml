@@ -64,7 +64,7 @@ skills:
     <p>Your characters' <span style="color: #FFFFFF">Normal Attacks</span> deal +1 DMG.</p>
     <p>Your Sword, Claymore, and Polearm-wielding characters' <span style="color: #FFFFFF">Physical
     DMG</span> is converted to <span style="color: #80C0FF">Hydro DMG</span>.</p>
-    <p><span style="color: #FFFFFF">Duration (Rounds):</span> 2</p>
+    <p><span style="color: #FFFFFF">Duration (Rounds)</span>: 2</p>
   points:
   - point_type: ''
     point_count: -1

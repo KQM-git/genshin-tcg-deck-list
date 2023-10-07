@@ -47,14 +47,14 @@ skills:
     <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
     <p><span style="color: #FFFFFF">End Phase: </span>Deal 1 <span style="color: #99FFFF">Cryo DMG</span>.</p>
     <p><span style="color: #FFFFFF">Usage(s)</span>: 3</p>
-    <p><span style="color: #FFFFFF">When this Summon is on the field, after Qiqi uses Normal Attack:</span> Heals your character that took the most DMG for 1 HP.</p>
+    <p><span style="color: #FFFFFF">When this Summon is on the field, after Qiqi uses Normal Attack</span>: Heals your character that took the most DMG for 1 HP.</p>
   points:
   - point_type: ''
     point_count: -1
 - name: Fortune-Preserving Talisman
   description: >
     <p><span style="color: rgb(255, 215, 128)">Combat Status</span></p>
-    <p><span style="color: #FFFFFF">After your character uses a Skill:</span> If that character does not have full HP, heal that character for 2 HP.</p>
+    <p><span style="color: #FFFFFF">After your character uses a Skill</span>: If that character does not have full HP, heal that character for 2 HP.</p>
     <p><span style="color: #FFFFFF">Usage(s)</span>: 3</p>
   points:
   - point_type: ''

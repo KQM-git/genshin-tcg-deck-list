@@ -20,7 +20,7 @@ skills:
     <p><span style="color: #FFD780">Elemental Skill</span></p>
     <p>Deals 3 <span style="color: #80FFD7">Anemo DMG</span>, attaches <span style="color: #FFFFFF">Midare Ranzan</span> to this character.
     If this skill triggers Swirl, <span style="color: #FFFFFF">Midare Ranzan</span> is converted to the Swirled element.</p>
-    <p><span style="color: #FFFFFF">After the Skill DMG is finalized:</span> Your team switches to the next character.</p>
+    <p><span style="color: #FFFFFF">After the Skill DMG is finalized</span>: Your team switches to the next character.</p>
   points:
   - point_type: anemo
     point_count: 3

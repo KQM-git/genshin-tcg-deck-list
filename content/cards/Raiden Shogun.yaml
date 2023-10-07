@@ -51,8 +51,8 @@ skills:
   tag: Passive Skill
 - name: Chakra Desiderata
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
-  <p><span style="color: #FFFFFF">After your other characters use Elemental Bursts:</span> Gain 1 Resolve. (Max 3)</p>
-  <p><span style="color: #FFFFFF">When the character to which this is attached uses Secret Art: Musou Shinsetsu:</span> 
+  <p><span style="color: #FFFFFF">After your other characters use Elemental Bursts</span>: Gain 1 Resolve. (Max 3)</p>
+  <p><span style="color: #FFFFFF">When the character to which this is attached uses Secret Art: Musou Shinsetsu</span>: 
   Consume all Resolve and deal +1 DMG per Resolve.</p>'
   points:
   - point_type: ''
@@ -60,7 +60,7 @@ skills:
   tag: Status
 - name: Eye of Stormy Judgment
   description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
-    style="color: #FFFFFF">End Phase:</span> Deal 1 <span style="color:
+    style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color:
     rgb(255, 172, 255)">Electro DMG</span>.</p><p><span style="color: #FFFFFF">Usage(s):
     3</span></p>'
   points:

@@ -8,7 +8,7 @@ offset:
 skills:
 - name: Description
   description: >
-    <p><span style="color: #FFFFFF">Combat Action:</span> When your active character is <span style="color: #FFFFFF">Amber</span>, equip this card.</p>
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is <span style="color: #FFFFFF">Amber</span>, equip this card.</p>
     <p>After Amber equips this card, immediately use <span style="color: rgb(255, 215, 128)">Explosive Puppet</span> once.</p>
     <p>After you use a <span style="color: #FFFFFF">Normal Attack</span>: If this card and <span style="color: #FFFFFF">Baron Bunny</span>
      are still on the field, then <span style="color: #FFFFFF">Baron Bunny</span> explodes and deals 3
@@ -27,9 +27,9 @@ skills:
   tag: Elemental Skill
 - name: Baron Bunny
   description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p>
-    <p><span style="color: #FFFFFF">When your active character takes DMG:</span> Decrease DMG taken by 2.</p>
+    <p><span style="color: #FFFFFF">When your active character takes DMG</span>: Decrease DMG taken by 2.</p>
     <p><span style="color: #FFFFFF">Usage(s): 1</span>. When the Usages are depleted, this card will not be discarded.</p>
-    <p><span style="color: #FFFFFF">At the End Phase, if Usage(s) have been depleted:</span>
+    <p><span style="color: #FFFFFF">At the End Phase, if Usage(s) have been depleted</span>:
     Discard this card to deal 2 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>.</p>'
   points:
   - point_type: ''

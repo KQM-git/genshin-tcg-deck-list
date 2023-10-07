@@ -8,9 +8,9 @@ offset:
 skills:
 - name: Description
   description: >
-    <p><span style="color: #FFFFFF">Combat Action:</span> When your active character is <span style="color: #FFFFFF">Tartaglia</span>, equip this card.</p>
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is <span style="color: #FFFFFF">Tartaglia</span>, equip this card.</p>
     <p>After Tartaglia equips this card, immediately use <span style="color: rgb(255, 215, 128)">Foul Legacy: Raging Tide</span> once.</p>
-    <p><span style="color: #FFFFFF">End Phase:</span> Deals 1 <span style="color: #FFFFFF">Piercing DMG</span>
+    <p><span style="color: #FFFFFF">End Phase</span>: Deals 1 <span style="color: #FFFFFF">Piercing DMG</span>
     to all opposing characters affected by <span style="color: #FFFFFF">Riptide</span>.</p>
     <p>(You must have Tartaglia in your deck to add this card to your deck.)</p>
   points:
@@ -25,7 +25,7 @@ skills:
   side: true
 - name: Riptide
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p><p><span style="color: rgb(255, 255,
-    255)">When the character to which this is attached is defeated:</span> Apply Riptide to active character.</p>
+    255)">When the character to which this is attached is defeated</span>: Apply Riptide to active character.</p>
     <p>(When Tartaglia is in <span style="color: #FFFFFF">Melee Stance</span>, 
     he will deal additional DMG when attacking the character to which this is attached.)</p>'
   points:

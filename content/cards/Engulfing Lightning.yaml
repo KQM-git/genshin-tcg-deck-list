@@ -9,7 +9,7 @@ skills:
 - name: Description
   description: '<p><span style="color: #FFFFFF">The character deals +1
     DMG</span>.</p>
-    <p><span style="color: #FFFFFF">Triggers automatically once per Round:</span> 
+    <p><span style="color: #FFFFFF">Triggers automatically once per Round</span>: 
     If the character to which this is attached does not have <span style="color: #FFFFFF">Energy</span>, they will gain 1 <span style="color: #FFFFFF">Energy</span>.
     <p>(<span style="color: #FFFFFF">Only Polearm Characters</span> can equip this. A character can
     equip a maximum of 1 Weapon)</p>'

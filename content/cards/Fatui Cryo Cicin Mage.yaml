@@ -43,7 +43,7 @@ skills:
   tag: Elemental Burst
 - name: Cryo Cicins
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span><p>
-  <p><span style="color: #FFFFFF">End Phase:</span> Deal 1 <span style="color: rgb(153, 255, 255)">Cryo DMG</span></p>
+  <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: rgb(153, 255, 255)">Cryo DMG</span></p>
   <p><span style="color: #FFFFFF">Usage(s): 2</span> (Can stack, max 3 stacks)</p>
   <p></p>
   <p><span style="color: #FFFFFF">After Fatui Cryo Cicin Mage performs a Normal Attack: </span>This card gains 1 <span style="color: #FFFFFF">Usage(s)</span>.</p>
@@ -55,7 +55,7 @@ skills:
 - name: Flowing Cicin Shield
   description: '<p><span style="color: rgb(255, 215, 128)">Combat Status</span><p>
   <p>Provides 1 <span style="color: #FFFFFF">Shield points</span> for your active character.</p>
-  <p><span style="color: #FFFFFF">When created:</span> If you have <span style="color: #FFFFFF">Cryo Cicins</span> on the field,
+  <p><span style="color: #FFFFFF">When created</span>: If you have <span style="color: #FFFFFF">Cryo Cicins</span> on the field,
   increase <span style="color: #FFFFFF">Shield</span> by the amount of <span style="color: #FFFFFF">Usage(s)</span> it has.
   (Adds a maximum of 3 additional <span style="color: #FFFFFF">Shield</span>)</p>'
   points:

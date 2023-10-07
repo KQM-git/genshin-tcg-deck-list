@@ -34,7 +34,7 @@ skills:
   tag: Elemental Skill
 - name: Ice Lotus
   description: '<p><span style="color: rgb(255, 215, 128)">Combat Status</span></p>
-  <span style="color: #FFFFFF">When your active character receives DMG:</span>
+  <span style="color: #FFFFFF">When your active character receives DMG</span>:
   <span> Decrease DMG taken by 1. </span> <br>
   <span style="color: #FFFFFF">Usage(s): 2</span>'
   points:
@@ -64,7 +64,7 @@ skills:
   tag: Elemental Burst
 - name: Sacred Cryo Pearl
   description: '<p><span style="color: rgb(255, 215, 128)">Summon</span><br><span
-    style="color: #FFFFFF">End Phase:</span> Deal 1 <span style="color:
+    style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color:
     rgb(153, 255, 255)">Cryo DMG</span>, deal 1 <span style="color: rgb(255, 255,
     255)">Piercing DMG </span>to all opposing characters on standby.<br><span style="color:
     #FFFFFF">Usage(s): 2</span></p>'

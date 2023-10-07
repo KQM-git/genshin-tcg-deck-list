@@ -8,8 +8,8 @@ offset:
 skills:
 - name: Description
   description: >
-    <p><span style="color: #FFFFFF">When a Summon disappears:</span> This card gains 1 <span style="color: #FFFFFF">Cleansing Ritual Progress</span>. (Max 3)</p>
-    <p><span style="color: #FFFFFF">When you play a Weapon or Artifact Card:</span> If you already have 3 <span style="color: #FFFFFF">Cleansing Ritual Progress</span>, discard this card and cause the card you play to cost 2 less Elemental Dice.</p>
+    <p><span style="color: #FFFFFF">When a Summon disappears</span>: This card gains 1 <span style="color: #FFFFFF">Cleansing Ritual Progress</span>. (Max 3)</p>
+    <p><span style="color: #FFFFFF">When you play a Weapon or Artifact Card</span>: If you already have 3 <span style="color: #FFFFFF">Cleansing Ritual Progress</span>, discard this card and cause the card you play to cost 2 less Elemental Dice.</p>
   points:
   - point_type: white
     point_count: 0

@@ -50,7 +50,7 @@ skills:
   tag: Elemental Burst
 - name: Seed of Skandha
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span><p>
-  <p><span style="color: #FFFFFF">After any character who has a Seed of Skandha takes Elemental Reaction DMG:</span> 
+  <p><span style="color: #FFFFFF">After any character who has a Seed of Skandha takes Elemental Reaction DMG</span>: 
   <span> Deal 1 
   <span style="color: #FFFFFF">Piercing DMG</span> to the character(s) 
   to which the Seed of Skandha is attached on the same side of the field.</p>
@@ -61,7 +61,7 @@ skills:
   tag: Status
 - name: Shrine of Maya
   description: '<p><span style="color: rgb(255, 215, 128)">Combat Status</span><p>
-  <p><span style="color: #FFFFFF">When your character triggers an Elemental Reaction:</span> 
+  <p><span style="color: #FFFFFF">When your character triggers an Elemental Reaction</span>: 
   <span> +1 additional DMG.</span></p>
   <p><span style="color: #FFFFFF">Duration (Rounds): 2</span></p>'
   points:

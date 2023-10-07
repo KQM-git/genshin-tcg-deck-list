@@ -45,7 +45,7 @@ skills:
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
     <p>The character to which this is attached has their <span style="color: #FFFFFF">Physical DMG</span> dealt converted to <span style="color: rgb(255,
     153, 153)">Pyro DMG</span>, and they will deal +1 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>.</p>
-    <p><span style="color: #FFFFFF">When the character to which this is attached uses a Charged Attack:</span>
+    <p><span style="color: #FFFFFF">When the character to which this is attached uses a Charged Attack</span>:
     Apply <span style="color: #FFFFFF">Blood Blossom</span> to target character.</p>
     <p><span style="color: #FFFFFF">Duration (Rounds): 2</span></p>'
   points:

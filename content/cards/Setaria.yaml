@@ -8,7 +8,7 @@ offset:
 skills:
 - name: Description
   description: >
-    <p><span style="color: #FFFFFF">After you perform any action, if you have 0 cards in your hand:</span> Draw 1 card.</p>
+    <p><span style="color: #FFFFFF">After you perform any action, if you have 0 cards in your hand</span>: Draw 1 card.</p>
     <p><span style="color: #FFFFFF">Usage(s): 3</span></p>
   points:
   - point_type: white

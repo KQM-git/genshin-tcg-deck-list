@@ -8,7 +8,7 @@ offset:
 skills:
 - name: Description
   description: >
-    <p><span style="color: #FFFFFF">When playing a Food Event Card:</span> Spend 2 less Elemental Dice. (Once per Round)</p>
+    <p><span style="color: #FFFFFF">When playing a Food Event Card</span>: Spend 2 less Elemental Dice. (Once per Round)</p>
   points:
   - point_type: black
     point_count: 2

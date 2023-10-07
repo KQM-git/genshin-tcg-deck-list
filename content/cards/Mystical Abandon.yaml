@@ -8,7 +8,7 @@ offset:
 skills:
 - name: Description
   description: >
-    <p><span style="color: #FFFFFF">Combat Action:</span> When your active character is <span style="color: #FFFFFF">Shenhe</span>, equip this card.</p>
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is <span style="color: #FFFFFF">Shenhe</span>, equip this card.</p>
     <p>After Shenhe equips this card, immediately use <span style="color: rgb(255, 215, 128)">Spring Spirit Summoning</span> once.</p>
     <p>When the <span style="color: #FFFFFF">Icy Quill</span> created by your Shenhe, who has this card equipped, 
     is triggered by your characters' <span style="color: #FFFFFF">Normal Attacks</span>, its Usages will not decrease. (Once per Round)</p>

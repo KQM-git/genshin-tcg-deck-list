@@ -7,7 +7,7 @@ offset:
   modal: '50% 30%'
 skills:
 - name: Description
-  description: "<p><span style=\"color: #FFFFFF\">End Phase:</span> Collect your unused\
+  description: "<p><span style=\"color: #FFFFFF\">End Phase</span>: Collect your unused\
     \ Elemental Dice (Max 1 of each Elemental Type). </p><p><span style=\"color: #FFFFFF\"\
     >When Action Phase begins</span>: If this card has collected 3 Elemental Dice,\
     \ draw 2 cards and create <span style=\"color: #FFFFFF\">Omni Element</span> \xD7\

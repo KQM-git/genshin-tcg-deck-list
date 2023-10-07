@@ -43,7 +43,7 @@ skills:
 - name: 'Yuegui: Throwing Mode'
   description: '<p>
   <span style="color: rgb(255, 215, 128)">Summon</span></p><p>
-  <span style="color: #FFFFFF">End Phase:</span> 
+  <span style="color: #FFFFFF">End Phase</span>: 
   <span> Deal 1 <span style="color: rgb(153, 255, 136)">Dendro DMG</span>, heal the character on your team that has taken the most damage for 1 HP.</p><p>
   <span style="color: #FFFFFF">Usage(s): 2</span></p>'
   points:
@@ -53,7 +53,7 @@ skills:
 - name: Adeptal Legacy
   description: >
     <p><span style="color: rgb(255, 215, 128)">Combat Status</span></p>
-    <p><span style="color: #FFFFFF">After you switch characters:</span> Deal 1 <span style="color: rgb(153, 255, 136)">Dendro DMG</span>, heal your active character for 1 HP.</p>
+    <p><span style="color: #FFFFFF">After you switch characters</span>: Deal 1 <span style="color: rgb(153, 255, 136)">Dendro DMG</span>, heal your active character for 1 HP.</p>
     <p><span style="color: #FFFFFF">Usage(s): 3</span></p>
   points:
   - point_type: ''

@@ -55,7 +55,7 @@ skills:
 - name: Stone Stele
   description: >
     <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
-    <p><span style="color: #FFFFFF">End Phase:</span> Deal 1 <span style="color: rgb(255, 230, 153)">Geo DMG</span>.</p>
+    <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: rgb(255, 230, 153)">Geo DMG</span>.</p>
     <p><span style="color: #FFFFFF">Usage(s): 2</span></p>
   points:
   - point_type: ''

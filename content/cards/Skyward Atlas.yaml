@@ -8,7 +8,7 @@ offset:
 skills:
 - name: Description
   description: '<p><span style="color: #FFFFFF">The character deals +1
-    DMG.</span></p><p><span style="color: #FFFFFF">Once per Round:</span>
+    DMG.</span></p><p><span style="color: #FFFFFF">Once per Round</span>:
     This character''s Normal Attacks deal +1 additional DMG.</p><p>(<span style="color:
     #FFFFFF">Only Catalyst Characters</span> can equip this. A character
     can equip a maximum of 1 Weapon)</p>'

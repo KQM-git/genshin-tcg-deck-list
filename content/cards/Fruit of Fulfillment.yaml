@@ -8,7 +8,7 @@ offset:
 skills:
 - name: Description
   description: '<p><span style="color: #FFFFFF">Character deals +1
-    DMG</span>.</p><p><span style="color: #FFFFFF">When played:</span>
+    DMG</span>.</p><p><span style="color: #FFFFFF">When played</span>:
     Draw 2 cards.</p><p>(Can only be equipped by <span style="color:
     #FFFFFF">Catalyst characters</span>. A character can
     equip at most 1 Weapon.)</p>'

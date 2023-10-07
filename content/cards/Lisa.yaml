@@ -17,7 +17,7 @@ skills:
 - name: Lightning Touch
   description: >
     <p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>
-    Deals 1 <span style="color: #FFACFF">Electro DMG</span>:<br>If this Skill is a <span style="color: rgb(255, 255, 255)">Charged Attack</span>: Attach <span style="color: rgb(255, 255, 255)">Conductive</span> to the opponent's active character.
+    Deals 1 <span style="color: #FFACFF">Electro DMG</span>:<br>If this Skill is a <span style="color: #FFFFFF">Charged Attack</span>: Attach <span style="color: #FFFFFF">Conductive</span> to the opponent's active character.
   points:
   - point_type: electro
     point_count: 1
@@ -27,7 +27,7 @@ skills:
 - name: Violet Arc
   description: >
     <p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
-    Deals 2 <span style="color: #FFACFF">Electro DMG</span>. If <span style="color: rgb(255, 255, 255)">Conductive</span> is not attached to the opponent's active character, <span style="color: rgb(255, 255, 255)">Conductive</span> will be attached.
+    Deals 2 <span style="color: #FFACFF">Electro DMG</span>. If <span style="color: #FFFFFF">Conductive</span> is not attached to the opponent's active character, <span style="color: #FFFFFF">Conductive</span> will be attached.
   points:
   - point_type: electro
     point_count: 3
@@ -35,7 +35,7 @@ skills:
 - name: Lightning Rose
   description: >
     <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
-    Deals 2 <span style="color: #FFACFF">Electro DMG</span>, summons <span style="color: rgb(255, 255, 255)">Lightning Rose</span>.
+    Deals 2 <span style="color: #FFACFF">Electro DMG</span>, summons <span style="color: #FFFFFF">Lightning Rose</span>.
   points:
   - point_type: electro
     point_count: 3
@@ -54,8 +54,8 @@ skills:
 - name: Lightning Rose
   description: >
     <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
-    <p><span style="color: rgb(255, 255, 255)">End Phase: </span>Deal 2 <span style="color: #FFACFF">Electro DMG</span>.</p>
-    <p><span style="color: rgb(255, 255, 255)">Usage(s)</span>: 2</p>
+    <p><span style="color: #FFFFFF">End Phase: </span>Deal 2 <span style="color: #FFACFF">Electro DMG</span>.</p>
+    <p><span style="color: #FFFFFF">Usage(s)</span>: 2</p>
   points:
   - point_type: ''
     point_count: -1

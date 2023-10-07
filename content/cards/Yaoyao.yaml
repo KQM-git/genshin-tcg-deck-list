@@ -1,0 +1,61 @@
+name: Yaoyao
+id: 1704
+tags:
+- Dendro
+- Polearm
+- Liyue
+type: Character Card
+hp: '10'
+energy: '2'
+element: Dendro
+weapon: Polearm
+offset:
+  character: 'top'
+  list: '50% 23%'
+  modal: '50% 17%'
+skills:
+- name: Toss 'N' Turn Spear
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 2 </span><span style="color: #FFFFFF">Physical
+    DMG</span>.</p>'
+  points:
+  - point_type: dendro
+    point_count: 1
+  - point_type: black
+    point_count: 2
+  tag: Normal Attack
+- name: Raphanus Sky Cluster
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  Summons 1 <span style="color: #FFFFFF">Yuegui: Throwing Mode</span>.'
+  points:
+  - point_type: dendro
+    point_count: 3
+  tag: Elemental Skill
+- name: Moonjade Descent
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+  <span>Deals 1 </span>
+  <span style="color: #99FF88">Dendro DMG</span>, creates 1 <span style="color: #FFFFFF">Adeptal Legacy</span>.</p>'
+  points:
+  - point_type: dendro
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+  tag: Elemental Burst
+- name: 'Yuegui: Throwing Mode'
+  description: '<p>
+  <span style="color: rgb(255, 215, 128)">Summon</span></p><p>
+  <span style="color: #FFFFFF">End Phase:</span> 
+  <span> Deal 1 <span style="color: rgb(153, 255, 136)">Dendro DMG</span>, heal the character on your team that has taken the most damage for 1 HP.</p><p>
+  <span style="color: #FFFFFF">Usage(s): 2</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Summon
+- name: Adeptal Legacy
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Combat Status</span></p>
+    <p><span style="color: #FFFFFF">After you switch characters:</span> Deal 1 <span style="color: rgb(153, 255, 136)">Dendro DMG</span>, heal your active character for 1 HP.</p>
+    <p><span style="color: #FFFFFF">Usage(s): 3</span></p>
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Combat Status

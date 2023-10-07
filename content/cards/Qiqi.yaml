@@ -17,7 +17,7 @@ skills:
 - name: Ancient Sword Art
   description: >
     <p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>
-    Deals 2 <span style="color: rgb(255, 255, 255)">Physical DMG</span>.
+    Deals 2 <span style="color: #FFFFFF">Physical DMG</span>.
   points:
   - point_type: cryo
     point_count: 1
@@ -27,7 +27,7 @@ skills:
 - name: "Adeptus Art: Herald of Frost"
   description: >
     <p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
-    Summons <span style="color: rgb(255, 255, 255)">Herald of Frost</span>.
+    Summons <span style="color: #FFFFFF">Herald of Frost</span>.
   points:
   - point_type: cryo
     point_count: 3
@@ -35,7 +35,7 @@ skills:
 - name: "Adeptus Art: Preserver of Fortune"
   description: >
     <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
-    Deals 3 <span style="color: #99FFFF">Cryo DMG</span>, creates 1 <span style="color: rgb(255, 255, 255)">Fortune-Preserving Talisman</span>.
+    Deals 3 <span style="color: #99FFFF">Cryo DMG</span>, creates 1 <span style="color: #FFFFFF">Fortune-Preserving Talisman</span>.
   points:
   - point_type: cryo
     point_count: 3
@@ -45,17 +45,17 @@ skills:
 - name: Herald of Frost
   description: >
     <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
-    <p><span style="color: rgb(255, 255, 255)">End Phase: </span>Deal 1 <span style="color: #99FFFF">Cryo DMG</span>.</p>
-    <p><span style="color: rgb(255, 255, 255)">Usage(s)</span>: 3</p>
-    <p><span style="color: rgb(255, 255, 255)">When this Summon is on the field, after Qiqi uses Normal Attack:</span> Heals your character that took the most DMG for 1 HP.</p>
+    <p><span style="color: #FFFFFF">End Phase: </span>Deal 1 <span style="color: #99FFFF">Cryo DMG</span>.</p>
+    <p><span style="color: #FFFFFF">Usage(s)</span>: 3</p>
+    <p><span style="color: #FFFFFF">When this Summon is on the field, after Qiqi uses Normal Attack:</span> Heals your character that took the most DMG for 1 HP.</p>
   points:
   - point_type: ''
     point_count: -1
 - name: Fortune-Preserving Talisman
   description: >
     <p><span style="color: rgb(255, 215, 128)">Combat Status</span></p>
-    <p><span style="color: rgb(255, 255, 255)">After your character uses a Skill:</span> If that character does not have full HP, heal that character for 2 HP.</p>
-    <p><span style="color: rgb(255, 255, 255)">Usage(s)</span>: 3</p>
+    <p><span style="color: #FFFFFF">After your character uses a Skill:</span> If that character does not have full HP, heal that character for 2 HP.</p>
+    <p><span style="color: #FFFFFF">Usage(s)</span>: 3</p>
   points:
   - point_type: ''
     point_count: -1

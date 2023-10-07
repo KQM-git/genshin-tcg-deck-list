@@ -17,7 +17,7 @@ skills:
 - name: Favonius Bladework - Weiss
   description: >
     <p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>
-    Deals 2 <span style="color: rgb(255, 255, 255)">Physical DMG</span>.
+    Deals 2 <span style="color: #FFFFFF">Physical DMG</span>.
   points:
   - point_type: geo
     point_count: 1
@@ -27,7 +27,7 @@ skills:
 - name: "Abiogenesis: Solar Isotoma"
   description: >
     <p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
-    Summons <span style="color: rgb(255, 255, 255)">Solar Isotoma</span>.
+    Summons <span style="color: #FFFFFF">Solar Isotoma</span>.
   points:
   - point_type: geo
     point_count: 3
@@ -35,7 +35,7 @@ skills:
 - name: "Rite of Progeniture: Tectonic Tide"
   description: >
     <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
-    Deals 4 <span style="color: rgb(255, 230, 153)">Geo DMG</span>. If <span style="color: rgb(255, 255, 255)">Solar Isotoma</span> is on the field, deals +2 DMG.
+    Deals 4 <span style="color: rgb(255, 230, 153)">Geo DMG</span>. If <span style="color: #FFFFFF">Solar Isotoma</span> is on the field, deals +2 DMG.
   points:
   - point_type: geo
     point_count: 3
@@ -45,9 +45,9 @@ skills:
 - name: Solar Isotoma
   description: >
     <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
-    <p><span style="color: rgb(255, 255, 255)">End Phase: </span>Deal 1 <span style="color: rgb(255, 230, 153)">Geo DMG</span>.</p>
-    <p><span style="color: rgb(255, 255, 255)">Usage(s)</span>: 3</p>
-    <p><span style="color: rgb(255, 255, 255)">When this Summon is on the field: </span>Your character's <span style="color: rgb(255, 255, 255)">Plunging Attack</span> spends 1 less <span style="color: rgb(255, 255, 255)">Unaligned Element</span>. (Once per Round)</p>
+    <p><span style="color: #FFFFFF">End Phase: </span>Deal 1 <span style="color: rgb(255, 230, 153)">Geo DMG</span>.</p>
+    <p><span style="color: #FFFFFF">Usage(s)</span>: 3</p>
+    <p><span style="color: #FFFFFF">When this Summon is on the field: </span>Your character's <span style="color: #FFFFFF">Plunging Attack</span> spends 1 less <span style="color: #FFFFFF">Unaligned Element</span>. (Once per Round)</p>
   points:
   - point_type: ''
     point_count: -1

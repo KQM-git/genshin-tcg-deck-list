@@ -20,7 +20,7 @@ skills:
 - name: "Adeptus Art: Preserver of Fortune"
   description: >
     <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
-    Deals 3 <span style="color: #99FFFF">Cryo DMG</span>, creates 1 <span style="color: rgb(255, 255, 255)">Fortune-Preserving Talisman</span>.
+    Deals 3 <span style="color: #99FFFF">Cryo DMG</span>, creates 1 <span style="color: #FFFFFF">Fortune-Preserving Talisman</span>.
   points:
   - point_type: cryo
     point_count: 3

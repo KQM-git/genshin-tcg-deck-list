@@ -8,7 +8,7 @@ offset:
 skills:
 - name: Description
   description: >
-    <p>Create 1 <span style="color: rgb(255, 255, 255)">Fatui Ambusher</span> of a random type on the opponent's field.</p>
+    <p>Create 1 <span style="color: #FFFFFF">Fatui Ambusher</span> of a random type on the opponent's field.</p>
     <p>(You must have at least 2 Fatui characters in your deck to add this card to your deck.)</p>
   points:
   - point_type: white

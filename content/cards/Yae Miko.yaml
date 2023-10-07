@@ -44,21 +44,21 @@ skills:
   tag: Elemental Burst
 - name: Sesshou Sakura
   description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
-    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 1 <span style="color:
-    rgb(255, 172, 255)">Electro DMG</span>.</p><p><span style="color: rgb(255, 255, 255)">Usage(s):
+    style="color: #FFFFFF">End Phase:</span> Deal 1 <span style="color:
+    rgb(255, 172, 255)">Electro DMG</span>.</p><p><span style="color: #FFFFFF">Usage(s):
     3</span> (Can stack, max 6 stacks)</p>
-    <p><span style="color: rgb(255, 255, 255)">When you declare the end of your Round:</span> If this summon has at least 4 
-    <span style="color: rgb(255, 255, 255)">Usage(s)</span> remaining, deal 1 <span style="color:
-    rgb(255, 172, 255)">Electro DMG</span>. (Consumes <span style="color: rgb(255, 255, 255)">Usage(s)</span>)</p>'
+    <p><span style="color: #FFFFFF">When you declare the end of your Round:</span> If this summon has at least 4 
+    <span style="color: #FFFFFF">Usage(s)</span> remaining, deal 1 <span style="color:
+    rgb(255, 172, 255)">Electro DMG</span>. (Consumes <span style="color: #FFFFFF">Usage(s)</span>)</p>'
   points:
   - point_type: ''
     point_count: -1
   tag: Summon
 - name: Tenko Thunderbolts
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
-  <p><span style="color: rgb(255, 255, 255)">Before you choose your action:</span> Deal 3 <span style="color:
+  <p><span style="color: #FFFFFF">Before you choose your action:</span> Deal 3 <span style="color:
     rgb(255, 172, 255)">Electro DMG</span>.</p>
-  <p><span style="color: rgb(255, 255, 255)">Usage(s):
+  <p><span style="color: #FFFFFF">Usage(s):
     1</span></p>'
   points:
   - point_type: ''

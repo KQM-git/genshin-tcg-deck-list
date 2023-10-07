@@ -16,7 +16,7 @@ offset:
 skills:
 - name: Flame of Salvation
   description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>
-  <p><span style="color: rgba(255, 255, 255, 0.65)">Deals 1 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>.</span></p>'
+  <p><span>Deals 1 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>.</span></p>'
   points:
   - point_type: pyro
     point_count: 1
@@ -25,7 +25,7 @@ skills:
   tag: Normal Attack
 - name: Searing Precept
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
-  <p><span style="color: rgba(255, 255, 255, 0.65)">Deals 3 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>.</span></p>'
+  <p><span>Deals 3 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>.</span></p>'
   points:
   - point_type: pyro
     point_count: 3
@@ -33,7 +33,7 @@ skills:
 - name: Ominous Star
   description: >
     <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
-    <span style="color: rgba(255, 255, 255, 0.65)">Deals 3 <span style="color: #FF9999">Pyro
+    <span>Deals 3 <span style="color: #FF9999">Pyro
     DMG</span>, summons 1 <span style="color: #FFFFFF">Darkfire Furnace</span>.</span></p>
   points:
   - point_type: pyro

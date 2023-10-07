@@ -15,9 +15,8 @@ offset:
   modal: '50% 13%'
 skills:
 - name: Dawnstar Piercer
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span
-    style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: #FFFFFF">Physical
-    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 2 </span><span style="color: #FFFFFF">Physical
+    DMG</span>.</p>'
   points:
   - point_type: cryo
     point_count: 1
@@ -43,16 +42,16 @@ skills:
     <p><span style="color: rgb(255, 215, 128)">Status</span></p>
     <p>Your character deals 1 increased <span style="color: #99FFFF">Cryo DMG</span> 
     (Includes the DMG triggered by <span style="color: #99FFFF">Cryo-infused</span> Swirl reactions)</p>
-    <p><span style="color: rgb(255, 255, 255)">Usage(s): 3</span></p>
+    <p><span style="color: #FFFFFF">Usage(s): 3</span></p>
   points:
   - point_type: ''
     point_count: -1
 - name: Talisman Spirit
   description: >
     <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
-    <p><span style="color: rgb(255, 255, 255)">End Phase:</span> Deal 1 <span style="color:rgb(153, 255, 255)">Cryo DMG</span>.</p>
-    <p><span style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>
-    <p><span style="color: rgb(255, 255, 255)">When this Summon is on the field:</span> 
+    <p><span style="color: #FFFFFF">End Phase:</span> Deal 1 <span style="color:rgb(153, 255, 255)">Cryo DMG</span>.</p>
+    <p><span style="color: #FFFFFF">Usage(s): 2</span></p>
+    <p><span style="color: #FFFFFF">When this Summon is on the field:</span> 
     Opposing character(s) take +1 <span style="color:rgb(153, 255, 255)">Cryo DMG</span> and <span style="color: #FFFFFF">Physical
     DMG</span>.</p>
   points:

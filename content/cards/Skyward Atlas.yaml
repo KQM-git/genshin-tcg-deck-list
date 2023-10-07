@@ -7,10 +7,10 @@ offset:
   modal: '50% 43%'
 skills:
 - name: Description
-  description: '<p><span style="color: rgb(255, 255, 255)">The character deals +1
-    DMG.</span></p><p><span style="color: rgb(255, 255, 255)">Once per Round:</span>
+  description: '<p><span style="color: #FFFFFF">The character deals +1
+    DMG.</span></p><p><span style="color: #FFFFFF">Once per Round:</span>
     This character''s Normal Attacks deal +1 additional DMG.</p><p>(<span style="color:
-    rgb(255, 255, 255)">Only Catalyst Characters</span> can equip this. A character
+    #FFFFFF">Only Catalyst Characters</span> can equip this. A character
     can equip a maximum of 1 Weapon)</p>'
   points:
   - point_type: white

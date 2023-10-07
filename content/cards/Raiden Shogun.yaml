@@ -44,15 +44,15 @@ skills:
   tag: Elemental Burst
 - name: Chakra Desiderata
   description: '<p><span style="color: rgb(255, 215, 128)">Passive Skill</span></p><p>(Passive)
-  When the battle begins, this character gains <span style="color: rgb(255, 255, 255)">Chakra Desiderata</span>.</p>'
+  When the battle begins, this character gains <span style="color: #FFFFFF">Chakra Desiderata</span>.</p>'
   points:
   - point_type: ''
     point_count: -1
   tag: Passive Skill
 - name: Chakra Desiderata
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
-  <p><span style="color: rgb(255, 255, 255)">After your other characters use Elemental Bursts:</span> Gain 1 Resolve. (Max 3)</p>
-  <p><span style="color: rgb(255, 255, 255)">When the character to which this is attached uses Secret Art: Musou Shinsetsu:</span> 
+  <p><span style="color: #FFFFFF">After your other characters use Elemental Bursts:</span> Gain 1 Resolve. (Max 3)</p>
+  <p><span style="color: #FFFFFF">When the character to which this is attached uses Secret Art: Musou Shinsetsu:</span> 
   Consume all Resolve and deal +1 DMG per Resolve.</p>'
   points:
   - point_type: ''
@@ -60,8 +60,8 @@ skills:
   tag: Status
 - name: Eye of Stormy Judgment
   description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
-    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 1 <span style="color:
-    rgb(255, 172, 255)">Electro DMG</span>.</p><p><span style="color: rgb(255, 255, 255)">Usage(s):
+    style="color: #FFFFFF">End Phase:</span> Deal 1 <span style="color:
+    rgb(255, 172, 255)">Electro DMG</span>.</p><p><span style="color: #FFFFFF">Usage(s):
     3</span></p>'
   points:
   - point_type: ''

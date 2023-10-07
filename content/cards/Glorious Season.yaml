@@ -19,9 +19,8 @@ skills:
   - point_type: hydro
     point_count: 4
 - name: "Let the Show Begin\u266A"
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span
-    style="color: rgba(255, 255, 255, 0.65)">Deals 1 </span><span style="color: #80C0FF">Hydro
-    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">, summons 1 </span><span
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span>Deals 1 </span><span style="color: #80C0FF">Hydro
+    DMG</span><span>, summons 1 </span><span
     style="color: #FFFFFF">Melody Loop</span><span style="color: rgba(255, 255, 255,
     0.45)">.</span></p>'
   points:
@@ -31,64 +30,64 @@ skills:
   tag: Elemental Skill
 - name: Melody Loop
   description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
-    style="color: rgb(255, 255, 255)">End Phase:</span> Heal all your characters for
+    style="color: #FFFFFF">End Phase:</span> Heal all your characters for
     1 HP and your active character gains <span style="color: rgb(128, 192, 255)">Hydro
-    Application</span>.</p><p><span style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
+    Application</span>.</p><p><span style="color: #FFFFFF">Usage(s): 2</span></p>'
   points:
   - point_type: ''
     point_count: -1
   tag: Summon
 - name: Hydro DMG
   description: '<p>Applies Hydro and can trigger the following Elemental Reactions:</p><p><span
-    style="color: rgb(255, 255, 255)">[</span><span style="color: rgb(128, 192, 255)">Hydro</span><span
-    style="color: rgb(255, 255, 255)"> + </span><span style="color: rgb(255, 153,
-    153)">Pyro</span><span style="color: rgb(255, 255, 255)">] Vaporize</span>: DMG
-    +2 for this instance</p><p><span style="color: rgb(255, 255, 255)">[</span><span
+    style="color: #FFFFFF">[</span><span style="color: rgb(128, 192, 255)">Hydro</span><span
+    style="color: #FFFFFF"> + </span><span style="color: rgb(255, 153,
+    153)">Pyro</span><span style="color: #FFFFFF">] Vaporize</span>: DMG
+    +2 for this instance</p><p><span style="color: #FFFFFF">[</span><span
     style="color: rgb(128, 192, 255)">Hydro</span><span style="color: rgb(255, 255,
     255)"> + </span><span style="color: rgb(255, 172, 255)">Electro</span><span style="color:
-    rgb(255, 255, 255)">] Electro-Charged</span>: DMG +1 for this instance, deal 1
+    #FFFFFF">] Electro-Charged</span>: DMG +1 for this instance, deal 1
     Piercing DMG to all opposing characters except the target</p><p><span style="color:
-    rgb(255, 255, 255)">[</span><span style="color: rgb(128, 192, 255)">Hydro</span><span
-    style="color: rgb(255, 255, 255)"> + </span><span style="color: rgb(153, 255,
-    255)">Cryo</span><span style="color: rgb(255, 255, 255)">] Frozen</span>: DMG
+    #FFFFFF">[</span><span style="color: rgb(128, 192, 255)">Hydro</span><span
+    style="color: #FFFFFF"> + </span><span style="color: rgb(153, 255,
+    255)">Cryo</span><span style="color: #FFFFFF">] Frozen</span>: DMG
     +1 for this instance, the target is unable to perform any Actions this Round (Can
     be removed in advance after the target receives +2 Physical or Pyro DMG)</p><p><span
-    style="color: rgb(255, 255, 255)">[</span><span style="color: rgb(128, 192, 255)">Hydro</span><span
-    style="color: rgb(255, 255, 255)"> + </span><span style="color: rgb(153, 255,
-    136)">Dendro</span><span style="color: rgb(255, 255, 255)">] Bloom</span>: DMG+1
-    for this instance, creates a [<span style="color: rgb(255, 255, 255)">Dendro Core</span>]
+    style="color: #FFFFFF">[</span><span style="color: rgb(128, 192, 255)">Hydro</span><span
+    style="color: #FFFFFF"> + </span><span style="color: rgb(153, 255,
+    136)">Dendro</span><span style="color: #FFFFFF">] Bloom</span>: DMG+1
+    for this instance, creates a [<span style="color: #FFFFFF">Dendro Core</span>]
     the grants +2 DMG to the next instance of Pyro/Electro DMG</p>'
   points:
   - point_type: ''
     point_count: 0
 - name: Detailed Rules
-  description: '<p><strong><span style="color: rgb(255, 255, 255)">Combat Action</span></strong></p><p>After
+  description: '<p><strong><span style="color: #FFFFFF">Combat Action</span></strong></p><p>After
     you finish 1 Combat Action, it will be your opponent''s turn.</p><p><span style="color:
-    rgb(255, 255, 255)">Playing a card from your Hand with this rule is also a Combat
+    #FFFFFF">Playing a card from your Hand with this rule is also a Combat
     Action rather than a Fast Action.</span></p><p></p><p><strong><span style="color:
     rgb(128, 192, 255)">Hydro Application</span></strong></p><p>When Hydro is applied
     without dealing any DMG, the Elemental Reaction triggered will ignore DMG-dealing
-    effects:</p><p><span style="color: rgb(255, 255, 255)">[</span><span style="color:
-    rgb(128, 192, 255)">Hydro</span><span style="color: rgb(255, 255, 255)"> + </span><span
+    effects:</p><p><span style="color: #FFFFFF">[</span><span style="color:
+    rgb(128, 192, 255)">Hydro</span><span style="color: #FFFFFF"> + </span><span
     style="color: rgb(255, 153, 153)">Pyro</span><span style="color: rgb(255, 255,
-    255)">] Vaporize</span>: No effect</p><p><span style="color: rgb(255, 255, 255)">[</span><span
+    255)">] Vaporize</span>: No effect</p><p><span style="color: #FFFFFF">[</span><span
     style="color: rgb(128, 192, 255)">Hydro</span><span style="color: rgb(255, 255,
     255)"> + </span><span style="color: rgb(255, 172, 255)">Electro</span><span style="color:
-    rgb(255, 255, 255)">] Electro-Charged</span>: No effect</p><p><span style="color:
-    rgb(255, 255, 255)">[</span><span style="color: rgb(128, 192, 255)">Hydro</span><span
-    style="color: rgb(255, 255, 255)"> + </span><span style="color: rgb(153, 255,
-    255)">Cryo</span><span style="color: rgb(255, 255, 255)">] Frozen</span>: The
+    #FFFFFF">] Electro-Charged</span>: No effect</p><p><span style="color:
+    #FFFFFF">[</span><span style="color: rgb(128, 192, 255)">Hydro</span><span
+    style="color: #FFFFFF"> + </span><span style="color: rgb(153, 255,
+    255)">Cryo</span><span style="color: #FFFFFF">] Frozen</span>: The
     target is unable to perform any Action this Round (Can be removed in advance after
     the target receives Physical or Pyro DMG, in which case they will take +2 DMG)</p><p><span
-    style="color: rgb(255, 255, 255)">[</span><span style="color: rgb(128, 192, 255)">Hydro</span><span
-    style="color: rgb(255, 255, 255)"> + </span><span style="color: rgb(153, 255,
-    136)">Dendro</span><span style="color: rgb(255, 255, 255)">] Bloom</span>: Creates
-    a [<span style="color: rgb(255, 255, 255)">Dendro Core</span>] that grants +2
+    style="color: #FFFFFF">[</span><span style="color: rgb(128, 192, 255)">Hydro</span><span
+    style="color: #FFFFFF"> + </span><span style="color: rgb(153, 255,
+    136)">Dendro</span><span style="color: #FFFFFF">] Bloom</span>: Creates
+    a [<span style="color: #FFFFFF">Dendro Core</span>] that grants +2
     DMG to the next instance of Pyro/Electro DMG</p><p></p><p><strong><span style="color:
-    rgb(255, 255, 255)">Usage(s)</span></strong></p><p>After this card''s effect is
-    triggered, 1 <span style="color: rgb(255, 255, 255)">Usage </span>of it will be
+    #FFFFFF">Usage(s)</span></strong></p><p>After this card''s effect is
+    triggered, 1 <span style="color: #FFFFFF">Usage </span>of it will be
     consumed.</p><p>This card will be discarded immediately once it has 0 <span style="color:
-    rgb(255, 255, 255)">Usages </span>remaining.</p>'
+    #FFFFFF">Usages </span>remaining.</p>'
   points:
   - point_type: ''
     point_count: 0

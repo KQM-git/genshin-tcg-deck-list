@@ -41,7 +41,7 @@ skills:
   description: >
     <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
     <p>When <span style="color: #FFFFFF">Eula</span> uses a <span style="color: #FFD780">Normal Attack</span> or <span style="color: #FFD780">Elemental Skill</span>, this card will accumulate 2 Zeal stacks, but Eula will not gain Energy.</p>
-    <p><span style="color: rgb(255, 255, 255)">End Phase:</span> Discard this card and deal 2 Physical DMG.</p>
+    <p><span style="color: #FFFFFF">End Phase:</span> Discard this card and deal 2 Physical DMG.</p>
     <p>Each Zeal stack adds 1 DMG to this damage instance.</p>
     <p>(Effects on this card's Usage will apply to Zeal.)</p>
   points:

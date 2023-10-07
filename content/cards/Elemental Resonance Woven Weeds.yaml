@@ -7,11 +7,10 @@ offset:
   modal: '50% 44%'
 skills:
 - name: Description
-  description: '<p><span style="color: rgba(255, 255, 255, 0.65)">Create 1 </span><span
+  description: '<p><span>Create 1 </span><span
     style="color: rgb(153, 255, 136)">Dendro Die</span><span style="color: rgba(255,
-    255, 255, 0.65)">.</span></p><p><span style="color: rgba(255, 255, 255, 0.65)">(You
-    must have at least 2 </span><span style="color: rgb(153, 255, 136)">Dendro </span><span
-    style="color: rgba(255, 255, 255, 0.65)">characters in your deck to add this card
+    255, 255, 0.65)">.</span></p><p><span>(You
+    must have at least 2 </span><span style="color: rgb(153, 255, 136)">Dendro </span><span>characters in your deck to add this card
     to your deck.)</span></p>'
   points:
   - point_type: white

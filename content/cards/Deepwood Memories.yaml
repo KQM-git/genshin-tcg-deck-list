@@ -15,4 +15,4 @@ skills:
   points:
   - point_type: white
     point_count: 2
-source: '<p><span style="color: rgba(255, 255, 255, 0.65)">Purchased at the Card Shop</span></p>'
+source: '<p><span>Purchased at the Card Shop</span></p>'

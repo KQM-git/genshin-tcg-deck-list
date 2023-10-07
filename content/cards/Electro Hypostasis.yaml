@@ -16,7 +16,7 @@ offset:
 skills:
 - name: Electro Crystal Projection
   description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>
-  <p><span style="color: rgba(255, 255, 255, 0.65)">Deals 1 <span style="color:
+  <p><span>Deals 1 <span style="color:
     rgb(255, 172, 255)">Electro DMG</span>.</span></p>'
   points:
   - point_type: electro
@@ -37,7 +37,7 @@ skills:
 - name: Lightning Lockdown
   description: >
     <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
-    <span style="color: rgba(255, 255, 255, 0.65)">Deals 2 <span style="color: rgb(255, 172, 255)">Electro DMG</span>, 
+    <span>Deals 2 <span style="color: rgb(255, 172, 255)">Electro DMG</span>, 
     summons <span style="color: #FFFFFF">Chains of Warding Thunder</span>.</span></p>
   points:
   - point_type: electro

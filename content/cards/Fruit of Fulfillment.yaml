@@ -7,10 +7,10 @@ offset:
   modal: '50% 43%'
 skills:
 - name: Description
-  description: '<p><span style="color: rgb(255, 255, 255)">Character deals +1
-    DMG</span>.</p><p><span style="color: rgb(255, 255, 255)">When played:</span>
+  description: '<p><span style="color: #FFFFFF">Character deals +1
+    DMG</span>.</p><p><span style="color: #FFFFFF">When played:</span>
     Draw 2 cards.</p><p>(Can only be equipped by <span style="color:
-    rgb(255, 255, 255)">Catalyst characters</span>. A character can
+    #FFFFFF">Catalyst characters</span>. A character can
     equip at most 1 Weapon.)</p>'
   points:
   - point_type: black

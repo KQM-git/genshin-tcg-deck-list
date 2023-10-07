@@ -8,14 +8,14 @@ offset:
 skills:
 - name: Description
   description: >
-    <p><span style="color: rgb(255, 255, 255)">Combat Action:</span> When your active character is 
-    <span style="color: rgb(255, 255, 255)">Beidou</span>, equip this card.</p>
+    <p><span style="color: #FFFFFF">Combat Action:</span> When your active character is 
+    <span style="color: #FFFFFF">Beidou</span>, equip this card.</p>
     <p>After Beidou equips this card, immediately use 
     <span style="color: rgb(255, 215, 128)">Tidecaller </span>once.</p>
     <p>When Beiou, who has this card equipped, uses 
-    <span style="color: rgb(255, 255, 255)">Wavestrider</span>: If DMG is taken while 
-    <span style="color: rgb(255, 255, 255)">Prepare Skill</span> is active, Beidou's Normal Attacks this Round will cost 1 less 
-    <span style="color: rgb(255, 255, 255)">Unaligned Element</span>. (Can be triggered 2 times)</p>
+    <span style="color: #FFFFFF">Wavestrider</span>: If DMG is taken while 
+    <span style="color: #FFFFFF">Prepare Skill</span> is active, Beidou's Normal Attacks this Round will cost 1 less 
+    <span style="color: #FFFFFF">Unaligned Element</span>. (Can be triggered 2 times)</p>
     <p>(You must have Beidou in your deck to add this card to your deck.)</p><p></p>
   points:
   - point_type: electro
@@ -23,7 +23,7 @@ skills:
 - name: Tidecaller
   description: >
     <p><span style="color: #FFD780">Elemental Skill</span></p>This character gains a 
-    <span style="color: rgb(255, 255, 255)">Tidecaller: Surf Embrace</span>.</p><p>
+    <span style="color: #FFFFFF">Tidecaller: Surf Embrace</span>.</p><p>
     <span style="color: #FFFFFF">Prepare Skill: Wavestrider</span>.</p>
   points:
   - point_type: electro
@@ -31,7 +31,7 @@ skills:
   side: true
   tag: Elemental Skill
 - name: Tidecaller
-  description: '<p><strong><span style="color: rgb(255, 255, 255)">Tidecaller: Surf Embrace</span></strong></p>
+  description: '<p><strong><span style="color: #FFFFFF">Tidecaller: Surf Embrace</span></strong></p>
   <span style="color: rgb(255, 215, 128)">Status</span></p>
   <p>The next time this character acts, they will immediately use the Skill 
   <span style="color: rgb(255, 215, 128)"">Wavestrider</span>.</p>

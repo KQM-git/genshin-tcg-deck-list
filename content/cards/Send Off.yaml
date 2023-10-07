@@ -8,7 +8,7 @@ offset:
 skills:
 - name: Description
   description: >
-    <p>Choose one Summon on the opposing side and cause it to lose 2 <span style="color: rgb(255, 255, 255)">Usage(s)</span>.</p>
+    <p>Choose one Summon on the opposing side and cause it to lose 2 <span style="color: #FFFFFF">Usage(s)</span>.</p>
   points:
   - point_type: white
     point_count: 2

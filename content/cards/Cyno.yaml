@@ -15,9 +15,8 @@ offset:
   modal: '50% 21%'
 skills:
 - name: Invoker's Spear
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span
-    style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: #FFFFFF">Physical
-    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 2 </span><span style="color: #FFFFFF">Physical
+    DMG</span>.</p>'
   points:
   - point_type: electro
     point_count: 1
@@ -25,18 +24,16 @@ skills:
     point_count: 2
   tag: Normal Attack
 - name: Chasmic Soulfarer
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span
-    style="color: rgba(255, 255, 255, 0.65)">Deals 3 </span><span style="color: #FFACFF">Electro
-    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span>Deals 3 </span><span style="color: #FFACFF">Electro
+    DMG</span>.</p>'
   points:
   - point_type: electro
     point_count: 3
   tag: Elemental Skill
 - name: 'Sacred Rite: Wolf''s Swiftness'
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span
-    style="color: rgba(255, 255, 255, 0.65)">Deals 4 </span><span style="color: rgb(255,
-    172, 255)">Electro DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p><p><span
-    style="color: rgb(255, 255, 255)">Pactsworn Pathclearer</span><span style="color:
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span>Deals 4 </span><span style="color: rgb(255,
+    172, 255)">Electro DMG</span>.</p><p><span
+    style="color: #FFFFFF">Pactsworn Pathclearer</span><span style="color:
     rgba(255, 255, 255, 0.65)">''s Indwelling Level +2.</span></p><p></p>'
   points:
   - point_type: electro
@@ -45,20 +42,18 @@ skills:
     point_count: 2
   tag: Elemental Burst
 - name: Lawful Enforcer
-  description: '<p><span style="color: rgb(255, 215, 128)">Passive Skill</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.65)">(Passive) When the battle begins, this
-    character gains </span><span style="color: rgb(255, 255, 255)">Pactsworn Pathclearer</span><span
-    style="color: rgba(255, 255, 255, 0.65)">.</span></p><p></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Passive Skill</span></p><p><span>(Passive) When the battle begins, this
+    character gains </span><span style="color: #FFFFFF">Pactsworn Pathclearer</span>.</p><p></p>'
   points:
   - point_type: ''
     point_count: -1
   tag: Passive Skill
 - name: Pactsworn Pathclearer
   description: '<p><span style="color:
-    rgb(255, 215, 128)">Status</span><br><span style="color: rgb(255, 255, 255)">End
+    rgb(255, 215, 128)">Status</span><br><span style="color: #FFFFFF">End
     Phase</span>: Gain 1 level of Indwelling.</p><p><span style="color: rgb(255, 255,
     255)">Create the following effects based on the Indwelling Level</span>:<br>If
-    equal to or greater than 2: <span style="color: rgb(255, 255, 255)">Physical DMG</span>
+    equal to or greater than 2: <span style="color: #FFFFFF">Physical DMG</span>
     dealt is converted to <span style="color: rgb(255, 172, 255)">Electro DMG</span>;<br>If
     equal to or greater than 4: DMG dealt +2;<br>If equal to or greater than 6: Indwelling
     Level -4</p>'
@@ -69,24 +64,24 @@ skills:
 - name: Electro DMG
   description: '<p>Applies Electro and can trigger the following Elemental Reactions:</p>[<span
     style="color: rgb(255, 172, 255)">Electro </span>+ <span style="color: rgb(255,
-    153, 153)">Pyro</span>] <span style="color: rgb(255, 255, 255)">Overloaded</span>:
+    153, 153)">Pyro</span>] <span style="color: #FFFFFF">Overloaded</span>:
     DMG +2 for this instance, the target is forcibly switched to the next character</p><p>[<span
     style="color: rgb(255, 172, 255)">Electro </span>+ <span style="color: rgb(153,
-    255, 255)">Cryo</span>] <span style="color: rgb(255, 255, 255)">Superconduct</span>:
+    255, 255)">Cryo</span>] <span style="color: #FFFFFF">Superconduct</span>:
     DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except
     the target</p><p>[<span style="color: rgb(255, 172, 255)">Electro </span>+ <span
     style="color: rgb(128, 192, 255)">Hydro</span>] <span style="color: rgb(255, 255,
     255)">Electro-Charged</span>: DMG +1 for this instance, deal 1 Piercing DMG to
     all opposing characters except the target</p><p>[<span style="color: rgb(255,
     172, 255)">Electro </span>+ <span style="color: rgb(153, 255, 136)">Dendro</span>]
-    <span style="color: rgb(255, 255, 255)">Quicken</span>: DMG +1 for this instance,
-    creates a [<span style="color: rgb(255, 255, 255)">Catalyzing Field</span>] that
+    <span style="color: #FFFFFF">Quicken</span>: DMG +1 for this instance,
+    creates a [<span style="color: #FFFFFF">Catalyzing Field</span>] that
     grants +1 DMG to the next 2 instances of Dendro/Electro DMG</p>'
   points:
   - point_type: ''
     point_count: 0
 - name: Detailed Rules
-  description: '<p><strong><span style="color: rgb(255, 255, 255)">Physical DMG</span></strong></p><p>Physical
+  description: '<p><strong><span style="color: #FFFFFF">Physical DMG</span></strong></p><p>Physical
     DMG will not apply any Elements, nor can it engage in Elemental Reactions.</p>'
   points:
   - point_type: ''

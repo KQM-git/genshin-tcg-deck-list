@@ -33,7 +33,7 @@ skills:
 - name: Feather Spreading
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>Deals
     4 <span style="color: rgb(153, 255, 136)">Dendro DMG</span>, then consumes all<span
-    style="color: rgb(255, 255, 255)"> Radical Vitality</span> stacks. For each stack
+    style="color: #FFFFFF"> Radical Vitality</span> stacks. For each stack
     consumed, this instance deals +1 DMG.</p><p></p>'
   points:
   - point_type: dendro
@@ -64,23 +64,23 @@ skills:
 - name: Dendro DMG
   description: '<p>Applies Dendro and can trigger the following Elemental Reactions:</p><p>[<span
     style="color: rgb(153, 255, 136)">Dendro </span>+ <span style="color: rgb(128,
-    192, 255)">Hydro </span>] <span style="color: rgb(255, 255, 255)">Bloom</span>:
-    DMG +1 for this instance, creates a [<span style="color: rgb(255, 255, 255)">Dendro
+    192, 255)">Hydro </span>] <span style="color: #FFFFFF">Bloom</span>:
+    DMG +1 for this instance, creates a [<span style="color: #FFFFFF">Dendro
     Core</span>] that greants +2 DMG to the next instance of Pyro/Electro DMG</p><p>[<span
     style="color: rgb(153, 255, 136)">Dendro </span>+ <span style="color: rgb(255,
-    153, 153)">Pyro</span>] <span style="color: rgb(255, 255, 255)">Burning</span>:
-    DMG +1 for this instance, creates a [<span style="color: rgb(255, 255, 255)">Burning
+    153, 153)">Pyro</span>] <span style="color: #FFFFFF">Burning</span>:
+    DMG +1 for this instance, creates a [<span style="color: #FFFFFF">Burning
     Flame</span>] that will deal 1 Pyro DMG at the end of the Round (Takes effect
     once, max 2 stacks)</p><p>[<span style="color: rgb(153, 255, 136)">Dendro </span>+
     <span style="color: rgb(255, 172, 255)">Electro</span>] <span style="color: rgb(255,
     255, 255)">Quicken</span>: DMG +1 for this instance, creates a [<span style="color:
-    rgb(255, 255, 255)">Catalyzing Field</span>] that grants +1 DMG to the next 2
+    #FFFFFF">Catalyzing Field</span>] that grants +1 DMG to the next 2
     instances of Dendro/Electro DMG</p>'
   points:
   - point_type: ''
     point_count: 0
 - name: Detailed Rules
-  description: '<p><strong><span style="color: rgb(255, 255, 255)">Physical DMG</span></strong></p><p>Physical
+  description: '<p><strong><span style="color: #FFFFFF">Physical DMG</span></strong></p><p>Physical
     DMG will not apply any Elements, nor can it engage in Elemental Reactions.</p>'
   points:
   - point_type: ''

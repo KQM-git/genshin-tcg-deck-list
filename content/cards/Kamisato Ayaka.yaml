@@ -16,7 +16,7 @@ offset:
 skills:
 - name: 'Kamisato Art: Kabuki'
   description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>
-  <span style="color: rgba(255, 255, 255, 0.65)">
+  <span>
   <p>Deals 2 <span style="color: #FFFFFF">Physical DMG</span>.</span></p>'
   points:
   - point_type: cryo
@@ -26,7 +26,7 @@ skills:
   tag: Normal Attack
 - name: 'Kamisato Art: Hyouka'
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
-  <span style="color: rgba(255, 255, 255, 0.65)">
+  <span>
   <p>Deals 3 <span style="color: #99FFFF">Cryo DMG</span>.</span></p>'
   points:
   - point_type: cryo
@@ -34,7 +34,7 @@ skills:
   tag: Elemental Skill
 - name: 'Kamisato Art: Soumetsu'
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p> 
-  <span style="color: rgba(255, 255, 255, 0.65)"> Deals 4 
+  <span> Deals 4 
   <span style="color: #99FFFF">Cryo DMG</span>, summons 1
   <span style="color: #FFFFFF"> Frostflake Seki no To</span>.</span>'
   points:
@@ -45,7 +45,7 @@ skills:
   tag: Elemental Burst
 - name: 'Kamisato Art: Senho'
   description: '<p><span style="color: rgb(255, 215, 128)">Passive Skill</span></p>
-  <span style="color: rgba(255, 255, 255, 0.65)">
+  <span>
   <p>(Passive) When switched to be the active character, this character gains 
   <span style="color: #FFFFFF">Cryo Elemental Infusion</span>.</p></span>'
   points:
@@ -54,18 +54,18 @@ skills:
   tag: Passive Skill
 - name: 'Cryo Elemental Infusion'
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span><p>
-  <span style="color: rgba(255, 255, 255, 0.65)"><p>The character to which this is attached has their 
-  <span style="color: rgb(255, 255, 255)">Physical DMG </span>dealt converted to 
+  <span><p>The character to which this is attached has their 
+  <span style="color: #FFFFFF">Physical DMG </span>dealt converted to 
   <span style="color: rgb(153, 255, 255)">Cryo DMG</span>.</span></p>
-  <br><span style="color: rgb(255, 255, 255)">(Lasts until the Round ends)</span></br>'
+  <br><span style="color: #FFFFFF">(Lasts until the Round ends)</span></br>'
   points:
   - point_type: ''
     point_count: -1
   tag: Status
 - name: Frostflake Seki no To
   description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
-    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 2 <span style="color:
-    rgb(153, 255, 255)">Cryo DMG</span>.</p><p><span style="color: rgb(255, 255, 255)">Usage(s):
+    style="color: #FFFFFF">End Phase:</span> Deal 2 <span style="color:
+    rgb(153, 255, 255)">Cryo DMG</span>.</p><p><span style="color: #FFFFFF">Usage(s):
     2</span></p>'
   points:
   - point_type: ''
@@ -73,31 +73,31 @@ skills:
   tag: Summon
 - name: Cryo DMG
   description: '<p>Applies Cryo and can trigger the following Elemental Reactions:</p><p><span
-    style="color: rgb(255, 255, 255)">[</span><span style="color: rgb(153, 255, 255)">Cryo
+    style="color: #FFFFFF">[</span><span style="color: rgb(153, 255, 255)">Cryo
     </span>+ <span style="color: rgb(255, 153, 153)">Pyro</span><span style="color:
-    rgb(255, 255, 255)">]</span><span style="color: rgb(255, 153, 153)"> </span><span
-    style="color: rgb(255, 255, 255)">Melt</span>: DMG +2 for this instance</p><p><span
-    style="color: rgb(255, 255, 255)">[</span><span style="color: rgb(153, 255, 255)">Cryo
+    #FFFFFF">]</span><span style="color: rgb(255, 153, 153)"> </span><span
+    style="color: #FFFFFF">Melt</span>: DMG +2 for this instance</p><p><span
+    style="color: #FFFFFF">[</span><span style="color: rgb(153, 255, 255)">Cryo
     </span>+ <span style="color: rgb(255, 172, 255)">Electro</span><span style="color:
-    rgb(255, 255, 255)">]</span><span style="color: rgb(255, 172, 255)"> </span><span
-    style="color: rgb(255, 255, 255)">Superconduct</span>: DMG+1 for this instance,
+    #FFFFFF">]</span><span style="color: rgb(255, 172, 255)"> </span><span
+    style="color: #FFFFFF">Superconduct</span>: DMG+1 for this instance,
     deal 1 Piercing DMG to all opposing characters except the target</p><p><span style="color:
-    rgb(255, 255, 255)">[</span><span style="color: rgb(153, 255, 255)">Cryo </span>+
+    #FFFFFF">[</span><span style="color: rgb(153, 255, 255)">Cryo </span>+
     <span style="color: rgb(128, 192, 255)">Hydro</span><span style="color: rgb(255,
     255, 255)">]</span><span style="color: rgb(128, 192, 255)"> </span><span style="color:
-    rgb(255, 255, 255)">Frozen</span>: DMG +1 for this instance, the target is unable
+    #FFFFFF">Frozen</span>: DMG +1 for this instance, the target is unable
     to perform any Actions this Round (Can be removed in advance after the target
     receives physical or Pyro DMG, in which case they will take +2 DMG)</p>'
   points:
   - point_type: ''
     point_count: 0
 - name: Detailed Rules
-  description: '<p><strong><span style="color: rgb(255, 255, 255)">Physical DMG</span></strong></p><p>Physical
+  description: '<p><strong><span style="color: #FFFFFF">Physical DMG</span></strong></p><p>Physical
     DMG will not apply any Elements, nor can it engage in Elemental Reactions.</p><p></p><p><strong><span
-    style="color: rgb(255, 255, 255)">Usage(s)</span></strong></p><p>After this card''s
-    effect is triggered, 1 <span style="color: rgb(255, 255, 255)">Usage </span>of
+    style="color: #FFFFFF">Usage(s)</span></strong></p><p>After this card''s
+    effect is triggered, 1 <span style="color: #FFFFFF">Usage </span>of
     it will be consumed.</p><p>This card will be discarded immediately once it has
-    0 <span style="color: rgb(255, 255, 255)">Usages </span>remaining.</p>'
+    0 <span style="color: #FFFFFF">Usages </span>remaining.</p>'
   points:
   - point_type: ''
     point_count: 0

@@ -19,9 +19,8 @@ skills:
   - point_type: black
     point_count: 2
 - name: 'Fight Club Legend'
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span
-    style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: #FFFFFF">Physical
-    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 2 </span><span style="color: #FFFFFF">Physical
+    DMG</span>.</p>'
   points:
   - point_type: geo
     point_count: 1
@@ -34,7 +33,7 @@ skills:
     <p><span style="color: rgb(255, 215, 128)">Status</span></p>
     <p><span style="color: #FFFFFF">When the character to which this is attached uses a Charged Attack:</span> deal +1 DMG. 
     If the <span style="color: #FFFFFF">Usage(s)</span> are no less than 2, expend 1 less <span style="color: #FFFFFF">Unaligned Element.</span></p>
-    <p><span style="color: rgb(255, 255, 255)">Usage(s):</span> 1. (Can stack. Max 3 stacks.)</p>
+    <p><span style="color: #FFFFFF">Usage(s):</span> 1. (Can stack. Max 3 stacks.)</p>
   points:
   - point_type: ''
     point_count: -1

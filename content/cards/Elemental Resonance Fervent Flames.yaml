@@ -16,33 +16,33 @@ skills:
     point_count: 1
 - name: Detailed Rules
   description: '<p><strong><span style="color: rgb(255, 153, 153)">Pyro-Related Reactions</span></strong></p><p></p><p><span
-    style="color: rgb(255, 255, 255)">[</span><span style="color: rgb(255, 153, 153)">Pyro</span><span
+    style="color: #FFFFFF">[</span><span style="color: rgb(255, 153, 153)">Pyro</span><span
     style="color: rgb(153, 255, 255)"> </span>+ <span style="color: rgb(153, 255,
-    255)">Cryo</span><span style="color: rgb(255, 255, 255)">]</span><span style="color:
-    rgb(255, 153, 153)"> </span><span style="color: rgb(255, 255, 255)">Melt</span>:
-    DMG +2 for this instance</p><p><span style="color: rgb(255, 255, 255)">[</span><span
+    255)">Cryo</span><span style="color: #FFFFFF">]</span><span style="color:
+    rgb(255, 153, 153)"> </span><span style="color: #FFFFFF">Melt</span>:
+    DMG +2 for this instance</p><p><span style="color: #FFFFFF">[</span><span
     style="color: rgb(255, 153, 153)">Pyro</span><span style="color: rgb(153, 255,
     255)"> </span>+ <span style="color: rgb(128, 192, 255)">Hydro</span><span style="color:
-    rgb(255, 255, 255)">]</span><span style="color: rgb(255, 172, 255)"> </span><span
-    style="color: rgb(255, 255, 255)">Vaporize</span>: DMG +2 for this instance</p><p><span
-    style="color: rgb(255, 255, 255)">[</span><span style="color: rgb(255, 153, 153)">Pyro</span><span
+    #FFFFFF">]</span><span style="color: rgb(255, 172, 255)"> </span><span
+    style="color: #FFFFFF">Vaporize</span>: DMG +2 for this instance</p><p><span
+    style="color: #FFFFFF">[</span><span style="color: rgb(255, 153, 153)">Pyro</span><span
     style="color: rgb(153, 255, 255)"> </span>+ <span style="color: rgb(255, 172,
-    255)">Electro</span><span style="color: rgb(255, 255, 255)">]</span><span style="color:
-    rgb(128, 192, 255)"> </span><span style="color: rgb(255, 255, 255)">Overloaded</span>:
+    255)">Electro</span><span style="color: #FFFFFF">]</span><span style="color:
+    rgb(128, 192, 255)"> </span><span style="color: #FFFFFF">Overloaded</span>:
     DMG +2 for this instance, the target is forcibly switched to the next character</p><p><span
-    style="color: rgb(255, 255, 255)">[</span><span style="color: rgb(255, 153, 153)">Pyro</span><span
+    style="color: #FFFFFF">[</span><span style="color: rgb(255, 153, 153)">Pyro</span><span
     style="color: rgb(153, 255, 255)"> </span>+ <span style="color: rgb(153, 255,
-    136)">Dendro</span><span style="color: rgb(255, 255, 255)">]</span><span style="color:
-    rgb(128, 192, 255)"> </span><span style="color: rgb(255, 255, 255)">Burning</span>:
+    136)">Dendro</span><span style="color: #FFFFFF">]</span><span style="color:
+    rgb(128, 192, 255)"> </span><span style="color: #FFFFFF">Burning</span>:
     DMG +1 for this instance, creates a [Burning Flame] that will deal 1 Pyro DMG
     at the end of the Round (Takes effect once, max 2 stacks)</p><p><span style="color:
-    rgb(255, 255, 255)">[</span><span style="color: rgb(255, 230, 153)">Geo </span><span
-    style="color: rgb(255, 255, 255)">+ </span><span style="color: rgb(255, 153, 153)">Pyro</span>]
-    <span style="color: rgb(255, 255, 255)">Pyro Crystallize</span>: DMG +1 for this
+    #FFFFFF">[</span><span style="color: rgb(255, 230, 153)">Geo </span><span
+    style="color: #FFFFFF">+ </span><span style="color: rgb(255, 153, 153)">Pyro</span>]
+    <span style="color: #FFFFFF">Pyro Crystallize</span>: DMG +1 for this
     instance, your active character gains 1 shield point (Can stack, max 2 points)</p><p><span
-    style="color: rgb(255, 255, 255)">[</span><span style="color: rgb(128, 255, 215)">Anemo
-    </span><span style="color: rgb(255, 255, 255)">+ </span><span style="color: rgb(255,
-    153, 153)">Pyro</span>] <span style="color: rgb(255, 255, 255)">Pyro Swirl</span>:
+    style="color: #FFFFFF">[</span><span style="color: rgb(128, 255, 215)">Anemo
+    </span><span style="color: #FFFFFF">+ </span><span style="color: rgb(255,
+    153, 153)">Pyro</span>] <span style="color: #FFFFFF">Pyro Swirl</span>:
     Deals 1 Pyro DMG to all opposing character except the target</p>'
   points:
   - point_type: ''

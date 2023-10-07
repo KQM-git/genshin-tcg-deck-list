@@ -7,9 +7,8 @@ offset:
   modal: '50% 34%'
 skills:
 - name: Description
-  description: '<p><span style="color: rgba(255, 255, 255, 0.65)">During this Round,
-    your current active character will deal +2 DMG for the next instance.</span></p><p><span
-    style="color: rgba(255, 255, 255, 0.65)">(You must have at least 2 </span><span
+  description: '<p><span>During this Round,
+    your current active character will deal +2 DMG for the next instance.</span></p><p><span>(You must have at least 2 </span><span
     style="color: rgb(153, 255, 255)">Cryo </span><span style="color: rgba(255, 255,
     255, 0.65)">characters in your deck to add this card to your deck.)</span></p>'
   points:

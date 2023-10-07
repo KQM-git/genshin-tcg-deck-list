@@ -24,16 +24,14 @@ skills:
     point_count: 2
   tag: Normal Attack
 - name: Misty Summons
-  description: '<p><span style="color: #FFD780">Elemental Skill</span></p><span
-    style="color: rgba(255, 255, 255, 0.65)">Deals 1 <span style="color: rgb(153, 255, 255)">Cryo DMG</span>, 
+  description: '<p><span style="color: #FFD780">Elemental Skill</span></p><span>Deals 1 <span style="color: rgb(153, 255, 255)">Cryo DMG</span>, 
     summons <span style="color: #FFFFFF">Cryo Cicins</span>.</span></p>'
   points:
   - point_type: cryo
     point_count: 3
   tag: Elemental Skill
 - name: Blizzard, Branch, Blossom
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span
-    style="color: rgba(255, 255, 255, 0.65)">
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span>
     <p>Deals 5 <span style="color: rgb(153, 255, 255)">Cryo DMG</span>, 
     grants this character <span style="color: rgb(153, 255, 255)">Cryo Application</span>, 
     creates 1 <span style="color: #FFFFFF">Flowing Cicin Shield</span>.</p>'
@@ -45,11 +43,11 @@ skills:
   tag: Elemental Burst
 - name: Cryo Cicins
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span><p>
-  <p><span style="color: rgb(255, 255, 255)">End Phase:</span> Deal 1 <span style="color: rgb(153, 255, 255)">Cryo DMG</span></p>
-  <p><span style="color: rgb(255, 255, 255)">Usage(s): 2</span> (Can stack, max 3 stacks)</p>
+  <p><span style="color: #FFFFFF">End Phase:</span> Deal 1 <span style="color: rgb(153, 255, 255)">Cryo DMG</span></p>
+  <p><span style="color: #FFFFFF">Usage(s): 2</span> (Can stack, max 3 stacks)</p>
   <p></p>
-  <p><span style="color: rgb(255, 255, 255)">After Fatui Cryo Cicin Mage performs a Normal Attack: </span>This card gains 1 <span style="color: rgb(255, 255, 255)">Usage(s)</span>.</p>
-  <p><span style="color: rgb(255, 255, 255)">After your character takes Elemental Reaction DMG: </span>This card loses 1 <span style="color: rgb(255, 255, 255)">Usage(s)</span>.</p>'
+  <p><span style="color: #FFFFFF">After Fatui Cryo Cicin Mage performs a Normal Attack: </span>This card gains 1 <span style="color: #FFFFFF">Usage(s)</span>.</p>
+  <p><span style="color: #FFFFFF">After your character takes Elemental Reaction DMG: </span>This card loses 1 <span style="color: #FFFFFF">Usage(s)</span>.</p>'
   points:
   - point_type: ''
     point_count: -1
@@ -57,8 +55,8 @@ skills:
 - name: Flowing Cicin Shield
   description: '<p><span style="color: rgb(255, 215, 128)">Combat Status</span><p>
   <p>Provides 1 <span style="color: #FFFFFF">Shield points</span> for your active character.</p>
-  <p><span style="color: rgb(255, 255, 255)">When created:</span> If you have <span style="color: #FFFFFF">Cryo Cicins</span> on the field,
-  increase <span style="color: #FFFFFF">Shield</span> by the amount of <span style="color: rgb(255, 255, 255)">Usage(s)</span> it has.
+  <p><span style="color: #FFFFFF">When created:</span> If you have <span style="color: #FFFFFF">Cryo Cicins</span> on the field,
+  increase <span style="color: #FFFFFF">Shield</span> by the amount of <span style="color: #FFFFFF">Usage(s)</span> it has.
   (Adds a maximum of 3 additional <span style="color: #FFFFFF">Shield</span>)</p>'
   points:
   - point_type: ''

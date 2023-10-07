@@ -15,9 +15,8 @@ offset:
   modal: '50% 10%'
 skills:
 - name: 'Gleaming Spear - Guardian Stance'
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span
-    style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: #FFFFFF">Physical
-    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 2 </span><span style="color: #FFFFFF">Physical
+    DMG</span>.</p>'
   points:
   - point_type: hydro
     point_count: 1
@@ -26,7 +25,7 @@ skills:
   tag: Normal Attack
 - name: "Sacred Rite: Heron's Sanctum"
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
-  <span style="color: rgba(255, 255, 255, 0.65)">Attaches a <span style="color: #FFFFFF">Heron Shield</span> to this character and prepares <span style="color: #FFFFFF">Heron Strike</span>.</span>'
+  <span>Attaches a <span style="color: #FFFFFF">Heron Shield</span> to this character and prepares <span style="color: #FFFFFF">Heron Strike</span>.</span>'
   points:
   - point_type: hydro
     point_count: 3
@@ -62,10 +61,10 @@ skills:
 - name: Prayer of the Crimson Crown
   description: >
     <p><span style="color: rgb(255, 215, 128)">Combat Status</span></p>
-    <p>Your characters' <span style="color: rgb(255, 255, 255)">Normal Attacks</span> deal +1 DMG.</p>
+    <p>Your characters' <span style="color: #FFFFFF">Normal Attacks</span> deal +1 DMG.</p>
     <p>Your Sword, Claymore, and Polearm-wielding characters' <span style="color: #FFFFFF">Physical
     DMG</span> is converted to <span style="color: #80C0FF">Hydro DMG</span>.</p>
-    <p><span style="color: rgb(255, 255, 255)">Duration (Rounds):</span> 2</p>
+    <p><span style="color: #FFFFFF">Duration (Rounds):</span> 2</p>
   points:
   - point_type: ''
     point_count: -1

@@ -31,10 +31,10 @@ skills:
 - name: Prayer of the Crimson Crown
   description: >
     <p><span style="color: rgb(255, 215, 128)">Combat Status</span></p>
-    <p>Your characters' <span style="color: rgb(255, 255, 255)">Normal Attacks</span> deal +1 DMG.</p>
+    <p>Your characters' <span style="color: #FFFFFF">Normal Attacks</span> deal +1 DMG.</p>
     <p>Your Sword, Claymore, and Polearm-wielding characters' <span style="color: #FFFFFF">Physical
     DMG</span> is converted to <span style="color: #80C0FF">Hydro DMG</span>.</p>
-    <p><span style="color: rgb(255, 255, 255)">Duration (Rounds):</span> 2</p>
+    <p><span style="color: #FFFFFF">Duration (Rounds):</span> 2</p>
   points:
   - point_type: ''
     point_count: -1

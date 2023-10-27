@@ -16,8 +16,7 @@ offset:
   modal: '50% 29%'
 skills:
 - name: Plama Lawa
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span
-    style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: #FFFFFF">Physical
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 2 </span><span style="color: #FFFFFF">Physical
     DMG.</span></p>'
   points:
   - point_type: geo
@@ -26,17 +25,15 @@ skills:
     point_count: 2
   tag: Normal Attack
 - name: Movo Lawa
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span
-    style="color: rgba(255, 255, 255, 0.65)">Deals 3 </span><span style="color: #FFFFFF">Physical
-    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span>Deals 3 </span><span style="color: #FFFFFF">Physical
+    DMG</span>.</p>'
   points:
   - point_type: geo
     point_count: 3
   tag: Elemental Skill
 - name: Upa Shato
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span
-    style="color: rgba(255, 255, 255, 0.65)">Deals 5 </span><span style="color: #FFFFFF">Physical
-    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span>Deals 5 </span><span style="color: #FFFFFF">Physical
+    DMG</span>.</p>'
   points:
   - point_type: geo
     point_count: 3
@@ -45,18 +42,18 @@ skills:
   tag: Elemental Burst
 - name: Infused Stonehide
   description: '<p><span style="color: rgb(255, 215, 128)">Passive Skill</span></p><p>(Passive)
-    When the battle begins, this character gains <span style="color: rgb(255, 255, 255)">
-    Stonehide</span> and <span style="color: rgb(255, 255, 255)">Stone Force</span>.</p><p></p>'
+    When the battle begins, this character gains <span style="color: #FFFFFF">
+    Stonehide</span> and <span style="color: #FFFFFF">Stone Force</span>.</p><p></p>'
   points:
   - point_type: ''
     point_count: -1
   tag: Passive Skill
 - name: Stonehide
   description: '<p><span style="color:
-    rgb(255, 215, 128)">Status</span></p><p><span style="color: rgb(255, 255, 255)">When
+    rgb(255, 215, 128)">Status</span></p><p><span style="color: #FFFFFF">When
     the character to which this is attached receives DMG</span>: Decrease DMG taken
     by 1. When Geo DMG is decreased, consume 1 additional <span style="color: rgb(255,
-    255, 255)">Usage(s)</span>.</p><p><span style="color: rgb(255, 255, 255)">Usage(s):
+    255, 255)">Usage(s)</span>.</p><p><span style="color: #FFFFFF">Usage(s):
     3</span></p><p></p>'
   points:
   - point_type: ''
@@ -65,9 +62,9 @@ skills:
 - name: Stone Force
   description: '<p><span
     style="color: rgb(255, 215, 128)">Status</span><p>The character to which this
-    is attached has their <span style="color: rgb(255, 255, 255)">Physical DMG</span>
+    is attached has their <span style="color: #FFFFFF">Physical DMG</span>
     dealt converted to <span style="color: rgb(255, 230, 153)">Geo DMG</span>.</p><p><span
-    style="color: rgb(255, 255, 255)">Once per Round</span>: The character deals +1
+    style="color: #FFFFFF">Once per Round</span>: The character deals +1
     DMG. Once the Stonehide attached to the character is removed, this status will
     be removed alongside it.</p><p></p>'
   points:
@@ -77,28 +74,28 @@ skills:
 - name: Geo DMG
   description: '<p>Reacts with Elements if they are already applied:<br>[<span style="color:
     rgb(255, 230, 153)">Geo</span> + <span style="color: rgb(153, 255, 255)">Cryo</span>]
-    <span style="color: rgb(255, 255, 255)">Cryo Crystallize</span>: DMG +1 for this
+    <span style="color: #FFFFFF">Cryo Crystallize</span>: DMG +1 for this
     instance, your active character gains 1 Shield point (Can stack, max 2 points)<br>[<span
     style="color: rgb(255, 230, 153)">Geo</span> + <span style="color: rgb(128, 192,
-    255)">Hydro</span>] <span style="color: rgb(255, 255, 255)">Hydro Crystallize</span>:
+    255)">Hydro</span>] <span style="color: #FFFFFF">Hydro Crystallize</span>:
     DMG +1 for this instance, your active character gains 1 Shield point (Can stack,
     max 2 points)<br>[<span style="color: rgb(255, 230, 153)">Geo</span> + <span style="color:
-    rgb(255, 153, 153)">Pyro</span>] <span style="color: rgb(255, 255, 255)">Pyro
+    rgb(255, 153, 153)">Pyro</span>] <span style="color: #FFFFFF">Pyro
     Crystallize</span>: DMG +1 for this instance, your active character gains 1 Shield
     point (Can stack, max 2 points)<br>[<span style="color: rgb(255, 230, 153)">Geo</span>
     + <span style="color: rgb(255, 172, 255)">Electro</span>] <span style="color:
-    rgb(255, 255, 255)">Electro Crystallize</span>: DMG +1 for this instance, your
+    #FFFFFF">Electro Crystallize</span>: DMG +1 for this instance, your
     active character gains 1 Shield point (Can stack, max 2 points)</p>'
   points:
   - point_type: ''
     point_count: 0
 - name: Detailed Rules
-  description: '<p><strong><span style="color: rgb(255, 255, 255)">Physical DMG</span></strong></p><p>Physical
+  description: '<p><strong><span style="color: #FFFFFF">Physical DMG</span></strong></p><p>Physical
     DMG will not apply any Elements, nor can it engage in Elemental Reactions.</p><p></p><p><strong><span
-    style="color: rgb(255, 255, 255)">Usage(s)</span></strong></p><p>After this card''s
-    effect is triggered, 1 <span style="color: rgb(255, 255, 255)">Usage </span>of
+    style="color: #FFFFFF">Usage(s)</span></strong></p><p>After this card''s
+    effect is triggered, 1 <span style="color: #FFFFFF">Usage </span>of
     it will be consumed.</p><p>This card will be discarded immediately once it has
-    0 <span style="color: rgb(255, 255, 255)">Usages </span>remaining.</p>'
+    0 <span style="color: #FFFFFF">Usages </span>remaining.</p>'
   points:
   - point_type: ''
     point_count: 0

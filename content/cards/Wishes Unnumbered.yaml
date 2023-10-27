@@ -8,7 +8,7 @@ offset:
 skills:
 - name: Description
   description: >
-    <p><span style="color: #FFFFFF">Combat Action:</span> When your active character is <span style="color: #FFFFFF">Raiden Shogun</span>, equip this card.</p>
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is <span style="color: #FFFFFF">Raiden Shogun</span>, equip this card.</p>
     <p>After Raiden Shogun equips this card, immediately use <span style="color: rgb(255, 215, 128)">Secret Art: Musou Shinsetsu</span> once.</p>
     <p>When your Raiden Shogun, who has this card equipped, uses <span style="color: #FFFFFF">Secret Art: Musou Shinsetsu</span>, 
     it will deal +1 additional DMG for every point of Resolve consumed.</p>

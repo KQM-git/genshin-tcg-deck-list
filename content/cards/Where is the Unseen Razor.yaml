@@ -9,7 +9,7 @@ skills:
 - name: Description
   description: >
     <p>Return a Weapon card equipped by your character to your Hand.</p>
-    <p><span style="color: #FFFFFF">During this Round, the next time you play a Weapon card:</span> Spend 2 less Elemental Dice.</p>
+    <p><span style="color: #FFFFFF">During this Round, the next time you play a Weapon card</span>: Spend 2 less Elemental Dice.</p>
   points:
   - point_type: ''
     point_count: 0

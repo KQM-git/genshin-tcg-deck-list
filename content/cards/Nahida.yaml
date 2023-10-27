@@ -24,8 +24,7 @@ skills:
     point_count: 2
   tag: Normal Attack
 - name: All Schemes to Know
-  description: '<p><span style="color: #FFD780">Elemental Skill</span></p><span
-    style="color: rgba(255, 255, 255, 0.65)">Deals 2 <span style="color: #99FF88">Dendro DMG</span>, 
+  description: '<p><span style="color: #FFD780">Elemental Skill</span></p><span>Deals 2 <span style="color: #99FF88">Dendro DMG</span>, 
     applies <span style="color: #FFFFFF">Seed of Skandha</span> to target character. If the target character already
     has <span style="color: #FFFFFF">Seed of Skandha</span> applied to them, then 
     apply <span style="color: #FFFFFF">Seed of Skandha</span> to all opposing characters instead.</span></p>'
@@ -34,16 +33,14 @@ skills:
     point_count: 3
   tag: Elemental Skill
 - name: 'All Schemes to Know: Tathata'
-  description: '<p><span style="color: #FFD780">Elemental Skill</span></p><span
-    style="color: rgba(255, 255, 255, 0.65)">Deals 3 <span style="color: #99FF88">Dendro DMG</span>. 
+  description: '<p><span style="color: #FFD780">Elemental Skill</span></p><span>Deals 3 <span style="color: #99FF88">Dendro DMG</span>. 
     Applies <span style="color: #FFFFFF">Seed of Skandha</span> to all opposing characters.</span></p>'
   points:
   - point_type: dendro
     point_count: 5
   tag: Elemental Skill
 - name: Illusory Heart
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span
-    style="color: rgba(255, 255, 255, 0.65)">
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span>
     <p>Deals 4 <span style="color: #99FF88">Dendro DMG</span>, creates 1 <span style="color: #FFFFFF">Shrine of Maya</span>.</p>'
   points:
   - point_type: dendro
@@ -53,20 +50,20 @@ skills:
   tag: Elemental Burst
 - name: Seed of Skandha
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span><p>
-  <p><span style="color: rgb(255, 255, 255)">After any character who has a Seed of Skandha takes Elemental Reaction DMG:</span> 
-  <span style="color: rgb(255, 255, 255, 0.65)"> Deal 1 
+  <p><span style="color: #FFFFFF">After any character who has a Seed of Skandha takes Elemental Reaction DMG</span>: 
+  <span> Deal 1 
   <span style="color: #FFFFFF">Piercing DMG</span> to the character(s) 
   to which the Seed of Skandha is attached on the same side of the field.</p>
-  <p><span style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
+  <p><span style="color: #FFFFFF">Usage(s): 2</span></p>'
   points:
   - point_type: ''
     point_count: -1
   tag: Status
 - name: Shrine of Maya
   description: '<p><span style="color: rgb(255, 215, 128)">Combat Status</span><p>
-  <p><span style="color: rgb(255, 255, 255)">When your character triggers an Elemental Reaction:</span> 
-  <span style="color: rgb(255, 255, 255, 0.65)"> +1 additional DMG.</span></p>
-  <p><span style="color: rgb(255, 255, 255)">Duration (Rounds): 2</span></p>'
+  <p><span style="color: #FFFFFF">When your character triggers an Elemental Reaction</span>: 
+  <span> +1 additional DMG.</span></p>
+  <p><span style="color: #FFFFFF">Duration (Rounds): 2</span></p>'
   points:
   - point_type: ''
     point_count: -1

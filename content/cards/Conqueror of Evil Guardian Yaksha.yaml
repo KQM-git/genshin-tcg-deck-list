@@ -8,7 +8,7 @@ offset:
 skills:
 - name: Description
   description: >
-    <p><span style="color: #FFFFFF">Combat Action:</span> When your active character is <span style="color: #FFFFFF">Xiao</span>, equip this card.</p>
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is <span style="color: #FFFFFF">Xiao</span>, equip this card.</p>
     <p>After Xiao equips this card, immediately use <span style="color: rgb(255, 215, 128)">Bane of All Evil</span> once.</p>
     <p>When your Xiao has <span style="color: #FFFFFF">Yaksha's Mask</span> attached, your use of 
     <span style="color: #FFFFFF">Lemniscatic Wind Cycling</span> will cost 1 less 
@@ -33,12 +33,12 @@ skills:
 - name: Yaksha's Mask
   description: >
     <p><span style="color: rgb(255, 215, 128)">Status</span></p>
-    <p>The character to which this is attached has their <span style="color: rgb(255, 255, 255)">Physical DMG</span> dealt converted to 
+    <p>The character to which this is attached has their <span style="color: #FFFFFF">Physical DMG</span> dealt converted to 
     <span style="color: #80FFD7">Anemo DMG</span>, and they will deal +1 <span style="color: #80FFD7">Anemo DMG</span>.</p>
-    <p><span stlye="color: #FFFFFF">When the character to which this is attached uses a Plunging Attack:</span> +2 additional DMG.</p>
-    <p><span style="color: rgb(255, 255, 255)">If the character this card is attached to is the active character, 
-    when you perform "Switch Character":</span> Spend 1 less Elemental Die. (Once per Round)</p>
-    <p><span style="color: rgb(255, 255, 255)">Duration (Rounds): 2</span></p>
+    <p><span style="color: #FFFFFF">When the character to which this is attached uses a Plunging Attack</span>: +2 additional DMG.</p>
+    <p><span style="color: #FFFFFF">If the character this card is attached to is the active character, 
+    when you perform "Switch Character"</span>: Spend 1 less Elemental Die. (Once per Round)</p>
+    <p><span style="color: #FFFFFF">Duration (Rounds): 2</span></p>
   points:
   - point_type: ''
     point_count: -1

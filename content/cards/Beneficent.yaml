@@ -1,0 +1,31 @@
+name: Beneficent
+id: 217041
+tags: []
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is <span style="color: #FFFFFF">Yaoyao</span>, equip this card.</p>
+    <p>After Yaoyao equips this card, immediately use <span style="color: #FFD780">Raphanous Sky Cluster</span> once.</p>
+    <p>When <span style="color: #FFFFFF">Yuegui: Throwing Mode</span> is created by your Yaoyao, who has this card equipped, and it has only 1 <span style="color: #FFFFFF">Usage(s)</span> remaining, it deals +1 DMG and healing is increased by 1.</p>
+    <p>(You must have Yaoyao in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: dendro
+    point_count: 3
+- name: Raphanus Sky Cluster
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  Summons 1 <span style="color: #FFFFFF">Yuegui: Throwing Mode</span>.'
+  points:
+  - point_type: dendro
+    point_count: 3
+  tag: Elemental Skill
+  side: True
+- name: 'Yuegui: Throwing Mode'
+  description: '<p>
+  <span style="color: rgb(255, 215, 128)">Summon</span></p><p>
+  <span style="color: #FFFFFF">End Phase</span>: 
+  <span> Deal 1 <span style="color: rgb(153, 255, 136)">Dendro DMG</span>, heal the character on your team that has taken the most damage for 1 HP.</p><p>
+  <span style="color: #FFFFFF">Usage(s): 2</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Summon

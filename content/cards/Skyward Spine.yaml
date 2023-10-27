@@ -7,9 +7,9 @@ offset:
   modal: '50% 34%'
 skills:
 - name: Description
-  description: '<p><span style="color: rgb(255, 255, 255)">The character deals +1
+  description: '<p><span style="color: #FFFFFF">The character deals +1
     DMG</span>.</p><p>Once per Round: This character''s Normal Attacks deal +1 additional
-    DMG.</p><p>(<span style="color: rgb(255, 255, 255)">Only Polearm Characters</span>
+    DMG.</p><p>(<span style="color: #FFFFFF">Only Polearm Characters</span>
     can equip this. A Character can equip a maximum of 1 Weapon.)</p>'
   points:
   - point_type: white

@@ -7,13 +7,13 @@ offset:
   modal: '50% 46%'
 skills:
 - name: Description
-  description: '<p><span style="color: rgb(255, 255, 255)">Combat Action</span>: When your active character is 
-  <span style="color: rgb(255, 255, 255)">Klee</span>, equip this card.</p>
+  description: '<p><span style="color: #FFFFFF">Combat Action</span>: When your active character is 
+  <span style="color: #FFFFFF">Klee</span>, equip this card.</p>
   <p>After Klee equips this card, immediately use 
   <span style="color: rgb(255, 215, 128)">Jumpy Dumpty</span> once.</p>
   <p>When your Klee, who has this card equipped, creates an 
-  <span style="color: rgb(255, 255, 255)">Explosive Spark</span>, its 
-  <span style="color: rgb(255, 255, 255)">Usage(s)</span> +1.</p>
+  <span style="color: #FFFFFF">Explosive Spark</span>, its 
+  <span style="color: #FFFFFF">Usage(s)</span> +1.</p>
   <p>(You must have Klee in your deck to add this card to your deck.)</p><p></p>'
   points:
   - point_type: pyro
@@ -22,7 +22,7 @@ skills:
   description: >
     <p><span style="color: #FFD780">Elemental Skill</span></p>Deals 3 
     <span style="color: #FF9999">Pyro DMG</span>. This character gains 
-    <span style="color: rgb(255, 255, 255)">Explosive Spark</span>.</p>
+    <span style="color: #FFFFFF">Explosive Spark</span>.</p>
   points:
   - point_type: pyro
     point_count: 3
@@ -30,9 +30,9 @@ skills:
   tag: Elemental Skill
 - name: Jumpy Dumpty
   description: '<p><strong><span
-    style="color: rgb(255, 255, 255)">Explosive Spark</span></strong></p><span style="color:
+    style="color: #FFFFFF">Explosive Spark</span></strong></p><span style="color:
     rgb(255, 215, 128)">Status</span></p><p>
-  <span style="color: #FFFFFF">When the character to which this is attached uses a Charged Attack:</span> Spend 1 less 
+  <span style="color: #FFFFFF">When the character to which this is attached uses a Charged Attack</span>: Spend 1 less 
   <span style="color: #FF9999">Pyro Die</span> and deal +1 DMG.</p>
   (Charged Attack: When the total number of Elemental Dice is even, the Normal Attack to use will be considered a Charged Attack.)
   <p><span style="color: #FFFFFF">Usage(s): 1</span></p>'

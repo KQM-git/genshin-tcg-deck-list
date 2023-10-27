@@ -8,7 +8,7 @@ offset:
 skills:
 - name: Description
   description: >
-    <p><span style="color: #FFFFFF">When played:</span> If <span style="color: #FFFFFF">Abyss Lector: Fathomless Flames</span>,
+    <p><span style="color: #FFFFFF">When played</span>: If <span style="color: #FFFFFF">Abyss Lector: Fathomless Flames</span>,
     who equips this card, has already triggered <span style="color: #FFFFFF">Fiery Rebirth</span>, immediately discard this 
     card and apply <span style="color: #FFFFFF">Aegis of Abyssal Flame</span> to the character.</p>
     <p>When <span style="color: #FFFFFF">Abyss Lector: Fathomless Flames</span>, who has this card equipped, triggers <span style="color: #FFFFFF">Fiery Rebirth</span>: 
@@ -19,7 +19,7 @@ skills:
     point_count: 2
 - name: Fiery Rebirth
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
-    <p><span style="color: #FFFFFF">When the character to which this is attached would be defeated:</span> 
+    <p><span style="color: #FFFFFF">When the character to which this is attached would be defeated</span>: 
     Remove this effect, ensure the character <span style="color: #FFFFFF">will not be defeated</span>, and heal them to 3 HP.</p>'
   points:
   - point_type: ''

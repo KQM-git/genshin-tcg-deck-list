@@ -1,0 +1,23 @@
+name: Stalwart and True
+id: 213091
+tags: []
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is <span style="color: #FFFFFF">Dehya</span>, equip this card.</p>
+    <p>After Dehya equips this card, immediately use <span style="color: #FFD780">Molten Inferno</span> once.</p>
+    <p><span style="color: #FFFFFF">End Phase</span>: If your Dehya, who has this card equipped, has no more than 6 HP, heal that character for 2HP.</p>
+    <p>(You must have Dehya in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: pyro
+    point_count: 4
+- name: Molten Inferno
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+    Summon <span style="color: #FFFFFF">Fiery Sanctum Field</span>. 
+    If Fiery Sanctum Field already exists, then first deal 1 <span style="color: #FF9999">Pyro DMG</span>.
+  points:
+  - point_type: pyro
+    point_count: 3
+  tag: Elemental Skill
+  side: true

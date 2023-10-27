@@ -7,13 +7,13 @@ offset:
   modal: '50% 43%'
 skills:
 - name: Description
-  description: '<p><span style="color: rgb(255, 255, 255)">The character deals +1
+  description: '<p><span style="color: #FFFFFF">The character deals +1
     DMG</span>.</p>
-    <p><span style="color: #FFFFFF">After the character uses a Skill:</span> 
+    <p><span style="color: #FFFFFF">After the character uses a Skill</span>: 
     Gives 1 <span style="color: #FFFFFF">Shield</span> point to your active character. (Once per Round, stacks up to 2 points)<p>(<span style="color:
-    rgb(255, 255, 255)">Only Claymore Characters</span> can equip this. A character can
+    #FFFFFF">Only Claymore Characters</span> can equip this. A character can
     equip a maximum of 1 Weapon)</p>'
   points:
   - point_type: white
     point_count: 3
-source: '<p><span style="color: rgba(255, 255, 255, 0.65)">Purchased at the Card Shop</span></p>'
+source: '<p><span>Purchased at the Card Shop</span></p>'

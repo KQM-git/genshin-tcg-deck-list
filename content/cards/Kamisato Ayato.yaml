@@ -15,9 +15,8 @@ offset:
   modal: '50% 10%'
 skills:
 - name: 'Kamisato Art: Marobashi'
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span
-    style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: #FFFFFF">Physical
-    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 2 </span><span style="color: #FFFFFF">Physical
+    DMG</span>.</p>'
   points:
   - point_type: hydro
     point_count: 1
@@ -26,7 +25,7 @@ skills:
   tag: Normal Attack
 - name: 'Kamisato Art: Kyouka'
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
-  <span style="color: rgba(255, 255, 255, 0.65)">Deals 2 
+  <span>Deals 2 
   <span style="color: #80C0FF">Hydro DMG</span>. This character gains 
   <span style="color: #FFFFFF">Takimeguri Kanka</span>.</span>'
   points:
@@ -35,18 +34,19 @@ skills:
   tag: Elemental Skill
 - name: 'Kamisato Art: Suiyuu'
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
-  Deals 3 <span style="color: #80C0FF">Hydro DMG</span>, summons 1 <span style="color: #FFFFFF">Garden of Purity</span>.'
+  Deals 1 <span style="color: #80C0FF">Hydro DMG</span>, summons 1 <span style="color: #FFFFFF">Garden of Purity</span>.'
   points:
   - point_type: hydro
     point_count: 3
   - point_type: recharge
-    point_count: 3
+    point_count: 2
   tag: Elemental Burst
 - name: Takimeguri Kanka
   description: >
     <p><span style="color: rgb(255, 215, 128)">Status</span></p>
     The character to which this is attached has their <span style="color: #FFFFFF">Normal Attacks</span> deal +1 DMG, 
     and their <span style="color: #FFFFFF">Physical DMG</span> dealt converted to <span style="color: #80C0FF">Hydro DMG</span>.
+    <p><span style="color: #FFFFFF">Usage(s)</span>: 3</p>
   points:
   - point_type: ''
     point_count: -1
@@ -54,9 +54,9 @@ skills:
 - name: Garden of Purity
   description: >
     <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
-    <p>End Phase: Deal 2 <span style="color: #80C0FF">Hydro DMG</span>.<p>
-    <p><span style="color: rgb(255, 255, 255)">Usage(s):</span> 2<p>
-    <p><span style="color: #FFFFFF">When this Summon is on the field:</span> Your characters' <span style="color: #FFFFFF">Normal Attacks</span> deal +1 DMG.<p>
+    <p>End Phase: Deal 2 <span style="color: #80C0FF">Hydro DMG</span>.</p>
+    <p><span style="color: #FFFFFF">Usage(s)</span>: 2</p>
+    <p><span style="color: #FFFFFF">When this Summon is on the field</span>: Your characters' <span style="color: #FFFFFF">Normal Attacks</span> deal +1 DMG.<p>
   points:
   - point_type: ''
     point_count: -1

@@ -11,6 +11,6 @@ skills:
     Card from your deck.</p><p><span style="color: #FFFFFF">When you play a Food Event
     Card</span>: Draw 1 Food Event Card from your deck. (Once per Round)</p>'
   points:
-  - point_type: black
-    point_count: 2
-source: '<p><span style="color: rgba(255, 255, 255, 0.65)">Purchased at the Card Shop</span></p>'
+  - point_type: white
+    point_count: 1
+source: '<p><span>Purchased at the Card Shop</span></p>'

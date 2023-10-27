@@ -7,13 +7,13 @@ offset:
   modal: '50% 17%'
 skills:
 - name: Description
-  description: '<p><span style="color: rgb(255, 255, 255)">Combat Action</span>: When
-    your active character is <span style="color: rgb(255, 255, 255)">Ganyu</span>,
+  description: '<p><span style="color: #FFFFFF">Combat Action</span>: When
+    your active character is <span style="color: #FFFFFF">Ganyu</span>,
     equip this card.</p><p>After Ganyu equips this card, immediately use <span style="color:
     rgb(255, 215, 128)">Frostflake Arrow</span> once.</p><p>When your Ganyu, who has
-    this card equipped, uses <span style="color: rgb(255, 255, 255)">Frostflake Arrow</span>:
+    this card equipped, uses <span style="color: #FFFFFF">Frostflake Arrow</span>:
     If this Skill has been used before during this match, the <span
-    style="color: rgb(255, 255, 255)">Piercing DMG</span> dealt to all opposing characters on standby is changed to 3.</p><p>(You must have Ganyu in your deck to add this card to
+    style="color: #FFFFFF">Piercing DMG</span> dealt to all opposing characters on standby is changed to 3.</p><p>(You must have Ganyu in your deck to add this card to
     your deck.)</p>'
   points:
   - point_type: cryo
@@ -21,7 +21,7 @@ skills:
 - name: Frostflake Arrow
   description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><p>Deals
     2 <span style="color: rgb(153, 255, 255)">Cryo DMG</span>, deals 2 <span style="color:
-    rgb(255, 255, 255)">Piercing DMG</span> to all opposing characters on standby.</p>'
+    #FFFFFF">Piercing DMG</span> to all opposing characters on standby.</p>'
   points:
   - point_type: cryo
     point_count: 5

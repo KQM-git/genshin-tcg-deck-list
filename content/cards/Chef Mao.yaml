@@ -8,7 +8,9 @@ offset:
 skills:
 - name: Description
   description: '<p><span style="color: #FFFFFF">After playing a Food Event Card</span>:
-    Create 1 random Elemental Die. (Once per Round)</p>'
+    Create 1 random Elemental Die. (Once per Round)</p>
+    <p><span style="color: #FFFFFF"><span style="color: #FFFFFF">After playing a Food Event Card</span></p>:
+    Draw 1 random Food Event Card from your deck (once per match).</p>'
   points:
   - point_type: white
     point_count: 1

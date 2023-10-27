@@ -17,7 +17,7 @@ skills:
     point_count: 3
 - name: 'Kamisato Art: Kyouka'
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
-  <span style="color: rgba(255, 255, 255, 0.65)">Deals 2 
+  <span>Deals 2 
   <span style="color: #80C0FF">Hydro DMG</span>. This character gains 
   <span style="color: #FFFFFF">Takimeguri Kanka</span>.</span>'
   points:

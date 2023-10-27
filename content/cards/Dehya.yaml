@@ -1,0 +1,66 @@
+name: Dehya
+id: 1309
+tags:
+- Pyro
+- Claymore
+- Sumeru
+type: Character Card
+hp: '10'
+energy: '2'
+element: Pyro
+weapon: Claymore
+offset:
+  character: 'top'
+  list: '50% 19%'
+  modal: '50% 17%'
+skills:
+- name: Sandstorm Assault
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>
+    Deals 2 <span style="color: #FFFFFF">Physical DMG</span>.
+  points:
+  - point_type: pyro
+    point_count: 1
+  - point_type: black
+    point_count: 2
+  tag: Normal Attack
+- name: Molten Inferno
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+    Summon <span style="color: #FFFFFF">Fiery Sanctum Field</span>. 
+    If Fiery Sanctum Field already exists, then first deal 1 <span style="color: #FF9999">Pyro DMG</span>.
+  points:
+  - point_type: pyro
+    point_count: 3
+  tag: Elemental Skill
+- name: Leonite Bite
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+    Deals 3 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>, then performs 
+    "<span style="color: #FFFFFF">Prepare Skill</span>" for <span style="color: #FFFFFF">Incineration Drive</span>.'
+  points:
+  - point_type: pyro
+    point_count: 4
+  - point_type: recharge
+    point_count: 2
+  tag: Elemental Burst
+- name: Fiery Sanctum Field
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
+    <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>.</p>
+    <p><span style="color: #FFFFFF">Usage(s): 3</span></p>
+    <p><span style="color: #FFFFFF">When this Summon is on the field and Dehya is on standby on your side, then when your active character takes damage</span>:
+    Decrease DMG taken by 1, and if Dehya has at least 7 HP, deal 1 <span style="color: #FFFFFF">Piercing DMG</span> to her (once per round).</p>
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Summon
+- name: Incineration Drive
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+    Deals 3 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>.
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Elemental Burst
+  side: true

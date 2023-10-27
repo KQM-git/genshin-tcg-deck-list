@@ -7,7 +7,7 @@ offset:
   modal: '50% 47%'
 skills:
 - name: Description
-  description: '<p><span style="color: #FFFFFF">When the Action Phase of the next Round begins:</span> Create 3 <span style="color: #FFFFFF">Omni Element</span>.</p>
+  description: '<p><span style="color: #FFFFFF">When the Action Phase of the next Round begins</span>: Create 3 <span style="color: #FFFFFF">Omni Element</span>.</p>
   <p>(You must have at least 2 Liyue characters in your deck to add this card to your deck.)</p>'
   points:
   - point_type: black

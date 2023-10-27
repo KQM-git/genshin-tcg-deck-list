@@ -9,19 +9,18 @@ skills:
 - name: Description
   description: '<p><span style="color: #FFFFFF">Combat Action</span>: When your active
     character is <span style="color: #FFFFFF">Ningguang</span>, equip this card.</p><p>After
-    Ningguang equips this card, immediately use <span style="color:  rgb(255, 255, 255)">Jade
+    Ningguang equips this card, immediately use <span style="color:  #FFFFFF">Jade
     Screen</span> once.</p><p>When your Ningguang, who has this card equipped, is
-    on the field, <span style="color: rgb(255, 255, 255)">Jade Screen </span>will cause you to
+    on the field, <span style="color: #FFFFFF">Jade Screen </span>will cause you to
     deal +1 <span style="color: #FFE699">Geo DMG</span>.</p><p>(You must have Ningguang
     in your deck to add this card to your deck.)</p>'
   points:
   - point_type: geo
     point_count: 4
 - name: Jade Screen
-  description: '<p><span style="color: #FFD780">Elemental Skill</span></p><span
-    style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: rgb(255,
-    230, 153)">Geo DMG</span><span style="color: rgba(255, 255, 255, 0.65)">, creates
-    1 </span><span style="color: rgb(255, 255, 255)">Jade Screen</span><span style="color:
+  description: '<p><span style="color: #FFD780">Elemental Skill</span></p><span>Deals 2 </span><span style="color: rgb(255,
+    230, 153)">Geo DMG</span><span>, creates
+    1 </span><span style="color: #FFFFFF">Jade Screen</span><span style="color:
     rgba(255, 255, 255, 0.65)">.</span></p><p></p>'
   points:
   - point_type: geo
@@ -31,9 +30,9 @@ skills:
 - name: Jade Screen
   description: '<p><strong><span style="color: rgb(236,
     229, 216)">Jade Screen</span></strong></p><span style="color: rgb(255, 215,
-    128)">Combat Status</span><p><span style="color: rgb(255, 255, 255)">When your
+    128)">Combat Status</span><p><span style="color: #FFFFFF">When your
     active character receives at least 2 DMG</span>: Decrease DMG taken by 1.<p><span
-    style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
+    style="color: #FFFFFF">Usage(s): 2</span></p>'
   points:
   - point_type: ''
     point_count: -1
@@ -41,30 +40,30 @@ skills:
 - name: Geo DMG
   description: '<p>Reacts with Elements if they are already applied:<br>[<span style="color:
     rgb(255, 230, 153)">Geo</span> + <span style="color: rgb(153, 255, 255)">Cryo</span>]
-    <span style="color: rgb(255, 255, 255)">Cryo Crystallize</span>: DMG +1 for this
+    <span style="color: #FFFFFF">Cryo Crystallize</span>: DMG +1 for this
     instance, your active character gains 1 Shield point (Can stack, max 2 points)<br>[<span
     style="color: rgb(255, 230, 153)">Geo</span> + <span style="color: rgb(128, 192,
-    255)">Hydro</span>] <span style="color: rgb(255, 255, 255)">Hydro Crystallize</span>:
+    255)">Hydro</span>] <span style="color: #FFFFFF">Hydro Crystallize</span>:
     DMG +1 for this instance, your active character gains 1 Shield point (Can stack,
     max 2 points)<br>[<span style="color: rgb(255, 230, 153)">Geo</span> + <span style="color:
-    rgb(255, 153, 153)">Pyro</span>] <span style="color: rgb(255, 255, 255)">Pyro
+    rgb(255, 153, 153)">Pyro</span>] <span style="color: #FFFFFF">Pyro
     Crystallize</span>: DMG +1 for this instance, your active character gains 1 Shield
     point (Can stack, max 2 points)<br>[<span style="color: rgb(255, 230, 153)">Geo</span>
     + <span style="color: rgb(255, 172, 255)">Electro</span>] <span style="color:
-    rgb(255, 255, 255)">Electro Crystallize</span>: DMG +1 for this instance, your
+    #FFFFFF">Electro Crystallize</span>: DMG +1 for this instance, your
     active character gains 1 Shield point (Can stack, max 2 points)</p>'
   points:
   - point_type: ''
     point_count: 0
 - name: Detailed Rules
-  description: '<p><strong><span style="color: rgb(255, 255, 255)">Combat Action</span></strong></p><p>After
+  description: '<p><strong><span style="color: #FFFFFF">Combat Action</span></strong></p><p>After
     you finish 1 Combat Action, it will be your opponent''s turn.</p><p><span style="color:
-    rgb(255, 255, 255)">Playing a card from your Hand with this rule is also a Combat
+    #FFFFFF">Playing a card from your Hand with this rule is also a Combat
     Action rather than a Fast Action.</span></p><p></p><p><strong><span style="color:
-    rgb(255, 255, 255)">Usage(s)</span></strong></p><p>After this card''s effect is
-    triggered, 1 <span style="color: rgb(255, 255, 255)">Usage </span>of it will be
+    #FFFFFF">Usage(s)</span></strong></p><p>After this card''s effect is
+    triggered, 1 <span style="color: #FFFFFF">Usage </span>of it will be
     consumed.</p><p>This card will be discarded immediately once it has 0 <span style="color:
-    rgb(255, 255, 255)">Usages </span>remaining.</p>'
+    #FFFFFF">Usages </span>remaining.</p>'
   points:
   - point_type: ''
     point_count: 0

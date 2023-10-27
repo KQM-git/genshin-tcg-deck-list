@@ -8,8 +8,10 @@ offset:
 skills:
 - name: Description
   description: >
-    <p><span style="color: rgb(255, 255, 255)">When playing a Companion Support Card:</span> 
+    <p><span style="color: #FFFFFF">When playing a Companion Support Card</span>: 
     Spend 1 less Elemental Die. (Once per Round)</p>
+    <p><span style="color: #FFFFFF"><span style="color: #FFFFFF">After playing a Companion Support Card</span></p>:
+    Draw 1 random Companion Support Card from your deck (once per match).</p>
   points:
   - point_type: white
     point_count: 1

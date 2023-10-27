@@ -27,7 +27,7 @@ skills:
   description: >
     <p><span style="color: #FFD780">Elemental Skill</span></p>Deals 3 
     <span style="color: #FF9999">Pyro DMG</span>. This character gains 
-    <span style="color: rgb(255, 255, 255)">Explosive Spark</span>.</p>
+    <span style="color: #FFFFFF">Explosive Spark</span>.</p>
   points:
   - point_type: pyro
     point_count: 3
@@ -36,7 +36,7 @@ skills:
   description: >
     <p><span style="color: #FFD780">Elemental Burst</span></p>Deals 3 
     <span style="color: #FF9999">Pyro DMG</span>, creates 1 
-    <span style="color: rgb(255, 255, 255)">Sparks 'n' Splash</span> at the opponent's play area.</p>
+    <span style="color: #FFFFFF">Sparks 'n' Splash</span> at the opponent's play area.</p>
   points:
   - point_type: pyro
     point_count: 3
@@ -46,7 +46,7 @@ skills:
 - name: Explosive Spark
   description: '<p><span style="color:
     rgb(255, 215, 128)">Status</span></p><p>
-  <span style="color: #FFFFFF">When the character to which this is attached uses a Charged Attack:</span> Spend 1 less 
+  <span style="color: #FFFFFF">When the character to which this is attached uses a Charged Attack</span>: Spend 1 less 
   <span style="color: #FF9999">Pyro</span> and deal +1 DMG.</p>
   <p><span style="color: #FFFFFF">Usage(s): 1</span></p>'
   points:
@@ -54,7 +54,7 @@ skills:
     point_count: -1
 - name: Sparks 'n' Splash
   description: >
-    <p><span style="color: #FFD780">Combat Status</span></p><p><span style="color: #FFFFFF">After your character uses a Skill:</span> Sparks 'n' Splash deals 2 <span style="color: #FF9999">Pyro DMG</span> to your active character.</p><p><span style="color: #FFFFFF">Usage(s): 2</span></p>
+    <p><span style="color: #FFD780">Combat Status</span></p><p><span style="color: #FFFFFF">After your character uses a Skill</span>: Sparks 'n' Splash deals 2 <span style="color: #FF9999">Pyro DMG</span> to your active character.</p><p><span style="color: #FFFFFF">Usage(s): 2</span></p>
   points:
   - point_type: ''
     point_count: -1

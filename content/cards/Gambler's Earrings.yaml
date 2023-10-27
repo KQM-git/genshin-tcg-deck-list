@@ -8,7 +8,7 @@ offset:
 skills:
 - name: Description
   description: >
-    <p><span style=\"color: rgb(255, 255, 255)\">After an opposing character is defeated</span>: If the character this card is attached to is the active character, create <span style=\"color: #FFFFFF\">Omni Element</span> ×2. (Can happen 3 times per match)</p>
+    <p><span style=\"color: #FFFFFF\">After an opposing character is defeated</span>: If the character this card is attached to is the active character, create <span style=\"color: #FFFFFF\">Omni Element</span> ×2. (Can happen 3 times per match)</p>
     <p>(A character can equip a maximum of 1 Artifact)</p>
   points:
   - point_type: white

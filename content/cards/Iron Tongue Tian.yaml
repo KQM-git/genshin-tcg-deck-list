@@ -7,17 +7,17 @@ offset:
   modal: '50% 20%'
 skills:
 - name: Description
-  description: '<p><span style="color: #FFFFFF">End Phase:</span> One of your characters
+  description: '<p><span style="color: #FFFFFF">End Phase</span>: One of your characters
     without maximum Energy gains 1 <span style="color: #FFFFFF">Energy</span>. (Active
     Character prioritized)</p><p><span style="color: #FFFFFF">Usage(s): 2</span></p>'
   points:
   - point_type: black
     point_count: 2
 - name: Detailed Rules
-  description: '<p><strong><span style="color: rgb(255, 255, 255)">Energy</span></strong></p><p>Characters
+  description: '<p><strong><span style="color: #FFFFFF">Energy</span></strong></p><p>Characters
     must consume Energy to use their Elemental Bursts.</p><p>When characters use an
     Elemental Skill or a Normal Attack, they will gain 1 Energy.</p><p></p><p><strong><span
-    style="color: rgb(255, 255, 255)">Usage(s)</span></strong></p><p>After this card''s
+    style="color: #FFFFFF">Usage(s)</span></strong></p><p>After this card''s
     effect is triggered, 1 <span style="color: #FFFFFF">Usage </span>of it will be
     consumed.</p><p>This card will be discarded immediately once it has 0 <span style="color:
     #FFFFFF">Usages </span>remaining.</p>'

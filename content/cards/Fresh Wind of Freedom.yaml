@@ -1,0 +1,16 @@
+name: Fresh Wind of Freedom
+id: 330004
+tags: []
+offset:
+  character: 'top'
+  list: '50% 47%'
+  modal: '50% 47%'
+skills:
+- name: Description
+  description: '<p><span style="color: #FFFFFF">In this Round, when an opposing character is defeated during your Action</span>, you can continue to act again when that Action ends.</p>
+  <p><span style="color: #FFFFFF">Usage(s): 1</span></p>
+  <p>(Only one "Arcane Legend" card can be played for the entire game. This card will be in your starting hand.)</p>'
+  points:
+  - point_type: arcane
+  - point_type: white
+    point_count: 0

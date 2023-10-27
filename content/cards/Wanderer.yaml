@@ -1,0 +1,53 @@
+name: Wanderer
+id: 1506
+tags:
+- Anemo
+- Catalyst
+type: Character Card
+hp: '10'
+energy: '3'
+element: Anemo
+weapon: Catalyst
+offset:
+  character: 'top'
+  list: '50% 20%'
+  modal: '50% 10%'
+skills:
+- name: Yuuban Meigen
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>
+    Deals 1 <span style="color: #80FFD7">Anemo DMG</span>.
+  points:
+  - point_type: anemo
+    point_count: 1
+  - point_type: black
+    point_count: 2
+  tag: Normal Attack
+- name: 'Hanega: Song of the Wind'
+  description: >
+    <p><span style="color: #FFD780">Elemental Skill</span></p>
+    Deals 2 <span style="color: #80FFD7">Anemo DMG</span>. This character gains <span style="color: #FFFFFF">Windfavored</span>.
+  points:
+  - point_type: anemo
+    point_count: 3
+  tag: Elemental Skill
+- name: 'Kyougen: Five Ceremonial Plays'
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+    Deals 7 <span style="color: #80FFD7">Anemo DMG</span>. If this character has <span style="color: #FFFFFF">Windfavored</span>
+    attached, then remove it and increase DMG by 1.
+  points:
+  - point_type: anemo
+    point_count: 3
+  - point_type: recharge
+    point_count: 3
+  tag: Elemental Burst
+- name: Windfavored
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <p><span style="color: #FFFFFF">When the character to which this is attached performs a Normal Attack</span>: DMG dealt +2. If the opponent has characters on standby, then this Skill will deal damage to the next opposing character on standby instead.</p>
+    <p><span style="color: #FFFFFF">Usage(s): 2</span></p>
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Status

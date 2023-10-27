@@ -8,7 +8,7 @@ offset:
 skills:
 - name: Description
   description: >
-    <p><span style="color: #FFFFFF">Combat Action:</span> When your active character is <span style="color: #FFFFFF">Venti</span>, equip this card.</p>
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is <span style="color: #FFFFFF">Venti</span>, equip this card.</p>
     <p>After Venti equips this card, immediately use <span style="color: rgb(255, 215, 128)">Skyward Sonnet</span> once.</p>
     <p>After a <span style="color: #FFFFFF">Stormzone</span> created by your Venti, who has this card equipped, is triggered, 
     the next <span style="color: #FFFFFF">Normal Attack</span> performed by your character in this Round will cost 1 less
@@ -28,8 +28,8 @@ skills:
   tag: Elemental Skill
 - name: Stormzone
   description: '<p><span style="color: rgb(255, 215, 128)">Combat Status</span></p><p><span
-    style="color: rgb(255, 255, 255)">When you perform "Switch Character":</span> Spend 1 less Elemental Die.</p>
-    <p><span style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
+    style="color: #FFFFFF">When you perform "Switch Character"</span>: Spend 1 less Elemental Die.</p>
+    <p><span style="color: #FFFFFF">Usage(s): 2</span></p>'
   points:
   - point_type: ''
     point_count: -1

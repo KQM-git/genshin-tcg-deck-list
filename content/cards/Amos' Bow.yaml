@@ -7,11 +7,11 @@ offset:
   modal: '50% 43%'
 skills:
 - name: Description
-  description: '<p><span style="color: rgb(255, 255, 255)">The character deals +1
+  description: '<p><span style="color: #FFFFFF">The character deals +1
     DMG</span>.</p>
     <p><span style="color: #FFFFFF">When the character uses a Skill that costs at least a total of 
     5 Elemental Dice and Energy,</span> +2 additional DMG. (Once per Round)</p>
-    <p>(<span style="color: rgb(255, 255, 255)">Only Bow Characters</span>
+    <p>(<span style="color: #FFFFFF">Only Bow Characters</span>
     can equip this. A Character can equip a maximum of 1 Weapon.)</p>'
   points:
   - point_type: white

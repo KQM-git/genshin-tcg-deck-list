@@ -15,9 +15,8 @@ offset:
   modal: '50% 16%'
 skills:
 - name: Steel Fang
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span
-    style="color: rgba(255, 255, 255, 0.65)">Deals 2 </span><span style="color: #FFFFFF">Physical
-    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 2 </span><span style="color: #FFFFFF">Physical
+    DMG</span>.</p>'
   points:
   - point_type: electro
     point_count: 1
@@ -25,19 +24,16 @@ skills:
     point_count: 2
   tag: Normal Attack
 - name: Claw and Thunder
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span
-    style="color: rgba(255, 255, 255, 0.65)">Deals 3 </span><span style="color: #FFACFF">Electro
-    DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.</span></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span>Deals 3 </span><span style="color: #FFACFF">Electro
+    DMG</span>.</p>'
   points:
   - point_type: electro
     point_count: 3
   tag: Elemental Skill
 - name: Lightning Fang
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span
-    style="color: rgba(255, 255, 255, 0.65)">Deals 3 </span><span style="color: rgb(255,
-    172, 255)">Electro DMG</span><span style="color: rgba(255, 255, 255, 0.65)">.
-    This character gains </span><span style="color: rgb(255, 255, 255)">The Wolf Within</span><span
-    style="color: rgba(255, 255, 255, 0.65)">.</span></p><p></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span>Deals 3 </span><span style="color: rgb(255,
+    172, 255)">Electro DMG</span><span>.
+    This character gains </span><span style="color: #FFFFFF">The Wolf Within</span>.</p><p></p>'
   points:
   - point_type: electro
     point_count: 3
@@ -46,40 +42,40 @@ skills:
   tag: Elemental Burst
 - name: The Wolf Within
   description: '<p><span style="color:
-    rgb(255, 215, 128)">Status</span></p><p><span style="color: rgb(255, 255, 255)">After
+    rgb(255, 215, 128)">Status</span></p><p><span style="color: #FFFFFF">After
     the character to which this is attached uses a Normal Attack or an Elemental Skill</span>:
     Deal 2 <span style="color: rgb(255, 172, 255)">Electro DMG</span>.</p><p><span style="color:
-    rgb(255, 255, 255)">Duration (Rounds): 2</span></p>'
+    #FFFFFF">Duration (Rounds): 2</span></p>'
   points:
   - point_type: ''
     point_count: -1
 - name: Electro DMG
   description: '<p>Applies Electro and can trigger the following Elemental Reactions:</p><p>[<span
     style="color: rgb(255, 172, 255)">Electro </span>+ <span style="color: rgb(255,
-    153, 153)">Pyro</span>] <span style="color: rgb(255, 255, 255)">Overloaded</span>:
+    153, 153)">Pyro</span>] <span style="color: #FFFFFF">Overloaded</span>:
     DMG +2 for this instance, the target is forcibly switched to the next character</p><p>[<span
     style="color: rgb(255, 172, 255)">Electro </span>+ <span style="color: rgb(153,
-    255, 255)">Cryo</span>] <span style="color: rgb(255, 255, 255)">Superconduct</span>:
+    255, 255)">Cryo</span>] <span style="color: #FFFFFF">Superconduct</span>:
     DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except
     the target</p><p>[<span style="color: rgb(255, 172, 255)">Electro </span>+ <span
     style="color: rgb(128, 192, 255)">Hydro</span>] <span style="color: rgb(255, 255,
     255)">Electro-Charged</span>: DMG +1 for this instance, deal 1 Piercing DMG to
     all opposing characters except the target</p><p>[<span style="color: rgb(255,
     172, 255)">Electro </span>+ <span style="color: rgb(153, 255, 136)">Dendro</span>]
-    <span style="color: rgb(255, 255, 255)">Quicken</span>: DMG +1 for this instance,
-    creates a [<span style="color: rgb(255, 255, 255)">Catalyzing Field</span>] that
+    <span style="color: #FFFFFF">Quicken</span>: DMG +1 for this instance,
+    creates a [<span style="color: #FFFFFF">Catalyzing Field</span>] that
     grants +1 DMG to the next 2 instances of Dendro/Electro DMG</p>'
   points:
   - point_type: ''
     point_count: 0
   tag: Status
 - name: Detailed Rules
-  description: '<p><strong><span style="color: rgb(255, 255, 255)">Physical DMG</span></strong></p><p>Physical
+  description: '<p><strong><span style="color: #FFFFFF">Physical DMG</span></strong></p><p>Physical
     DMG will not apply any Elements, nor can it engage in Elemental Reactions.<br><br><strong><span
-    style="color: rgb(255, 255, 255)">Duration (Rounds)</span></strong></p><p>Each
-    time you reach the end of a Round, <span style="color: rgb(255, 255, 255)">Duration
+    style="color: #FFFFFF">Duration (Rounds)</span></strong></p><p>Each
+    time you reach the end of a Round, <span style="color: #FFFFFF">Duration
     (Rounds) </span>- 1.</p><p>This card will be discarded immediately once <span
-    style="color: rgb(255, 255, 255)">Duration (Rounds)</span> runs out.</p>'
+    style="color: #FFFFFF">Duration (Rounds)</span> runs out.</p>'
   points:
   - point_type: ''
     point_count: 0

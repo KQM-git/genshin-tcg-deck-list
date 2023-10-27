@@ -8,7 +8,7 @@ offset:
 skills:
 - name: Description
   description: >
-    <p><span style="color: rgb(255, 255, 255)">Can only be played when you have 0 Elemental Dice left:</span> Generate 2 different basic Elemental Dice.</p>
+    <p><span style="color: #FFFFFF">Can only be played when you have 0 Elemental Dice left</span>: Generate 2 different basic Elemental Dice.</p>
     <p>(Only one "Arcane Legend" card can be played for the entire game. This card will be in your starting hand.)</p>
   points:
   - point_type: arcane

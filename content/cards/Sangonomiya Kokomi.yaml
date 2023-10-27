@@ -16,7 +16,7 @@ offset:
 skills:
 - name: The Shape of Water
   description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>
-  <span style="color: rgb(255, 255, 255, 0.65)">Deals 1 <span style="color: rgb(128, 192, 255)">Hydro DMG.</span></span>'
+  <span>Deals 1 <span style="color: rgb(128, 192, 255)">Hydro DMG.</span></span>'
   points:
   - point_type: hydro
     point_count: 1
@@ -40,8 +40,8 @@ skills:
     point_count: 2
 - name: 'Bake-Kurage'
   description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
-    style="color: rgb(255, 255, 255)">End Phase:</span> Deal 1 <span style="color: #80C0FF">Hydro DMG</span>, heal your active character for 1 HP.</p>
-    <p><span style="color: rgb(255, 255, 255)">Usage(s): 2</span></p>'
+    style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: #80C0FF">Hydro DMG</span>, heal your active character for 1 HP.</p>
+    <p><span style="color: #FFFFFF">Usage(s): 2</span></p>'
   points:
   - point_type: ''
     point_count: -1
@@ -50,7 +50,7 @@ skills:
     <p><span style="color: rgb(255, 215, 128)">Combat Status</span></p>
     <p>The character to which this is attached has their Normal Attacks deal +1 DMG.</p>
     <p>After the character to which this attached uses a Normal Attack: Heal 1 HP for all your characters.</p>
-    <p><span style="color: rgb(255, 255, 255)">Duration (Rounds): 2</span></p>
+    <p><span style="color: #FFFFFF">Duration (Rounds): 2</span></p>
   points:
   - point_type: ''
     point_count: -1

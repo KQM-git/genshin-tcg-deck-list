@@ -16,7 +16,7 @@ offset:
 skills:
 - name: Electro Crystal Projection
   description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>
-  <p><span style="color: rgba(255, 255, 255, 0.65)">Deals 1 <span style="color:
+  <p><span>Deals 1 <span style="color:
     rgb(255, 172, 255)">Electro DMG</span>.</span></p>'
   points:
   - point_type: electro
@@ -37,7 +37,7 @@ skills:
 - name: Lightning Lockdown
   description: >
     <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
-    <span style="color: rgba(255, 255, 255, 0.65)">Deals 2 <span style="color: rgb(255, 172, 255)">Electro DMG</span>, 
+    <span>Deals 2 <span style="color: rgb(255, 172, 255)">Electro DMG</span>, 
     summons <span style="color: #FFFFFF">Chains of Warding Thunder</span>.</span></p>
   points:
   - point_type: electro
@@ -75,7 +75,7 @@ skills:
   tag: Elemental Skill
 - name: Electro Crystal Core
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
-    <p><span style="color: #FFFFFF">When the character to which this is attached would be defeated:</span> 
+    <p><span style="color: #FFFFFF">When the character to which this is attached would be defeated</span>: 
     Remove this effect, ensure the character <span style="color: #FFFFFF">will not be defeated</span>, and heal them to 1 HP.</p>'
   points:
   - point_type: ''
@@ -85,7 +85,7 @@ skills:
   description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p>
     <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: #FFACFF">Electro DMG</span>.</p>
     <p><span style="color: #FFFFFF">Usage(s): 2</span></p>
-    <p><span style="color: #FFFFFF">When this Summon is on the field:</span> 
+    <p><span style="color: #FFFFFF">When this Summon is on the field</span>: 
     Your opponent will have to spend 1 additional Elemental Die when performing "Switch Character." (Once per Round)</p>'
   points:
   - point_type: ''

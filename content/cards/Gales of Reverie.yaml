@@ -1,0 +1,31 @@
+name: Gales of Reverie
+id: 215061
+tags: []
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is <span style="color: #FFFFFF">Wanderer</span>, equip this card.</p>
+    <p>After Wanderer equips this card, immediately use <span style="color: #FFD780">Hanega: Song of the Wind</span> once.</p>
+    <p>When your Wanderer, who has this card equipped, is in <span style="color: #FFFFFF">Windfavored</span> state and after using Charged Attack: you will spend 1 less Elemental Die the next time you use "Switch Character" and deal 1 <span style="color: #80FFD7">Anemo DMG</span>.</p>
+    <p>(You must have Wanderer in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: anemo
+    point_count: 4
+- name: 'Hanega: Song of the Wind'
+  description: >
+    <p><span style="color: #FFD780">Elemental Skill</span></p>
+    Deals 2 <span style="color: #80FFD7">Anemo DMG</span>. This character gains <span style="color: #FFFFFF">Windfavored</span>.
+  points:
+  - point_type: anemo
+    point_count: 3
+  tag: Elemental Skill
+  side: true
+- name: Windfavored
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <p><span style="color: #FFFFFF">When the character to which this is attached performs a Normal Attack</span>: DMG dealt +2. If the opponent has characters on standby, then this Skill will deal damage to the next opposing character on standby instead.</p>
+    <p><span style="color: #FFFFFF">Usage(s): 2</span></p>
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Status

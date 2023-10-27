@@ -8,7 +8,7 @@ offset:
 skills:
 - name: Description
   description: <p>Shift 1 Artifact Equipment Card that has been equipped to one of
-    your characters to another one of your characters.</p>
+    your characters to another one of your characters, and reset the "usages per Round" limit on its effects.</p>
   points:
   - point_type: ''
     point_count: 0

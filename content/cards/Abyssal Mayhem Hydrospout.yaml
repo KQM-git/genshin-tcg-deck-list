@@ -10,12 +10,12 @@ skills:
   description: >
     <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is <span style="color: #FFFFFF">Tartaglia</span>, equip this card.</p>
     <p>After Tartaglia equips this card, immediately use <span style="color: rgb(255, 215, 128)">Foul Legacy: Raging Tide</span> once.</p>
-    <p><span style="color: #FFFFFF">End Phase</span>: Deals 1 <span style="color: #FFFFFF">Piercing DMG</span>
-    to all opposing characters affected by <span style="color: #FFFFFF">Riptide</span>.</p>
+    <p><span style="color: #FFFFFF">End Phase</span>: When Tartaglia is on the field and has this card equipped, deal 1 <span style="color: #FFFFFF">Piercing DMG</span>
+    to the opponent's active character if they have <span style="color: #FFFFFF">Riptide</span> attached.</p>
     <p>(You must have Tartaglia in your deck to add this card to your deck.)</p>
   points:
   - point_type: hydro
-    point_count: 4
+    point_count: 3
 - name: 'Foul Legacy: Raging Tide'
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span>Switches to <span style="color: #FFFFFF">Melee Stance</span> 
     and deals 2 <span style="color: rgb(128, 192, 255)">Hydro DMG</span>.</span></p>'

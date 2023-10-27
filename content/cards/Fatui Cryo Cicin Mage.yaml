@@ -47,7 +47,7 @@ skills:
   <p><span style="color: #FFFFFF">Usage(s): 2</span> (Can stack, max 3 stacks)</p>
   <p></p>
   <p><span style="color: #FFFFFF">After Fatui Cryo Cicin Mage performs a Normal Attack: </span>This card gains 1 <span style="color: #FFFFFF">Usage(s)</span>.</p>
-  <p><span style="color: #FFFFFF">After your character takes Elemental Reaction DMG: </span>This card loses 1 <span style="color: #FFFFFF">Usage(s)</span>.</p>'
+  <p><span style="color: #FFFFFF">After Fatui Cryo Cicin Mage takes Elemental Reaction DMG: </span>This card loses 1 <span style="color: #FFFFFF">Usage(s)</span>.</p>'
   points:
   - point_type: ''
     point_count: -1

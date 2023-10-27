@@ -15,7 +15,7 @@ skills:
     +1.</p><p>(You must have Diona in your deck to add this card to your deck.)</p>'
   points:
   - point_type: cryo
-    point_count: 4
+    point_count: 3
 - name: Icy Paws
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
   <span><p>Deals 2 

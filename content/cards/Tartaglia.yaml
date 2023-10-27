@@ -25,7 +25,7 @@ skills:
   tag: Normal Attack
 - name: 'Foul Legacy: Raging Tide'
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span>Switches to <span style="color: #FFFFFF">Melee Stance</span> 
-    and deals 2 <span style="color: rgb(128, 192, 255)">Hydro DMG</span>.</span></p>'
+    and deals 2 <span style="color: rgb(128, 192, 255)">Hydro DMG</span>, and apply <span style="color: #FFFFFF">Riptide</span> to the target character.</span></p>'
   points:
   - point_type: hydro
     point_count: 3
@@ -33,7 +33,7 @@ skills:
 - name: 'Havoc: Obliteration'
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p><span>Performs different attacks based on the current stance that <span style="color: #FFFFFF">Tartaglia</span> is in.</p>
     <p><span style="color: #FFFFFF">Ranged Stance - Flash of Havoc</span>:
-    Deal 4 <span style="color: rgb(128, 192, 255)">Hydro DMG</span>, reclaim 2 <span style="color: #FFFFFF">Energy</span>, 
+    Deal 5 <span style="color: rgb(128, 192, 255)">Hydro DMG</span>, reclaim 2 <span style="color: #FFFFFF">Energy</span>, 
     and apply <span style="color: #FFFFFF">Riptide</span> to the target character.</p>
     <p><span style="color: #FFFFFF">Melee Stance - Light of Obliteration</span>: Deal 7 <span style="color: rgb(128, 192, 255)">Hydro DMG</span>.</p>'
   points:
@@ -63,7 +63,7 @@ skills:
     <p><span style="color: #FFFFFF">Physical DMG</span> dealt by character is converted to <span style="color: rgb(128, 192, 255)">Hydro DMG</span>.</p>
     <p><span style="color: #FFFFFF">After the character uses Charged Attack</span>: Apply <span style="color: #FFFFFF">Riptide</span> to target character.
     Character deals +1 DMG to target characters with <span style="color: #FFFFFF">Riptide</span> attached.</p>
-    <p>span style="color: #FFFFFF">After Skills are used against characters affected by Riptide</span>: 
+    <p><span style="color: #FFFFFF">After Skills are used against characters affected by Riptide</span>: 
     Deal 1 <span style="color: #FFFFFF">Piercing DMG</span> to the next opposing off-field character. (Twice per Round)</p>
     <p><span style="color: #FFFFFF">Duration (Rounds): 2</span></p>'
   points:
@@ -73,8 +73,8 @@ skills:
 - name: Riptide
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p><p><span style="color: rgb(255, 255,
     255)">When the character to which this is attached is defeated</span>: Apply Riptide to active character.</p>
-    <p>(When Tartaglia is in <span style="color: #FFFFFF">Melee Stance</span>, 
-    he will deal additional DMG when attacking the character to which this is attached.)</p>'
+    <p>When Tartaglia is in <span style="color: #FFFFFF">Melee Stance</span>, 
+    he will deal additional DMG when attacking the character to which this is attached.</p>'
   points:
   - point_type: ''
     point_count: -1

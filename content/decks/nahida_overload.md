@@ -47,7 +47,7 @@ Consider using Nahida's Elemental Burst if you need strong single-target damage 
 The Burning reactions generated this turn will have summoned a Burning Flame with 1-2 usages, which nicely replaces Guoba such that you may still trigger an Overload reaction during the end of Round 3. 
 This deck usually looks to win by Round 3 or the beginning of Round 4. Therefore, it is best to avoid having Nahida knocked out in Round 3 unless you can still ensure your victory. If Nahida does get knocked out before the game ends, Raiden will likely be your last character alive, and it is important to note that she can only deal up-front Elemental Damage with her Elemental Burst. I Haven't Lost Yet! or Starsigns can help provide the final Energy she needs in order to unleash a 4+ DMG Elemental Burst.
 
- ##Other Options
+ ## Other Options
 
 <CardRow :cards= "['Mushroom Pizza', 'Timmie', 'Calx\'s Arts', 'Paimon', 'Fresh Wind of Freedom']"></CardRow>
 

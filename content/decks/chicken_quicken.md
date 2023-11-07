@@ -17,7 +17,7 @@ bad_against:
         - Sucrose
         - Xiao
 video_url: 
-last_updated_version: '4.0'
+last_updated_version: '4.1'
 ---
  
 ## Mulligan

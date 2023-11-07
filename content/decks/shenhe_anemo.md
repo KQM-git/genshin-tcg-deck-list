@@ -43,7 +43,7 @@ An additional source of single target comes in the form of end turn summon damag
 ## Mid/Late Game
 <CardFan :cards="['Gambler\'s Earrings', 'I Haven\'t Lost Yet!', 'Fresh Wind and Freedom']"></CardFan>
 
-Get as much value out of Shenhe’s Talisman Spirit before it expires by swirling on your Anemo characters. Either use Sucrose or Wanderer as they both serve different purposes. Sucrose’s force swap comes in handy to disrupt opponents setting up bursts like Shenhe. Wanderer in tandem with Fresh Wind and Freedom can threaten defeating an off field unit then bursting the opponent's active character.
+Get as much value out of Shenhe’s Talisman Spirit before it expires by swirling on your Anemo characters. Either use Sucrose or Wanderer as they both serve different purposes. Sucrose’s force swap comes in handy to disrupt opponents setting up bursts like Shenhe. Wanderer in tandem with Fresh Wind and Freedom can threaten defeating an off field unit, then bursting the opponent's active character.
 
 ## Alternatives
 <CardFan :cards="['Xiao', 'Send Off', 'Timmie']"></CardFan>

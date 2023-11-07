@@ -16,8 +16,8 @@ bad_against:
         - Shenhe
         - Sucrose
         - Xiao
-video_url: ‘’
-last_updated_version: 4.0
+video_url: 
+last_updated_version: '4.0'
 ---
  
 ## Mulligan
@@ -32,7 +32,7 @@ Against hyper aggressive decks such as double Pyro decks, keeping one copy of 'I
 The opener you always want to go for is Yae Miko's Elemental Skill, into Tighnari’s Elemental Skill. If you have Treasure Seeking Seelie, King’s Squire or Sumeru City, play it before any of your Elemental Skills. On the following round, you want to start off with a Tighnari Charged Attack into an Elemental Burst. If you have Sumeru City and Covenant of Rock, you will be able to play both cards to Charged Attack as Sumeru City reduces the cost of the Skill and you will be set to an even amount of dice with Covenant of Rock. 
 
 ## Mid/Late Game
-<CardFan :cards="['I Haven’t Lost Yet!', 'Elemental Resonance: Sprawling Greenery', 'Adeptus Temptation',]"></CardFan>
+<CardFan :cards="['I Haven\'t Lost Yet!', 'Elemental Resonance: Sprawling Greenery', 'Adeptus\' Temptation',]"></CardFan>
 
 If you are versus a deck that has survivability, look to swap back to Yae Miko to Elemental Skill, adding more usages to Sesshou Sakura after using Tighnari Element Burst before swapping to Tighnari to keep up the Summon and Quicken pressure. However, if you are versus a deck that lacks survivability and is more aggressive, use Yae Miko’s Elemental Burst with the help of I Haven’t Lost Yet! or after Normal Attacking once. It’s important to Normal Attack instead of Elemental Skilling one more time when immediately Bursting afterwards, as Sesshou Sakura will be destroyed when Yae Miko Elemental Bursts. Only look to cast Yae Miko’s Elemental Burst, Great Secret Art: Tenko Kenshin when Yae Miko’s Summon, Sesshou Sakura, is active as almost half of the Elemental Burst’s power is tied to that condition.
 

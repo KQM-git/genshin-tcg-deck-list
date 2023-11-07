@@ -41,7 +41,7 @@ As this deck is mainly focused on dealing strong off field damage with Swirls, y
 An additional source of single target comes in the form of end turn summon damage. Large Wind Spirit and Talisman Spirit together deal 5 damage, boosted to 7 damage with Sucrose’s Chaotic Entropy equipped. This summon pressure will force an answer from the opponent as they will be unable to ignore it, so use this to your advantage to pressure their important unit. Keep in mind however, that if Talisman Spirit disappears before a boosted Large Wind Spirit attacks, the second summon will not get a buff from the first and deal one less damage than expected (and vice versa). 
 
 ## Mid/Late Game
-<CardFan :cards="['Gambler\'s Earrings', 'I Haven\'t Lost Yet!', 'Fresh Wind and Freedom']"></CardFan>
+<CardFan :cards="['Gambler\'s Earrings', 'I Haven\'t Lost Yet!', 'Fresh Wind of Freedom']"></CardFan>
 
 Get as much value out of Shenhe’s Talisman Spirit before it expires by swirling on your Anemo characters. Either use Sucrose or Wanderer as they both serve different purposes. Sucrose’s force swap comes in handy to disrupt opponents setting up bursts like Shenhe. Wanderer in tandem with Fresh Wind and Freedom can threaten defeating an off field unit, then bursting the opponent's active character.
 

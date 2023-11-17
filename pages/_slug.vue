@@ -100,6 +100,30 @@
                         />
                     </div>
                 </div>
+                <div
+                    v-if="deck.official_deck_code"
+                    class="rounded-xl p-5 bg-[#2D282F] border-2 border-[#584F65] flex flex-col gap-2"
+                >
+                    <p class="text-2xl font-genshin">
+                        Deck Code
+                    </p>
+                    <input
+                        ref="deckCode"
+                        type="text"
+                        readonly
+                        :value="deck.official_deck_code"
+                        class="w-full text-black"
+                        @focus="$event.target.select()"
+                    >
+                    <div class="w-full flex flex-row justify-center">
+                        <button
+                            class="py-2 px-4 rounded-lg text-lg font-bold bg-green-400"
+                            @click="copyDeckCode(deck.official_deck_code)"
+                        >
+                            Copy
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -192,6 +216,13 @@ export default Vue.extend({
                     content: `https://cards.keqingmains.com/${vm.deck.slug}`
                 }
             ]
+        }
+    },
+    methods: {
+        copyDeckCode () {
+            // @ts-ignore
+            this.$refs.deckCode.focus()
+            document.execCommand('copy')
         }
     }
 })

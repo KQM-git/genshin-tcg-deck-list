@@ -1,0 +1,16 @@
+name: In Every House a Stove
+id: 330005
+tags: []
+offset:
+  character: 'top'
+  list: '50% 65%'
+  modal: '50% 60%'
+skills:
+- name: Description
+  description: >
+    <p>Draw a number of cards equal to the current Round number. (Up to 4 cards can be drawn in this way)</p>
+    <p>(Only one "Arcane Legend" card can be played for the entire game. This card will be in your starting hand.)</p>
+  points:
+  - point_type: arcane
+  - point_type: white
+    point_count: 0

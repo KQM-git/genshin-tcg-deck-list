@@ -1,0 +1,39 @@
+name: All Things Are of the Earth
+id: 217051
+tags: []
+offset:
+  character: 'top'
+  list: '50% 45%'
+  modal: '50% 45%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is <span style="color: #FFFFFF">Baizhu</span>, equip this card.</p>
+    <p>After Baizhu equips this card, immediately use <span style="color: rgb(255, 215, 128)">Holistic Revivification</span> once.</p>
+    <p>When your Baizhu, who has this card equipped, is on the field, when <span style="color: #FFFFFF">Seamless Shield</span> activates 
+    a healing effect, generate 1 Elemental Dice of the same type as your active character.</p>
+    <p>(You must have Baizhu in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: dendro
+    point_count: 4
+  - point_type: recharge
+    point_count: 2
+- name: Holistic Revivification
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span>
+    <p>Creates 1 <span style="color: #FFFFFF">Pulsing Clarity</span> and <span style="color: #FFFFFF">Seamless Shield</span>.</p>'
+  points:
+  - point_type: dendro
+    point_count: 4
+  - point_type: recharge
+    point_count: 2
+  side: true
+  tag: Elemental Burst
+- name: Seamless Shield
+  description: '<p><span style="color: rgb(255, 215, 128)">Combat Status</span><p>
+  <p>Provides 1 <span style="color: #FFFFFF">Shield</span>, protecting the active character.</p>
+  <p><span style="color: #FFFFFF">When this effect is removed, or generated again</span>: 
+  Deal 1 <span style="color: #99FF88">Dendro DMG</span>, and heal your active character for 1 HP.</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Combat Status

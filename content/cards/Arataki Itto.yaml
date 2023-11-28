@@ -35,7 +35,7 @@ skills:
   tag: Elemental Skill
 - name: 'Royal Descent: Behold, Itto the Evil!'
   description: '<p><span style="color: rgb(255, 215, 128)">Elenmetal Burst</span></p>
-  <span>Deals 5 <span style="color: rgb(255, 230, 153)">Geo DMG</span>. 
+  <span>Deals 4 <span style="color: rgb(255, 230, 153)">Geo DMG</span>. 
   This character gains <span style="color: #FFFFFF">Superlative Superstrength</span>.</span>'
   points:
   - point_type: geo
@@ -68,7 +68,7 @@ skills:
 - name: Raging Oni King
   description: >
     <p><span style="color: rgb(255, 215, 128)">Status</span></p>
-    <p>The character to which this is attached has their <span style="color: #FFFFFF">Normal Attacks</span> deal +2 DMG, 
+    <p>The character to which this is attached has their <span style="color: #FFFFFF">Normal Attacks</span> deal +1 DMG, 
     and their <span style="color: #FFFFFF">Physical DMG</span> dealt converted to <span style="color: rgb(255, 230, 153)">Geo DMG</span>.</p>
     <p><span style="color: #FFFFFF">Duration (Rounds)</span>: 2.</p>
     <p><span style="color: #FFFFFF">After the character to which this is attached uses a Charged Attack</span>: Gains <span style="color: #FFFFFF">Superlative Superstrength</span>. (Once per Round)</p>

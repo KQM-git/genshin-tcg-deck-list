@@ -1,0 +1,16 @@
+name: Shadow of the Sand King
+id: 312017
+offset:
+  character: 'top'
+  list: '50% 38%'
+  modal: '50% 38%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">When played</span>: Draw a card.</p>
+    <p><span style="color: #FFFFFF">When the character to which this card is attached is your active character, 
+    then when an opposing character takes Elemental Reaction DMG</span>: Draw a card. (Once per Round)</p>
+    <p>(A character can equip a maximum of 1 Artifact)</p>
+  points:
+  - point_type: white
+    point_count: 1

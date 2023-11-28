@@ -17,7 +17,7 @@ skills:
     \ deck to add this card to your deck.)</p>"
   points:
   - point_type: hydro
-    point_count: 4
+    point_count: 3
 - name: "Let the Show Begin\u266A"
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span>Deals 1 </span><span style="color: #80C0FF">Hydro
     DMG</span><span>, summons 1 </span><span

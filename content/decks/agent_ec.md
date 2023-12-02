@@ -62,4 +62,4 @@ Although both Tubby and Dunyarzad work very well with Agent Electro-Charged, it 
 Furthermore, you can enhance the deck's aggressiveness by adding Heavy Strike, extra copy of Starsigns, Calx's Arts and/or another copy of Adeptus' Temptation. For the choice of Arcane Legend card, Fresh Wind of Freedom could be an option instead of In Every House a Stove. A copy of Fatui Pyro Agent's Talent Card, Paid in Full, could work very well to provide more defense and offense in the deck. For a surprise revival, Teyvat Fried Egg paired with Chef Mao is not expensive to slot in the deck either, especially with Ocean-Hued Clam being able to heal despite of the Satiated status. To make space for these cards, consider removing Yayoi Nanatsuki, Send Off, one copy of I Haven't Lost Yet!, one copy of Leave It to Me!, and/or one copy of Mushroom Pizza.
 
 ### Credits
-Original guide by enclaireee, updated for patch 4.2 by chocchip. with the help of mattmario, theorycrafting, and the rest of GITCG Theorycrafting Staff
+Original guide by enclaireee, updated for patch 4.2 by chocchip. with the help of gcg_summation, mattmario, theorycrafting, and the rest of GITCG Theorycrafting Staff

@@ -4,7 +4,9 @@ tags:
     - Medium
     - Control
 description: Agent Electro-Charged, or Agent EC, is a summon-oriented deck designed to secure victory by steadily accumulating advantages through high-value skills and Electro-Charged reactions. Harness the power of Rhodeia and Fischl's Summons to chip away at the enemy's health, and seal the victory with your powerful Elemental Bursts and the formidable Fatui Pyro Agent! 
+
 deck_code: '!!090G0F.2V.3K.3L.3J.3O.3X.41.1Z.2I.2N5S.5T.2T.3G.3W1B='
+official_deck_code: A5BQ8RoPAxBw9HMPCUBQ9ZUPC1Aw9rMPC2CA+bgPC5GwCrwQC6HAC8cQDLFwD8kQDPAA
 good_against:
     - 
         - Klee

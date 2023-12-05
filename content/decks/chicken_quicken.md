@@ -6,6 +6,7 @@ tags:
 description: This deck is based around utilising Yae Miko and Tighnari Skills to output massive damage with the above-average 3 damage reaction, Quicken. The goal of the deck is to pressure the opponent from game start to game end, making sure they cannot execute their game plans peacefully. 
 
 deck_code: '!!4H4Q0R.2V.3E.3K3L6P.3Y3Z.21.3F.3X69.3J31.2S.3G3W.5T.6X='
+official_deck_code: A7AA7CEOA8DA8YMPCBAw9JcPCUBw9bwPC1DA9sYQDCFgCskQDLGQC9cQDcGwDOsQDtAA
 good_against:
     -
         - Arataki Itto

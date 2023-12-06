@@ -3,10 +3,9 @@ name: Agent Electro-Charged
 tags:
     - Medium
     - Control
-description: Agent Electro-Charged, or Agent EC, is a summon-oriented deck designed to secure victory by steadily accumulating advantages through high-value skills and Electro-Charged reactions. Harness the power of Rhodeia and Fischl's Summons to chip away at the enemy's health, and seal the victory with your powerful Elemental Bursts and the formidable Fatui Pyro Agent! 
-
-deck_code: '!!090G0F.2V.3K.3L.3J.3O.3X.41.1Z.2I.2N5S.5T.2T.3G.3W1B='
-official_deck_code: A5BQ8RoPAxBw9HMPCUBQ9ZUPC1Aw9rMPC2CA+bgPC5GwCrwQC6HAC8cQDLFwD8kQDPAA
+description: Agent Electro-Charged, or Agent EC, is a summon-oriented deck designed to secure victory by steadily accumulating advantages through high-value skills and Electro-Charged reactions. Harness the power of Rhodeia of Loch's and Fischl's Summons to chip away at the enemy's health, and seal the victory with your powerful Elemental Bursts and the formidable Fatui Pyro Agent! 
+deck_code: '!!090G0F.2V7N.3K.3L.2S.5Z7B.3J.3X.40.411Z.263N3S3W.7K.2O='
+official_deck_code: 'A1BQ3hoPA0Bw9JUPClAw9aMPCmBw9qcPDIAg/cIQDKFgC8YQDLGQDskQDeEQD9EQDfAA'
 good_against:
     - 
         - Klee
@@ -17,45 +16,50 @@ bad_against:
         - Shenhe
         - Raiden Shogun
         - Chongyun
-video_url: https://www.youtube.com/watch?v=efrasMiF2PU
-last_updated_version: '4.0'
+        
+video_url: https://youtu.be/efrasMiF2PU
+last_updated_version: 4.2
 --- 
 
 ## Mulligan
-<CardRow :cards= "['Tubby', 'Liben', 'The Bestest Travel Companion!', 'Liyue Harbor Wharf']"></CardRow>
+<CardRow :cards="['Liben','Dunyarzad','Wine-Stained Tricorne','Strategize']" ></CardRow>
 
-Look for ramp and card draw that can be effectively utilized during the early stages of the game such as Liben, Tubby, Liyue Harbor Wharf, and Strategize. Dice fixers will also serve as effective tools to enhance the deck’s consistency, particularly when Dice rolls are unfavorable. Thus, It is recommended to keep The Bestest Travel Companion! if it appears during the mulligan phase. <br></br>
+Mulligan priority should be card draw and ramp, especially Liben and Dunyarzad. If Dunyarzad is already at hand, it is ideal to keep any Companion cards to generate Dunyarzad's value as soon as possible. Wine-Stained Tricorne is very nice to keep the Summons of Rhodeia less costly throughout the Rounds. Unless another Arcane Legend Card is used, which should be shuffled away due to mostly late game use, keeping In Every House a Stove could be considered, although it is not to be used until ideally Round 3 or 4.
 
 ## Early Game
-<CardRow :cards= "['Rhodeia of Loch', 'Fischl']"></CardRow>
+<CardRow :cards="['Rhodeia of Loch', 'Fischl']"></CardRow>
 
-In the initial round, prioritize applying pressure by using Rhodeia of Loch's Elemental Skill. Typically, you start by using Rhodeia of Loch’s 5-cost Elemental Skill to Summon your Oceanid Mimics, then use the remaining Dice towards playing ramp cards such as Liben, Tubby, or Liyue Harbor Wharf. In the case where you don't have any ramp cards to utilize your remaining Dice, alternatively use Rhodeia of Loch’s 3-cost Elemental Skill along with Fischl's Skill. The rule of thumb is having at least Oz and at least two Oceanid Mimics at the end of Round 2. <br></br>
+The early strategy of Agent Electro-Charged is to ideally summon into ramping. However, depending on the Cards you have from Mulligan, you may have to calculate the most effective way to achieve this result.<br></br>
+
+If you are lucky enough to get Dunyarzad early, especially paired with Liben, a second copy of Dunyarzad and/or a Companion card, play them to draw into more Companion cards before summoning with Rhodeia. Liben does not deplete Dunyarzad's Usage(s) but is able to trigger her draw effect. Thus, you are able to use another Companion card at discounted die cost if you play Dunyarzad into Liben before using the other Companion if need be.<br></br>
+
+If Yayoi Nanatsuki is available paired with Wine-Stained Tricorne, you can start with Dunyarzad and Yayoi, into Wine-Stained Tricorne. The 6 remaining Dice could be used effectively to summon with Rhodeia's 3-cost Elemental Skill (now discounted to 2) into Fischl's Oz, or to 5-cost Elemental Skill (now 4 cost) into using more ramp cards instead. Either way, try not to leave any dice unused. If by chance executing Rhodeia's 5-cost Myriad Wilds will leave you with one Die remaining at the end of Round, summoning with her 3-cost Elemental Skill twice might be a better option to build Energy instead. It is ideal to have at least Oz and two Oceanid Mimics by the end of Round 2 to exert End Phase pressure.<br></br>
+
+Also, keep an eye on very aggressive decks that can potentially do a first turn kill on Rhodeia. It is crucial to keep Rhodeia alive to have more Summons throughout the Rounds, so do not risk having her killed or take too much damage too early, especially not as early as the first Round.
+
 
 ## Mid - Late Game
-<CardFan :cards= "['Lucky Dog\'s Silver Circlet', 'I Haven\'t Lost Yet', 'Calx\'s Arts']"></CardFan>
+<CardFan :cards="['Starsigns', 'Adeptus\' Temptation', 'Chef Mao']"></CardFan>
 
-Prioritizing always having Summons on the field and using healing cards to stay out of your opponent’s breakpoints is your main strategy. While slowly generating Summon value, keep an eye on your energy, as cards such as Calx's Arts and I Haven't Lost Yet!, when combined with Adeptus' Temptation, can catch opponents off guard with an unexpected Elemental Burst on a crucial target. Fischl's Elemental Burst, Midnight Phantasmagoria, can deal significant AoE Damage to eliminate low-health standby characters. Whereas Rhodeia's Elemental Burst: Tide and Torrent is capable of unleashing up to 10 points of damage with four Summons on the field, which is enough to defeat a full-health character in one shot. <br></br>
+The main early to mid-game plan of Agent Electro-Charged is to exert End Round pressure through Electro-Charged Summons, thus prioritizing always having Summons on the field and using healing cards to stay out of your opponent's breakpoints is the main strategy. To achieve this, it is important to keep value ongoing with the available ramping options. Chef Mao, especially having 2 copies of him active on the Support Zone, could generate a lot of Dice value overtime while also healing simultaneously. With Paimon being discounted from Dunyarzad, it is also less challenging to get the 3 aligned dice previously needed to play the card, making ramping less costly to execute.<br></br>
 
-### Fatui Pyro Agent
+Cards such as Starsigns, when combined with Adeptus' Temptation, can catch your opponent off guard with an unexpected Elemental Burst on a crucial target. Fischl's Elemental Burst, Midnight Phantasmagoria, can deal significant AoE Damage to eliminate low-health standby characters, whereas Rhodeia's Elemental Burst: Tide and Torrent is capable of unleashing up to 8 DMG at once. Ocean-Hued Clam could also be a very good tech to both heal and buff damage simultaneously. Especially with Yayoi Nanatsuki available, you could potentially use this card for a very low cost. The Sea-Dyed Foam stacks also counts multiple healing sources from other characters, thus taking advantage of this could be beneficial in reaching a certain DMG threshold.
+
+## Fatui Pyro Agent
 <CardRow :cards= "['Fatui Pyro Agent']"></CardRow>
 
-Fatui Pyro Agent is capable of applying Pyro, setting up for a Vaporize or Overload reaction at the end of your turn when combined with your Summons. However, be careful to prevent Fatui Pyro Agent from taking too much damage, as you'll need them to secure victory in the later stages of the game. In end-game scenarios where it becomes a one-on-one situation, Fatui Pyro Agent is an exceptionally formidable unit, especially when equipped with Lucky Dog’s Circlet and their Talent Card Paid in Full, making them quite challenging to defeat. <br></br> 
-
-## Tubby 
-<CardRow :cards= "['Tubby', 'Sumeru City', 'Liyue Harbor Wharf']"></CardRow>
-
-Tubby is a Companion Card that reduces the Dice cost of playing a Location Card by 2 every Round including the Round you play it. Be sure to place Tubby down as soon as possible to maximize the value of this effect! <br></br>
-
-Sumeru City, costing 2 Dice, typically reduces the Dice cost of using a Skill by 1 each Round, provided you have equal or more cards in your Hand than Dice. However, when Tubby is on the board, you can play Sumeru City for a cost of 0 Dice while still receiving the 1 Dice cost reduction. This unique synergy allows Sumeru City to function like an unexpected Dice-saving card, catching opponents off guard. <br></br>
-
-### Non-Tubby Variant
-
-Although the Tubby engine delivers reliable performance within this deck, it is important to draw Tubby early in the game. Drawing Tubby later in the game can often diminish its effectiveness, leading to concerns about the deck's overall consistency. As a result, you can choose to adopt a more aggressive strategy by entirely removing both Tubby and healing Location Cards and replacing them with cards suggested in the alternative cards section. <br></br>
+Fatui Pyro Agent's Pyro application, combined with the right Summons, is ideal to set up a Vaporize or Overload reaction at the end of your turn, making the already devastating Summons even more overwhelming. However, be careful to prevent Fatui Pyro Agent from taking too much damage, as you'll need him to secure victory in the later stage of the game. There are often cases to exert pressure safely if there are healing options at hand, or if the opponent has ended their Round prior. In end game scenarios where it becomes a one-on-one situation, Fatui Pyro Agent is an exceptionally formidable unit, having both great defense and offense, making him quite challenging to defeat. 
 
 ## Alternative cards 
-<CardRow :cards= "['Yae Miko', 'Starsigns', 'Changing Shifts', 'Paimon', 'Send Off']"></CardRow>
+<CardRow :cards="['Yae Miko', 'Tubby', 'Fresh Wind of Freedom']"></CardRow>
 
-This deck is pretty flexible when it comes to card choices. For instance, you have the option to substitute Fischl with Yae Miko. While Fischl has a more potent AoE Burst, Yae Miko provides a cheaper single-target focused Elemental Burst, albeit with the drawback of removing her Summon after the burst. Including Yae Miko in the deck also reduces the need for Energy Cards due to her Burst only requiring 2-Energy to cast compared to Fischl’s 3-Energy cost Burst. Furthermore, you can enhance the deck's ramp options by adding cards such as Paimon and Vanarana. For the more aggressive deck variant, consider adding cards like Changing Shifts for Dice reduction and Starsigns for instant Energy to snipe crucial units. Lastly, consider including Send Off to improve your matchup against other Summon-focused decks. <br></br>
+Agent Electro-Charged is pretty flexible when it comes to card choices. For instance, you have the option to substitute Fischl with Yae Miko. While Fischl has a more potent AoE Burst, Yae Miko provides a cheaper single-target focused Elemental Burst, albeit with the drawback of removing her Summon after the burst. Yae Miko is able to summon twice for double Electro application End Round and is less susceptible to Send-Off before dealing at least some Electro-Charged reactions. Including Yae Miko in the deck also reduces the need for Energy Cards due to her Burst only requiring 2-Energy to cast compared to Fischl's 3-Energy cost Burst.<br></br>
+
+Other than going with the Dunyarzad engine route, Tubby and Location Cards combination also works very well with Agent Electro-Charged. To do this, replace all the Companion Cards except for Liben with 2 copies each of Tubby, Liyue Harbor Wharf, Sumeru City and Favonius Cathedral. Sumeru City paired with enough draw power can be very beneficial to reduce dice cost of skill, thus adding a dice fixing card like The Bestest Travel Companion! and/or Toss-Up to avoid excessive tuning could be very helpful to maintain the value of Sumeru City. With Tubby being active, playing a sudden Sumeru City for free could act as a pseudo woven of sorts to catch the opponent off guard, thus another strategic gameplay choice.<br></br>
+
+Although both Tubby and Dunyarzad work very well with Agent Electro-Charged, it could be less profitable to run if these cards are not drawn as early as possible. If consistency is preferred, forgoing Dunyarzad and Tubby is not unheard of. Keep in mind, however, to always have ramping options available in the deck to generate value throughout the game. Vanarana could be an excellent option in such cases on top of the few ramp options already suggested previously.<br></br>
+
+Furthermore, you can enhance the deck's aggressiveness by adding Heavy Strike, extra copy of Starsigns, Calx's Arts and/or another copy of Adeptus' Temptation. For the choice of Arcane Legend card, Fresh Wind of Freedom could be an option instead of In Every House a Stove. A copy of Fatui Pyro Agent's Talent Card, Paid in Full, could work very well to provide more defense and offense in the deck. For a surprise revival, Teyvat Fried Egg paired with Chef Mao is not expensive to slot in the deck either, especially with Ocean-Hued Clam being able to heal despite of the Satiated status. To make space for these cards, consider removing Yayoi Nanatsuki, Send Off, one copy of I Haven't Lost Yet!, one copy of Leave It to Me!, and/or one copy of Mushroom Pizza.
 
 ### Credits
-Guide by enclaireee. With the help of mattmario, chocchip., theorycrafting, and the rest of GITCG Theorycrafting Staff. <br></br>
+Original guide by enclaireee, updated for patch 4.2 by chocchip. with the help of gcg_summation, mattmario, theorycrafting, and the rest of GITCG Theorycrafting Staff

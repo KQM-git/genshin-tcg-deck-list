@@ -4,7 +4,9 @@ tags:
     - Easy
     - Aggro
 description: Shenhe Superconduct is a deck based on Chongyun's high damage output, and Shenhe’s ability to increase Cryo DMG dealt, making Chongyun perform high damage Elemental Skills and Bursts. This deck can pressure your enemy during the early game with Shenhe and Raiden Shogun, and then close up the game with Chongyun assisted by Shenhe’s buffs.
+
 deck_code: '!!4Y044P.5U.2U.32.3H.3I.3K3L.2V.21.33.3J.3X.40.2Z.3G3W='
+official_deck_code: AABw8QQPAhAA8pcPCSBw870PCzDQ9MgPDECA9ckPDFCQ9s0QDKHQC98QDbHwDuAQDuAA
 good_against:
     - 
         - Raiden Shogun

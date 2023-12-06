@@ -4,7 +4,9 @@ tags:
     - Hard
     - Aggro
 description: Shenhe Anemo can deal up to 4 damage Swirls by stacking Cryo damage buffs dealt through Shenhe’s Skill and Burst, as well as Sucrose’s Talent Card, Chaotic Entropy. Use Shenhe’s buffs in combination with Sucrose and Wanderer to repeatedly deal high AoE damage!
+
 deck_code: '!!0K4Y72.3A.3K.3I.2V.5U7C.3B.3X.40.21.2Z.3J.3G.3S6D.15='
+official_deck_code: AoBA6AcPAhCQ8WAPBjAA85cPCUBw9L0PC1DQ9ckPDNCQ/c0QDLHQC90QDuFwDucRDjAA
 good_against:
     - 
         - Chongyun

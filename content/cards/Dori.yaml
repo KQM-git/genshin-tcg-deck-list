@@ -1,0 +1,64 @@
+name: Dori
+id: 1410
+tags:
+- Electro
+- Claymore
+- Sumeru
+type: Character Card
+hp: '10'
+energy: '2'
+element: Electro
+weapon: Claymore
+offset:
+  character: 'top'
+  list: '50% 25%'
+  modal: '50% 18%'
+skills:
+- name: Marvelous Sword-Dance (Modified)
+  description: >
+    <p><span style="color: #FFD780">Normal Attack</span></p>
+    <p>Deals 2 <span style="color: #FFFFFF">Physical DMG</span>.</p>
+  points:
+  - point_type: electro
+    point_count: 1
+  - point_type: black
+    point_count: 2
+  tag: Normal Attack
+- name: "Spirit-Warding Lamp: Troubleshooter Cannon"
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+    <p>Deals 2 <span style="color: #FFACFF">Electro DMG</span>, summons 1 
+    <span style="color: #FFFFFF">After-Sales Service Rounds</span>.</p>
+  points:
+  - point_type: electro
+    point_count: 3
+  tag: Elemental Skill
+- name: "Alcazarzaray's Exactitude"
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+    <p>Deals 1 <span style="color: #FFACFF">Electro DMG</span>, summons 1 
+    <span style="color: #FFFFFF">Jinni</span>.</p>
+  points:
+  - point_type: electro
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+  tag: Elemental Burst
+- name: After-Sales Service Rounds
+  description: >
+    <p><span style="color:rgb(255, 215, 128)">Summon</span></p>
+    <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: #FFACFF">Electro DMG</span>.</p>
+    <p><span style="color: #FFFFFF">Usage(s): 1</span></p>
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Summon
+- name: Jinni
+  description: >
+    <p><span style="color:rgb(255, 215, 128)">Summon</span></p>
+    <p><span style="color: #FFFFFF">End Phase</span>: Heal your active character for 2 HP and that character gains 1 <span style="color: #FFFFFF">Energy</span>.</p>
+    <p><span style="color: #FFFFFF">Usage(s): 2</span></p>
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Summon

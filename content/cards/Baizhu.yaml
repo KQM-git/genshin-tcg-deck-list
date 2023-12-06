@@ -1,0 +1,69 @@
+name: Baizhu
+id: 1705
+tags:
+- Dendro
+- Catalyst
+- Liyue
+type: Character Card
+hp: '10'
+energy: '2'
+element: Dendro
+weapon: Catalyst
+offset:
+  character: 'top'
+  list: '50% 10.5%'
+  modal: '50% 10%'
+skills:
+- name: The Classics of Acupuncture
+  description: '<p><span style="color: #FFD780">Normal Attack</span></p><span style="color:
+    rgba(255, 255, 255, 0.65)">Deals 1 <span style="color: #99FF88">Dendro DMG</span>.</span></p>'
+  points:
+  - point_type: dendro
+    point_count: 1
+  - point_type: black
+    point_count: 2
+  tag: Normal Attack
+- name: Universal Diagnosis
+  description: '<p><span style="color: #FFD780">Elemental Skill</span></p><span>Deals 1 <span style="color: #99FF88">Dendro DMG</span>, 
+    summons 1 <span style="color: #FFFFFF">Gossamer Sprite</span>.</p>'
+  points:
+  - point_type: dendro
+    point_count: 3
+  tag: Elemental Skill
+- name: Holistic Revivification
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span>
+    <p>Creates 1 <span style="color: #FFFFFF">Pulsing Clarity</span> and <span style="color: #FFFFFF">Seamless Shield</span>.</p>'
+  points:
+  - point_type: dendro
+    point_count: 4
+  - point_type: recharge
+    point_count: 2
+  tag: Elemental Burst
+- name: Gossamer Sprite
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Summon</span><p>
+    <p><span style="color: #FFFFFF">End Phase</span>: 
+    Deal 1 <span style="color: #99FF88">Dendro DMG</span>, heal your active character for 1 HP.</p>
+    <p><span style="color: #FFFFFF">Usage(s): 1</span></p>
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Summon
+- name: Pulsing Clarity
+  description: '<p><span style="color: rgb(255, 215, 128)">Combat Status</span><p>
+  <p><span style="color: #FFFFFF">When Action Phase begins</span>: 
+  Create 1 <span style="color: #FFFFFF">Seamless Shield</span>.</p>
+  <p><span style="color: #FFFFFF">Usage(s): 2</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Combat Status
+- name: Seamless Shield
+  description: '<p><span style="color: rgb(255, 215, 128)">Combat Status</span><p>
+  <p>Provides 1 <span style="color: #FFFFFF">Shield</span>, protecting the active character.</p>
+  <p><span style="color: #FFFFFF">When this effect is removed, or generated again</span>: 
+  Deal 1 <span style="color: #99FF88">Dendro DMG</span>, and heal your active character for 1 HP.</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Combat Status

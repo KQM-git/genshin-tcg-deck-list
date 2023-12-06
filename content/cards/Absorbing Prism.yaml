@@ -14,7 +14,7 @@ skills:
     <p>(You must have Electro Hypostasis in your deck to add this card to your deck.)</p>
   points:
   - point_type: electro
-    point_count: 3
+    point_count: 2
 - name: Electro Crystal Core
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
     <p><span style="color: #FFFFFF">When the character to which this is attached would be defeated</span>: 

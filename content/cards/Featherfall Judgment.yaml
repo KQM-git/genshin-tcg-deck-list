@@ -12,9 +12,9 @@ skills:
     equip this card.</p><p>After Cyno equips this card, immediately use <span style="color:
     rgb(255, 215, 128)">Secret Rite: Chasmic Soulfarer</span> once.</p><p>When your
     Cyno, who has this card equipped, uses <span style="color: #FFFFFF">Secret
-    Rite: Chasmic Soulfarer </span>with 3 or 5 levels of <span style="color: rgb(255,
-    255, 255)">Pactsworn Pathclearer</span>''s Indwelling effect, deal +1 additional
-    DMG.</p><p>(You must have Cyno in your deck to add this card to your deck.)</p><p></p><p>'
+    Rite: Chasmic Soulfarer </span>while having an even number of <span style="color: rgb(255,
+    255, 255)">Pactsworn Pathclearer</span>''s Indwelling effect, deal +1 DMG.</p>
+    <p>(You must have Cyno in your deck to add this card to your deck.)</p><p></p><p>'
   points:
   - point_type: electro
     point_count: 3

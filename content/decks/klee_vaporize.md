@@ -3,7 +3,9 @@ name: Klee Vaporize
 tags:
     - Medium
     - Aggro
+    - Retired
 description: Deck based around eliminating an opponent's characters as early as possible to establish tempo and disrupt potential combos and counterplay. Such eliminations are possible as early as round one, and the advantage of forcing an early 2v3 can be back breaking for opponents without significant defensive counterplay or early ramp to counteract the dice advantage. 
+
 deck_code: '!!43060F.2V.2W.36.3H.3I.3K3L.21.2Z.37.3J3O.3X.3G.3W.2O='
 good_against:
     - 

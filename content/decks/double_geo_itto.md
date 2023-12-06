@@ -3,8 +3,8 @@ name: Double Geo Itto
 tags:
     - Very Hard
     - Control
+    - Retired
 description: Double Geo Itto aims to build Itto’s powerful burst to sweep the enemy in one combo round, while protecting Itto through the use of powerful Equipment Cards such as Tenacity of the Millelith and The Bell. In addition, the deck can leverage Barbara’s Melody Loop alongside cards like Tenshukaku to outlast and outvalue the opponent during the end game. Finish the game with the powerful Wind and Freedom combined with Heavy Strike, removing all potential counterplays from your opponent.
-
 deck_code: '!!074G0N.5U.2V6P.3C3K3L63.69.41.3X.40.3D.2I.5R.3S.5M.5H='
 good_against:
     - 

@@ -48,7 +48,7 @@ skills:
   description: '<p><span style="color:
     rgb(255, 215, 128)">Status</span></p><p>
   <span style="color: #FFFFFF">When the character uses a Charged Attack</span>: Damage dealt +2.</p>
-  <p><span style="color: #FFFFFF">Usage(s): 1</span></p>'
+  <p><span style="color: #FFFFFF">Usage(s): 1</span> (Can stack up to 2 times)</p>'
   points:
   - point_type: ''
     point_count: -1

@@ -12,13 +12,12 @@ skills:
     Chongyun equips this card, immediately use <span style="color: #FFD780">Chonghua''s
     Layered Frost</span> once.</p><p>When your Chongyun, who has this card equipped,
     creates a <span style="color: #FFFFFF">Chonghua Frost Field</span>, it will have
-    the following effects: Starting <span style="color: #FFFFFF">Duration (Rounds)</span>
-    +1, will cause your Sword, Claymore, and Polearm-wielding characters'' <span style="color:
+    the following effects: Your Sword, Claymore, and Polearm-wielding characters'' <span style="color:
     #FFFFFF">Normal Attacks</span> to deal +1 DMG.</p><p>(You must have Chongyun in
     your deck to add this card to your deck.)</p>'
   points:
   - point_type: cryo
-    point_count: 4
+    point_count: 3
 - name: Chonghua's Layered Frost
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
   <span> Deals 3 

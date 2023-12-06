@@ -1,4 +1,4 @@
-name: Tamanooya's Casket
+name: Tamakushi Casket
 id: 212051
 tags: []
 skills:
@@ -6,12 +6,14 @@ skills:
   description: >
     <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is <span style="color: #FFFFFF">Sangonomiya Kokomi</span>, equip this card.</p>
     <p>After Sangonomiya Kokomi equips this card, immediately use <span style="color: #FFD780">Nereid's Ascension</span> once.</p>
-    <p>When your Sangonomiya Kokomi, who has this card equipped, uses <span style="color: #FFFFFF">Nereid's Ascension</span>: If <span style="color: #FFFFFF">Bake-Kurage</span> is on the field, its <span style="color: #FFFFFF">Usage(s)</span> will be refreshed.</p>
+    <p>When your Sangonomiya Kokomi, who has this card equipped, uses <span style="color: #FFFFFF">Nereid's Ascension</span>: 
+    Summon a <span style="color: #FFFFFF">Bake-Kurage</span> with a <span style="color: #FFFFFF">Usage(s)</span> of 1; 
+    if <span style="color: #FFFFFF">Bake-Kurage</span> is already on the field, then increase its <span style="color: #FFFFFF">Usage(s)</span> by 1 instead.</p>
     <p>While <span style="color: #FFFFFF">Ceremonial Garment</span> exists, <span style="color: #FFFFFF">Bake-Kurage</span> deals +1 DMG.</p>
     <p>(You must have Sangonomiya Kokomi in your deck to add this card to your deck.)</p>
   points:
   - point_type: hydro
-    point_count: 4
+    point_count: 3
   - point_type: recharge
     point_count: 2
 - name: Nereid's Ascension

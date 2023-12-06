@@ -1,0 +1,41 @@
+name: Discretionary Supplement
+id: 214101
+tags: []
+offset:
+  character: 'top'
+  list: '50% 35%'
+  modal: '50% 35%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is <span style="color: #FFFFFF">Dori</span>, equip this card.</p>
+    <p>After Dori equips this card, immediately use <span style="color: rgb(255, 215, 128)">Alcazarzaray's Exactitude</span> once.</p>
+    <p>The <span style="color: #FFFFFF">Jinni</span> summoned by your Dori who has this card equipped heals 1 more HP when healing characters with no more than 6 HP, 
+    and increases the amount of <span style="color: #FFFFFF">Energy</span> gained by characters with no <span style="color: #FFFFFF">Energy</span> by 1 when <span style="color: #FFFFFF">Energy</span> is gained.</p>
+    <p>(You must have Dori in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: electro
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+- name: "Alcazarzaray's Exactitude"
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+    <p>Deals 1 <span style="color: #FFACFF">Electro DMG</span>, summons 1 
+    <span style="color: #FFFFFF">Jinni</span>.</p>
+  points:
+  - point_type: electro
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+  side: true
+  tag: Elemental Burst
+- name: Jinni
+  description: >
+    <p><span style="color:rgb(255, 215, 128)">Summon</span></p>
+    <p><span style="color: #FFFFFF">End Phase</span>: Heal your active character for 2 HP and that character gains 1 <span style="color: #FFFFFF">Energy</span>.</p>
+    <p><span style="color: #FFFFFF">Usage(s): 2</span></p>
+  points:
+  - point_type: ''
+    point_count: -1
+  tag: Summon

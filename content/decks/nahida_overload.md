@@ -6,6 +6,7 @@ tags:
 description: Nahida Overload, also called RXN or Nahida Overburn, uses the combined power of Summons, Xiangling's Elemental Burst, and Nahida's Seeds of Skandha to deliver high single target damage with a dash of Piercing Damage to close out games early. Although this deck has no regional or elemental resonance, the character synergy and multitude of reactions (ReaXioNs, if you will) more than makes up for it with its high damage output by Rounds 3-4.
 
 deck_code: '!!4P0D4U.2V.5U6P.3H.3I3L.3K.21.62.3J.3X40.2Z.3G3N.3S.3W='
+official_deck_code: AiAA8hIPAzAQ85cPCUBw9L0PC1DQ9ckPDGCQ+M0PDNDQ/dkQDaGQCtsQD7EQC/EQD+AA
 good_against:
     - 
         - Barbara

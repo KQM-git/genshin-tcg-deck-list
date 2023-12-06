@@ -6,6 +6,7 @@ tags:
 description: Geoceanid aims to control the opponent while accruing advantages over time through the use of powerful Action Cards such as Tenacity of the Millelith and Tenshukaku. Use Rhodeia of Loch’s summons to apply Hydro on the opposing characters and Stonehide Lawachurl to output pressure when necessary. After setting up, make use of Zhongli and his multitude of shields to outlast and dominate the opponent in the late game!
 
 deck_code: '!!090P4T.2V.5U.3C.3K3L.3D.3X40.41.5R.3G.3U.2I.5I.5M.2O='
+official_deck_code: A5BQ6TsOApDA6owOCKDA8Z0PCRDQ9bMPC1Aw9rkPC/CQ/70QC7HQC8IQDOEgD8kQDPAA
 good_against:
     - 
         - Xiao

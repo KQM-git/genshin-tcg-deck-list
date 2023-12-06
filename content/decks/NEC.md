@@ -6,6 +6,7 @@ tags:
 description: Nahida Hyperbloom, often referred to as NEC (Nahida Electro-Charged), utilizes high-value Elemental Skills from Rhodeia of Loch, Fischl, and Nahida to efficiently damage the opponent’s characters. After wearing down the opponent with Electro-Charged reactions and Seed of Skanda, unleash potent Elemental Bursts on the opponent using Energy cards such as Calx’s Arts and I Haven’t Lost Yet! to secure victory.
 
 deck_code: '!!090G4U.5U.2U.2V.3L.3H.3I.3K.21.3X.40.3O.3J.3W.3G.2O='
+official_deck_code: AyBQ8xoPAzAQ9JcPCUBw9b0PC1DQ9sIPDGAg+cgPDJGACskQDKGQC/EQD7EQDvIQD+AA
 good_against:
     - 
         - Chongyun

@@ -4,7 +4,9 @@ tags:
     - Medium
     - Aggro
 description: Keqing Overload uses Overload in combination with powerful Event Cards to quickly take out your opponents characters. The Overload Reaction lets you deal massive damage and swipe out opposing threats, and even without an early takedown, Bennett's Elemental Burst can easily turn the tables on a game!
+
 deck_code: '!!0C0I0F.2V.36.3H.3K.3L.21.2Z.37.3O.3X.2I.3G.3W.2O.10='
+official_deck_code: ATAw5BwOA0Bw8U8PBBDw8pcPCSBw9bMPC1Aw9sIPDGAg+ckPDJGQCs0QDKHQC+MQDrAA
 good_against:
     - 
         - Xingqiu

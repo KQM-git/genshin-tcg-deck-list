@@ -16,7 +16,7 @@ offset:
 skills:
 - name: Ceremonial Bladework
   description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span><p>Deals
-    2 <span style="color: #FFFFFF">Physical DMG</span>.</p></p>'
+    2 <span style="color: #FFFFFF">Physical DMG</span>.</p>'
   points:
   - point_type: cryo
     point_count: 1
@@ -24,13 +24,13 @@ skills:
     point_count: 2
 - name: Frostgnaw
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span><p>Deals
-    3 <span style="color: #99FFFF">Cryo DMG.</span></p></p>'
+    3 <span style="color: #99FFFF">Cryo DMG.</span></p>'
   points:
   - point_type: cryo
     point_count: 3
 - name: Glacial Waltz
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span><p>Deals
-    1 <span style="color: rgb(153, 255, 255)">Cryo DMG</span>, creates 1 <span style="color: #FFFFFF">Icicle</span>.</p>'
+    1 <span style="color: #99FFFF">Cryo DMG</span>, creates 1 <span style="color: #FFFFFF">Icicle</span>.</p>'
   points:
   - point_type: cryo
     point_count: 4
@@ -45,6 +45,6 @@ skills:
   points:
   - point_type: ''
     point_count: -1
-  tag: Combat Status
+
 talent_card: Cold-Blooded Strike
 

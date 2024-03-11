@@ -1,0 +1,37 @@
+name: A Subordinate's Skills
+id: 213111
+tags: []
+offset:
+  character: 'top'
+  list: '50% 28%'
+  modal: '50% 23%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is 
+    <span style="color: #FFFFFF">Thoma</span>, equip this card.</p>
+    <p>After Thoma equips this card, immediately use 
+    <span style="color: rgb(255, 215, 128)">Crimson Ooyoroi</span> once.</p>
+    <p>When your Thoma, who has this card equipped, creates a 
+    <span style="color: #FFFFFF">Scorching Ooyoroi</span>, its starting <span style="color: #FFFFFF">Usage(s)</span> +1.</p>
+    <p>(You must have Thoma in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: pyro
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+- name: Crimson Ooyoroi
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>Deals
+    2 <span style="color: #FF9999">Pyro DMG</span>, creates 1 <span style="color: #FFFFFF">Blazing Barrier</span> and <span style="color: #FFFFFF">Scorching Ooyoroi</span>.</p>'
+  points:
+  - point_type: pyro
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+- name: Scorching Ooyoroi
+  description: '<p><span style="color: rgb(255,
+    215, 128)">Combat Status</span></p><p><span style="color: #FFFFFF">After your character uses a Normal Attack</span>: Deal 1 <span style="color:
+    rgb(255, 153, 153)">Pyro DMG</span> and create a <span style="color: #FFFFFF">Blazing Barrier</span>.</p><p><span style="color: #FFFFFF">Usage(s): 2</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1

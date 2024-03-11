@@ -1,0 +1,16 @@
+name: Matsutake Meat Rolls
+id: 333014
+tags: []
+offset:
+  character: 'top'
+  list: '50% 50%'
+  modal: '50% 50%'
+skills:
+- name: Description
+  description: <p>Heal the target character for 2 HP. For the next 3 Rounds, heal
+    this character for 1 HP again at the End Phase.</p><p>(A character can consume
+    at most 1 Food per Round)</p>
+  points:
+  - point_type: white
+    point_count: 2
+

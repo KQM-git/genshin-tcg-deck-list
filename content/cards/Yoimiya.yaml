@@ -54,18 +54,3 @@ skills:
   points:
   - point_type: ''
     point_count: -1
-  tag: Combat Status
-- name: Detailed Rules
-  description: '<p><strong><span style="color: #FFFFFF">Physical DMG</span></strong></p><p>Physical
-    DMG will not apply any Elements, nor can it engage in Elemental Reactions.</p><p>After this card''s
-    effect is triggered, 1 <span style="color: #FFFFFF">Usage </span>of
-    it will be consumed.</p> it has
-    0 <span style="color: #FFFFFF">Usages </span>remaining.</p><p><strong><span style="color: #FFFFFF">Duration (Rounds)</span></strong></p><p>Each
-    time you reach the end of a Round, <span style="color: #FFFFFF">Duration
-    (Rounds) </span>- 1.</p> <span style="color: #FFFFFF">Duration (Rounds)</span> runs out.</p>'
-  points:
-  - point_type: ''
-    point_count: 0
-talent_card: Naganohara Meteor Swarm
-source: <p>Reward for inviting Yoimiya to a duel at The Cat's Tail and claiming victory
-  in a Friendly Fracas with her</p>

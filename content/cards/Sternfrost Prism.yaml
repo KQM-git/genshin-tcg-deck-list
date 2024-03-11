@@ -1,0 +1,33 @@
+name: "Sternfrost Prism"
+id: 221031
+tags: []
+offset:
+  character: 'top'
+  list: '50% 45%'
+  modal: '50% 45%'
+skills:
+- name: Description
+  description: >
+    <p>Can only be played if your active character is 
+    <span style="color: #FFFFFF">Cryo Hypostasis</span>: Attach <span style="color: #FFFFFF">Cryo Crystal Core</span> to them.</p>
+    <p>After Cryo Hypostasis, who has this card equipped, triggers <span style="color: #FFFFFF">Cryo Crystal Core</span>: 
+    Attach <span style="color: #FFFFFF">Sheer Cold</span> to the opposing active character.</p>
+    <p>(You must have Cryo Hypostasis in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: cryo
+    point_count: 1
+- name: Cryo Crystal Core
+  description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <p><span style="color: #FFFFFF">When the character to which this is attached would be defeated</span>: 
+    Remove this effect, ensure the character <span style="color: #FFFFFF">will not be defeated</span>, and heal them to 1 HP.</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Sheer Cold
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: #99FFFF">Cryo DMG</span>.<br>
+    <span style="color: #FFFFFF">Usage(s): 1</span></p>
+  points:
+  - point_type: ''
+    point_count: -1

@@ -1,0 +1,52 @@
+name: Thoma
+id: 1311
+tags:
+- Pyro
+- Polearm
+- Inazuma
+type: Character Card
+hp: '10'
+energy: '2'
+element: Pyro
+weapon: Polearm
+offset:
+  character: 'top'
+  list: '50% 13%'
+  modal: '50% 15%'
+skills:
+- name: Swiftshatter Spear
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>
+    Deals 2 <span style="color: #FFFFFF">Physical DMG</span>.
+  points:
+  - point_type: pyro
+    point_count: 1
+  - point_type: black
+    point_count: 2
+- name: Blazing Blessing
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>Deals
+    2 <span style="color: #FF9999">Pyro DMG</span>, creates 1 <span style="color: #FFFFFF">Blazing Barrier</span>.</p>'
+  points:
+  - point_type: pyro
+    point_count: 3
+- name: Crimson Ooyoroi
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>Deals
+    2 <span style="color: #FF9999">Pyro DMG</span>, creates 1 <span style="color: #FFFFFF">Blazing Barrier</span> and <span style="color: #FFFFFF">Scorching Ooyoroi</span>.</p>'
+  points:
+  - point_type: pyro
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+- name: Blazing Barrier
+  description: '<p><span style="color: rgb(255,
+    215, 128)">Combat Status</span></p><p>Grants 1 <span style="color: #FFFFFF">Shield point</span> to your active character. (Can stack. Max 3 points.)</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Scorching Ooyoroi
+  description: '<p><span style="color: rgb(255,
+    215, 128)">Combat Status</span></p><p><span style="color: #FFFFFF">After your character uses a Normal Attack</span>: Deal 1 <span style="color:
+    rgb(255, 153, 153)">Pyro DMG</span> and create a <span style="color: #FFFFFF">Blazing Barrier</span>.</p><p><span style="color: #FFFFFF">Usage(s): 2</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1

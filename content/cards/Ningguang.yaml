@@ -36,7 +36,7 @@ skills:
   points:
   - point_type: ''
     point_count: -1
-  tag: Combat Status
+
 - name: Starshatter
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span>Deals 6 </span><span style="color: rgb(255,
     230, 153)">Geo DMG</span><span>. If </span><span style="color: #FFFFFF">Jade Screen</span><span style="color: rgba(255,

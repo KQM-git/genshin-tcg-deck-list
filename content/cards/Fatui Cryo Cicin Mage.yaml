@@ -15,21 +15,21 @@ offset:
   modal: '50% 18%'
 skills:
 - name: Cicin Icicle
-  description: '<p><span style="color: #FFD780">Normal Attack</span></p><span>Deals 1 <span style="color: rgb(153, 255, 255)">Cryo DMG</span>.</span></p>'
+  description: '<p><span style="color: #FFD780">Normal Attack</span></p><span>Deals 1 <span style="color: #99FFFF">Cryo DMG</span>.</span></p>'
   points:
   - point_type: cryo
     point_count: 1
   - point_type: black
     point_count: 2
 - name: Misty Summons
-  description: '<p><span style="color: #FFD780">Elemental Skill</span></p><span>Deals 1 <span style="color: rgb(153, 255, 255)">Cryo DMG</span>, 
+  description: '<p><span style="color: #FFD780">Elemental Skill</span></p><span>Deals 1 <span style="color: #99FFFF">Cryo DMG</span>, 
     summons <span style="color: #FFFFFF">Cryo Cicins</span>.</span></p>'
   points:
   - point_type: cryo
     point_count: 3
 - name: Blizzard, Branch, Blossom
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span>
-    <p>Deals 5 <span style="color: rgb(153, 255, 255)">Cryo DMG</span>, 
+    <p>Deals 5 <span style="color: #99FFFF">Cryo DMG</span>, 
     grants this character <span style="color: rgb(153, 255, 255)">Cryo Application</span>, 
     creates 1 <span style="color: #FFFFFF">Flowing Cicin Shield</span>.</p>'
   points:
@@ -39,7 +39,7 @@ skills:
     point_count: 3
 - name: Cryo Cicins
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span><p>
-  <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: rgb(153, 255, 255)">Cryo DMG</span></p>
+  <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: #99FFFF">Cryo DMG</span></p>
   <p><span style="color: #FFFFFF">Usage(s): 2</span> (Can stack, max 3 stacks)</p>
   
   <p><span style="color: #FFFFFF">After Fatui Cryo Cicin Mage performs a Normal Attack: </span>This card gains 1 <span style="color: #FFFFFF">Usage(s)</span>.</p>
@@ -56,4 +56,3 @@ skills:
   points:
   - point_type: ''
     point_count: -1
-  tag: Combat Status

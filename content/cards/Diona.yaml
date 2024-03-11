@@ -16,7 +16,7 @@ offset:
 skills:
 - name: "K\xE4tzlein Style"
   description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>
-  <p>Deals 2 <span style="color: #FFFFFF">Physical DMG</span>.</p></p>'
+  <p>Deals 2 <span style="color: #FFFFFF">Physical DMG</span>.</p>'
   points:
   - point_type: cryo
     point_count: 1
@@ -25,8 +25,8 @@ skills:
 - name: Icy Paws
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
   <span><p>Deals 2 
-  <span style="color: rgb(153, 255, 255)">Cryo DMG</span>, 
-  creates 1 <span style="color: #FFFFFF">Cat-Claw Shield</span>.</p></p>'
+  <span style="color: #99FFFF">Cryo DMG</span>, 
+  creates 1 <span style="color: #FFFFFF">Cat-Claw Shield</span>.</p>'
   points:
   - point_type: cryo
     point_count: 3
@@ -37,12 +37,12 @@ skills:
   points:
   - point_type: ''
     point_count: -1
-  tag: Combat Status
+
 - name: Signature Mix
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
   <span><p>Deals 1 
   <span style="color: #99FFFF">Cryo DMG</span>, heals this character for 2 HP, summons 1 
-  <span style="color: #FFFFFF">Drunken Mist</span>.</p></p>'
+  <span style="color: #FFFFFF">Drunken Mist</span>.</p>'
   points:
   - point_type: cryo
     point_count: 3

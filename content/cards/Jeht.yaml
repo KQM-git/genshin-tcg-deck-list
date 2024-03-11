@@ -1,0 +1,18 @@
+name: Jeht
+id: 322022
+tags: []
+offset:
+  character: 'top'
+  list: '50% 27%'
+  modal: '50% 20%'
+skills:
+- name: Description
+  description: '<p>This card will record the number of cards discarded from your Support Zone during this match as Sophistication points. (Max 6 points)</p>
+    <p><span style="color:
+    #FFFFFF">After your characters use an Elemental Burst</span>: If this card has recorded at least 5 Sophistication points, discard this card and generate 
+    <span style="color: #FFFFFF">Omni Element</span> equal to the number of <span style="color:
+    #FFFFFF">Sophistication points minus 2</span>.</p>'
+  points:
+  - point_type: black
+    point_count: 2
+

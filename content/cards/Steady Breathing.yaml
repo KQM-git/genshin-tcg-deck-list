@@ -21,7 +21,7 @@ skills:
 - name: Chonghua's Layered Frost
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
   <span> Deals 3 
-  <span style="color: rgb(153, 255, 255)">Cryo DMG</span>, creates 1 
+  <span style="color: #99FFFF">Cryo DMG</span>, creates 1 
   <span style="color: #FFFFFF">Chonghua Frost Field</span>.</span>'
   points:
   - point_type: cryo
@@ -33,7 +33,7 @@ skills:
   <span> Your Sword, Claymore, and Polearm-wielding
   characters'' 
   <span style="color: #FFFFFF">Physical DMG </span>is converted to 
-  <span style="color: rgb(153, 255, 255)">Cryo DMG</span>.<br></br>
+  <span style="color: #99FFFF">Cryo DMG</span>.<br></br>
   <span style="color: #FFFFFF">Duration (Rounds): 2</span></p>'
   points:
   - point_type: ''

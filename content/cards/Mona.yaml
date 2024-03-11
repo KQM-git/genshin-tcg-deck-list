@@ -65,7 +65,7 @@ skills:
   points:
   - point_type: ''
     point_count: -1
-  tag: Combat Status
+
 - name: Detailed Rules
   description: '<p><strong><span style="color: #FFFFFF">Fast Action</span></strong></p><p>You
     can continue with other actions after conducing 1 Fast Action. Only after conducting

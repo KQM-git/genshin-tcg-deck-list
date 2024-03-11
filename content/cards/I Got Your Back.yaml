@@ -34,7 +34,7 @@ skills:
   points:
   - point_type: ''
     point_count: -1
-  tag: Combat Status
+
 - name: Detailed Rules
   description: '<p><strong><span style="color: #FFFFFF">Combat Action</span></strong></p><p>After
     you finish 1 Combat Action, it will be your opponent''s turn.</p><p><span style="color:

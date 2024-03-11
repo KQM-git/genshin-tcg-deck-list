@@ -1,0 +1,14 @@
+name: Machine Assembly Line
+id: 332028
+tags: []
+offset:
+  character: 'top'
+  list: '50% 47%'
+  modal: '50% 47%'
+skills:
+- name: Description
+  description: '<p><span style="color: #FFFFFF">Each time after your character is targeted by and takes DMG or is healed</span>: Accumulate 1 point of Battle-Readiness (Max 2 points).<br>
+<span style="color: #FFFFFF">When you play a Weapon or Artifact with an original cost of no more Dice than you have Battle-Readiness points</span>: Clear all Battle-Readiness points and play that card for free.</p>'
+  points:
+  - point_type: white
+    point_count: 0

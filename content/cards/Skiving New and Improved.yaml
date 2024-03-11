@@ -1,0 +1,27 @@
+name: "Skiving: New and Improved"
+id: 215071
+tags: []
+offset:
+  character: 'top'
+  list: '50% 48%'
+  modal: '50% 49%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is 
+    <span style="color: #FFFFFF">Sayu</span>, equip this card.</p>
+    <p>After Sayu equips this card, immediately use 
+    <span style="color: rgb(255, 215, 128)">Yoohoo Art: Fuuin Dash</span> once.</p>
+    <p>When your Sayu who has this card equipped is the active character, draw 2 cards when you trigger a Swirl reaction. (Once per Round)</p>
+    <p>(You must have Sayu in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: anemo
+    point_count: 3
+- name: "Yoohoo Art: Fuuin Dash"
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span>Deals 1 </span><span style="color: #80FFD7">Anemo
+    DMG</span><span>, then performs "Prepare Skill" for <span style="color: #FFFFFF">Fuufuu Whirlwind Kick</span>.<br>
+    If this usage of the skill triggers Swirl, then <span style="color: #FFFFFF">Fuufuu Whirlwind Kick</span> is converted to DMG of the Swirled Element.</p>'
+  points:
+  - point_type: anemo
+    point_count: 3
+  side: true

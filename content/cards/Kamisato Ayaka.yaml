@@ -52,7 +52,7 @@ skills:
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span><p>
   <span><p>The character to which this is attached has their 
   <span style="color: #FFFFFF">Physical DMG </span>dealt converted to 
-  <span style="color: rgb(153, 255, 255)">Cryo DMG</span>.</span></p>
+  <span style="color: #99FFFF">Cryo DMG</span>.</span></p>
   <br><span style="color: #FFFFFF">(Lasts until the Round ends)</span></br>'
   points:
   - point_type: ''

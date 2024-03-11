@@ -1,0 +1,50 @@
+name: Sayu
+id: 1507
+tags:
+- Anemo
+- Claymore
+- Inazuma
+type: Character Card
+hp: '10'
+energy: '2'
+element: Anemo
+weapon: Claymore
+offset:
+  character: 'top'
+  list: '50% 23%'
+  modal: '50% 17%'
+skills:
+- name: Shuumatsuban Ninja Blade
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 2 </span><span style="color: #FFFFFF">Physical DMG</span>.</p>'
+  points:
+  - point_type: anemo
+    point_count: 1
+  - point_type: black
+    point_count: 2
+- name: "Yoohoo Art: Fuuin Dash"
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span>Deals 1 </span><span style="color: #80FFD7">Anemo
+    DMG</span><span>, then performs "Prepare Skill" for <span style="color: #FFFFFF">Fuufuu Whirlwind Kick</span>.<br>
+    If this usage of the skill triggers Swirl, then <span style="color: #FFFFFF">Fuufuu Whirlwind Kick</span> is converted to DMG of the Swirled Element.</p>'
+  points:
+  - point_type: anemo
+    point_count: 3
+- name: "Yoohoo Art: Mujina Flurry"
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span>Deals 1 </span><span style="color: #80FFD7">Anemo
+    DMG</span>, summons 1 </span><span style="color: #FFFFFF">Muji-Muji Daruma</span>.</p>'
+  points:
+  - point_type: anemo
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+- name: Fuufuu Whirlwind Kick
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+    <p>Deals 2 <span style="color: #80FFD7">Anemo DMG</span>.</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Muji-Muji Daruma
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color:
+    rgb(128, 255, 215)">Anemo DMG</span>, heal the character on your team that has taken the most damage for 2 HP.</p><p><span style="color: #FFFFFF">Usage(s): 2</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1

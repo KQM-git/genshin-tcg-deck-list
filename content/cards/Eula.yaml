@@ -15,8 +15,7 @@ offset:
   modal: '50% 13%'
 skills:
 - name: Favonius Bladework - Edel
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 2 </span><span style="color: #FFFFFF">Physical
-    DMG</span>.</p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 2 </span><span style="color: #FFFFFF">Physical DMG</span>.</p>'
   points:
   - point_type: cryo
     point_count: 1
@@ -28,7 +27,6 @@ skills:
   points:
   - point_type: cryo
     point_count: 3
-  tag: Elemental Skill
 - name: Glacial Illumination
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
   Deals 2 <span style="color: #99FFFF">Cryo DMG</span>, summons 1 <span style="color: #FFFFFF">Lightfall Sword</span>.'

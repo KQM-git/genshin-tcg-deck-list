@@ -1,0 +1,61 @@
+name: Lyney
+id: 1310
+tags:
+- Pyro
+- Bow
+- Fontaine
+- Fatui
+- Pneuma
+type: Character Card
+hp: '10'
+energy: '2'
+element: Pyro
+weapon: Bow
+offset:
+  character: 'top'
+  list: '50% 18%'
+  modal: '50% 17%'
+skills:
+- name: Card Force Translocation
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>Deals
+    2 <span style="color: #FFFFFF">Physical DMG</span>.</p>'
+  points:
+  - point_type: pyro
+    point_count: 1
+  - point_type: black
+    point_count: 2
+- name: Prop Arrow
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>
+    Deals 2 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>, summons a <span style="color: #FFFFFF">Grin-Malkin Hat</span>, and gains 1 stack of <span style="color: #FFFFFF">Prop Surplus</span>.
+    <br>If this character has at least 6 HP, then they deal 1 <span style="color: #FFFFFF">Piercing DMG</span> to themself.
+  points:
+  - point_type: pyro
+    point_count: 3
+- name: Bewildering Lights
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>Deals 3 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>'
+  points:
+  - point_type: pyro
+    point_count: 3
+- name: "Wondrous Trick: Miracle Parade"
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+    Deals 2 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>, summons a <span style="color: #FFFFFF">Grin-Malkin Hat</span>, and gains 1 stack of <span style="color: #FFFFFF">Prop Surplus</span>.'
+  points:
+  - point_type: pyro
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+- name: Grim-Malkin Hat
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p>
+    <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>.
+    <br><span style="color: #FFFFFF">Usage(s): 1</span> (Can stack. Max 2 stacks.)</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Prop Surplus
+  description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <p><span style="color: #FFFFFF">Prop Surplus</span> can stack up to 3 times.
+    <br>When this character uses <span style="color: #FFFFFF">Bewildering Lights</span>: +1 DMG for each <span style="color: #FFFFFF">Prop Surplus</span> stack. After the skill is finalized, consume all <span style="color: #FFFFFF">Prop Surplus</span>, healing 1 HP for this character per stack.</p>'
+  points:
+  - point_type: ''
+    point_count: -1

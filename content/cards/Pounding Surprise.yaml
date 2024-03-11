@@ -14,7 +14,7 @@ skills:
   <p>When your Klee, who has this card equipped, creates an 
   <span style="color: #FFFFFF">Explosive Spark</span>, its 
   <span style="color: #FFFFFF">Usage(s)</span> +1.</p>
-  <p>(You must have Klee in your deck to add this card to your deck.)</p><p></p>'
+  <p>(You must have Klee in your deck to add this card to your deck.)</p>'
   points:
   - point_type: pyro
     point_count: 3
@@ -27,10 +27,8 @@ skills:
   - point_type: pyro
     point_count: 3
   side: true
-  tag: Elemental Skill
 - name: Jumpy Dumpty
-  description: '<p><strong><span
-    style="color: #FFFFFF">Explosive Spark</span></strong></p><span style="color:
+  description: '<p><strong><span style="color: #FFFFFF">Explosive Spark</span></strong></p><span style="color:
     rgb(255, 215, 128)">Status</span></p><p>
   <span style="color: #FFFFFF">When the character to which this is attached uses a Charged Attack</span>: Spend 1 less 
   <span style="color: #FF9999">Pyro Die</span> and deal +1 DMG.</p>

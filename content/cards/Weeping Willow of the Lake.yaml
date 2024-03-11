@@ -1,0 +1,15 @@
+name: Weeping Willow of the Lake
+id: 321016
+tags: []
+offset:
+  character: 'top'
+  list: '50% 60%'
+  modal: '50% 60%'
+skills:
+- name: Description
+  description: '<p><span style="color: #FFFFFF">End Phase</span>: If your Hand has no more than 2 cards, draw 2 cards.</p>
+  <p><span style="color: #FFFFFF">Usage(s): 2</span></p>'
+  points:
+  - point_type: white
+    point_count: 1
+

@@ -22,7 +22,6 @@ skills:
     point_count: 1
   - point_type: black
     point_count: 2
-  tag: Normal Attack
 - name: 'Hanega: Song of the Wind'
   description: >
     <p><span style="color: #FFD780">Elemental Skill</span></p>
@@ -30,7 +29,6 @@ skills:
   points:
   - point_type: anemo
     point_count: 3
-  tag: Elemental Skill
 - name: 'Kyougen: Five Ceremonial Plays'
   description: >
     <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
@@ -41,13 +39,11 @@ skills:
     point_count: 3
   - point_type: recharge
     point_count: 3
-  tag: Elemental Burst
 - name: Windfavored
   description: >
     <p><span style="color: rgb(255, 215, 128)">Status</span></p>
-    <p><span style="color: #FFFFFF">When the character to which this is attached performs a Normal Attack</span>: DMG dealt +2. If the opponent has characters on standby, then this Skill will deal damage to the next opposing character on standby instead.</p>
-    <p><span style="color: #FFFFFF">Usage(s): 2</span></p>
+    <p><span style="color: #FFFFFF">When the character to which this is attached performs a Normal Attack</span>: DMG dealt +2. If the opponent has characters on standby, then this Skill will deal damage to the next opposing character on standby instead.
+    <br><span style="color: #FFFFFF">Usage(s): 2</span></p>
   points:
   - point_type: ''
     point_count: -1
-  tag: Status

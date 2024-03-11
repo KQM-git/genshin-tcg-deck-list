@@ -29,13 +29,11 @@ skills:
   - point_type: recharge
     point_count: 2
   side: true
-  tag: Elemental Burst
 - name: Jinni
   description: >
     <p><span style="color:rgb(255, 215, 128)">Summon</span></p>
-    <p><span style="color: #FFFFFF">End Phase</span>: Heal your active character for 2 HP and that character gains 1 <span style="color: #FFFFFF">Energy</span>.</p>
-    <p><span style="color: #FFFFFF">Usage(s): 2</span></p>
+    <p><span style="color: #FFFFFF">End Phase</span>: Heal your active character for 2 HP and that character gains 1 <span style="color: #FFFFFF">Energy</span>.
+    <br><span style="color: #FFFFFF">Usage(s): 2</span></p>
   points:
   - point_type: ''
     point_count: -1
-  tag: Summon

@@ -14,73 +14,47 @@ skills:
     your Stonehide Lawachurl, who has this card equipped, defeats an opposing character:
     Stonehide Lawachurl will re-attach <span style="color: #FFFFFF">
     Stonehide</span> and <span style="color: #FFFFFF">Stone Force</span>.</p><p>(You
-    must have Stonehide Lawachurl in your deck to add this card to your deck.)</p><p></p></p>'
+    must have Stonehide Lawachurl in your deck to add this card to your deck.)</p></p>'
   points:
   - point_type: geo
     point_count: 4
   - point_type: recharge
     point_count: 2
 - name: Upa Shato
-  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p><span>Deals 5 </span><span style="color: rgb(255,
-    255, 255)">Physical DMG</span>.</p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p><span>Deals 5 </span><span style="color: #FFFFFF">Physical DMG</span>.</p>'
   points:
   - point_type: geo
     point_count: 3
   - point_type: recharge
     point_count: 2
   side: true
-  tag: Elemental Burst
 - name: Infused Stonehide
-  description: '<p><strong><span
-    style="color: #FFFFFF">Stonehide</span></strong></p><span style="color:
+  description: '<p><strong><span style="color: #FFFFFF">Stonehide</span></strong></p><span style="color:
     rgb(255, 215, 128)">Status</span></p><p><span style="color: #FFFFFF">When
     the character to which this is attached receives DMG</span>: Decrease DMG taken
-    by 1. When Geo DMG is decreased, consume 1 additional <span style="color: rgb(255,
-    255, 255)">Usage(s)</span>.</p><p><span style="color: #FFFFFF">Usage(s):
-    3</span></p><p></p>'
+    by 1. When Geo DMG is decreased, consume 1 additional <span style="color: #FFFFFF">Usage(s)</span>.</p><p><span style="color: #FFFFFF">Usage(s):
+    3</span></p>'
   points:
   - point_type: ''
     point_count: -1
-  tag: Status
 - name: Infused Stonehide
-  description: '<p><strong><span style="color: #FFFFFF">Stone Force</span></strong></p><span
-    style="color: rgb(255, 215, 128)">Status</span><p>The character to which this
+  description: '<p><strong><span style="color: #FFFFFF">Stone Force</span></strong></p><span style="color: rgb(255, 215, 128)">Status</span><p>The character to which this
     is attached has their <span style="color: #FFFFFF">Physical DMG</span>
-    dealt converted to <span style="color: rgb(255, 230, 153)">Geo DMG</span>.</p><p><span
-    style="color: #FFFFFF">Once per Round</span>: The character deals +1
+    dealt converted to <span style="color: rgb(255, 230, 153)">Geo DMG</span>.</p><p><span style="color: #FFFFFF">Once per Round</span>: The character deals +1
     DMG. Once the Stonehide attached to the character is removed, this status will
-    be removed alongside it.</p><p></p>'
+    be removed alongside it.</p>'
   points:
   - point_type: ''
     point_count: -1
-  tag: Status
-- name: Geo DMG
-  description: '<p>Reacts with Elements if they are already applied:<br>[<span style="color:
-    rgb(255, 230, 153)">Geo</span> + <span style="color: rgb(153, 255, 255)">Cryo</span>]
-    <span style="color: #FFFFFF">Cryo Crystallize</span>: DMG +1 for this
-    instance, your active character gains 1 Shield point (Can stack, max 2 points)<br>[<span
-    style="color: rgb(255, 230, 153)">Geo</span> + <span style="color: rgb(128, 192,
-    255)">Hydro</span>] <span style="color: #FFFFFF">Hydro Crystallize</span>:
-    DMG +1 for this instance, your active character gains 1 Shield point (Can stack,
-    max 2 points)<br>[<span style="color: rgb(255, 230, 153)">Geo</span> + <span style="color:
-    rgb(255, 153, 153)">Pyro</span>] <span style="color: #FFFFFF">Pyro
-    Crystallize</span>: DMG +1 for this instance, your active character gains 1 Shield
-    point (Can stack, max 2 points)<br>[<span style="color: rgb(255, 230, 153)">Geo</span>
-    + <span style="color: rgb(255, 172, 255)">Electro</span>] <span style="color:
-    #FFFFFF">Electro Crystallize</span>: DMG +1 for this instance, your
-    active character gains 1 Shield point (Can stack, max 2 points)</p>'
-  points:
-  - point_type: ''
-    point_count: 0
 - name: Detailed Rules
   description: '<p><strong><span style="color: #FFFFFF">Combat Action</span></strong></p><p>After
     you finish 1 Combat Action, it will be your opponent''s turn.</p><p><span style="color:
     #FFFFFF">Playing a card from your Hand with this rule is also a Combat
-    Action rather than a Fast Action.</span></p><p></p><p><strong><span style="color:
+    Action rather than a Fast Action.</span></p><p><strong><span style="color:
     #FFFFFF">Usage(s)</span></strong></p><p>After this card''s effect is
     triggered, 1 <span style="color: #FFFFFF">Usage </span>of it will be
-    consumed.</p><p>This card will be discarded immediately once it has 0 <span style="color:
-    #FFFFFF">Usages </span>remaining.</p><p></p><p><strong><span style="color:
+    consumed.</p> it has 0 <span style="color:
+    #FFFFFF">Usages </span>remaining.</p><p><strong><span style="color:
     #FFFFFF">Physical DMG</span></strong></p><p>Physical DMG will not apply
     any Elements, nor can it engage in Elemental Reactions.</p>'
   points:

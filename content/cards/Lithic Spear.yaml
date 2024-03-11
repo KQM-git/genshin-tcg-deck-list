@@ -8,8 +8,7 @@ offset:
 skills:
 - name: Description
   description: '<p><span style="color: #FFFFFF">The character deals +1
-    DMG</span>.</p><p><span style="color: #FFFFFF">When played</span>: For each of your party member from Liyue, grant 1 <span
-    style="color: #FFFFFF">Shield point</span> to the character to which this is attached.
+    DMG</span>.</p><p><span style="color: #FFFFFF">When played</span>: For each of your party member from Liyue, grant 1 <span style="color: #FFFFFF">Shield point</span> to the character to which this is attached.
     (Max 3 points)</p><p>(<span style="color: #FFFFFF">Only Polearm Characters</span>
     can equip this. A Character can equip a maximum of 1 Weapon.)</p>'
   points:
@@ -21,4 +20,4 @@ skills:
   points:
   - point_type: ''
     point_count: 0
-source: <p>Purchased at the Card Shop</p>
+

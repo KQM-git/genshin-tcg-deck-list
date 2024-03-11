@@ -1,0 +1,16 @@
+name: Passing of Judgment
+id: 330006
+tags: []
+offset:
+  character: 'top'
+  list: '50% 55%'
+  modal: '50% 60%'
+skills:
+- name: Description
+  description: >
+    <p>3 Event Cards played by your opponent in this Round will take no effect.</p>
+    <p>(Only one "Arcane Legend" card can be played for the entire game. This card will be in your starting hand.)</p>
+  points:
+  - point_type: arcane
+  - point_type: white
+    point_count: 1

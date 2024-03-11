@@ -1,0 +1,27 @@
+name: A Cold Blade Like a Shadow
+id: 215081
+tags: []
+offset:
+  character: 'top'
+  list: '50% 28%'
+  modal: '50% 23%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is 
+    <span style="color: #FFFFFF">Lynette</span>, equip this card.</p>
+    <p>After Lynette equips this card, immediately use 
+    <span style="color: rgb(255, 215, 128)">Enigmatic Feint</span> once.</p>
+    <p>After your Lynette, who has this card equipped, uses 
+    <span style="color: #FFFFFF">Enigmatic Feint</span> for the second time this Round: deals +2 DMG and forces your opponent to switch to their previous character.</p>
+    <p>(You must have Lynette in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: anemo
+    point_count: 3
+- name: Enigmatic Feint
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span>Deals 3 </span><span style="color: #80FFD7">Anemo
+    DMG</span><span>. The first time this Skill is used this Round, heal the character for 2 HP if they have no more than 8 HP, but apply <span style="color: #FFFFFF">Overawing Assault</span> to said character.</span></p>'
+  points:
+  - point_type: anemo
+    point_count: 3
+  side: true

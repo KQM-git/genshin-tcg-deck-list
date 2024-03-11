@@ -1,0 +1,35 @@
+name: Light's Remit
+id: 211091
+tags: []
+offset:
+  character: 'top'
+  list: '50% 18%'
+  modal: '50% 13%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is 
+    <span style="color: #FFFFFF">Layla</span>, equip this card.</p>
+    <p>After Layla equips this card, immediately use 
+    <span style="color: rgb(255, 215, 128)">Nights of Formal Focus</span>.</p>
+    <p>When Layla is on the field and has this card equipped, every time 
+    <span style="color: #FFFFFF">Shooting Star</span> deals DMG, draw 1 card.</p>
+    <p>(You must have Layla in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: cryo
+    point_count: 3
+- name: Nights of Formal Focus
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  Creates 1 <span style="color: #FFFFFF">Curtain of Slumber Shield</span> and <span style="color: #FFFFFF">Shooting Star</span>.'
+  points:
+  - point_type: cryo
+    point_count: 3
+  side: true
+- name: Shooting Star
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Combat Status</span></p>
+    <p><span style="color: #FFFFFF">After your character uses a Skill</span>: Accumulate 1 Night Star. If you have at least 4 Night Stars, consume 4 Night Stars and deal 1 <span style="color: #99FFFF">Cryo DMG</span>. (The Skill that causes this Combat Status will also trigger this effect)</p>
+    <p><span style="color: #FFFFFF">When causing this Combat Status again</span>: Accumulate 2 Night Stars.</p>
+  points:
+  - point_type: ''
+    point_count: -1

@@ -8,10 +8,9 @@ offset:
 skills:
 - name: Description
   description: '<p><span>During this Round,
-    your current active character will deal +2 DMG for the next instance.</span></p><p><span>(You must have at least 2 </span><span
-    style="color: rgb(153, 255, 255)">Cryo </span><span style="color: rgba(255, 255,
+    your current active character will deal +2 DMG for the next instance.</span></p><p><span>(You must have at least 2 </span><span style="color: rgb(153, 255, 255)">Cryo </span><span style="color: rgba(255, 255,
     255, 0.65)">characters in your deck to add this card to your deck.)</span></p>'
   points:
   - point_type: cryo
     point_count: 1
-source: <p>Purchased at the Card Shop</p>
+

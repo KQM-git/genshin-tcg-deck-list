@@ -1,0 +1,15 @@
+name: Memento Lens
+id: 323006
+tags: []
+offset:
+  character: 'top'
+  list: '50% 50%'
+  modal: '50% 50%'
+skills:
+- name: Description
+  description: '<p><span style="color: #FFFFFF">When you play a Weapon/Artifact/Location/Companion card</span>: If you have played a card with the same name previously during this match, spend 2 less Elemental Dice to play it. (Once per Round)</p>
+  <p><span style="color: #FFFFFF">Usage(s): 2</span></p>'
+  points:
+  - point_type: white
+    point_count: 1
+

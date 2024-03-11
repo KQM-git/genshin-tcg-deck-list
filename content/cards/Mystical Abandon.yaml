@@ -23,13 +23,12 @@ skills:
   - point_type: cryo
     point_count: 3
   side: true
-  tag: Elemental Skill
 - name: Icy Quill
   description: >
     <p><span style="color: rgb(255, 215, 128)">Status</span></p>
     <p>Your character deals 1 increased <span style="color: #99FFFF">Cryo DMG</span> 
-    (Includes the DMG triggered by <span style="color: #99FFFF">Cryo-infused</span> Swirl reactions)</p>
-    <p><span style="color: #FFFFFF">Usage(s): 3</span></p>
+    (Includes the DMG triggered by <span style="color: #99FFFF">Cryo-infused</span> Swirl reactions)
+    <br><span style="color: #FFFFFF">Usage(s): 3</span></p>
   points:
   - point_type: ''
     point_count: -1

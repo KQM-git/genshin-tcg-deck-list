@@ -1,0 +1,70 @@
+name: Dvalin
+id: 2502
+tags:
+- Anemo
+- Other Weapons
+- Monster
+type: Character Card
+hp: '10'
+energy: '2'
+element: Anemo
+weapon: Other Weapons
+offset:
+  character: 'top'
+  list: '50% 22.5%'
+  modal: '50% 22%'
+skills:
+- name: Lacerating Slash
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 2 </span><span style="color: #FFFFFF">Physical 
+    DMG</span>.</p>'
+  points:
+  - point_type: anemo
+    point_count: 1
+  - point_type: black
+    point_count: 2
+- name: Tempestuous Barrage
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>Deals
+    2 <span style="color: #80FFD7">Anemo DMG</span>. The target character receives <span style="color: #FFFFFF">Total Collapse</span>.</p>'
+  points:
+  - point_type: anemo
+    point_count: 3
+- name: Dvalin's Cleansing
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  <p>Deals 2 <span style="color: #80FFD7">Anemo DMG</span> and then separately performs
+  <span style="color: #FFFFFF">"Prepare Skill"</span> for 
+  <span style="color: #FFFFFF">Perpetual Cleansing</span> and 
+  <span style="color: #FFFFFF">Ultimate Cleansing</span>.</p>'
+  points:
+  - point_type: anemo
+    point_count: 5
+- name: Caelestinum Finale Termini
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span>Deals 5 </span><span style="color: rgb(128,
+    255, 215)">Anemo DMG</span><span>. Applies </span><span style="color: #FFFFFF">Total Collapse</span> to all opposing standby characters.</p>'
+  points:
+  - point_type: anemo
+    point_count: 4
+  - point_type: recharge
+    point_count: 2
+- name: Total Collapse
+  description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <p><span style="color: #FFFFFF">Physical DMG</span> or <span style="color: rgb(128, 255, 215)">Anemo
+    DMG</span> taken by the affected character increased by 2.<br><span style="color: #FFFFFF">Usage(s): 1</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Perpetual Cleansing
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  <p>Deals 1 <span style="color: #80FFD7">Anemo DMG</span> to the next opposing character on standby. After this,
+  <span style="color: #FFFFFF">Prepare Skill: Ultimate Cleansing</span>. (If there are no opposing characters on standby, deals DMG to active character instead)</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  side: true
+- name: Ultimate Cleansing
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  <p>Deals 2 <span style="color: #80FFD7">Anemo DMG</span> to the previous opposing character on standby. (If there are no opposing characters on standby, deals DMG to the active character instead)</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+  side: true
+

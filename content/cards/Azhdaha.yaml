@@ -1,0 +1,66 @@
+name: Azhdaha
+id: 2602
+tags:
+- Geo
+- Other Weapons
+- Monster
+type: Character Card
+hp: '10'
+energy: '2'
+element: Geo
+weapon: Other Weapons
+offset:
+  character: 'top'
+  list: '50% 70%'
+  modal: '50% 69%'
+skills:
+- name: Sundering Charge
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 2 </span><span style="color: #FFFFFF">Physical
+    DMG.</span></p>'
+  points:
+  - point_type: geo
+    point_count: 1
+  - point_type: black
+    point_count: 2
+- name: Aura of Majesty
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+    <span>Deals 3 <span style="color: rgb(255, 230, 153)">Geo DMG</span>. If a Crystallize reaction occurs, 
+    then this character will perform <span style="color: #FFFFFF">Elemental Absorption</span>.
+    If during the usage of this skill, the character hasn't absorbed an element's power yet, then 
+    Stone Facets: <span style="color: #FFFFFF">Elemental Crystallization</span> will be attached.</p>
+  points:
+  - point_type: geo
+    point_count: 3
+- name: Decimating Rockfall
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span>Deals 4 </span>
+  <span style="color: rgb(255, 230, 153)">Geo DMG</span>. DMG +1 for each element previously absorbed.</p>'
+  points:
+  - point_type: geo
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+- name: Stone Facets
+  description: '<p><span style="color: rgb(255, 215, 128)">Passive Skill</span></p><p>(Passive)
+    When the battle begins, this character gains <span style="color: #FFFFFF">
+    Stone Facets: Elemental Absorption</span>.</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+- name: "Stone Facets: Elemental Absorption"
+  description: >
+    <p><span style="color:
+    rgb(255, 215, 128)">Status</span></p>
+    <p>The character can absorb the power of the Elements, including <span style="color: #99FFFF">Cryo</span>/<span style="color: rgb(128, 192, 255)">Hydro</span>/<span style="color: rgb(255, 153, 153)">Pyro</span>/<span style="color: #FFACFF">Electro</span> DMG</span>, and then based on the element absorbed, gain the skills <span style="color: #99FFFF">Frostspike Wave</span>/<span style="color: rgb(128, 192, 255)">Torrential Rebuke</span>/<span style="color: rgb(255, 153, 153)">Blazing Rebuke</span>/<span style="color: #FFACFF">Thunderstorm Wave</span> DMG</span>. (The character can only have one Elemental Type absorbed at once, and this status will record the Elemental Type previously absorbed)</p>
+    <p><span style="color: #FFFFFF">After this character absorbs an element of a different type than the currently absorbed element</span>: Generate 1 Elemental Die of the same type as the Element that was just absorbed.</p>
+  points:
+  - point_type: ''
+    point_count: -1
+- name: "Stone Facets: Elemental Crystallization"
+  description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <p>After this character takes <span style="color: #99FFFF">Cryo</span>/<span style="color: rgb(128, 192, 255)">Hydro</span>/<span style="color: rgb(255, 153, 153)">Pyro</span>/<span style="color: #FFACFF">Electro</span> DMG</span>: 
+    If this character currently has not absorbed the power of this element, remove this effect, and then this character performs <span style="color: #FFFFFF">
+    Elemental Absorption</span>.</p>'
+  points:
+  - point_type: ''
+    point_count: -1

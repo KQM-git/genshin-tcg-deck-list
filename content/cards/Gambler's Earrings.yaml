@@ -13,11 +13,3 @@ skills:
   points:
   - point_type: white
     point_count: 1
-- name: Detailed Rules
-  description: '<p><strong><span style="color: #ECE5D8">Omni Element</span></strong></p><p>The
-    Omni Element can be considered as any kind of element, and can be used to pay
-    for costs of various kinds.</p>'
-  points:
-  - point_type: white
-    point_count: 0
-source: <p>Purchased at the Card Shop</p>

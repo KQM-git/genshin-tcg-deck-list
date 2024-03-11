@@ -1,0 +1,36 @@
+name: Conclusive Ovation
+id: 213101
+tags: []
+offset:
+  character: 'top'
+  list: '50% 18%'
+  modal: '50% 13%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is 
+    <span style="color: #FFFFFF">Lyney</span>, equip this card.</p>
+    <p>After Lyney equips this card, immediately use 
+    <span style="color: rgb(255, 215, 128)">Prop Arrow</span>.</p>
+    <p>When Lyney is on the field and has this card equipped, the DMG dealt by Lyney and your 
+    <span style="color: #FFFFFF">Grin-Malkin Hat</span> will deal +2 DMG to characters <span style="color: rgb(255, 153, 153)">affected by Pyro</span>. (Once per Round)</p>
+    <p>(You must have Lyney in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: pyro
+    point_count: 3
+- name: Prop Arrow
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>
+    Deals 2 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>, summons a <span style="color: #FFFFFF">Grin-Malkin Hat</span>, and gains 1 stack of <span style="color: #FFFFFF">Prop Surplus</span>.
+    <br>If this character has at least 6 HP, then they deal 1 <span style="color: #FFFFFF">Piercing DMG</span> to themself.
+  points:
+  - point_type: pyro
+    point_count: 3
+  side: true
+- name: Grim-Malkin Hat
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p>
+    <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>.
+    <br><span style="color: #FFFFFF">Usage(s): 1</span> (Can stack. Max 2 stacks.)</p>'
+  points:
+  - point_type: ''
+    point_count: -1

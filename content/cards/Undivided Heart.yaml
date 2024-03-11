@@ -12,8 +12,7 @@ skills:
     equip this card.</p><p>After Ganyu equips this card, immediately use <span style="color:
     rgb(255, 215, 128)">Frostflake Arrow</span> once.</p><p>When your Ganyu, who has
     this card equipped, uses <span style="color: #FFFFFF">Frostflake Arrow</span>:
-    If this Skill has been used before during this match, the <span
-    style="color: #FFFFFF">Piercing DMG</span> dealt to all opposing characters on standby is changed to 3.</p><p>(You must have Ganyu in your deck to add this card to
+    If this Skill has been used before during this match, the <span style="color: #FFFFFF">Piercing DMG</span> dealt to all opposing characters on standby is changed to 3.</p><p>(You must have Ganyu in your deck to add this card to
     your deck.)</p>'
   points:
   - point_type: cryo
@@ -26,4 +25,3 @@ skills:
   - point_type: cryo
     point_count: 5
   side: true
-  tag: Normal Attack

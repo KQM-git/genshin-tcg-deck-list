@@ -10,8 +10,8 @@ skills:
   description: >
     <p><span style="color: #FFFFFF">When played</span>: Draw a random Talent card from your deck.</p>
     <p><span style="color: #FFFFFF">When you play a Talent card, or when your character uses a Skill 
-    with an original cost of at least 4 Elemental Dice</span>: Spend 1 less Elemental Die. (Once per Round)</p>
-    <p><span style="color: #FFFFFF">Usage(s): 3</span></p>
+    with an original cost of at least 4 Elemental Dice</span>: Spend 1 less Elemental Die. (Once per Round)
+    <br><span style="color: #FFFFFF">Usage(s): 3</span></p>
   points:
   - point_type: white
     point_count: 2

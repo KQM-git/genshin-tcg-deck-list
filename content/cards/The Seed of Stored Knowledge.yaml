@@ -35,7 +35,6 @@ skills:
   - point_type: recharge
     point_count: 2
   side: true
-  tag: Elemental Burst
 - name: Shrine of Maya
   description: '<p><span style="color: rgb(255, 215, 128)">Combat Status</span><p>
   <p><span style="color: #FFFFFF">When your character triggers an Elemental Reaction</span>: 
@@ -55,4 +54,3 @@ skills:
   points:
   - point_type: ''
     point_count: -1
-  tag: Status

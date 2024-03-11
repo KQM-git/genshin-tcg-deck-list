@@ -15,21 +15,18 @@ offset:
   modal: '50% 16%'
 skills:
 - name: Cutting Torrent
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 2 </span><span style="color: #FFFFFF">Physical
-    DMG</span>.</p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 2 </span><span style="color: #FFFFFF">Physical DMG</span>.</p>'
   points:
   - point_type: hydro
     point_count: 1
   - point_type: black
     point_count: 2
-  tag: Normal Attack
 - name: 'Foul Legacy: Raging Tide'
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span>Switches to <span style="color: #FFFFFF">Melee Stance</span> 
     and deals 2 <span style="color: rgb(128, 192, 255)">Hydro DMG</span>, and apply <span style="color: #FFFFFF">Riptide</span> to the target character.</span></p>'
   points:
   - point_type: hydro
     point_count: 3
-  tag: Elemental Skill
 - name: 'Havoc: Obliteration'
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><p><span>Performs different attacks based on the current stance that <span style="color: #FFFFFF">Tartaglia</span> is in.</p>
     <p><span style="color: #FFFFFF">Ranged Stance - Flash of Havoc</span>:
@@ -41,7 +38,6 @@ skills:
     point_count: 3
   - point_type: recharge
     point_count: 3
-  tag: Elemental Burst
 - name: Tide Withholder
   description: '<p><span style="color: rgb(255, 215, 128)">Passive Skill</span></p><p>(Passive)
   When the battle begins, this character gains <span style="color: #FFFFFF">Ranged Stance</span>.
@@ -50,14 +46,12 @@ skills:
   points:
   - point_type: ''
     point_count: -1
-  tag: Passive Skill
 - name: Ranged Stance
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p><p><span style="color: rgb(255, 255,
     255)">After the character to which this is attached uses Charged Attack</span>: Apply <span style="color: #FFFFFF">Riptide</span> to target character.</p>'
   points:
   - point_type: ''
     point_count: -1
-  tag: Status
 - name: Melee Stance
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span><br><span style="color: #FFFFFF"></p>
     <p><span style="color: #FFFFFF">Physical DMG</span> dealt by character is converted to <span style="color: rgb(128, 192, 255)">Hydro DMG</span>.</p>
@@ -69,7 +63,6 @@ skills:
   points:
   - point_type: ''
     point_count: -1
-  tag: Status
 - name: Riptide
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p><p><span style="color: rgb(255, 255,
     255)">When the character to which this is attached is defeated</span>: Apply Riptide to active character.</p>
@@ -78,4 +71,3 @@ skills:
   points:
   - point_type: ''
     point_count: -1
-  tag: Status

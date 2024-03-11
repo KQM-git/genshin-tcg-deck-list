@@ -1,0 +1,27 @@
+name: Turn Control
+id: 212091
+tags: []
+offset:
+  character: 'top'
+  list: '50% 18%'
+  modal: '50% 13%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is 
+    <span style="color: #FFFFFF">Yelan</span>, equip this card.</p>
+    <p>After Yelan equips this card, immediately use 
+    <span style="color: rgb(255, 215, 128)">Lingering Lifeline</span> once.</p>
+    <p>Roll Phase: If Yelan, who has this card equipped, is on the field, 1 Elemental Dice will be rolled as 
+    <span style="color: #FFFFFF">Omni Element</span> for each Elemental Type in your party. (Max 3)</p>
+    <p>(You must have Yelan in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: hydro
+    point_count: 3
+- name: Lingering Lifeline
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  Deals 3 <span style="color: rgb(128,192, 255)">Hydro DMG</span>. This character gains 2 <span style="color: #FFFFFF">Breakthrough</span> stacks.'
+  points:
+  - point_type: hydro
+    point_count: 3
+  side: true

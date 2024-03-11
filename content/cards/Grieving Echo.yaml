@@ -1,0 +1,35 @@
+name: Grieving Echo
+id: 224021
+tags: []
+offset:
+  character: 'top'
+  list: '50% 48%'
+  modal: '50% 46%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is 
+    <span style="color: #FFFFFF">Thunder Manifestation</span>, equip this card.</p>
+    <p>After Thunder Manifestation equips this card, immediately use 
+    <span style="color: rgb(255, 215, 128)">Strifeful Lightning</span> once.</p>
+    <p>When your <span style="color: #FFFFFF">Thunder Manifestation</span> is on the field and has this card equipped, 
+    when an opponent with <span style="color: #FFFFFF">Lightning Rod</span> attached takes DMG: You draw 1 card. (Once per Round)</p>
+    <p>(You must have Thunder Manifestation in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: electro
+    point_count: 3
+- name: Strifeful Lightning
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  <p>Deals 3 <span style="color: rgb(255, 172, 255)">Electro DMG</span> to the opposing character affected by
+  <span style="color: #FFFFFF">Lightning Rod</span>. (If there are no eligible opposing characters, deals DMG to the active character instead)</p>'
+  points:
+  - point_type: electro
+    point_count: 3
+  side: true
+- name: Total Collapse
+  description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <p><span style="color: #FFFFFF">Physical DMG</span> or <span style="color: rgb(128, 255, 215)">Anemo
+    DMG</span> taken by the affected character increased by 2.<br><span style="color: #FFFFFF">Usage(s): 1</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1

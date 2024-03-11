@@ -18,7 +18,6 @@ skills:
   - point_type: electro
     point_count: 3
   side: true
-  tag: Elemental Skill
 - name: Crowfeather Cover
   description: '<p><span style="color: rgb(255, 215, 128)">Combat Status</span></p>
     The character with this attached deals +1 Elemental Skill and Elemental Burst DMG.

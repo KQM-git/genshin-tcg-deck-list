@@ -15,7 +15,7 @@ skills:
     <p>When Beiou, who has this card equipped, uses 
     <span style="color: #FFFFFF">Wavestrider</span>: Beidou's Normal Attacks this Round will cost 1 less 
     <span style="color: #FFFFFF">Unaligned Element</span>. (Can be triggered 2 times)</p>
-    <p>(You must have Beidou in your deck to add this card to your deck.)</p><p></p>
+    <p>(You must have Beidou in your deck to add this card to your deck.)</p>
   points:
   - point_type: electro
     point_count: 3
@@ -28,7 +28,6 @@ skills:
   - point_type: electro
     point_count: 3
   side: true
-  tag: Elemental Skill
 - name: Tidecaller
   description: '<p><strong><span style="color: #FFFFFF">Tidecaller: Surf Embrace</span></strong></p>
   <span style="color: rgb(255, 215, 128)">Status</span></p>

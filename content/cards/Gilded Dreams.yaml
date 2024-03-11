@@ -1,0 +1,16 @@
+name: Gilded Dreams
+id: 312018
+offset:
+  character: 'top'
+  list: '50% 38%'
+  modal: '50% 38%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">When played</span>: Generate 1 Die of the same Element as the attached character. If you have 3 different Elemental Types in your party, generate 2 such Dice instead.</p>
+    <p><span style="color: #FFFFFF">When the character to which this card is attached is your active character, 
+    then when an opposing character takes Elemental Reaction DMG</span>: Draw 1 card. (Up to twice per Round)</p>
+    <p>(A character can equip a maximum of 1 Artifact)</p>
+  points:
+  - point_type: white
+    point_count: 3

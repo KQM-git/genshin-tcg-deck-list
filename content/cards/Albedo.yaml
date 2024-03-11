@@ -23,7 +23,6 @@ skills:
     point_count: 1
   - point_type: black
     point_count: 2
-  tag: Normal Attack
 - name: "Abiogenesis: Solar Isotoma"
   description: >
     <p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
@@ -31,7 +30,6 @@ skills:
   points:
   - point_type: geo
     point_count: 3
-  tag: Elemental Skill
 - name: "Rite of Progeniture: Tectonic Tide"
   description: >
     <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
@@ -41,12 +39,11 @@ skills:
     point_count: 3
   - point_type: recharge
     point_count: 2
-  tag: Elemental Burst
 - name: Solar Isotoma
   description: >
     <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
-    <p><span style="color: #FFFFFF">End Phase: </span>Deal 1 <span style="color: rgb(255, 230, 153)">Geo DMG</span>.</p>
-    <p><span style="color: #FFFFFF">Usage(s)</span>: 3</p>
+    <p><span style="color: #FFFFFF">End Phase: </span>Deal 1 <span style="color: rgb(255, 230, 153)">Geo DMG</span>.
+    <br><span style="color: #FFFFFF">Usage(s): 3</span></p>
     <p><span style="color: #FFFFFF">When this Summon is on the field: </span>Your character's <span style="color: #FFFFFF">Plunging Attack</span> spends 1 less <span style="color: #FFFFFF">Unaligned Element</span>. (Once per Round)</p>
   points:
   - point_type: ''

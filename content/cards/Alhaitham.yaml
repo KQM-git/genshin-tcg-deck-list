@@ -1,0 +1,49 @@
+name: Alhaitham
+id: 1706
+tags:
+- Dendro
+- Sword
+- Sumeru
+type: Character Card
+hp: '10'
+energy: '2'
+element: Dendro
+weapon: Sword
+offset:
+  character: 'top'
+  list: '50% 14%'
+  modal: '50% 15%'
+skills:
+- name: Abductive Reasoning
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 2 </span><span style="color: #FFFFFF">Physical DMG</span>.</p>'
+  points:
+  - point_type: dendro
+    point_count: 1
+  - point_type: black
+    point_count: 2
+- name: "Universality: An Elaboration on Form"
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  Deals 2 <span style="color: #99FF88">Dendro DMG</span>. This character gains <span style="color: #FFFFFF">Chisel Light Mirror</span>.'
+  points:
+  - point_type: dendro
+    point_count: 3
+- name: "Particular Field: Fetters of Phenomena"
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+    Deals 4 <span style="color: #99FF88">Dendro DMG</span>, consumes <span style="color: #FFFFFF">Chisel Light Mirror</span>, with the DMG bonus based on <span style="color: #FFFFFF">Chisel Light Mirror</span>'s <span style="color: #FFFFFF">Duration (Rounds)</span> consumed.
+    <br>If <span style="color: #FFFFFF">Chisel Light Mirror</span> <span style="color: #FFFFFF">Duration (Rounds)</span> consumed is 0/1/2, then apply <span style="color: #FFFFFF">Chisel Light Mirror</span> with 3/2/1 <span style="color: #FFFFFF">Duration (Rounds)</span> to this character.
+  points:
+  - point_type: dendro
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+- name: Chisel-Light Mirror
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Status</span><p>
+    <p><span style="color: #FFFFFF">Physical DMG</span> dealt by the character is converted to <span style="color: rgb(153, 255, 136)">Dendro DMG</span>.<br>
+    <span style="color: #FFFFFF">After this character performs a Normal Attack</span>: Deal 1 <span style="color: rgb(153, 255, 136)">Dendro DMG</span>. 
+    If it is a <span style="color: #FFFFFF">Charged Attack</span>, this state's <span style="color: #FFFFFF">Duration (Rounds)</span> +1.<br>
+    <span style="color: #FFFFFF">Duration (Rounds): 2 </span>(Can stack. Max 3 Rounds.)</p>
+  points:
+  - point_type: ''
+    point_count: -1

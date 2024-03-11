@@ -22,16 +22,13 @@ skills:
     point_count: 1
   - point_type: black
     point_count: 2
-  tag: Normal Attack
 - name: "Let the Show Begin\u266A"
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span>Deals 1 </span><span style="color: #80C0FF">Hydro
-    DMG</span><span>, summons 1 </span><span
-    style="color: #FFFFFF">Melody Loop</span><span style="color: rgba(255, 255, 255,
+    DMG</span>, summons 1 <span style="color: #FFFFFF">Melody Loop</span><span style="color: rgba(255, 255, 255,
     0.45)">.</span></p>'
   points:
   - point_type: hydro
     point_count: 3
-  tag: Elemental Skill
 - name: "Shining Miracle\u266A"
   description: '<p><span style="color: #FFD780">Elemental Burst</span></p><span>Heals all of your characters for 4 HP.</span></p>'
   points:
@@ -39,66 +36,13 @@ skills:
     point_count: 3
   - point_type: recharge
     point_count: 3
-  tag: Elemental Burst
 - name: Melody Loop
-  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
-    style="color: #FFFFFF">End Phase</span>: Heal all your characters for
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span style="color: #FFFFFF">End Phase</span>: Heal all your characters for
     1 HP and your active character gains <span style="color: rgb(128, 192, 255)">Hydro
     Application</span>.</p><p><span style="color: #FFFFFF">Usage(s): 2</span></p>'
   points:
   - point_type: ''
     point_count: -1
-  tag: Summon
-- name: Hydro DMG
-  description: '<p>Applies Hydro and can trigger the following Elemental Reactions:</p><p><span
-    style="color: #FFFFFF">[</span><span style="color: rgb(128, 192, 255)">Hydro</span><span
-    style="color: #FFFFFF"> + </span><span style="color: rgb(255, 153,
-    153)">Pyro</span><span style="color: #FFFFFF">] Vaporize</span>: DMG
-    +2 for this instance</p><p><span style="color: #FFFFFF">[</span><span
-    style="color: rgb(128, 192, 255)">Hydro</span><span style="color: rgb(255, 255,
-    255)"> + </span><span style="color: rgb(255, 172, 255)">Electro</span><span style="color:
-    #FFFFFF">] Electro-Charged</span>: DMG +1 for this instance, deal 1
-    Piercing DMG to all opposing characters except the target</p><p><span style="color:
-    #FFFFFF">[</span><span style="color: rgb(128, 192, 255)">Hydro</span><span
-    style="color: #FFFFFF"> + </span><span style="color: rgb(153, 255,
-    255)">Cryo</span><span style="color: #FFFFFF">] Frozen</span>: DMG
-    +1 for this instance, the target is unable to perform any Actions this Round (Can
-    be removed in advance after the target receives +2 Physical or Pyro DMG)</p><p><span
-    style="color: #FFFFFF">[</span><span style="color: rgb(128, 192, 255)">Hydro</span><span
-    style="color: #FFFFFF"> + </span><span style="color: rgb(153, 255,
-    136)">Dendro</span><span style="color: #FFFFFF">] Bloom</span>: DMG+1
-    for this instance, creates a [<span style="color: #FFFFFF">Dendro Core</span>]
-    that grants +2 DMG to the next instance of Pyro/Electro DMG</p>'
-  points:
-  - point_type: ''
-    point_count: 0
-- name: Detailed Rules
-  description: '<p><strong><span style="color: rgb(128, 192, 255)">Hydro Application</span></strong></p><p>When
-    Hydro is applied without dealing any DMG, the Elemental Reaction triggered will
-    ignore DMG-dealing effects:</p><p><span style="color: #FFFFFF">[</span><span
-    style="color: rgb(128, 192, 255)">Hydro</span><span style="color: rgb(255, 255,
-    255)"> + </span><span style="color: rgb(255, 153, 153)">Pyro</span><span style="color:
-    #FFFFFF">] Vaporize</span>: No effect</p><p><span style="color: rgb(255,
-    255, 255)">[</span><span style="color: rgb(128, 192, 255)">Hydro</span><span style="color:
-    #FFFFFF"> + </span><span style="color: rgb(255, 172, 255)">Electro</span><span
-    style="color: #FFFFFF">] Electro-Charged</span>: No effect</p><p><span
-    style="color: #FFFFFF">[</span><span style="color: rgb(128, 192, 255)">Hydro</span><span
-    style="color: #FFFFFF"> + </span><span style="color: rgb(153, 255,
-    255)">Cryo</span><span style="color: #FFFFFF">] Frozen</span>: The
-    target is unable to perform any Action this Round (Can be removed in advance after
-    the target receives Physical or Pyro DMG, in which case they will take +2 DMG)</p><p><span
-    style="color: #FFFFFF">[</span><span style="color: rgb(128, 192, 255)">Hydro</span><span
-    style="color: #FFFFFF"> + </span><span style="color: rgb(153, 255,
-    136)">Dendro</span><span style="color: #FFFFFF">] Bloom</span>: Creates
-    a [<span style="color: #FFFFFF">Dendro Core</span>] that grants +2
-    DMG to the next instance of Pyro/Electro DMG</p><p></p><p><strong><span style="color:
-    #FFFFFF">Usage(s)</span></strong></p><p>After this card''s effect is
-    triggered, 1 <span style="color: #FFFFFF">Usage </span>of it will be
-    consumed.</p><p>This card will be discarded immediately once it has 0 <span style="color:
-    #FFFFFF">Usages </span>remaining.</p>'
-  points:
-  - point_type: ''
-    point_count: 0
 talent_card: Glorious Season
 source: <p>Reward for inviting Barbara to a duel at The Cat's Tail and claiming victory
   in a Friendly Fracas with her</p>

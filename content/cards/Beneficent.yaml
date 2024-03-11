@@ -17,7 +17,6 @@ skills:
   points:
   - point_type: dendro
     point_count: 3
-  tag: Elemental Skill
   side: True
 - name: 'Yuegui: Throwing Mode'
   description: '<p>
@@ -28,4 +27,3 @@ skills:
   points:
   - point_type: ''
     point_count: -1
-  tag: Summon

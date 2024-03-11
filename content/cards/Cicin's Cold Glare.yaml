@@ -23,15 +23,13 @@ skills:
   - point_type: cryo
     point_count: 3
   side: true
-  tag: Elemental Skill
 - name: Cryo Cicins
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span><p>
   <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: rgb(153, 255, 255)">Cryo DMG</span></p>
   <p><span style="color: #FFFFFF">Usage(s): 2</span> (Can stack, max 3 stacks)</p>
-  <p></p>
+  
   <p><span style="color: #FFFFFF">After Fatui Cryo Cicin Mage performs a Normal Attack: </span>This card gains 1 <span style="color: #FFFFFF">Usage(s)</span>.</p>
   <p><span style="color: #FFFFFF">After your character takes Elemental Reaction DMG: </span>This card loses 1 <span style="color: #FFFFFF">Usage(s)</span>.</p>'
   points:
   - point_type: ''
     point_count: -1
-  tag: Summon

@@ -8,8 +8,8 @@ offset:
 skills:
 - name: Description
   description: >
-    <p><span style="color: #FFFFFF">When Action Phase begins</span>: If you do not start first, create 1 Elemental Die that matches the Type of your active character.</p>
-    <p><span style="color: #FFFFFF">Usage(s): 3</span></p>
+    <p><span style="color: #FFFFFF">When Action Phase begins</span>: If you do not start first, create 1 Elemental Die that matches the Type of your active character.
+    <br><span style="color: #FFFFFF">Usage(s): 3</span></p>
   points:
   - point_type: white
     point_count: 1

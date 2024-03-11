@@ -1,0 +1,17 @@
+name: Tulaytullah's Remembrance
+id: 311107
+tags: []
+offset:
+  character: 'top'
+  list: '50% 43%'
+  modal: '50% 43%'
+skills:
+- name: Description
+  description: '<p><span style="color: #FFFFFF">The character deals +1 DMG.</span></p>
+    <p><span style="color: #FFFFFF">When the character uses a Charged Attack</span>: Spend 1 less <span style="color: #FFFFFF">Unaligned Element</span>. (Can be triggered up to twice per Round)</p>
+    <p>(<span style="color: #FFFFFF">Only Catalyst Characters</span>
+    can equip this. A character can equip a maximum of 1 Weapon)</p>'
+  points:
+  - point_type: white
+    point_count: 3
+

@@ -25,40 +25,6 @@ skills:
   - point_type: pyro
     point_count: 3
   side: true
-  tag: Elemental Skill
-- name: Pyro DMG
-  description: '<p>Applies Pyro and can trigger the following Elemental Reactions:</p><p><span
-    style="color: #FFFFFF">[</span><span style="color: rgb(255, 153, 153)">Pyro</span><span
-    style="color: rgb(153, 255, 255)"> </span>+ <span style="color: rgb(153, 255,
-    255)">Cryo</span><span style="color: #FFFFFF">]</span><span style="color:
-    rgb(255, 153, 153)"> </span><span style="color: #FFFFFF">Melt</span>:
-    DMG +2 for this instance</p><p><span style="color: #FFFFFF">[</span><span
-    style="color: rgb(255, 153, 153)">Pyro</span><span style="color: rgb(153, 255,
-    255)"> </span>+ <span style="color: rgb(128, 192, 255)">Hydro</span><span style="color:
-    #FFFFFF">]</span><span style="color: rgb(255, 172, 255)"> </span><span
-    style="color: #FFFFFF">Vaporize</span>: DMG +2 for this instance</p><p><span
-    style="color: #FFFFFF">[</span><span style="color: rgb(255, 153, 153)">Pyro</span><span
-    style="color: rgb(153, 255, 255)"> </span>+ <span style="color: rgb(255, 172,
-    255)">Electro</span><span style="color: #FFFFFF">]</span><span style="color:
-    rgb(128, 192, 255)"> </span><span style="color: #FFFFFF">Overloaded</span>:
-    DMG +2 for this instance, the target is forcibly switched to the next character</p><p><span
-    style="color: #FFFFFF">[</span><span style="color: rgb(255, 153, 153)">Pyro</span><span
-    style="color: rgb(153, 255, 255)"> </span>+ <span style="color: rgb(153, 255,
-    136)">Dendro</span><span style="color: #FFFFFF">]</span><span style="color:
-    rgb(128, 192, 255)"> </span><span style="color: #FFFFFF">Burning</span>:
-    DMG +1 for this instance, creates a [Burning Flame] that will deal 1 Pyro DMG
-    at the end of the Round (Takes effect once, max 2 stacks)</p>'
-  points:
-  - point_type: ''
-    point_count: 0
-- name: Detailed Rules
-  description: '<p><strong><span style="color: #FFFFFF">Combat Action</span></strong></p><p>After
-    you finish 1 Combat Action, it will be your opponent''s turn.</p><p><span style="color:
-    #FFFFFF">Playing a card from your Hand with this rule is also a Combat
-    Action rather than a Fast Action.</span></p>'
-  points:
-  - point_type: ''
-    point_count: 0
 related_character: Diluc
 source: <p>Reward from Character Proficiency</p><p>Reward for inviting Diluc to a
   duel at The Cat's Tail and achieving all corresponding challenge objectives</p>

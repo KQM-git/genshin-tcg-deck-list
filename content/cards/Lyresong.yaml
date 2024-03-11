@@ -1,4 +1,4 @@
-name: Where is the Unseen Razor?
+name: Lyresong
 id: 332024
 tags: []
 offset:
@@ -11,6 +11,6 @@ skills:
     <p>Return an Artifact card equipped by your character to your Hand.</p>
     <p><span style="color: #FFFFFF">During this Round, the next time you play an Artifact card from your hand</span>: Spend 2 less Elemental Dice.</p>
   points:
-  - point_type: ''
+  - point_type: white
     point_count: 0
-source: <p>Purchased at the Card Shop</p>
+

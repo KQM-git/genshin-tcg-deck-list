@@ -1,0 +1,25 @@
+name: Countless Sights to See
+id: 211011
+tags: []
+offset:
+  character: 'top'
+  list: '50% 37%'
+  modal: '50% 37%'
+skills:
+- name: Description
+  description: '<p><span style="color: #FFFFFF">Combat Action</span>: When
+    your active character is <span style="color: #FFFFFF">Kirara</span>,
+    equip this card.</p><p>After Kirara equips this card, immediately use <span style="color:
+    rgb(255, 215, 128)">Meow-teor Kick</span> once.</p><p>When your <span style="color: #FFFFFF">Kirara</span> 
+    who has this card equipped is the active character, spend 1 less Elemental Die when switching characters. (Once per Round)</p>
+    <p>(You must have Kirara in your deck to add this card to your deck.)</p>'
+  points:
+  - point_type: dendro
+    point_count: 3
+- name: Meow-teor Kick
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  Creates 1 <span style="color: #FFFFFF">Urgent Neko Parcel</span> and <span style="color: #FFFFFF">Shield of Safe Transport</span>.'
+  points:
+  - point_type: dendro
+    point_count: 3
+  side: true

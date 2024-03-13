@@ -26,8 +26,8 @@ skills:
 - name: Solar Isotoma
   description: >
     <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
-    <p><span style="color: #FFFFFF">End Phase: </span>Deal 1 <span style="color: rgb(255, 230, 153)">Geo DMG</span>.</p>
-    <p><span style="color: #FFFFFF">Usage(s)</span>: 3</p>
+    <p><span style="color: #FFFFFF">End Phase: </span>Deal 1 <span style="color: rgb(255, 230, 153)">Geo DMG</span>.
+    <br><span style="color: #FFFFFF">Usage(s): 3</span></p>
     <p><span style="color: #FFFFFF">When this Summon is on the field: </span>Your character's <span style="color: #FFFFFF">Plunging Attack</span> spends 1 less <span style="color: #FFFFFF">Unaligned Element</span>. (Once per Round)</p>
   points:
   - point_type: ''

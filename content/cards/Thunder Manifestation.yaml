@@ -1,0 +1,74 @@
+name: 'Thunder Manifestation'
+id: 2402
+tags:
+- Electro
+- Other Weapons
+- Monster
+type: Character Card
+hp: '10'
+energy: '2'
+element: Electro
+weapon: Other Weapons
+offset:
+  character: 'top'
+  list: '50% 25%'
+  modal: '50% 20%'
+skills:
+- name: Thunderous Wingslash
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>
+  <p><span>Deals 1 <span style="color:
+    rgb(255, 172, 255)">Electro DMG</span>.</span></p>'
+  points:
+  - point_type: electro
+    point_count: 1
+  - point_type: black
+    point_count: 2
+- name: Strifeful Lightning
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  <p>Deals 3 <span style="color: rgb(255, 172, 255)">Electro DMG</span> to the opposing character affected by
+  <span style="color: #FFFFFF">Lightning Rod</span>. (If there are no eligible opposing characters, deals DMG to the active character instead)</p>'
+  points:
+  - point_type: electro
+    point_count: 3
+- name: Thundering Shackles
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+    Deals 2 <span style="color: rgb(255, 172, 255)">Electro DMG</span>, 
+    summons 1 <span style="color: #FFFFFF">Thundering Shackles</span>.</p>
+  points:
+  - point_type: electro
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+- name: Lightning Probe
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Passive Skill</span></p><p>(Passive)
+    When the battle begins, creates a 
+    <span style="color: #FFFFFF">Lightning Strike Probe</span> on the opponent's side of the field.</p>
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Lightning Strike Probe
+  description: >
+    <p><span style="color: #FFD780">Combat Status</span></p>
+    <p><span style="color: #FFFFFF">After a character on whose side of the field this card is on uses a Skill:</span> Attach <span style="color: #FFFFFF">Lightning Rod</span> to the active character on that side. (Once per Round)</p>
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Lightning Rod
+  description: >
+    <p><span style="color: #FFD780">Status</span></p>
+    <p><span style="color: #FFFFFF">When the attached character takes DMG from Thunder Manifestation or its summons:</span> 
+    Remove this state, cause this DMG instance to increase by 1.<br>
+    (Only one of this status can exist on the field at once. Some of Thunder Manifestation's skills will target the character to which this is attached.)</p>
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Thundering Shackles
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
+    <p><span style="color: #FFFFFF">End Phase</span>: Deal 3 <span style="color: #FFACFF">Electro DMG</span> to the opposing character affected by <span style="color: #FFFFFF">Lightning Rod</span>.  (If there are no eligible opposing characters, deals DMG to the active character instead)
+    <br><span style="color: #FFFFFF">Usage(s): 1</span></p>
+  points:
+  - point_type: ''
+    point_count: -1

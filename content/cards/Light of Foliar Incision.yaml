@@ -1,0 +1,18 @@
+name: Light of Foliar Incision
+id: 311506
+tags: []
+offset:
+  character: 'top'
+  list: '50% 38%'
+  modal: '50% 34%'
+skills:
+- name: Description
+  description: '<p><span style="color: #FFFFFF">The character deals +1
+    DMG.</span></p><p><span style="color: #FFFFFF">After the character
+    uses a Normal Attack: </span>Create 1 random basic Elemental Die. (Can be triggered up to twice per Round)</p>
+    <p>(<span style="color: #FFFFFF">Only
+    Sword Characters</span> can equip this. A character can equip a maximum of 1 Weapon)</p>'
+  points:
+  - point_type: white
+    point_count: 3
+

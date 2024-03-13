@@ -1,0 +1,67 @@
+name: Cryo Hypostasis
+id: 2103
+tags:
+- Cryo
+- Other Weapons
+- Monster
+type: Character Card
+hp: '8'
+energy: '2'
+element: Cryo
+weapon: Other Weapons
+offset:
+  character: 'top'
+  list: '50% 22%'
+  modal: '50% 22%'
+skills:
+- name: Icespike Shot
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>
+  <p>Deals 1 <span style="color: #99FFFF">Cryo DMG</span>.</p>'
+  points:
+  - point_type: cryo
+    point_count: 1
+  - point_type: black
+    point_count: 2
+- name: Ice Ring Waltz
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  <span><p>Deals 3 
+  <span style="color: #99FFFF">Cryo DMG</span>. This character gains <span style="color: #FFFFFF">Overwhelming Ice</span>.</p>'
+  points:
+  - point_type: cryo
+    point_count: 3
+
+- name: Plunging Ice Shards
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+  <span><p>Deals 2 
+  <span style="color: #99FFFF">Cryo DMG</span>, deals 1 <span style="color: #FFFFFF">Piercing DMG</span> to all opposing characters on standby, summons 1 
+  <span style="color: #FFFFFF">Piercing Iceridge</span>.</p>'
+  points:
+  - point_type: cryo
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+- name: Cryo Crystal Core
+  description: '<p><span style="color: rgb(255, 215, 128)">Passive Skill</span></p>
+  <span>(Passive) When the battle begins, this character gains <span style="color: #FFFFFF">Cryo Crystal Core</span>.</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Overwhelming Ice
+  description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
+  <span><span style="color: #FFFFFF">When the character uses a Normal Attack:</span> Deal 1 <span style="color: #FFFFFF">Piercing DMG</span> to all opposing characters on standby.</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Piercing Iceridge
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: #99FFFF">Cryo DMG</span> to the opposing <span style="color: #FFFFFF">Character Closest to Your Current Active Character</span>.<br><span style="color: #FFFFFF">Usage(s):
+    2</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Cryo Crystal Core
+  description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <p><span style="color: #FFFFFF">When the character to which this is attached would be defeated</span>: 
+    Remove this effect, ensure the character <span style="color: #FFFFFF">will not be defeated</span>, and heal them to 1 HP.</p>'
+  points:
+  - point_type: ''
+    point_count: -1

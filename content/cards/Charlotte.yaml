@@ -1,0 +1,55 @@
+name: Charlotte
+id: 1110
+tags:
+- Cryo
+- Catalyst
+- Fontaine
+- Pneuma
+type: Character Card
+hp: '10'
+energy: 2
+element: Cryo
+weapon: Catalyst
+offset:
+  character: 'top'
+  list: '50% 19%'
+  modal: '50% 13%'
+skills:
+- name: Cool-Color Capture
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>Deals 1 <span style="color: #99FFFF">Cryo DMG</span>.</p>'
+  points:
+  - point_type: cryo
+    point_count: 1
+  - point_type: black
+    point_count: 2
+- name: "Framing: Freezing Point Composition"
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  Deals 1 <span style="color: #99FFFF">Cryo DMG</span>. Attach <span style="color: #FFFFFF">Snappy Silhouette</span> to the target.'
+  points:
+  - point_type: cryo
+    point_count: 3
+- name: "Still Photo: Comprehensive Confirmation"
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+  Deals 1 <span style="color: #99FFFF">Cryo DMG</span>, heals all your characters for 1 HP, summons 1 <span style="color: #FFFFFF">Newsflash Field</span>.'
+  points:
+  - point_type: cryo
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+- name: Snappy Silhouette
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: #99FFFF">Cryo DMG</span> to the character(s) to which this is attached. 
+    If only 1 <span style="color: #FFFFFF">Usage(s)</span> is remaining and the attached character is affected by Cryo, this instance of DMG +1.
+    <br><span style="color: #FFFFFF">Usage(s): 2</span></p>
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Newsflash Field
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
+    <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: #99FFFF">Cryo DMG</span>, heal your active character for 1 HP.<br>
+    <span style="color: #FFFFFF">Usage(s): 2</span></p>
+  points:
+  - point_type: ''
+    point_count: -1

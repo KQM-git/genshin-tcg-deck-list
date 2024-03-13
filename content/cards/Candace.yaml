@@ -15,21 +15,18 @@ offset:
   modal: '50% 10%'
 skills:
 - name: 'Gleaming Spear - Guardian Stance'
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 2 </span><span style="color: #FFFFFF">Physical
-    DMG</span>.</p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 2 </span><span style="color: #FFFFFF">Physical DMG</span>.</p>'
   points:
   - point_type: hydro
     point_count: 1
   - point_type: black
     point_count: 2
-  tag: Normal Attack
 - name: "Sacred Rite: Heron's Sanctum"
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
   <span>Attaches a <span style="color: #FFFFFF">Heron Shield</span> to this character and prepares <span style="color: #FFFFFF">Heron Strike</span>.</span>'
   points:
   - point_type: hydro
     point_count: 3
-  tag: Elemental Skill
 - name: "Sacred Rite: Wagtail's Tide"
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
   Deals 2 <span style="color: #80C0FF">Hydro DMG</span> and creates 1 <span style="color: #FFFFFF">Prayer of the Crimson Crown</span>.'
@@ -38,7 +35,6 @@ skills:
     point_count: 3
   - point_type: recharge
     point_count: 2
-  tag: Elemental Burst
 - name: "Heron Shield"
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
   <p>The next time this character acts, they will immediately use the Skill 
@@ -57,15 +53,12 @@ skills:
   points:
   - point_type: electro
     point_count: 0
-  tag: Elemental Skill
 - name: Prayer of the Crimson Crown
   description: >
     <p><span style="color: rgb(255, 215, 128)">Combat Status</span></p>
     <p>Your characters' <span style="color: #FFFFFF">Normal Attacks</span> deal +1 DMG.</p>
-    <p>Your Sword, Claymore, and Polearm-wielding characters' <span style="color: #FFFFFF">Physical
-    DMG</span> is converted to <span style="color: #80C0FF">Hydro DMG</span>.</p>
-    <p><span style="color: #FFFFFF">Duration (Rounds)</span>: 2</p>
+    <p>Your Sword, Claymore, and Polearm-wielding characters' <span style="color: #FFFFFF">Physical DMG</span> is converted to <span style="color: #80C0FF">Hydro DMG</span>.</p>
+    <p><span style="color: #FFFFFF">Duration (Rounds): 2</span></p>
   points:
   - point_type: ''
     point_count: -1
-  tag: Combat Status

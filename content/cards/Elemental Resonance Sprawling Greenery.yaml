@@ -9,8 +9,7 @@ skills:
 - name: Description
   description: '<p><span>During this round,
     the next Elemental Reaction your active character triggers deals +2 DMG. Your
-    </span><span style="color: #FFFFFF">Burning Flame</span><span style="color:
-    rgba(255, 255, 255, 0.65)">, </span><span style="color: #FFFFFF">Dendro
+    </span><span style="color: #FFFFFF">Burning Flame</span><span>, </span><span style="color: #FFFFFF">Dendro
     Core</span><span>, and </span><span style="color:
     #FFFFFF">Catalyzing Field</span><span style="color: rgba(255, 255,
     255, 0.65)"> gain +1 </span><span style="color: #FFFFFF">Usage(s)</span>.</p><p><span style="color: rgba(255,
@@ -20,30 +19,3 @@ skills:
   points:
   - point_type: dendro
     point_count: 1
-- name: Detailed Rules
-  description: '<p><strong><span style="color: #FFFFFF">Burning Flame</span></strong></p><p><span
-    style="color: rgb(255, 215, 128)">Summon</span></p><p><span style="color: rgb(255,
-    255, 255)">End Phase</span>: Deal 1 <span style="color: rgb(255, 153, 153)">Pyro
-    DMG</span>.</p><p><span style="color: #FFFFFF">Usage(s): 1</span> (Can
-    stack, Max 2 stacks.)</p><p></p><p><strong><span style="color: #FFFFFF">Dendro
-    Core</span></strong></p><p><span style="color: rgb(255, 215, 128)">Combat Status</span></p><p><span
-    style="color: #FFFFFF">When you deal </span><span style="color: rgb(255,
-    153, 153)">Pyro DMG</span><span style="color: #FFFFFF"> or </span><span
-    style="color: rgb(255, 172, 255)">Electro DMG</span><span style="color: rgb(255,
-    255, 255)"> to an opposing active character, </span>DMG dealt +2.</p><p><span
-    style="color: #FFFFFF">Usage(s): 1</span></p><p></p><p><strong><span
-    style="color: #FFFFFF">Catalyzing Field</span></strong></p><p><span
-    style="color: rgb(255, 215, 128)">Combat Status</span></p><p><span style="color:
-    #FFFFFF">When you deal </span><span style="color: rgb(255, 172, 255)">Electro
-    DMG</span><span style="color: #FFFFFF"> or </span><span style="color:
-    rgb(153, 255, 136)">Dendro DMG</span><span style="color: #FFFFFF">
-    to an opposing active character, </span>DMG dealt +1.</p><p><span style="color:
-    #FFFFFF">Usage(s): 2</span></p><p></p><p><strong><span style="color:
-    #FFFFFF">Usage(s)</span></strong></p><p>After this card''s effect is
-    triggered. 1 <span style="color: #FFFFFF">Usage </span>of it will be
-    consumed.</p><p>This card will be discarded immediately once it has 0 <span style="color:
-    #FFFFFF">Usages </span>remainig.</p>'
-  points:
-  - point_type: ''
-    point_count: 0
-source: <p>Purchased at the Card Shop</p>

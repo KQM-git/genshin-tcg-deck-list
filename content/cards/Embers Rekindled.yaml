@@ -24,7 +24,6 @@ skills:
   points:
   - point_type: ''
     point_count: -1
-  tag: Status
 - name: Aegis of Abyssal Flame
   description: >
     <p><span style="color: rgb(255, 215, 128)">Status</span></p>

@@ -22,14 +22,12 @@ skills:
     point_count: 1
   - point_type: black
     point_count: 2
-  tag: Normal Attack
 - name: Searing Precept
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
   <p><span>Deals 3 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>.</span></p>'
   points:
   - point_type: pyro
     point_count: 3
-  tag: Elemental Skill
 - name: Ominous Star
   description: >
     <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
@@ -40,15 +38,13 @@ skills:
     point_count: 3
   - point_type: recharge
     point_count: 2
-  tag: Elemental Burst
 - name: Fiery Rebirth
   description: '<p><span style="color: rgb(255, 215, 128)">Passive Skill</span></p><p>(Passive)
     When the battle begins, the character gains 
-    <span style="color: #FFFFFF">Fiery Rebirth</span>.</p><p></p>'
+    <span style="color: #FFFFFF">Fiery Rebirth</span>.</p>'
   points:
   - point_type: ''
     point_count: -1
-  tag: Passive Skill
 - name: Fiery Rebirth
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
     <p><span style="color: #FFFFFF">When the character to which this is attached would be defeated</span>: 
@@ -56,14 +52,12 @@ skills:
   points:
   - point_type: ''
     point_count: -1
-  tag: Status
 - name: Darkfire Furnace
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
     <p><span style="color: #FFFFFF">End Phase</span>: 
     Deals 1 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>, deal 1 <span style="color: #FFFFFF">Piercing DMG</span> 
-    to all opposing characters on standby.</p>
-    <p><span style="color: #FFFFFF">Usage(s): 2</span></p>'
+    to all opposing characters on standby.
+    <br><span style="color: #FFFFFF">Usage(s): 2</span></p>'
   points:
   - point_type: ''
     point_count: -1
-  tag: Summon

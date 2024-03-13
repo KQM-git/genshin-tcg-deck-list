@@ -12,11 +12,3 @@ skills:
   points:
   - point_type: white
     point_count: 1
-- name: Detailed Rules
-  description: '<p><strong><span style="color: #FFFFFF">Energy</span></strong></p><p>Characters
-    must consume Energy to use their Elemental Bursts.</p><p>When characters use an
-    Elemental Skill or a Normal Attack, they will gain 1 Energy.</p>'
-  points:
-  - point_type: ''
-    point_count: 0
-source: <p>Default Deck</p><p>Purchased at the Card Shop</p>

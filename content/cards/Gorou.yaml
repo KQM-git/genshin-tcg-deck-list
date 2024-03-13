@@ -1,0 +1,55 @@
+name: Gorou
+id: 1606
+tags:
+- Geo
+- Bow
+- Inazuma
+type: Character Card
+hp: '10'
+energy: 2
+element: Geo
+weapon: Bow
+offset:
+  character: 'top'
+  list: '50% 23%'
+  modal: '50% 15%'
+skills:
+- name: Ripping Fang Fletching
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 2 </span><span style="color: #FFFFFF">Physical DMG</span>.</p>'
+  points:
+  - point_type: geo
+    point_count: 1
+  - point_type: black
+    point_count: 2
+- name: Inuzaka All-Round Defense
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+    Deals 2 <span style="color: rgb(255, 230, 153)">Geo DMG</span>, creates 1 <span style="color: #FFFFFF">General's War Banner</span>.
+  points:
+  - point_type: geo
+    point_count: 3
+- name: 'Juuga: Forward Unto Victory'
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Elenmetal Burst</span></p>
+    <span>Deals 2 <span style="color: rgb(255, 230, 153)">Geo DMG</span>, creates 1 <span style="color: #FFFFFF">General's War Banner</span>, summons 1 <span style="color: #FFFFFF">General's Glory</span>.
+  points:
+  - point_type: geo
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+- name: "General's War Banner"
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <p>Your party's characters deal +1 <span style="color: rgb(255, 230, 153)">Geo DMG</span>.<br><span style="color: #FFFFFF">Duration (Rounds): 2</span>.</p>
+  points:
+  - point_type: ''
+    point_count: -1
+- name: General's Glory
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
+    <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: rgb(255, 230, 153)">Geo DMG</span>.
+    If your party has 2 <span style="color: rgb(255, 230, 153)">Geo</span> characters, create 1 <span style="color: #FFFFFF">Crystallize</span>.
+    <br><span style="color: #FFFFFF">Usage(s): 2</span></p>
+  points:
+  - point_type: ''
+    point_count: -1

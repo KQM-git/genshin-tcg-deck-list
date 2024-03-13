@@ -1,0 +1,19 @@
+name: Primordial Jade Winged-Spear
+id: 311407
+tags: []
+offset:
+  character: 'top'
+  list: '50% 43%'
+  modal: '50% 43%'
+skills:
+- name: Description
+  description: '<p><span style="color: #FFFFFF">The character deals +1
+    DMG</span>.</p>
+    <p><span style="color: #FFFFFF">After this character uses a Skill</span>: Until the end of this Round, +1 additional DMG provided by this card. (Up to +2 DMG total.)</p>
+    <p>(<span style="color:
+    #FFFFFF">Only Polearm Characters</span> can equip this. A character can
+    equip a maximum of 1 Weapon)</p>'
+  points:
+  - point_type: white
+    point_count: 3
+

@@ -4,6 +4,7 @@ tags:
 - Pyro
 - Claymore
 - Sumeru
+- The Eremites
 type: Character Card
 hp: '10'
 energy: '2'
@@ -23,7 +24,6 @@ skills:
     point_count: 1
   - point_type: black
     point_count: 2
-  tag: Normal Attack
 - name: Molten Inferno
   description: >
     <p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
@@ -32,7 +32,6 @@ skills:
   points:
   - point_type: pyro
     point_count: 3
-  tag: Elemental Skill
 - name: Leonite Bite
   description: >
     <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
@@ -43,18 +42,16 @@ skills:
     point_count: 4
   - point_type: recharge
     point_count: 2
-  tag: Elemental Burst
 - name: Fiery Sanctum Field
   description: >
     <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
-    <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>.</p>
-    <p><span style="color: #FFFFFF">Usage(s): 3</span></p>
+    <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>.
+    <br><span style="color: #FFFFFF">Usage(s): 3</span></p>
     <p><span style="color: #FFFFFF">When this Summon is on the field and Dehya is on standby on your side, then when your active character takes damage</span>:
     Decrease DMG taken by 1, and if Dehya has at least 7 HP, deal 1 <span style="color: #FFFFFF">Piercing DMG</span> to her (once per round).</p>
   points:
   - point_type: ''
     point_count: -1
-  tag: Summon
 - name: Incineration Drive
   description: >
     <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
@@ -62,5 +59,4 @@ skills:
   points:
   - point_type: ''
     point_count: -1
-  tag: Elemental Burst
   side: true

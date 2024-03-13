@@ -22,7 +22,6 @@ skills:
     point_count: 1
   - point_type: black
     point_count: 2
-  tag: Normal Attack
 - name: 'Yakan Evocation: Sesshou Sakura'
   description: >
     <p><span style="color: #FFD780">Elemental Skill</span></p>
@@ -30,7 +29,6 @@ skills:
   points:
   - point_type: electro
     point_count: 3
-  tag: Elemental Skill
 - name: 'Great Secret Art: Tenko Kenshin'
   description: >
     <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
@@ -41,10 +39,8 @@ skills:
     point_count: 3
   - point_type: recharge
     point_count: 2
-  tag: Elemental Burst
 - name: Sesshou Sakura
-  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
-    style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color:
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color:
     rgb(255, 172, 255)">Electro DMG</span>.</p><p><span style="color: #FFFFFF">Usage(s):
     3</span> (Can stack, max 6 stacks)</p>
     <p><span style="color: #FFFFFF">When you declare the end of your Round</span>: If this summon has at least 4 
@@ -53,7 +49,6 @@ skills:
   points:
   - point_type: ''
     point_count: -1
-  tag: Summon
 - name: Tenko Thunderbolts
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
   <p><span style="color: #FFFFFF">Before you choose your action</span>: Deal 3 <span style="color:
@@ -63,4 +58,3 @@ skills:
   points:
   - point_type: ''
     point_count: -1
-  tag: Status

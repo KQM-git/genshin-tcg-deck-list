@@ -1,0 +1,15 @@
+name: Fortress of Meropide
+id: 321018
+tags: []
+offset:
+  character: 'top'
+  list: '50% 50%'
+  modal: '50% 46%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">When your active character takes DMG or is healed</span>: This card gains 1 "Prohibition" point. (Maximum 4 points)</p>
+    <p><span style="color: #FFFFFF">When Action Phase begins</span>: If this card has accumulated 4 "Prohibition" points, then 4 points will be consumed and 1 Strictly Prohibited will be created in your opponent's playing field. (1 Event Card played by your opponent this Round will have no effect.)</p>
+  points:
+  - point_type: white
+    point_count: 1

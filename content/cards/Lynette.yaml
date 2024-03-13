@@ -1,0 +1,58 @@
+name: Lynette
+id: 1508
+tags:
+- Anemo
+- Sword
+- Fontaine
+- Fatui
+- Ousia
+type: Character Card
+hp: '10'
+energy: '2'
+element: Anemo
+weapon: Sword
+offset:
+  character: 'top'
+  list: '50% 18%'
+  modal: '50% 17%'
+skills:
+- name: Rapid Ritesword
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 2 </span><span style="color: #FFFFFF">Physical DMG</span>.</p>'
+  points:
+  - point_type: anemo
+    point_count: 1
+  - point_type: black
+    point_count: 2
+- name: Enigmatic Feint
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span>Deals 3 </span><span style="color: #80FFD7">Anemo
+    DMG</span><span>. The first time this Skill is used this Round, heal the character for 2 HP if they have no more than 8 HP, but apply <span style="color: #FFFFFF">Overawing Assault</span> to said character.</span></p>'
+  points:
+  - point_type: anemo
+    point_count: 3
+- name: "Magic Trick: Astonishing Shift"
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span>Deals 3 </span><span style="color: #80FFD7">Anemo
+    DMG</span>, summons
+    1 <span style="color: #FFFFFF">Bogglecat Box</span><span>".</span></p>'
+  points:
+  - point_type: anemo
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+- name: Overawing Assault
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <p><span style="color: #FFFFFF">End Phase</span>: If this character's HP is at least 6, then they will take 2 <span style="color: #FFFFFF">Piercing DMG</span>.<br>
+    <span style="color: #FFFFFF">Duration (Rounds): 1</span></p>
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Bogglecat Box
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
+    <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: rgb(128, 255, 215)">Anemo DMG</span>.<br>
+    <span style="color: #FFFFFF">Usage(s): 2</span></p>
+    <p><span style="color: #FFFFFF">When your active character takes DMG</span>: Decreases DMG taken by 1. (Once per Round)<br>
+    <span style="color: #FFFFFF">When your character(s) take <span style="color: #99FFFF">Cryo</span>/<span style="color: rgb(128, 192, 255)">Hydro</span>/<span style="color: rgb(255, 153, 153)">Pyro</span>/<span style="color: #FFACFF">Electro</span> DMG</span>: Change the Elemental Type of this card to the element of the damage taken. (Once before leaving play)</p>
+  points:
+  - point_type: ''
+    point_count: -1

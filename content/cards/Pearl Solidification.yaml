@@ -1,0 +1,29 @@
+name: Pearl Solidification
+id: 224031
+tags: []
+offset:
+  character: 'top'
+  list: '50% 45%'
+  modal: '50% 45%'
+skills:
+- name: Description
+  description: >
+    <p>Can only be played if your active character is 
+    <span style="color: #FFFFFF">Millennial Pearl Seahorse</span>: When played, Millennial Pearl Seahorse will have 
+    <span style="color: #FFFFFF">Fontemer Pearl</span> with 1 <span style="color: #FFFFFF">Usage(s)</span> attached to them. 
+    If they already have Fontemer Pearl attached, <span style="color: #FFFFFF">Usage(s)</span> +1 instead.</p>
+    <p>When the <span style="color: #FFFFFF">Fontemer Pearl</span> attached to <span style="color: #FFFFFF">Millennial Pearl Seahorse</span>
+     negates DMG from Summons, change to <span style="color: #FFFFFF">Usage(s)</span> not being consumed twice per Round.</p>
+    <p>(You must have Millennial Pearl Seahorse in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: white
+    point_count: 0
+- name: Fontemer Pearl
+  description: >
+    <p><span style="color: #FFD780">Status</span></p>
+    <p><span style="color: #FFFFFF">When the character to which this is attached takes DMG:</span> Negate 1 DMG. Once per Round, Usage(s) will not be used when negating DMG from Summons.<br>
+    <span style="color: #FFFFFF">Usage(s): 2</span></p>
+    <p><span style="color: #FFFFFF">When you declare the end of your Round:</span> If the character to which this is attached is the active character, draw 1 card.</p>
+  points:
+  - point_type: ''
+    point_count: -1

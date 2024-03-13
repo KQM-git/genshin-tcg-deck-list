@@ -11,27 +11,25 @@ skills:
     <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is <span style="color: #FFFFFF">Fatui Cryo Cicin Mage</span>, equip this card.</p>
     <p>After Fatui Cryo Cicin Mage equips this card, immediately use <span style="color: rgb(255, 215, 128)">Misty Summons</span> once.</p>
     <p>When your Fatui Cryo Cicin Mage, who has this card equipped, uses a Skill: If <span style="color: #FFFFFF">Cryo Cicins</span>' 
-    <span style="color: #FFFFFF">Usage(s)</span> have exceeded their upper limit, deal 2 <span style="color: rgb(153, 255, 255)">Cryo DMG</span>.</p>
+    <span style="color: #FFFFFF">Usage(s)</span> have exceeded their upper limit, deal 2 <span style="color: #99FFFF">Cryo DMG</span>.</p>
     <p>(You must have Fatui Cryo Cicin Mage in your deck to add this card to your deck.)</p>
   points:
   - point_type: cryo
     point_count: 3
 - name: Misty Summons
-  description: '<p><span style="color: #FFD780">Elemental Skill</span></p><span>Deals 1 <span style="color: rgb(153, 255, 255)">Cryo DMG</span>, 
+  description: '<p><span style="color: #FFD780">Elemental Skill</span></p><span>Deals 1 <span style="color: #99FFFF">Cryo DMG</span>, 
     summons <span style="color: #FFFFFF">Cryo Cicins</span>.</span></p>'
   points:
   - point_type: cryo
     point_count: 3
   side: true
-  tag: Elemental Skill
 - name: Cryo Cicins
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span><p>
-  <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: rgb(153, 255, 255)">Cryo DMG</span></p>
+  <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: #99FFFF">Cryo DMG</span></p>
   <p><span style="color: #FFFFFF">Usage(s): 2</span> (Can stack, max 3 stacks)</p>
-  <p></p>
+  
   <p><span style="color: #FFFFFF">After Fatui Cryo Cicin Mage performs a Normal Attack: </span>This card gains 1 <span style="color: #FFFFFF">Usage(s)</span>.</p>
   <p><span style="color: #FFFFFF">After your character takes Elemental Reaction DMG: </span>This card loses 1 <span style="color: #FFFFFF">Usage(s)</span>.</p>'
   points:
   - point_type: ''
     point_count: -1
-  tag: Summon

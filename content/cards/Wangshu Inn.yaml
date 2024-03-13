@@ -15,9 +15,9 @@ skills:
 - name: Detailed Rules
   description: '<p><strong><span style="color: #ECE5D8">Usage(s)</span></strong></p><p>After
     this card''s effect is triggered, 1 <span style="color: #FFFFFF">Usage </span>of
-    it will be consumed.</p><p>This card will be discarded immediately once it has
+    it will be consumed.</p> it has
     0 <span style="color: #FFFFFF">Usages </span>remaining.</p>'
   points:
   - point_type: ''
     point_count: 0
-source: <p>Purchased at the Card Shop</p>
+

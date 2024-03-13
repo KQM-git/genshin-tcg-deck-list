@@ -23,7 +23,6 @@ skills:
     point_count: 1
   - point_type: black
     point_count: 2
-  tag: Normal Attack
 - name: Rock-Paper-Scissors Combo
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
   <p>Deals 2 <span style="color: rgb(255, 172, 255)">Electro DMG</span> and then separately performs
@@ -33,7 +32,6 @@ skills:
   points:
   - point_type: electro
     point_count: 5
-  tag: Elemental Skill
 - name: Lightning Lockdown
   description: >
     <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
@@ -44,15 +42,13 @@ skills:
     point_count: 3
   - point_type: recharge
     point_count: 2
-  tag: Elemental Burst
 - name: Electro Crystal Core
   description: '<p><span style="color: rgb(255, 215, 128)">Passive Skill</span></p><p>(Passive)
     When the battle begins, the character gains 
-    <span style="color: #FFFFFF">Electro Crystal Core</span>.</p><p></p>'
+    <span style="color: #FFFFFF">Electro Crystal Core</span>.</p>'
   points:
   - point_type: ''
     point_count: -1
-  tag: Passive Skill
 - name: 'Rock-Paper-Scissors Combo: Scissors'
   description: >
     <p><span style="color: #FFD780">Elemental Skill</span></p>
@@ -63,7 +59,6 @@ skills:
   points:
   - point_type: electro
     point_count: 0
-  tag: Elemental Skill
 - name: 'Rock-Paper-Scissors Combo: Paper'
   description: >
     <p><span style="color: #FFD780">Elemental Skill</span></p>
@@ -72,7 +67,6 @@ skills:
   points:
   - point_type: electro
     point_count: 0
-  tag: Elemental Skill
 - name: Electro Crystal Core
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
     <p><span style="color: #FFFFFF">When the character to which this is attached would be defeated</span>: 
@@ -80,14 +74,12 @@ skills:
   points:
   - point_type: ''
     point_count: -1
-  tag: Status
 - name: Chains of Warding Thunder
   description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p>
-    <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: #FFACFF">Electro DMG</span>.</p>
-    <p><span style="color: #FFFFFF">Usage(s): 2</span></p>
+    <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: #FFACFF">Electro DMG</span>.
+    <br><span style="color: #FFFFFF">Usage(s): 2</span></p>
     <p><span style="color: #FFFFFF">When this Summon is on the field</span>: 
     Your opponent will have to spend 1 additional Elemental Die when performing "Switch Character." (Once per Round)</p>'
   points:
   - point_type: ''
     point_count: -1
-  tag: Summon

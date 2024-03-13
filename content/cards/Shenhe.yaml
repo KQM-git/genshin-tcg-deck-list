@@ -15,8 +15,7 @@ offset:
   modal: '50% 13%'
 skills:
 - name: Dawnstar Piercer
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 2 </span><span style="color: #FFFFFF">Physical
-    DMG</span>.</p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 2 </span><span style="color: #FFFFFF">Physical DMG</span>.</p>'
   points:
   - point_type: cryo
     point_count: 1
@@ -28,7 +27,6 @@ skills:
   points:
   - point_type: cryo
     point_count: 3
-  tag: Elemental Skill
 - name: Divine Maiden's Deliverance
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
   Deals 1 <span style="color: #99FFFF">Cryo DMG</span>, summons 1 <span style="color: #FFFFFF">Talisman Spirit</span>.'
@@ -41,19 +39,18 @@ skills:
   description: >
     <p><span style="color: rgb(255, 215, 128)">Status</span></p>
     <p>Your character deals 1 increased <span style="color: #99FFFF">Cryo DMG</span> 
-    (Includes the DMG triggered by <span style="color: #99FFFF">Cryo-infused</span> Swirl reactions)</p>
-    <p><span style="color: #FFFFFF">Usage(s): 2</span></p>
+    (Includes the DMG triggered by <span style="color: #99FFFF">Cryo-infused</span> Swirl reactions)
+    <br><span style="color: #FFFFFF">Usage(s): 2</span></p>
   points:
   - point_type: ''
     point_count: -1
 - name: Talisman Spirit
   description: >
     <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
-    <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color:rgb(153, 255, 255)">Cryo DMG</span>.</p>
-    <p><span style="color: #FFFFFF">Usage(s): 2</span></p>
+    <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color:rgb(153, 255, 255)">Cryo DMG</span>.
+    <br><span style="color: #FFFFFF">Usage(s): 2</span></p>
     <p><span style="color: #FFFFFF">When this Summon is on the field</span>: 
-    Opposing character(s) take +1 <span style="color:rgb(153, 255, 255)">Cryo DMG</span> and <span style="color: #FFFFFF">Physical
-    DMG</span>.</p>
+    Opposing character(s) take +1 <span style="color:rgb(153, 255, 255)">Cryo DMG</span> and <span style="color: #FFFFFF">Physical DMG</span>.</p>
   points:
   - point_type: ''
     point_count: -1

@@ -1,0 +1,18 @@
+name: Veteran's Visage
+id: 312023
+tags: []
+offset:
+  character: 'top'
+  list: '50% 30%'
+  modal: '50% 26%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">After this character takes DMG or is healed</span>: Based on the number of times this effect has been triggered this Round, the effects will be different.
+    <br><span style="color: #FFFFFF">First Trigger</span>: Create 1 Elemental Die of the character's Elemental Type.
+    <br><span style="color: #FFFFFF">Second Trigger</span>: Draw 1 card.
+    </p><p>(A character can equip
+    a maximum of 1 Artifact)</p>
+  points:
+  - point_type: black
+    point_count: 2

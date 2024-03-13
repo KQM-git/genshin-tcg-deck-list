@@ -5,7 +5,7 @@ tags:
 - Other Weapons
 - Fatui
 type: Character Card
-hp: '10'
+hp: '9'
 energy: '2'
 element: Pyro
 weapon: Other Weapons
@@ -15,14 +15,12 @@ offset:
   modal: '50% 20%'
 skills:
 - name: Thrust
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 2 </span><span style="color: #FFFFFF">Physical
-    DMG</span>.</p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 2 </span><span style="color: #FFFFFF">Physical DMG</span>.</p>'
   points:
   - point_type: pyro
     point_count: 1
   - point_type: black
     point_count: 2
-  tag: Normal Attack
 - name: Prowl
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span>Deals 1 </span><span style="color: rgb(255,
     153, 153)">Pyro DMG</span><span>. This
@@ -30,7 +28,6 @@ skills:
   points:
   - point_type: pyro
     point_count: 3
-  tag: Elemental Skill
 - name: Blade Ablaze
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span>Deals 5 </span><span style="color: #FF9999">Pyro
     DMG</span>.</p>'
@@ -39,59 +36,21 @@ skills:
     point_count: 3
   - point_type: recharge
     point_count: 2
-  tag: Elemental Burst
 - name: Stealth Master
   description: '<p><span style="color: rgb(255, 215, 128)">Passive Skill</span></p><p>(Passive)
     When the battle begins, the character gains 
-    <span style="color: #FFFFFF">Stealth</span>.</p><p></p>'
+    <span style="color: #FFFFFF">Stealth</span>.</p>'
   points:
   - point_type: ''
     point_count: -1
-  tag: Passive Skill
 - name: Stealth
   description: '<p>
-  <span style="color: rgb(255, 215, 128)">Status</span><p></p>The character to which this
+  <span style="color: rgb(255, 215, 128)">Status</span>The character to which this
     is attached takes -1 DMG and deals +1 DMG.<br></br>
     <span style="color: #FFFFFF">Usage(s): 2</span>'
   points:
   - point_type: ''
     point_count: -1
-  tag: Status
-- name: Pyro DMG
-  description: '<p>Applies Pyro and can trigger the following Elemental Reactions:</p><p><span
-    style="color: #FFFFFF">[</span><span style="color: rgb(255, 153, 153)">Pyro</span><span
-    style="color: rgb(153, 255, 255)"> </span>+ <span style="color: rgb(153, 255,
-    255)">Cryo</span><span style="color: #FFFFFF">]</span><span style="color:
-    rgb(255, 153, 153)"> </span><span style="color: #FFFFFF">Melt</span>:
-    DMG +2 for this instance</p><p><span style="color: #FFFFFF">[</span><span
-    style="color: rgb(255, 153, 153)">Pyro</span><span style="color: rgb(153, 255,
-    255)"> </span>+ <span style="color: rgb(128, 192, 255)">Hydro</span><span style="color:
-    #FFFFFF">]</span><span style="color: rgb(255, 172, 255)"> </span><span
-    style="color: #FFFFFF">Vaporize</span>: DMG +2 for this instance</p><p><span
-    style="color: #FFFFFF">[</span><span style="color: rgb(255, 153, 153)">Pyro</span><span
-    style="color: rgb(153, 255, 255)"> </span>+ <span style="color: rgb(255, 172,
-    255)">Electro</span><span style="color: #FFFFFF">]</span><span style="color:
-    rgb(128, 192, 255)"> </span><span style="color: #FFFFFF">Overloaded</span>:
-    DMG +2 for this instance, the target is forcibly switched to the next character</p><p><span
-    style="color: #FFFFFF">[</span><span style="color: rgb(255, 153, 153)">Pyro</span><span
-    style="color: rgb(153, 255, 255)"> </span>+ <span style="color: rgb(153, 255,
-    136)">Dendro</span><span style="color: #FFFFFF">]</span><span style="color:
-    rgb(128, 192, 255)"> </span><span style="color: #FFFFFF">Burning</span>:
-    DMG +1 for this instance, creates a [Burning Flame] that will deal 1 Pyro DMG
-    at the end of the Round (Takes effect once, max 2 stacks)</p>'
-  points:
-  - point_type: ''
-    point_count: 0
-- name: Detailed Rules
-  description: '<p><strong><span style="color: #FFFFFF">Physical DMG</span></strong></p><p>Physical
-    DMG will not apply any Elements, nor can it engage in Elemental Reactions.</p><p></p><p><strong><span
-    style="color: #FFFFFF">Usage(s)</span></strong></p><p>After this card''s
-    effect is triggered, 1 <span style="color: #FFFFFF">Usage </span>of
-    it will be consumed.</p><p>This card will be discarded immediately once it has
-    0 <span style="color: #FFFFFF">Usages </span>remaining.</p>'
-  points:
-  - point_type: ''
-    point_count: 0
 talent_card: Paid in Full
 source: <p>Reward for accepting the Tavern Challenge at The Cat's Tail and claiming
   victory in a Friendly Fracas with Fatui Pyro Agent</p>

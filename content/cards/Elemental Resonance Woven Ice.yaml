@@ -7,12 +7,11 @@ offset:
   modal: '50% 44%'
 skills:
 - name: Description
-  description: '<p><span>Create 1 </span><span
-    style="color: rgb(153, 255, 255)">Cryo Die</span><span style="color: rgba(255,
+  description: '<p><span>Create 1 </span><span style="color: rgb(153, 255, 255)">Cryo Die</span><span style="color: rgba(255,
     255, 255, 0.65)">.</span></p><p><span>(You
     must have at least 2 </span><span style="color: rgb(153, 255, 255)">Cryo </span><span>characters in your deck to add this card
     to your deck.)</span></p>'
   points:
   - point_type: white
     point_count: 0
-source: <p>Purchased at the Card Shop</p>
+

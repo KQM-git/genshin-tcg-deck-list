@@ -22,14 +22,12 @@ skills:
     point_count: 1
   - point_type: black
     point_count: 2
-  tag: Normal Attack
 - name: Explosive Puppet
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>Summons
     1 <span style="color: #FFFFFF">Baron Bunny</span>.</p>'
   points:
   - point_type: pyro
     point_count: 3
-  tag: Elemental Skill
 - name: Fiery Rain
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
     <span> Deals 2 
@@ -40,14 +38,12 @@ skills:
     point_count: 3
   - point_type: recharge
     point_count: 2
-  tag: Elemental Burst
 - name: Baron Bunny
   description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p>
-    <p><span style="color: #FFFFFF">When your active character takes DMG</span>: Decrease DMG taken by 2.</p>
-    <p><span style="color: #FFFFFF">Usage(s): 1</span>. When the Usages are depleted, this card will not be discarded.</p>
+    <p><span style="color: #FFFFFF">When your active character takes DMG</span>: Decrease DMG taken by 2.
+    <br><span style="color: #FFFFFF">Usage(s): 1</span>. When the Usages are depleted, this card will not be discarded.</p>
     <p><span style="color: #FFFFFF">At the End Phase, if Usage(s) have been depleted</span>:
     Discard this card to deal 2 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>.</p>'
   points:
   - point_type: ''
     point_count: -1
-  tag: Summon

@@ -15,70 +15,37 @@ offset:
   modal: '50% 18%'
 skills:
 - name: Sparkling Scatter
-  description: '<p><span style="color: #FFD780">Normal Attack</span></p><span style="color:
-    rgba(255, 255, 255, 0.65)">Deals 1 </span><span style="color: rgb(255, 230, 153)">Geo
+  description: '<p><span style="color: #FFD780">Normal Attack</span></p><span>Deals 1 </span><span style="color: rgb(255, 230, 153)">Geo
     DMG</span>.</p>'
   points:
   - point_type: geo
     point_count: 1
   - point_type: black
     point_count: 2
-  tag: Normal Attack
 - name: Jade Screen
   description: '<p><span style="color: #FFD780">Elemental Skill</span></p><span>Deals 2 </span><span style="color: rgb(255,
     230, 153)">Geo DMG</span><span>, creates
-    1 </span><span style="color: #FFFFFF">Jade Screen</span><span style="color:
-    rgba(255, 255, 255, 0.65)">.</span></p><p></p>'
+    1 </span><span style="color: #FFFFFF">Jade Screen</span>.</p>'
   points:
   - point_type: geo
     point_count: 3
-  tag: Elemental Skill
 - name: Jade Screen
   description: '<p><span style="color: rgb(255, 215,
     128)">Combat Status</span><p><span style="color: #FFFFFF">When your
-    active character receives at least 2 DMG</span>: Decrease DMG taken by 1.<p><span
-    style="color: #FFFFFF">Usage(s): 2</span></p>'
+    active character receives at least 2 DMG</span>: Decrease DMG taken by 1.<p><span style="color: #FFFFFF">Usage(s): 2</span></p>'
   points:
   - point_type: ''
     point_count: -1
-  tag: Combat Status
+
 - name: Starshatter
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span>Deals 6 </span><span style="color: rgb(255,
-    230, 153)">Geo DMG</span><span>. If </span><span
-    style="color: #FFFFFF">Jade Screen</span><span style="color: rgba(255,
-    255, 255, 0.65)"> is on the field, deals +2 DMG.</span></p><p></p>'
+    230, 153)">Geo DMG</span><span>. If </span><span style="color: #FFFFFF">Jade Screen</span><span style="color: rgba(255,
+    255, 255, 0.65)"> is on the field, deals +2 DMG.</span></p>'
   points:
   - point_type: geo
     point_count: 3
   - point_type: recharge
     point_count: 3
-  tag: Elemental Burst
-- name: Geo DMG
-  description: '<p>Reacts with Elements if they are already applied:<br>[<span style="color:
-    rgb(255, 230, 153)">Geo</span> + <span style="color: rgb(153, 255, 255)">Cryo</span>]
-    <span style="color: #FFFFFF">Cryo Crystallize</span>: DMG +1 for this
-    instance, your active character gains 1 Shield point (Can stack, max 2 points)<br>[<span
-    style="color: rgb(255, 230, 153)">Geo</span> + <span style="color: rgb(128, 192,
-    255)">Hydro</span>] <span style="color: #FFFFFF">Hydro Crystallize</span>:
-    DMG +1 for this instance, your active character gains 1 Shield point (Can stack,
-    max 2 points)<br>[<span style="color: rgb(255, 230, 153)">Geo</span> + <span style="color:
-    rgb(255, 153, 153)">Pyro</span>] <span style="color: #FFFFFF">Pyro
-    Crystallize</span>: DMG +1 for this instance, your active character gains 1 Shield
-    point (Can stack, max 2 points)<br>[<span style="color: rgb(255, 230, 153)">Geo</span>
-    + <span style="color: rgb(255, 172, 255)">Electro</span>] <span style="color:
-    #FFFFFF">Electro Crystallize</span>: DMG +1 for this instance, your
-    active character gains 1 Shield point (Can stack, max 2 points)</p>'
-  points:
-  - point_type: ''
-    point_count: 0
-- name: Detailed Rules
-  description: '<p><strong><span style="color: #FFFFFF">Usage(s)</span></strong></p><p>After
-    this card''s effect is triggered, 1 <span style="color: #FFFFFF">Usage
-    </span>of it will be consumed.</p><p>This card will be discarded immediately once
-    it has 0 <span style="color: #FFFFFF">Usages </span>remaining.</p>'
-  points:
-  - point_type: ''
-    point_count: 0
 talent_card: Strategic Reserve
 source: <p>Reward for inviting Ningguang to a duel at The Cat's Tail and claiming
   victory in a Friendly Fracas with her</p>

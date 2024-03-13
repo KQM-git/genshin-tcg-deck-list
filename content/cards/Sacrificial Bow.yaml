@@ -5,12 +5,11 @@ skills:
 - name: Description
   description: '<p><span style="color: #FFFFFF">The character deals +1
     DMG</span>.<br><span style="color:
-    #FFFFFF">After the character uses an Elemental Skill</span><span style="color:
-    rgba(255, 255, 255, 0.65)">: Create 1 Elemental Die of the same Elemental Type
+    #FFFFFF">After the character uses an Elemental Skill</span><span>: Create 1 Elemental Die of the same Elemental Type
     as this character. (Once per Round)</span></p><p><span style="color: rgba(255,
     255, 255, 0.65)">(</span><span style="color: #FFFFFF">Only Bow Characters</span><span> can equip this. A character can equip
     a maximum of 1 Weapon)</span></p>'
   points:
   - point_type: white
     point_count: 3
-source: <p>Purchased at the Card Shop</p>
+

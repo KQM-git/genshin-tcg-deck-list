@@ -1,0 +1,37 @@
+name: Electro Cicin's Gleam
+id: 224041
+tags: []
+offset:
+  character: 'top'
+  list: '50% 50%'
+  modal: '50% 45%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active
+    character is <span style="color: #FFFFFF">Fatui Electro Cicin Mage</span>, equip this card.</p><p>After
+    Fatui Electro Cicin Mage equips this card, immediately use <span style="color: #FFD780">Misty Call</span> once.</p>
+    <p>If your Fatui Electro Cicin Mage who has this card equipped is on the field, before you choose an action: 
+    If <span style="color: #FFFFFF">Electro Cicin</span>'s <span style="color: #FFFFFF">Usage(s)</span> is at least 3, then 
+    <span style="color: #FFFFFF">Electro Cicin</span> will immediately deal 1 <span style="color:
+    rgb(255, 172, 255)">Electro DMG</span>. (<span style="color: #FFFFFF">Usage(s)</span> will be consumed, once per Round)</p>
+    <p>(You must have Fatui Electro Cicin Mage in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: electro
+    point_count: 3
+- name: Misty Call
+  description: >
+    <p><span style="color: #FFD780">Elemental Skill</span></p>
+    <p>Summons 1 <span style="color: #FFFFFF">Electro Cicin</span>.</p>
+  points:
+  - point_type: electro
+    point_count: 3
+  side: true
+- name: Electro Cicin
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color:
+    rgb(255, 172, 255)">Electro DMG</span>.<br><span style="color: #FFFFFF">Usage(s): 3</span></p>
+    <p><span style="color: #FFFFFF">After your opponent plays a total of 3 Action Cards</span>: This card gains 1 <span style="color: #FFFFFF">Usage(s)</span>.
+    <br><span style="color: #FFFFFF">After Fatui Electro Cicin Mage takes Elemental Reaction DMG</span>: This card gains 1 <span style="color: #FFFFFF">Usage(s)</span>.</p>'
+  points:
+  - point_type: ''
+    point_count: -1

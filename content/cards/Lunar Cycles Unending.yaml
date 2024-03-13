@@ -1,0 +1,23 @@
+name: Lunar Cycles Unending
+id: 226021
+tags: []
+offset:
+  character: 'top'
+  list: '50% 48%'
+  modal: '50% 45%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is <span style="color: #FFFFFF">Azhdaha</span>, play this card on them. Attach <span style="color: #FFFFFF">Stone Facets: Elemental Crystallization</span> to Azhdaha, then create 1 Elemental Die for each Elemental Type your characters have.</p>
+    <p>(You must have Azhdaha in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: white
+    point_count: 2
+- name: "Stone Facets: Elemental Crystallization"
+  description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <p>After this character takes <span style="color: #99FFFF">Cryo</span>/<span style="color: rgb(128, 192, 255)">Hydro</span>/<span style="color: rgb(255, 153, 153)">Pyro</span>/<span style="color: #FFACFF">Electro</span> DMG</span>: 
+    If this character currently has not absorbed the power of this element, remove this effect, and then this character performs <span style="color: #FFFFFF">
+    Elemental Absorption</span>.</p>'
+  points:
+  - point_type: ''
+    point_count: -1

@@ -26,16 +26,14 @@ skills:
   - point_type: hydro
     point_count: 3
   side: true
-  tag: Elemental Skill
 - name: Bountiful Core
   description: >
     <p><span style="color:rgb(255, 215, 128)">Summon</span></p>
-    <p><span style="color: #FFFFFF">End Phase</span>: Deal 2 <span style="color: #99FF88">Dendro DMG</span>.</p>
-    <p><span style="color: #FFFFFF">Usage(s): 1</span> (Can stack, max 3 stacks)</p>
+    <p><span style="color: #FFFFFF">End Phase</span>: Deal 2 <span style="color: #99FF88">Dendro DMG</span>.
+    <br><span style="color: #FFFFFF">Usage(s): 1</span> (Can stack, max 3 stacks)</p>
     <p><span style="color: #FFFFFF">When you declare the end of your Round</span>: 
     If this summon has at least 2 Usages remaining, deal 2 <span style="color: #99FF88">Dendro DMG</span>. 
     (Consumes <span style="color: #FFFFFF">Usages</span>)</p>
   points:
   - point_type: ''
     point_count: -1
-  tag: Summon

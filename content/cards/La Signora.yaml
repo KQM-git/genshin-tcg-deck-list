@@ -1,0 +1,91 @@
+name: La Signora
+id: 2102
+tags:
+- Cryo
+- Other Weapons
+- Fatui
+type: Character Card
+hp: '10'
+energy: '2'
+element: Cryo
+weapon: Other Weapons
+offset:
+  character: 'top'
+  list: '50% 14%'
+  modal: '50% 15%'
+skills:
+- name: Frostblade Hailstorm
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 1 <span style="color: #99FFFF">Cryo DMG</span>.</p>'
+  points:
+  - point_type: cryo
+    point_count: 1
+  - point_type: black
+    point_count: 2
+- name: Biting Shards
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  Deals 2 <span style="color: #99FFFF">Cryo DMG</span>. The target character receives <span style="color: #FFFFFF">Sheer Cold</span>.'
+  points:
+  - point_type: cryo
+    point_count: 3
+- name: Carmine Chrysalis
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+  <p>Deals 4 <span style="color: #99FFFF">Cryo DMG</span>, heals this character for 2 HP. Removes <span style="color: #FFFFFF">Ice-Sealed Crimson Witch of Embers</span>. This character permanently switches to <span style="color: #FFFFFF">Crimson Witch of Embers</span> state.</p>
+  <p><span style="color: #FFFFFF;font-size: 1.5rem">Crimson Witch of Flames</span></p>'
+  points:
+  - point_type: cryo
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+- name: Crimson Lotus Moth
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 1 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>.</p>'
+  points:
+  - point_type: pyro
+    point_count: 1
+  - point_type: black
+    point_count: 2
+- name: Decimating Lash
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  Deals 2 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>. The target character receives <span style="color: #FFFFFF">Blazing Heat</span>.'
+  points:
+  - point_type: pyro
+    point_count: 3
+- name: Whirling Blaze
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+    <span> Deals 6 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>.</span>'
+  points:
+  - point_type: pyro
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+- name: Might of Delusion
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Passive Skill</span></p>
+    <p>(Passive) When the battle begins, this character gains <span style="color: #FFFFFF">Ice-Sealed Crimson Witch of Embers</span>.</p>
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Ice-Sealed Crimson Witch of Embers
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <p><span style="color: #FFFFFF">When the Action Phase starts</span>: If the attached character has no more than 4 HP, remove this effect.<br>
+    <span style="color: #FFFFFF">When attached character is defeated</span>: Remove this effect, ensure that character <span style="color: #FFFFFF">will not be defeated</span> and heal them to 1 HP.</p>
+    <p><span style="color: #FFFFFF">When this effect is removed</span>: Attached character will transform into the <span style="color: #FFFFFF">Crimson Witch of Embers</span> state.</p>
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Sheer Cold
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: #99FFFF">Cryo DMG</span>.<br>
+    <span style="color: #FFFFFF">Usage(s): 1</span></p>
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Blazing Heat
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>.<br>
+    <span style="color: #FFFFFF">Usage(s): 1</span></p>
+  points:
+  - point_type: ''
+    point_count: -1

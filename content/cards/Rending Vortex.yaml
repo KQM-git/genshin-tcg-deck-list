@@ -1,0 +1,34 @@
+name: Rending Vortex
+id: 225021
+tags: []
+offset:
+  character: 'top'
+  list: '50% 48%'
+  modal: '50% 46%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is 
+    <span style="color: #FFFFFF">Dvalin</span>, equip this card.</p>
+    <p>After Dvalin equips this card, immediately use 
+    <span style="color: rgb(255, 215, 128)">Tempestuous Barrage</span> once.</p>
+    <p>When your Dvalin, who has this card equipped, is on the field, when <span style="color: #FFFFFF">Total Collapse</span> 
+    attached to an opposing character is removed: Apply when <span style="color: #FFFFFF">Total Collapse</span> to the next opposing standby character. (Once per Round)</p>
+    <p>(You must have Dvalin in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: anemo
+    point_count: 3
+- name: Tempestuous Barrage
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>Deals
+    2 <span style="color: #80FFD7">Anemo DMG</span>. The target character receives <span style="color: #FFFFFF">Total Collapse</span>.</p>'
+  points:
+  - point_type: anemo
+    point_count: 3
+  side: true
+- name: Total Collapse
+  description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <p><span style="color: #FFFFFF">Physical DMG</span> or <span style="color: rgb(128, 255, 215)">Anemo
+    DMG</span> taken by the affected character increased by 2.<br><span style="color: #FFFFFF">Usage(s): 1</span></p>'
+  points:
+  - point_type: ''
+    point_count: -1

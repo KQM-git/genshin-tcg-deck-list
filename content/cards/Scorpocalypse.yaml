@@ -1,0 +1,40 @@
+name: Scorpocalypse
+id: 223031
+tags: []
+offset:
+  character: 'top'
+  list: '50% 48%'
+  modal: '50% 46%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is 
+    <span style="color: #FFFFFF">Eremite Scorching Loremaster</span>, equip this card.</p>
+    <p>After Eremite Scorching Loremaster equips this card, immediately use 
+    <span style="color: rgb(255, 215, 128)">Spirit of Omen's Awakening: Pyro Scorpion</span> once.</p>
+    <p><span style="color: #FFFFFF">Spirit of Omen: Pyro Scorpion</span> created by Eremite Scorching Loremaster with this card equipped will deal +1 DMG in Rounds when 
+    Eremite Scorching Loremaster has used a <span style="color: #FFFFFF">Normal Attack</span> or <span style="color: #FFFFFF">Elemental Skill</span>.</p>
+    <p>(You must have Eremite Scorching Loremaster in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: pyro
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+- name: "Spirit of Omen's Awakening: Pyro Scorpion"
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+    Deals 2 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>, summons 1 <span style="color: #FFFFFF">Spirit of Omen: Pyro Scorpion</span>'
+  points:
+  - point_type: pyro
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+  side: true
+- name: "Spirit of Omen: Pyro Scorpion"
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
+    <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>.<br>
+    <span style="color: #FFFFFF">Usage(s): 2</span>.</p>
+    <p><span style="color: #FFFFFF">When entering play, when the Action Phase starts</span>: Attach Pyro Scorpion: Guardian Stance to your Eremite Scorching Loremaster. (When Spirit of Omen: Pyro Scorpion is in play, the character will take -1 DMG, once per Round.)</p>
+  points:
+  - point_type: ''
+    point_count: -1

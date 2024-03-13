@@ -1,0 +1,14 @@
+name: Heart of Khvarena's Brilliance
+id: 312021
+offset:
+  character: 'top'
+  list: '50% 38%'
+  modal: '50% 38%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">After the character takes DMG</span>: If the character to which this is attached is the active character, then draw 1 card. (Once per Round)</p>
+    <p>(A character can equip a maximum of 1 Artifact)</p>
+  points:
+  - point_type: white
+    point_count: 0

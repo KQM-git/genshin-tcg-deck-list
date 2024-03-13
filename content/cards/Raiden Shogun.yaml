@@ -22,7 +22,6 @@ skills:
     point_count: 1
   - point_type: black
     point_count: 2
-  tag: Normal Attack
 - name: 'Transcendence: Baleful Omen'
   description: >
     <p><span style="color: #FFD780">Elemental Skill</span></p>
@@ -30,7 +29,6 @@ skills:
   points:
   - point_type: electro
     point_count: 3
-  tag: Elemental Skill
 - name: 'Secret Art: Musou Shinsetsu'
   description: >
     <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
@@ -41,14 +39,12 @@ skills:
     point_count: 4
   - point_type: recharge
     point_count: 2
-  tag: Elemental Burst
 - name: Chakra Desiderata
   description: '<p><span style="color: rgb(255, 215, 128)">Passive Skill</span></p><p>(Passive)
   When the battle begins, this character gains <span style="color: #FFFFFF">Chakra Desiderata</span>.</p>'
   points:
   - point_type: ''
     point_count: -1
-  tag: Passive Skill
 - name: Chakra Desiderata
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
   <p><span style="color: #FFFFFF">After your other characters use Elemental Bursts</span>: Gain 1 Resolve. (Max 3)</p>
@@ -57,13 +53,10 @@ skills:
   points:
   - point_type: ''
     point_count: -1
-  tag: Status
 - name: Eye of Stormy Judgment
-  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
-    style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color:
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color:
     rgb(255, 172, 255)">Electro DMG</span>.</p><p><span style="color: #FFFFFF">Usage(s):
     3</span></p>'
   points:
   - point_type: ''
     point_count: -1
-  tag: Summon

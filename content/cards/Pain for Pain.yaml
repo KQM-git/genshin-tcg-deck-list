@@ -1,0 +1,34 @@
+name: Pain for Pain
+id: 221021
+tags: []
+offset:
+  character: 'top'
+  list: '50% 48%'
+  modal: '50% 45%'
+skills:
+- name: Description
+  description: >
+    <p>Can only be played if your active character is  
+    <span style="color: #FFFFFF">La Signora</span>: When entering play, generate 3 Elemental Dice of the same Type as <span style="color: #FFFFFF">La Signora</span>.</p>
+    <p>When this character takes at least 3 DMG: Negates 1 DMG, then apply <span style="color: #FFFFFF">Sheer Cold</span> or <span style="color: #FFFFFF">Blazing Heat</span> 
+    to the opposing active character based on La Signora's state. (Once per Round)</p>
+    <p>(You must have La Signora in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: white
+    point_count: 3
+- name: Sheer Cold
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: #99FFFF">Cryo DMG</span>.<br>
+    <span style="color: #FFFFFF">Usage(s): 1</span></p>
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Blazing Heat
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: rgb(255, 153, 153)">Pyro DMG</span>.<br>
+    <span style="color: #FFFFFF">Usage(s): 1</span></p>
+  points:
+  - point_type: ''
+    point_count: -1

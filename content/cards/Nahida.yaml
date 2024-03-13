@@ -15,14 +15,12 @@ offset:
   modal: '50% 18%'
 skills:
 - name: Akara
-  description: '<p><span style="color: #FFD780">Normal Attack</span></p><span style="color:
-    rgba(255, 255, 255, 0.65)">Deals 1 <span style="color: #99FF88">Dendro DMG</span>.</span></p>'
+  description: '<p><span style="color: #FFD780">Normal Attack</span></p><span>Deals 1 <span style="color: #99FF88">Dendro DMG</span>.</span></p>'
   points:
   - point_type: dendro
     point_count: 1
   - point_type: black
     point_count: 2
-  tag: Normal Attack
 - name: All Schemes to Know
   description: '<p><span style="color: #FFD780">Elemental Skill</span></p><span>Deals 2 <span style="color: #99FF88">Dendro DMG</span>, 
     applies <span style="color: #FFFFFF">Seed of Skandha</span> to target character. If the target character already
@@ -31,14 +29,12 @@ skills:
   points:
   - point_type: dendro
     point_count: 3
-  tag: Elemental Skill
 - name: 'All Schemes to Know: Tathata'
   description: '<p><span style="color: #FFD780">Elemental Skill</span></p><span>Deals 3 <span style="color: #99FF88">Dendro DMG</span>. 
     Applies <span style="color: #FFFFFF">Seed of Skandha</span> to all opposing characters.</span></p>'
   points:
   - point_type: dendro
     point_count: 5
-  tag: Elemental Skill
 - name: Illusory Heart
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span>
     <p>Deals 4 <span style="color: #99FF88">Dendro DMG</span>, creates 1 <span style="color: #FFFFFF">Shrine of Maya</span>.</p>'
@@ -47,7 +43,6 @@ skills:
     point_count: 3
   - point_type: recharge
     point_count: 2
-  tag: Elemental Burst
 - name: Seed of Skandha
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span><p>
   <p><span style="color: #FFFFFF">After any character who has a Seed of Skandha takes Elemental Reaction DMG</span>: 
@@ -58,7 +53,6 @@ skills:
   points:
   - point_type: ''
     point_count: -1
-  tag: Status
 - name: Shrine of Maya
   description: '<p><span style="color: rgb(255, 215, 128)">Combat Status</span><p>
   <p><span style="color: #FFFFFF">When your character triggers an Elemental Reaction</span>: 
@@ -67,4 +61,3 @@ skills:
   points:
   - point_type: ''
     point_count: -1
-  tag: Combat Status

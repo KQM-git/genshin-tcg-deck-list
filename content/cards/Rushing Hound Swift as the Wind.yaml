@@ -1,0 +1,28 @@
+name: "Rushing Hound: Swift as the Wind"
+id: 216061
+tags: []
+offset:
+  character: 'top'
+  list: '50% 28%'
+  modal: '50% 23%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">Combat Action</span>: When your active character is 
+    <span style="color: #FFFFFF">Gorou</span>, equip this card.</p>
+    <p>After Gorou equips this card, immediately use 
+    <span style="color: rgb(255, 215, 128)">Inuzaka All-Round Defense</span> once.</p>
+    <p>When your Gorou, who has this card equipped, is on the field, and after any of your characters deals 
+    <span style="color: rgb(255, 230, 153)">Geo DMG</span>: If <span style="color: #FFFFFF">General's War Banner</span> is in play, draw 1 card. (Once per Round)</p>
+    <p>(You must have Gorou in your deck to add this card to your deck.)</p>
+  points:
+  - point_type: geo
+    point_count: 3
+- name: Inuzaka All-Round Defense
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+    Deals 2 <span style="color: rgb(255, 230, 153)">Geo DMG</span>, creates 1 <span style="color: #FFFFFF">General's War Banner</span>.
+  points:
+  - point_type: geo
+    point_count: 3
+  side: true

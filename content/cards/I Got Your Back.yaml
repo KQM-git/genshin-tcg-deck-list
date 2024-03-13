@@ -10,8 +10,7 @@ skills:
   description: '<p><span style="color: #FFFFFF">Combat Action</span>: When your active
     character is <span style="color: #FFFFFF">Noelle</span>, equip this card.</p><p>After
     Noelle equips this card, immediately use <span style="color: #FFD780">Breastplate
-    </span>once.</p><p>When your Noelle, who has this card equipped, creates a <span
-    style="color: #FFFFFF">Full Plate</span>, it will heal all your characters for
+    </span>once.</p><p>When your Noelle, who has this card equipped, creates a <span style="color: #FFFFFF">Full Plate</span>, it will heal all your characters for
     1 HP after Noelle uses a <span style="color: #FFFFFF">Normal Attack</span>. (Once
     per Round)</p><p>(You must have Noelle in your deck to add this card to your deck.)</p>'
   points:
@@ -20,50 +19,29 @@ skills:
 - name: Breastplate
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span>Deals 1 </span><span style="color: rgb(255,
     230, 153)">Geo DMG</span><span>, creates
-    1 </span><span style="color: #FFFFFF">Full Plate</span><span style="color:
-    rgba(255, 255, 255, 0.65)">.</span></p>'
+    1 </span><span style="color: #FFFFFF">Full Plate</span>.</p>'
   points:
   - point_type: geo
     point_count: 3
   side: true
-  tag: Elemental Skill
 
 - name: Breastplate
   description: '<p><strong><span style="color: #FFFFFF">Full Plate</span></strong><br>
     <span style="color: rgb(255, 215, 128)">Combat Status</span><p>Grant 2 
     <span style="color: #FFFFFF">Shield Points</span>
     to your active character.</p><p>Before this <span style="color: #FFFFFF">Shield
-    </span>is fully consumed, the <span style="color: #FFFFFF">Physical
-    DMG</span> you take is halved.</p><p>(The figure will be rounded up)</p>'
+    </span>is fully consumed, the <span style="color: #FFFFFF">Physical DMG</span> you take is halved.</p><p>(The figure will be rounded up)</p>'
   points:
   - point_type: ''
     point_count: -1
-  tag: Combat Status
-- name: Geo DMG
-  description: '<p>Reacts with Elements if they are already applied:<br>[<span style="color:
-    rgb(255, 230, 153)">Geo</span> + <span style="color: rgb(153, 255, 255)">Cryo</span>]
-    <span style="color: #FFFFFF">Cryo Crystallize</span>: DMG +1 for this
-    instance, your active character gains 1 Shield point (Can stack, max 2 points)<br>[<span
-    style="color: rgb(255, 230, 153)">Geo</span> + <span style="color: rgb(128, 192,
-    255)">Hydro</span>] <span style="color: #FFFFFF">Hydro Crystallize</span>:
-    DMG +1 for this instance, your active character gains 1 Shield point (Can stack,
-    max 2 points)<br>[<span style="color: rgb(255, 230, 153)">Geo</span> + <span style="color:
-    rgb(255, 153, 153)">Pyro</span>] <span style="color: #FFFFFF">Pyro
-    Crystallize</span>: DMG +1 for this instance, your active character gains 1 Shield
-    point (Can stack, max 2 points)<br>[<span style="color: rgb(255, 230, 153)">Geo</span>
-    + <span style="color: rgb(255, 172, 255)">Electro</span>] <span style="color:
-    #FFFFFF">Electro Crystallize</span>: DMG +1 for this instance, your
-    active character gains 1 Shield point (Can stack, max 2 points)</p>'
-  points:
-  - point_type: ''
-    point_count: 0
+
 - name: Detailed Rules
   description: '<p><strong><span style="color: #FFFFFF">Combat Action</span></strong></p><p>After
     you finish 1 Combat Action, it will be your opponent''s turn.</p><p><span style="color:
     #FFFFFF">Playing a card from your Hand with this rule is also a Combat
-    Action rather than a Fast Action.</span></p><p></p><p><strong><span style="color:
+    Action rather than a Fast Action.</span></p><p><strong><span style="color:
     #FFFFFF">Shield</span></strong></p><p>This Shield will be consumed
-    to protect the character who equips it from DMG.</p><p></p><p><strong><span style="color:
+    to protect the character who equips it from DMG.</p><p><strong><span style="color:
     #FFFFFF">Physical DMG</span></strong></p><p>Physical DMG will not apply
     any Elements, nor can it engage in Elemental Reactions.</p>'
   points:

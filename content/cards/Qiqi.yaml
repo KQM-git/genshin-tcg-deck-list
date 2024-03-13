@@ -23,7 +23,6 @@ skills:
     point_count: 1
   - point_type: black
     point_count: 2
-  tag: Normal Attack
 - name: "Adeptus Art: Herald of Frost"
   description: >
     <p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
@@ -31,7 +30,6 @@ skills:
   points:
   - point_type: cryo
     point_count: 3
-  tag: Elemental Skill
 - name: "Adeptus Art: Preserver of Fortune"
   description: >
     <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
@@ -41,12 +39,11 @@ skills:
     point_count: 3
   - point_type: recharge
     point_count: 3
-  tag: Elemental Burst
 - name: Herald of Frost
   description: >
     <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
-    <p><span style="color: #FFFFFF">End Phase: </span>Deal 1 <span style="color: #99FFFF">Cryo DMG</span>.</p>
-    <p><span style="color: #FFFFFF">Usage(s)</span>: 3</p>
+    <p><span style="color: #FFFFFF">End Phase: </span>Deal 1 <span style="color: #99FFFF">Cryo DMG</span>.
+    <br><span style="color: #FFFFFF">Usage(s): 3</span></p>
     <p><span style="color: #FFFFFF">When this Summon is on the field, after Qiqi uses Normal Attack</span>: Heals your character that took the most DMG for 1 HP.</p>
   points:
   - point_type: ''
@@ -54,8 +51,8 @@ skills:
 - name: Fortune-Preserving Talisman
   description: >
     <p><span style="color: rgb(255, 215, 128)">Combat Status</span></p>
-    <p><span style="color: #FFFFFF">After your character uses a Skill</span>: If that character does not have full HP, heal that character for 2 HP.</p>
-    <p><span style="color: #FFFFFF">Usage(s)</span>: 3</p>
+    <p><span style="color: #FFFFFF">After your character uses a Skill</span>: If that character does not have full HP, heal that character for 2 HP.
+    <br><span style="color: #FFFFFF">Usage(s): 3</span></p>
   points:
   - point_type: ''
     point_count: -1

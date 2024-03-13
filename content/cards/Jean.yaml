@@ -15,14 +15,12 @@ offset:
   modal: '50% 17%'
 skills:
 - name: Favonius Bladework
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 2 </span><span style="color: #FFFFFF">Physical
-    DMG</span>.</p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 2 </span><span style="color: #FFFFFF">Physical DMG</span>.</p>'
   points:
   - point_type: anemo
     point_count: 1
   - point_type: black
     point_count: 2
-  tag: Normal Attack
 - name: Gale Blade
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p><span>Deals 3 </span><span style="color: #80FFD7">Anemo
     DMG</span><span>, the target is forcibly
@@ -30,25 +28,19 @@ skills:
   points:
   - point_type: anemo
     point_count: 3
-  tag: Elemental Skill
 - name: Dandelion Breeze
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p><span>Heals all your characters for 2 HP, summons
-    1 </span><span style="color: #FFFFFF">Dandelion Field</span><span style="color:
-    rgba(255, 255, 255, 0.65)">.</span></p>'
+    1 </span><span style="color: #FFFFFF">Dandelion Field</span>.</p>'
   points:
   - point_type: anemo
     point_count: 4
   - point_type: recharge
     point_count: 2
-  tag: Elemental Burst
 - name: Dandelion Field
-  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span
-    style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color:
-    rgb(128, 255, 215)">Anemo DMG</span>, heal your active character for 1 HP.</p><p><span
-    style="color: #FFFFFF">Usage(s): 2</span></p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color:
+    rgb(128, 255, 215)">Anemo DMG</span>, heal your active character for 1 HP.</p><p><span style="color: #FFFFFF">Usage(s): 2</span></p>'
   points:
   - point_type: ''
     point_count: -1
-  tag: Summon
 source: <p>Reward for inviting Jean to a duel at The Cat's Tail and claiming victory
   in a Friendly Fracas with her</p>

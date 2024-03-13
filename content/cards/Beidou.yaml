@@ -22,7 +22,6 @@ skills:
     point_count: 1
   - point_type: black
     point_count: 2
-  tag: Normal Attack
 - name: Tidecaller
   description: >
     <p><span style="color: #FFD780">Elemental Skill</span></p>This character gains a 
@@ -31,7 +30,6 @@ skills:
   points:
   - point_type: electro
     point_count: 3
-  tag: Elemental Skill
 - name: Stormbreaker
   description: >
     <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>Deals 2 
@@ -42,7 +40,6 @@ skills:
     point_count: 3
   - point_type: recharge
     point_count: 3
-  tag: Elemental Burst
 - name: "Tidecaller: Surf Embrace"
   description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
   <p>The next time this character acts, they will immediately use the Skill 
@@ -61,17 +58,16 @@ skills:
   points:
   - point_type: electro
     point_count: 0
-  tag: Elemental Skill
 - name: Stormbreaker
   description: '<p><strong><span style="color: #FFFFFF">Thunderbeast''s Targe</span></strong></p>
   <span style="color: rgb(255, 215, 128)">Combat Status</span><p>
   <span style="color: #FFFFFF">After your character uses a Normal Attack</span>: Deal 1 
     <span style="color: #FFACFF">Electro DMG</span>.</p>
     <p><span style="color: #FFFFFF">When your character receives at least 3 DMG</span>: Decrease DMG taken by 1.</p>
-    <p><span style="color: #FFFFFF">Duration (Rounds)</span>: 2</p>'
+    <p><span style="color: #FFFFFF">Duration (Rounds): 2</span></p>'
   points:
   - point_type: ''
     point_count: -1
-  tag: Combat Status
+
 talent_card: Lightning Storm
 source: <p>Reward for inviting Beidou to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her</p>

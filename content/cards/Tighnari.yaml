@@ -15,14 +15,12 @@ offset:
   modal: '50% 15%'
 skills:
 - name: 'Khanda Barrier-Buster'
-  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 2 </span><span style="color: #FFFFFF">Physical
-    DMG</span>.</p>'
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 2 </span><span style="color: #FFFFFF">Physical DMG</span>.</p>'
   points:
   - point_type: dendro
     point_count: 1
   - point_type: black
     point_count: 2
-  tag: Normal Attack
 - name: 'Vijnana-Phala Mine'
   description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
   <span>Deals 2 
@@ -31,7 +29,6 @@ skills:
   points:
   - point_type: dendro
     point_count: 3
-  tag: Elemental Skill
 - name: "Fashioner's Tanglevine Shaft"
   description: '<p><span style="color: rgb(255, 215, 128)">Elenmetal Burst</span></p>
   <span>Deals 4 <span style="color: #99FF88">Dendro DMG</span>, deals 1 
@@ -41,24 +38,21 @@ skills:
     point_count: 3
   - point_type: recharge
     point_count: 2
-  tag: Elemental Burst
 - name: Vijnana Suffusion
   description: >
     <p><span style="color: rgb(255, 215, 128)">Status</span></p>
     <p><span style="color: #FFFFFF">When the character to which this is attached uses a Charged Attack</span>: 
     Their <span style="color: #FFFFFF">Physical DMG</span> dealt will be converted to <span style="color: #99FF88">Dendro DMG</span> 
-    and after the Skill DMG is finalized, summon 1 <span style="color: #FFFFFF">Clusterbloom Arrow</span>.</p>
-    <p><span style="color: #FFFFFF">Usage(s)</span>: 2.</p>
+    and after the Skill DMG is finalized, summon 1 <span style="color: #FFFFFF">Clusterbloom Arrow</span>.
+    <br><span style="color: #FFFFFF">Usage(s): 2.</span></p>
   points:
   - point_type: ''
     point_count: -1
-  tag: Status
 - name: Clusterboom Arrow
   description: >
     <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
-    <p><span style="color: #FFFFFF">End Phase</span>: deal 1 <span style="color: #99FF88">Dendro DMG</span>.</p>
-    <p><span style="color: #FFFFFF">Usage(s)</span>: 1. (Can stack. Max 2 stacks.)</p>
+    <p><span style="color: #FFFFFF">End Phase</span>: deal 1 <span style="color: #99FF88">Dendro DMG</span>.
+    <br><span style="color: #FFFFFF">Usage(s): 1.</span> (Can stack. Max 2 stacks.)</p>
   points:
   - point_type: ''
     point_count: -1
-  tag: Summon

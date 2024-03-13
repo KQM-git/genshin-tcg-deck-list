@@ -1,0 +1,34 @@
+name: A Summation of Interest
+id: 211101
+tags: []
+offset:
+  character: 'top'
+  list: '50% 69%'
+  modal: '50% 69%'
+skills:
+- name: Description
+  description: '<p><span style="color: #FFFFFF">Combat Action</span>: When your active
+    character is <span style="color: #FFFFFF">Charlotte</span>, equip this card.</p><p>After
+    Charlotte equips this card, immediately use <span style="color: #FFD780">Framing: Freezing Point Composition</span> once.</p>
+    <p>When your Charlotte, who has this card equipped, is on the field, and after any of your characters uses a Normal Attack: 
+    If your opponent has a character on the field with <span style="color: #FFFFFF">Snappy Silhouette</span> attached, heal your active character for 2 HP. (Once per Round)</p>
+    <p>(You must have Charlotte in your deck to add this card to your deck.)</p>'
+  points:
+  - point_type: cryo
+    point_count: 3
+- name: "Framing: Freezing Point Composition"
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  Deals 1 <span style="color: #99FFFF">Cryo DMG</span>. Attach <span style="color: #FFFFFF">Snappy Silhouette</span> to the target.'
+  points:
+  - point_type: cryo
+    point_count: 3
+  side: true
+- name: Snappy Silhouette
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: #99FFFF">Cryo DMG</span> to the character(s) to which this is attached. 
+    If only 1 <span style="color: #FFFFFF">Usage(s)</span> is remaining and the attached character is affected by Cryo, this instance of DMG +1.
+    <br><span style="color: #FFFFFF">Usage(s): 2</span></p>
+  points:
+  - point_type: ''
+    point_count: -1

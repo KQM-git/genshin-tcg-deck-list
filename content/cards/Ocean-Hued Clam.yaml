@@ -7,7 +7,7 @@ offset:
 skills:
 - name: Description
   description: >
-    <p><span style="color: #FFFFFF">When played</span>: Heal the attached character for 3 HP.</p>
+    <p><span style="color: #FFFFFF">When played</span>: Heal the attached character for 2 HP.</p>
     <p>For every 3 HP of healing your characters receive, this card accumulates 1 Sea-Dyed Foam (maximum of 2).</p>
     <p><span style="color: #FFFFFF">When this character deals DMG</span>: Consume all Sea-Dyed Foam. DMG is increased by 1 for each Sea-Dyed Foam consumed.</p>
     <p>(A character can equip a maximum of 1 Artifact)</p>

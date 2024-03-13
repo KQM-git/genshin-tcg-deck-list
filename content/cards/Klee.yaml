@@ -22,7 +22,6 @@ skills:
     point_count: 1
   - point_type: black
     point_count: 2
-  tag: Normal Attack
 - name: Jumpy Dumpty
   description: >
     <p><span style="color: #FFD780">Elemental Skill</span></p>Deals 3 
@@ -31,7 +30,6 @@ skills:
   points:
   - point_type: pyro
     point_count: 3
-  tag: Elemental Skill
 - name: Sparks 'n' Splash
   description: >
     <p><span style="color: #FFD780">Elemental Burst</span></p>Deals 3 
@@ -42,7 +40,6 @@ skills:
     point_count: 3
   - point_type: recharge
     point_count: 3
-  tag: Elemental Burst
 - name: Explosive Spark
   description: '<p><span style="color:
     rgb(255, 215, 128)">Status</span></p><p>

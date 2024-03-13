@@ -1,0 +1,60 @@
+name: Layla
+id: 1109
+tags:
+- Cryo
+- Sword
+- Sumeru
+type: Character Card
+hp: '10'
+energy: 2
+element: Cryo
+weapon: Sword
+offset:
+  character: 'top'
+  list: '50% 13%'
+  modal: '50% 13%'
+skills:
+- name: Sword of the Radiant Path
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 2 </span><span style="color: #FFFFFF">Physical DMG</span>.</p>'
+  points:
+  - point_type: cryo
+    point_count: 1
+  - point_type: black
+    point_count: 2
+- name: Nights of Formal Focus
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  Creates 1 <span style="color: #FFFFFF">Curtain of Slumber Shield</span> and <span style="color: #FFFFFF">Shooting Star</span>.'
+  points:
+  - point_type: cryo
+    point_count: 3
+- name: Dream of the Star-Stream Shaker
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+  Deals 3 <span style="color: #99FFFF">Cryo DMG</span>, summons 1 <span style="color: #FFFFFF">Celestial Dreamsphere</span>.'
+  points:
+  - point_type: cryo
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+- name: Curtain of Slumber Shield
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Combat Status</span></p>
+    <p>Grants 2 Shield points to defend your active character.</p>
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Shooting Star
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Combat Status</span></p>
+    <p><span style="color: #FFFFFF">After your character uses a Skill</span>: Accumulate 1 Night Star. If you have at least 4 Night Stars, consume 4 Night Stars and deal 1 <span style="color: #99FFFF">Cryo DMG</span>. (The Skill that causes this Combat Status will also trigger this effect)</p>
+    <p><span style="color: #FFFFFF">When causing this Combat Status again</span>: Accumulate 2 Night Stars.</p>
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Celestial Dreamsphere
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Summon</span></p>
+    <p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color: #99FFFF">Cryo DMG</span>. If <span style="color: #FFFFFF">Shooting Star</span> is in play, it will let it gain 1 Night Star.<br>
+    <span style="color: #FFFFFF">Usage(s): 2</span></p>
+  points:
+  - point_type: ''
+    point_count: -1

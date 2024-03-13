@@ -1,0 +1,15 @@
+name: Mamere
+id: 322021
+tags: []
+offset:
+  character: 'top'
+  list: '50% 40%'
+  modal: '50% 40%'
+skills:
+- name: Description
+  description: '<p><span style="color: #FFFFFF">After you play a Food/Location/Companion/Item Action Card other than Mamere</span>: Randomly create 1 Food/Location/Companion/Item Action Card other than Mamere, and add it to your hand. (Once per Round).</p>
+  <p><span style="color: #FFFFFF">Usage(s): 3</span></p>'
+  points:
+  - point_type: white
+    point_count: 0
+

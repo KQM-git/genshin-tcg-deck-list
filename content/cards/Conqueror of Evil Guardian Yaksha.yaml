@@ -29,7 +29,6 @@ skills:
   - point_type: recharge
     point_count: 2
   side: true
-  tag: Elemental Burst
 - name: Yaksha's Mask
   description: >
     <p><span style="color: rgb(255, 215, 128)">Status</span></p>
@@ -42,7 +41,6 @@ skills:
   points:
   - point_type: ''
     point_count: -1
-  tag: Status
 - name: Lemniscatic Wind Cycling
   description: >
     <p><span style="color: #FFD780">Elemental Skill</span></p>
@@ -51,4 +49,3 @@ skills:
   - point_type: anemo
     point_count: 3
   side: true
-  tag: Elemental Skill

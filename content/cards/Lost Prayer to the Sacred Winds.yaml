@@ -1,0 +1,17 @@
+name: Lost Prayer to the Sacred Winds
+id: 311106
+tags: []
+offset:
+  character: 'top'
+  list: '50% 43%'
+  modal: '50% 43%'
+skills:
+- name: Description
+  description: '<p><span style="color: #FFFFFF">For each point of "Bonus DMG" this card has, character deals +1 DMG.</span></p>
+    <p><span style="color: #FFFFFF">End Phase</span>: This card gains 1 point of "Bonus DMG." (Max 2 points)</p>
+    <p>(<span style="color: #FFFFFF">Only Catalyst Characters</span>
+    can equip this. A character can equip a maximum of 1 Weapon)</p>'
+  points:
+  - point_type: white
+    point_count: 3
+

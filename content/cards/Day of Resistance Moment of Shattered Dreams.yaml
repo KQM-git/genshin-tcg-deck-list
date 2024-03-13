@@ -1,0 +1,16 @@
+name: "Day of Resistance: Moment of Shattered Dreams"
+id: 330007
+tags: []
+offset:
+  character: 'top'
+  list: '50% 55%'
+  modal: '50% 60%'
+skills:
+- name: Description
+  description: >
+    <p>During this Round, your targeted character takes -1 DMG. (Max 4 times)</p>
+    <p>(Only one "Arcane Legend" card can be played for the entire game. This card will be in your starting hand.)</p>
+  points:
+  - point_type: arcane
+  - point_type: white
+    point_count: 0

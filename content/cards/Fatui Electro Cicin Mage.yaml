@@ -1,0 +1,64 @@
+name: Fatui Electro Cicin Mage
+id: 2404
+tags:
+- Electro
+- Other Weapons
+- Fatui
+type: Character Card
+hp: '10'
+energy: '2'
+element: Electro
+weapon: Other Weapons
+offset:
+  character: 'top'
+  list: '50% 13%'
+  modal: '50% 15%'
+skills:
+- name: Hurtling Bolts
+  description: '<p><span style="color: #FFD780">Normal Attack</span></p><p>Deal 1 <span style="color:
+    rgb(255, 172, 255)">Electro DMG</span>.</p>'
+  points:
+  - point_type: electro
+    point_count: 1
+  - point_type: black
+    point_count: 2
+- name: Misty Call
+  description: >
+    <p><span style="color: #FFD780">Elemental Skill</span></p>
+    <p>Summons 1 <span style="color: #FFFFFF">Electro Cicin</span>.</p>
+  points:
+  - point_type: electro
+    point_count: 3
+- name: 'Thundering Shield'
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+    <p>Deals 1 <span style="color: rgb(255, 172, 255)">Electro DMG</span>, applies <span style="color: rgb(255, 172, 255)">Electro Application</span> to this character,
+     creates 1 <span style="color: #FFFFFF">Electro Cicin Shield</span> and prepares <span style="color: #FFFFFF">Surging Thunder</span>.</p>
+  points:
+  - point_type: electro
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+- name: Electro Cicin
+  description: '<p><span style="color: rgb(255, 215, 128)">Summon</span></p><p><span style="color: #FFFFFF">End Phase</span>: Deal 1 <span style="color:
+    rgb(255, 172, 255)">Electro DMG</span>.<br><span style="color: #FFFFFF">Usage(s): 3</span></p>
+    <p><span style="color: #FFFFFF">After your opponent plays a total of 3 Action Cards</span>: This card gains 1 <span style="color: #FFFFFF">Usage(s)</span>.
+    <br><span style="color: #FFFFFF">After Fatui Electro Cicin Mage takes Elemental Reaction DMG</span>: This card gains 1 <span style="color: #FFFFFF">Usage(s)</span>.</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Electro Cicin Shield
+  description: '<p><span style="color: rgb(255, 215, 128)">Combat Status</span><p>
+  <p>Provides 1 <span style="color: #FFFFFF">Shield points</span> for your active character.</p>
+  <p><span style="color: #FFFFFF">When created</span>: If you have <span style="color: #FFFFFF">Electro Cicin</span> on the field,
+  increase <span style="color: #FFFFFF">Shield</span> by the amount of <span style="color: #FFFFFF">Usage(s)</span> it has.
+  (Adds a maximum of 3 additional <span style="color: #FFFFFF">Shield</span>)</p>'
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Surging Thunder
+  description: '<p><span style="color: rgb(255, 215, 128)">Status</span></p>
+  <p>(Prepares for 1 turn) Deals 2 <span style="color: rgb(255, 172, 255)">Electro DMG</span>.</p>'
+  points:
+  - point_type: ''
+    point_count: -1

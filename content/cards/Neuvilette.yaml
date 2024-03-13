@@ -1,0 +1,55 @@
+name: Kamisato Ayato
+id: 1210
+tags:
+- Hydro
+- Catalyst
+- Fontaine
+- Ousia
+type: Character Card
+hp: '10'
+energy: 2
+element: Hydro
+weapon: Catalyst
+offset:
+  character: 'top'
+  list: '50% 13%'
+  modal: '50% 10%'
+skills:
+- name: As Water Seeks Equilibrium
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p><span>Deals 1 <span style="color: #80C0FF">Hydro DMG</span>.</p>'
+  points:
+  - point_type: hydro
+    point_count: 1
+  - point_type: black
+    point_count: 2
+- name: O Tears, I Shall Repay
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Skill</span></p>
+  Deals 2 <span style="color: #80C0FF">Hydro DMG</span>, creates 1 <span style="color: #FFFFFF">Sourcewater Droplet</span>.'
+  points:
+  - point_type: hydro
+    point_count: 3
+- name: O Tides, I Have Returned
+  description: '<p><span style="color: rgb(255, 215, 128)">Elemental Burst</span></p>
+  Deals 2 <span style="color: #80C0FF">Hydro DMG</span>, deals 1 <span style="color: #FFFFFF">Piercing DMG</span> to all opposing characters on standby, 
+  then creates a <span style="color: #FFFFFF">Sourcewater Droplet</span> with 2 Usages.'
+  points:
+  - point_type: hydro
+    point_count: 3
+  - point_type: recharge
+    point_count: 2
+- name: Sourcewater Droplet
+  description: >
+    <p><span style="color: rgb(255, 215, 128)">Status</span></p>
+    <span style="color: #FFFFFF">After Neuvillette uses a Normal Attack</span>: Heals the character for 2 HP. After this, 
+    <span style="color: #FFFFFF">Prepare Skill</span>: <span style="color: #FFFFFF">Equitable Judgment</span>.
+    <p><span style="color: #FFFFFF">Usage(s): 1</span> (Can stack. Max 3 stacks.)</p>
+  points:
+  - point_type: ''
+    point_count: -1
+- name: Equitable Judgment
+  description: '<p><span style="color: rgb(255, 215, 128)">Normal Attack</span></p>
+  <span>Deals 2 <span style="color: #80C0FF">Hydro DMG</span> If character has at least 6 HP, 
+  then they deal 1 <span style="color: #FFFFFF">Piercing DMG</span> to themselves and deal +1 DMG.</p>'
+  points:
+  - point_type: ''
+    point_count: -1

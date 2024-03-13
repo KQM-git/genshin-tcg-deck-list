@@ -1,0 +1,15 @@
+name: Golden Troupe's Reward
+id: 312025
+offset:
+  character: 'top'
+  list: '50% 38%'
+  modal: '50% 38%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">End Phase</span>: If the character to which this is attached is on standby, this card gains 1 "Recompense" point. (Max 2 points)</p>
+    <p><span style="color: #FFFFFF">When you play a Talent card or a Character uses an Elemental Skill</span>: For each "Recompense" point this card has, consume it to spend 1 less Elemental Die. (Once per Round)</p>
+    <p>(A character can equip a maximum of 1 Artifact)</p>
+  points:
+  - point_type: white
+    point_count: 0

@@ -1,0 +1,20 @@
+name: Tome of the Eternal Flow
+id: 311108
+tags: []
+offset:
+  character: 'top'
+  list: '50% 43%'
+  modal: '50% 43%'
+skills:
+- name: Description
+  description: >
+    <p><span style="color: #FFFFFF">The character deals +1 DMG</span>.</p>
+    <p><span style="color: #FFFFFF">After this character takes DMG or is healed</span>: 
+    If this character has already been damaged or healed 2 times this Round, 
+    then this character's next attack this Round deals +2 additional DMG. (Once per Round)</p>
+    <p>(<span style="color: #FFFFFF">Only Catalyst Characters</span>
+    can equip this. A Character can equip a maximum of 1 Weapon.)</p>'
+  points:
+  - point_type: white
+    point_count: 3
+
